@@ -1,0 +1,30 @@
+{
+    "D022": [
+        {
+            "differential_diagnosis": "D023",
+            "additional_condition": "None",
+            "key_difference": "Regularity of compensatory behaviors",
+            "rules": {
+                "D022": [
+                    "Inappropriate compensatory behaviors accompany binge eating and are repeated regularly."
+                ],
+                "D023": [
+                    "Binge eating and compensatory behaviors are accompanied, but compensatory behaviors are one-off or not repetitive."
+                ]
+            }
+        },
+        {
+            "differential_diagnosis": "D013",
+            "additional_condition": "Presence of Depressive Symptoms",
+            "key_difference": "Presence of binge eating/inappropriate compensatory behaviors and excessive concern about body shape and weight",
+            "rules": {
+                "D022": [
+                    "Binge eating, inappropriate compensatory behaviors, and excessive concern about body shape and weight are accompanied by depressive symptoms."
+                ],
+                "D013": [
+                    "Binge eating may appear along with depressive symptoms, but inappropriate compensatory behaviors and excessive concern about body shape and weight are not accompanied."
+                ]
+            }
+        }
+    ]
+}

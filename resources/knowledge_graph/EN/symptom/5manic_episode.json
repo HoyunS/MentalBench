@@ -1,0 +1,106 @@
+{
+    "S033": {
+        "name": "Elevated_Irritable_Mood",
+        "category": "manic/hypomanic_episode",
+        "description": "A distinct period of abnormally and persistently elevated, expansive, or irritable mood.",
+        "subtypes": {
+            "Elevated Mood": "A mood that is abnormally high, euphoric, and full of unmotivated happiness and vitality.",
+            "Irritable Mood": "A state where one gets angry or aggressive even at minor stimuli.",
+            "Mood Lability": "Rapid shifts in mood, alternating unpredictably between euphoria and irritability."
+        }
+    },
+    "S034": {
+        "name": "Increased_Activity",
+        "category": "manic/hypomanic_episode",
+        "description": "Abnormally and persistently increased goal-directed activity or energy.",
+        "subtypes": {
+            "Increased Energy": "Overflowing physical and mental energy, leading to an inability to stay still and a desire to keep moving.",
+            "Hyperactivity": "Doing far more work than usual or starting multiple activities simultaneously.",
+            "Psychomotor Agitation": "Inability to tolerate resting or stopping, driven by a constant need to do something."
+        }
+    },
+    "S035": {
+        "name": "Inflated_Self_Esteem",
+        "category": "manic/hypomanic_episode",
+        "description": "Inflated self-esteem or grandiosity (may range from uncritical self-confidence to delusional proportions).",
+        "subtypes": {
+            "Inflated Self-Confidence": "Feeling capable of anything and believing that failure is impossible, unlike one's usual self.",
+            "Overestimation of Abilities": "Unrealistically assessing one's talents, knowledge, or abilities as superior.",
+            "Grandiose Delusions": "The false belief that one is a special and important person with a special mission or purpose."
+        }
+    },
+    "S036": {
+        "name": "Decreased_Sleep",
+        "category": "manic/hypomanic_episode",
+        "description": "Decreased need for sleep (e.g., feels rested after only 3 hours of sleep).",
+        "subtypes": {
+            "Reduced Sleep Duration": "Sleeping significantly less than usual but feeling refreshed rather than tired.",
+            "Loss of Sleep Need": "Not feeling the urge to sleep or the thought that sleep is necessary.",
+            "Indifference to Insomnia": "Feeling no problem and continuing activities despite staying up for several nights."
+        }
+    },
+    "S037": {
+        "name": "Pressured_Speech",
+        "category": "manic/hypomanic_episode",
+        "description": "More talkative than usual or pressure to keep talking.",
+        "subtypes": {
+            "Talkativeness": "Speaking far more than usual and continuing to talk without rest.",
+            "Rapid Speech": "Speech speed is so fast that it is difficult for others to understand or interrupt.",
+            "Pressured Speech": "Cannot stop talking or tolerate silence due to an internal pressure to keep speaking."
+        }
+    },
+    "S038": {
+        "name": "Racing_Thoughts",
+        "category": "manic/hypomanic_episode",
+        "description": "Flight of ideas or subjective experience that thoughts are racing.",
+        "subtypes": {
+            "Racing Thoughts": "Thoughts spinning too fast in the head, constantly jumping from one idea to another.",
+            "Flooding of Thoughts": "Too many thoughts emerging simultaneously, making them disorganized.",
+            "Inability to Control Thoughts": "Unable to stop or slow down thoughts and unable to calm the mind."
+        }
+    },
+    "S039": {
+        "name": "Manic_Distractibility",
+        "category": "manic/hypomanic_episode",
+        "description": "Attention is too easily drawn to unimportant or irrelevant external stimuli.",
+        "subtypes": {
+            "Responsiveness to Extraneous Stimuli": "Attention is immediately drawn to trivial and unimportant stimuli nearby (e.g., noise, movement).",
+            "Frequent Task Switching": "Unable to finish one task and constantly shifting attention to new things, starting multiple tasks simultaneously.",
+            "Inability to Sustain Attention": "Unable to focus on any activity for long, with attention constantly being scattered."
+        }
+    },
+    "S040": {
+        "name": "Increased_Goal_Activity",
+        "category": "manic/hypomanic_episode",
+        "description": "Increase in goal-directed activity (at work, school, socially, or sexually) or purposeless psychomotor agitation.",
+        "subtypes": {
+            "Occupational Hyperactivity": "Driving significantly more projects or work than usual in the workplace or academic setting.",
+            "Social Hyperactivity": "Becoming much more sociable and extroverted than usual, actively meeting and contacting people.",
+            "Hypersexuality": "Significantly increased interest in or activity regarding sex.",
+            "Psychomotor Agitation": "Purposeless non-goal-directed activity, such as pacing or hand-wringing, driven by an inability to sit still."
+        }
+    },
+    "S041": {
+        "name": "Painful_Consequence_Behavior",
+        "category": "manic/hypomanic_episode",
+        "description": "Excessive involvement in activities that have a high potential for painful consequences.",
+        "subtypes": {
+            "Unrestrained Buying Sprees": "Spending excessive amounts of money or shopping recklessly to a degree that creates financial distress for self and family.",
+            "Foolish Business Investments": "Making rash business investments or ventures without sufficient review.",
+            "Sexual Indiscretions": "Engaging in indiscriminate or risky sexual behavior that is out of character.",
+            "Impulsive Risky Behavior": "Excessively dangerous or foolish behavior, such as reckless driving or drug use, without considering the consequences."
+        }
+    },
+    "S042": {
+        "name": "Low_Self_Esteem",
+        "category": "depressive_episode",
+        "description": "A persistent tendency to evaluate oneself as incompetent or worthless; chronically low self-evaluation.",
+        "subtypes": {
+            "Feelings of Worthlessness": "A persistent perception that one is useless or inferior to others.",
+            "Self-Criticism": "Excessively and repeatedly blaming oneself for past minor failures or flaws.",
+            "Reduced Self-Efficacy": "Distrust in one's own ability to perform tasks or solve problems.",
+            "Chronic Sense of Inferiority": "Persistently evaluating oneself lower in comparison to others.",
+            "Lack of Self-Assurance": "Continually feeling anxious and unsure about decisions or actions."
+        }
+    }
+}

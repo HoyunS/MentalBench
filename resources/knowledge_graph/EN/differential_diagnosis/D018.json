@@ -1,0 +1,108 @@
+{
+    "D018": [
+        {
+            "differential_diagnosis": "D020",
+            "additional_condition": "None",
+            "key_difference": "Meeting diagnostic criteria for PTSD",
+            "rules": {
+                "D018": [
+                    "Symptoms meeting diagnostic criteria for posttraumatic stress disorder persist for more than 1 month after exposure to the traumatic event."
+                ],
+                "D020": [
+                    "Symptoms persist for more than 1 month after exposure to the traumatic event, but do not meet diagnostic criteria for posttraumatic stress disorder."
+                ]
+            }
+        },
+        {
+            "differential_diagnosis": "D019",
+            "additional_condition": "None",
+            "key_difference": "Duration of symptoms after exposure to traumatic event",
+            "rules": {
+                "D018": [
+                    "Symptoms experienced after exposure to a traumatic event persist for more than 1 month."
+                ],
+                "D019": [
+                    "Symptoms experienced after exposure to a traumatic event are limited to a duration of 3 days to 1 month."
+                ]
+            }
+        },
+        {
+            "differential_diagnosis": "D016",
+            "additional_condition": "Presence of repetitive and intrusive thoughts",
+            "key_difference": "Association between intrusive thoughts and traumatic event/Presence of compulsive behaviors",
+            "rules": {
+                "D018": [
+                    "Intrusive thoughts are related to the experience of the traumatic event, and compulsive behaviors do not appear."
+                ],
+                "D016": [
+                    "Intrusive thoughts are unrelated to the traumatic event, and compulsive behaviors appear. Other symptoms of posttraumatic stress disorder are not accompanied."
+                ]
+            }
+        },
+        {
+            "differential_diagnosis": "D011",
+            "additional_condition": "Presence of Anxiety Symptoms",
+            "key_difference": "Association between anxiety and traumatic event",
+            "rules": {
+                "D018": [
+                    "Avoidance, irritability, and anxiety are related to the experience of the traumatic event."
+                ],
+                "D011": [
+                    "Avoidance, irritability, and anxiety appear unrelated to a specific traumatic event."
+                ]
+            }
+        },
+        {
+            "differential_diagnosis": "D013",
+            "additional_condition": "Presence of Depressive Symptoms",
+            "key_difference": "Meeting diagnostic criteria for PTSD",
+            "rules": {
+                "D018": [
+                    "Depressive symptoms are related to the experience of the traumatic event, and diagnostic criteria for posttraumatic stress disorder are met."
+                ],
+                "D013": [
+                    "Depressive symptoms may appear after the experience of a traumatic event, but diagnostic criteria for posttraumatic stress disorder are not met."
+                ]
+            }
+        },
+        {
+            "differential_diagnosis": "D002",
+            "additional_condition": "Presence of Attention/Concentration Problems",
+            "key_difference": "Onset of attention/concentration problems",
+            "rules": {
+                "D018": [
+                    "Attention and concentration problems appear after exposure to the traumatic event."
+                ],
+                "D002": [
+                    "Attention and concentration problems have persisted since before age 12."
+                ]
+            }
+        },
+        {
+            "differential_diagnosis": "D001",
+            "additional_condition": "Presence of Attention/Concentration Problems",
+            "key_difference": "Onset of attention/concentration problems",
+            "rules": {
+                "D018": [
+                    "Attention and concentration problems appear after exposure to the traumatic event."
+                ],
+                "D001": [
+                    "Attention and concentration problems have persisted since before age 12."
+                ]
+            }
+        },
+        {
+            "differential_diagnosis": "D005",
+            "additional_condition": "Presence of Hallucinations",
+            "key_difference": "Association between hallucinations and traumatic event, and presence of other psychotic symptoms",
+            "rules": {
+                "D018": [
+                    "Hallucinations are directly related to the traumatic experience (in the form of flashbacks), and other psychotic symptoms are not accompanied."
+                ],
+                "D005": [
+                    "Hallucinations appear unrelated to the traumatic experience, and other psychotic symptoms are accompanied."
+                ]
+            }
+        }
+    ]
+}

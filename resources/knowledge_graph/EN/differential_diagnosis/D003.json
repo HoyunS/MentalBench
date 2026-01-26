@@ -1,0 +1,30 @@
+{
+    "D003": [
+        {
+            "differential_diagnosis": "D008",
+            "additional_condition": "Presence of Manic Symptoms",
+            "key_difference": "Onset of hyperactivity/impulsivity and relationship with manic symptoms",
+            "rules": {
+                "D003": [
+                    "Mood changes may occur but are distinct from a manic episode; hyperactivity/impulsivity appear continuously regardless of this."
+                ],
+                "D008": [
+                    "Hyperactivity/impulsivity occur exclusively during the course of a manic episode."
+                ]
+            }
+        },
+        {
+            "differential_diagnosis": "D005",
+            "additional_condition": "Presence of Psychotic Symptoms",
+            "key_difference": "Onset of hyperactivity/impulsivity and relationship with psychotic symptoms",
+            "rules": {
+                "D003": [
+                    "Psychotic symptoms may co-occur, but hyperactivity/impulsivity appear continuously from before, unrelated to psychotic symptoms."
+                ],
+                "D005": [
+                    "Hyperactivity/impulsivity are observed starting from the prodromal phase or after the onset of psychotic symptoms."
+                ]
+            }
+        }
+    ]
+}

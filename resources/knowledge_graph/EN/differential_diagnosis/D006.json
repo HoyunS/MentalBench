@@ -1,0 +1,30 @@
+{
+    "D006": [
+        {
+            "differential_diagnosis": "D005",
+            "additional_condition": "None",
+            "key_difference": "Duration of concurrent manic symptoms",
+            "rules": {
+                "D006": [
+                    "Manic symptoms appear for the majority of the total duration of the active phase."
+                ],
+                "D005": [
+                    "Manic symptoms appear for a brief period relative to the total duration of the active phase."
+                ]
+            }
+        },
+        {
+            "differential_diagnosis": "D010",
+            "additional_condition": "None",
+            "key_difference": "Independent persistence of psychotic symptoms",
+            "rules": {
+                "D006": [
+                    "There is a period where psychotic symptoms persist for at least 2 weeks without manic symptoms."
+                ],
+                "D010": [
+                    "Psychotic symptoms appear only during the period of the manic episode."
+                ]
+            }
+        }
+    ]
+}

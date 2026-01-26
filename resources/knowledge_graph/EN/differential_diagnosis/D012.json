@@ -1,0 +1,56 @@
+{
+    "D012": [
+        {
+            "differential_diagnosis": "D016",
+            "additional_condition": "None",
+            "key_difference": "Underlying cause of fear",
+            "rules": {
+                "D012": [
+                    "Fear and avoidance behaviors due to direct and primary fear of the specific object or situation itself."
+                ],
+                "D016": [
+                    "Fear of a specific object or situation occurs as a result of obsessive thoughts, accompanied by compulsive behaviors."
+                ]
+            }
+        },
+        {
+            "differential_diagnosis": "D018",
+            "additional_condition": "Experience of Traumatic Event",
+            "key_difference": "Whether criteria for PTSD are met",
+            "rules": {
+                "D012": [
+                    "Fear of a specific object/situation may be experienced after a traumatic event, but diagnostic criteria for Posttraumatic Stress Disorder are not met."
+                ],
+                "D018": [
+                    "Fear of a specific object/situation is experienced after a traumatic event, and diagnostic criteria for Posttraumatic Stress Disorder are met."
+                ]
+            }
+        },
+        {
+            "differential_diagnosis": "D021",
+            "additional_condition": "Fear of specific food or food-related situations (choking, vomiting)",
+            "key_difference": "Cause of fear and avoidance behaviors",
+            "rules": {
+                "D012": [
+                    "Avoidance (e.g., restriction of intake) due to direct fear of specific food or food-related situations."
+                ],
+                "D021": [
+                    "Fear or avoidance of specific food or food-related situations is based on fear of gaining weight."
+                ]
+            }
+        },
+        {
+            "differential_diagnosis": "D005",
+            "additional_condition": "None",
+            "key_difference": "Cause of fear and avoidance behaviors",
+            "rules": {
+                "D012": [
+                    "Fear and avoidance are based on realistic fear of the specific object or situation itself."
+                ],
+                "D005": [
+                    "Fear and avoidance are attributed to delusional thinking."
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,69 @@
+{
+    "D021": [
+        {
+            "differential_diagnosis": "D013",
+            "additional_condition": "Presence of Depressive Symptoms",
+            "key_difference": "Presence of fear of weight gain",
+            "rules": {
+                "D021": [
+                    "Depressive symptoms may appear along with food restriction and weight loss, and intense fear of gaining weight is accompanied."
+                ],
+                "D013": [
+                    "Food restriction and weight loss may appear along with depressive symptoms, but intense fear of gaining weight is not accompanied."
+                ]
+            }
+        },
+        {
+            "differential_diagnosis": "D005",
+            "additional_condition": "Presence of Delusions",
+            "key_difference": "Distorted perception and fear regarding eating/body shape",
+            "rules": {
+                "D021": [
+                    "Distorted perception regarding eating and body shape may be at a delusional level, but this is based on the fear of gaining weight."
+                ],
+                "D005": [
+                    "Peculiar eating behaviors and weight loss may appear, but these are unrelated to fear of weight/body shape changes, and other symptoms of schizophrenia are accompanied."
+                ]
+            }
+        },
+        {
+            "differential_diagnosis": "D016",
+            "additional_condition": "Presence of Food-related Obsessions/Compulsions",
+            "key_difference": "Motivation for food-related obsessions",
+            "rules": {
+                "D021": [
+                    "Obsessive thoughts and behaviors related to food occur due to fear of weight gain and body shape distortion."
+                ],
+                "D016": [
+                    "Obsessive thoughts and behaviors related to food may appear, but fear of weight gain or body shape distortion do not exist."
+                ]
+            }
+        },
+        {
+            "differential_diagnosis": "D017",
+            "additional_condition": "Presence of Preoccupation with Body/Appearance",
+            "key_difference": "Scope of appearance preoccupation and compulsive behaviors",
+            "rules": {
+                "D021": [
+                    "Preoccupation with appearance is limited to body shape and weight."
+                ],
+                "D017": [
+                    "Preoccupation with appearance may include other body parts (nose, skin, facial features, etc.) besides body shape/weight, and compulsive behaviors appear."
+                ]
+            }
+        },
+        {
+            "differential_diagnosis": "D022",
+            "additional_condition": "Presence of Binge Eating and Purging Behaviors",
+            "key_difference": "Weight status",
+            "rules": {
+                "D021": [
+                "May be accompanied by binge eating and purging behaviors, and weight is significantly low (underweight status)."
+                ],
+                "D022": [
+                    "Accompanied by binge eating and purging behaviors, but weight is maintained at least at or above a normal level."
+                ]
+            }
+        }
+    ]
+}

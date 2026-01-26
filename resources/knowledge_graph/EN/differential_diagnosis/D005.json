@@ -1,0 +1,69 @@
+{
+    "D005": [
+        {
+            "differential_diagnosis": "D015",
+            "additional_condition": "Presence of Depressive Symptoms",
+            "key_difference": "Duration of depressive symptoms vs. psychotic symptoms",
+            "rules": {
+                "D005": [
+                    "Depressive symptoms may be accompanied but appear for a relatively short period compared to the total course of the illness, and psychotic symptoms appear continuously regardless of depressive symptoms."
+                ],
+                "D015": [
+                    "Depressive symptoms are accompanied, and psychotic symptoms appear only during the period of the major depressive episode."
+                ]
+            }
+        },
+        {
+            "differential_diagnosis": "D010",
+            "additional_condition": "Presence of Manic Symptoms",
+            "key_difference": "Duration of manic symptoms vs. psychotic symptoms",
+            "rules": {
+                "D005": [
+                    "Manic symptoms may be accompanied but appear for a relatively short period compared to the total course of the illness, and psychotic symptoms appear continuously regardless of manic symptoms."
+                ],
+                "D010": [
+                    "Manic symptoms are accompanied, and psychotic symptoms appear only during the period of the manic episode."
+                ]
+            }
+        },
+        {
+            "differential_diagnosis": "D007",
+            "additional_condition": "Presence of Depressive Symptoms",
+            "key_difference": "Duration of depressive symptoms and independent persistence of psychotic symptoms",
+            "rules": {
+                "D005": [
+                    "Depressive symptoms may be accompanied, but they appear for a short period relative to the total duration of the active phase."
+                ],
+                "D007": [
+                    "Depressive symptoms appear for the majority of the total duration of the active phase, and there is a period where psychotic symptoms persist for at least 2 weeks without depressive symptoms."
+                ]
+            }
+        },
+        {
+            "differential_diagnosis": "D006",
+            "additional_condition": "Presence of Manic Symptoms",
+            "key_difference": "Duration of manic symptoms and independent persistence of psychotic symptoms",
+            "rules": {
+                "D005": [
+                    "Manic symptoms may be accompanied, but they appear for a short period relative to the total duration of the active phase."
+                ],
+                "D006": [
+                    "Manic symptoms appear for the majority of the total duration of the active phase, and there is a period where psychotic symptoms persist for at least 2 weeks without manic symptoms."
+                ]
+            }
+        },
+        {
+            "differential_diagnosis": "D018",
+            "additional_condition": "Experience of Traumatic Event",
+            "key_difference": "Relationship between psychotic symptoms and traumatic event",
+            "rules": {
+                "D005": [
+                    "May have experienced a traumatic event, but psychotic symptoms appear unrelated to the traumatic event."
+                ],
+                "D018": [
+                    "Flashbacks with hallucinatory quality may appear, but there is a clear traumatic event, and specific stress-related symptoms must be present additionally."
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "D010": [
+        {
+            "differential_diagnosis": "D006",
+            "additional_condition": "None",
+            "key_difference": "Independent persistence of psychotic symptoms",
+            "rules": {
+                "D010": [
+                    "Psychotic symptoms appear only during the period of the manic episode."
+                ],
+                "D006": [
+                    "Manic episode appears for the majority of the total duration, and there is a period where psychotic symptoms persist for at least 2 weeks without manic symptoms."
+                ]
+            }
+        },
+        {
+            "differential_diagnosis": "D005",
+            "additional_condition": "None",
+            "key_difference": "Duration of manic episode and independent persistence of psychotic symptoms",
+            "rules": {
+                "D010": [
+                    "Psychotic symptoms appear only during the period of the manic episode."
+                ],
+                "D005": [
+                    "Manic episode appears for a brief period relative to the total duration, and psychotic symptoms persist without manic symptoms."
+                ]
+            }
+        }
+    ]
+}

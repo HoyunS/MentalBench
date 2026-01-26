@@ -1,0 +1,98 @@
+{
+    "S056": {
+        "name": "Excessive_Anxiety_Worry",
+        "category": "anxiety_symptoms",
+        "description": "Excessive anxiety and worry (expectant apprehension) occurring persistently about a number of events or activities.",
+        "subtypes": {
+            "Chronic Worry": "Worry occurs more days than not for at least 6 months.",
+            "Generalized Worry": "Worry is not confined to specific topics but spreads to various domains like work, school, family, and finances.",
+            "Catastrophizing": "Jumping to conclusions that minor mistakes or events will lead to irreversible disasters.",
+            "Intolerance of Uncertainty": "Unable to tolerate future uncertainty, trapped in 'what if' questions."
+        }
+    },
+    "S057": {
+        "name": "Uncontrollable_Worry",
+        "category": "anxiety_symptoms",
+        "description": "The subjective experience of finding it difficult to stop or control the worry.",
+        "subtypes": {
+            "Failure to Control": "Unable to regulate worry despite efforts to stop or distract oneself.",
+            "Intrusive Worry": "Worries suddenly intrude into the mind and interfere with focus while doing other tasks.",
+            "Chaining of Worry": "One worry triggers another in a chain reaction, escalating to catastrophic thoughts."
+        }
+    },
+    "S058": {
+        "name": "Restlessness_Tension",
+        "category": "anxiety_symptoms",
+        "description": "Restlessness, or feeling keyed up or on edge.",
+        "subtypes": {
+            "Feeling Keyed Up": "Feeling anxious and wound up like a spring, unable to stay still.",
+            "Physical Tension": "The entire body feels stiff and tense, unable to relax.",
+            "Nervousness": "Nerves are on edge, being startled easily by minor sounds or stimuli."
+        }
+    },
+    "S059": {
+        "name": "Concentration_Difficulty",
+        "category": "anxiety_symptoms",
+        "description": "Difficulty concentrating or mind going blank.",
+        "subtypes": {
+            "Interference by Worry": "Unable to focus on the task at hand because worries keep surfacing.",
+            "Inability to Sustain Attention": "Attention is scattered due to anxiety, making it hard to focus on one thing for long.",
+            "Mind Going Blank": "Suddenly the mind goes empty or white, and no thoughts occur."
+        }
+    },
+    "S060": {
+        "name": "Irritability",
+        "category": "anxiety_symptoms",
+        "description": "A state of reacting sensitively or sharply to minor stimuli.",
+        "subtypes": {
+            "Low Frustration Tolerance": "Getting annoyed immediately at trivial stimuli that would normally be ignored.",
+            "Snappiness": "Nerves are sharp, leading to sensitive and aggressive reactions to small matters.",
+            "Exhausted Patience": "Patience is depleted, making it impossible to endure minor inconveniences or delays."
+        }
+    },
+    "S061": {
+        "name": "Muscle_Tension",
+        "category": "anxiety_symptoms",
+        "description": "A state where muscles are continuously tense, stiff, and accompanied by discomfort.",
+        "subtypes": {
+            "Neck and Shoulder Tension": "Muscles in the shoulders and back of the neck are knotted and stiff, causing pain or headaches.",
+            "Jaw Tension": "Clenching teeth or tension in the jaw causing jaw pain or headaches.",
+            "Generalized Muscle Aches": "Muscles all over the body, including back, arms, and legs, are stiff, painful, and easily fatigued.",
+            "Chronic Stiffness": "Muscles remain in a constant state of tension and do not relax."
+        }
+    },
+    "S062": {
+        "name": "Specific_Phobic_Fear",
+        "category": "phobic_symptoms",
+        "description": "Marked fear or anxiety about a specific object or situation that is out of proportion to the actual danger. (Note: In children, may be expressed by crying, tantrums, freezing, or clinging).",
+        "subtypes": {
+            "Animal Type": "Marked fear of animals or insects like dogs, bees, snakes, or spiders.",
+            "Natural Environment Type": "Marked fear of the natural environment like storms, heights, water, or the dark.",
+            "Blood-Injection-Injury Type": "Marked fear of seeing blood, receiving injections, or medical procedures.",
+            "Situational Type": "Marked fear of specific situations like airplanes, elevators, tunnels, bridges, or enclosed spaces.",
+            "Other Type": "Marked fear of other situations like choking, vomiting, loud sounds, or costumed characters."
+        }
+    },
+    "S063": {
+        "name": "Immediate_Fear/Anxiety_Response",
+        "category": "phobic_symptoms",
+        "description": "The phobic object or situation almost always provokes immediate fear or anxiety.",
+        "subtypes": {
+            "Anticipatory Anxiety": "Strong anxiety triggered just by thinking about the possibility of encountering the phobic object.",
+            "Immediate Panic Response": "Overwhelming fear erupting immediately upon facing the phobic object.",
+            "Physiological Panic Symptoms": "Intense physical reactions such as heart palpitations, shortness of breath, sweating, or trembling.",
+            "Freezing": "Feeling paralyzed or unable to move due to extreme fear."
+        }
+    },
+    "S064": {
+        "name": "Phobic_Avoidance_Endure",
+        "category": "phobic_symptoms",
+        "description": "The phobic object or situation is actively avoided or endured with intense fear or anxiety.",
+        "subtypes": {
+            "Active Avoidance": "Intentionally and completely staying away from contact with the phobic object or situation.",
+            "Functional Impairment due to Avoidance": "Accepting severe restrictions on daily life, job, or social activities to avoid the phobic object.",
+            "Enduring with Distress": "Forcing oneself to endure the situation while experiencing intense fear and anxiety because it cannot be avoided.",
+            "Reliance on Safety Signals": "Barely enduring the exposure by relying on a companion or safety object."
+        }
+    }
+}

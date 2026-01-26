@@ -1,0 +1,43 @@
+{
+    "D002": [
+        {
+            "differential_diagnosis": "D011",
+            "additional_condition": "Presence of Anxiety Symptoms",
+            "key_difference": "Underlying cause of inattention",
+            "rules": {
+                "D002": [
+                    "Inattention is caused by external stimuli and interest/curiosity in new activities. Restlessness is unrelated to worry or rumination."
+                ],
+                "D011": [
+                    "Inattention occurs due to worry or rumination associated with anxiety symptoms."
+                ]
+            }
+        },
+        {
+            "differential_diagnosis": "D013",
+            "additional_condition": "Presence of Depressive Symptoms",
+            "key_difference": "Onset of concentration problems and relationship with depressive symptoms",
+            "rules": {
+                "D002": [
+                    "Mood symptoms may appear but are distinct from a depressive episode; concentration problems appear continuously unrelated to depressive symptoms."
+                ],
+                "D013": [
+                    "Concentration problems occur exclusively during the major depressive episode."
+                ]
+            }
+        },
+        {
+            "differential_diagnosis": "D005",
+            "additional_condition": "Presence of Psychotic Symptoms",
+            "key_difference": "Onset of inattention and relationship with psychotic symptoms",
+            "rules": {
+                "D002": [
+                    "Psychotic symptoms may co-occur, but inattention appears continuously from before, unrelated to psychotic symptoms."
+                ],
+                "D005": [
+                    "Inattention is observed starting from the prodromal phase or after the onset of psychotic symptoms."
+                ]
+            }
+        }
+    ]
+}

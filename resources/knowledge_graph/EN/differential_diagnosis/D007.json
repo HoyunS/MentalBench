@@ -1,0 +1,30 @@
+{
+    "D007": [
+        {
+            "differential_diagnosis": "D005",
+            "additional_condition": "None",
+            "key_difference": "Duration of concurrent depressive symptoms",
+            "rules": {
+                "D007": [
+                    "Depressive symptoms appear for the majority of the total duration of the active phase."
+                ],
+                "D005": [
+                    "Depressive symptoms appear for a brief period relative to the total duration of the active phase."
+                ]
+            }
+        },
+        {
+            "differential_diagnosis": "D015",
+            "additional_condition": "None",
+            "key_difference": "Independent persistence of psychotic symptoms",
+            "rules": {
+                "D007": [
+                    "There is a period where psychotic symptoms persist for at least 2 weeks without depressive symptoms."
+                ],
+                "D015": [
+                    "Psychotic symptoms appear only during the period of the depressive episode."
+                ]
+            }
+        }
+    ]
+}

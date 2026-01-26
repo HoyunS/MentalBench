@@ -1,0 +1,82 @@
+{
+    "D017": [
+        {
+            "differential_diagnosis": "D021",
+            "additional_condition": "Presence of preoccupation with weight/body shape",
+            "key_difference": "Scope of concern regarding appearance defects",
+            "rules": {
+                "D017": [
+                    "Preoccupation with appearance defects includes various body parts (skin, features, muscles, etc.) beyond weight and body shape."
+                ],
+                "D021": [
+                    "Preoccupation with appearance defects is limited to weight and body shape, and restriction of food intake is accompanied."
+                ]
+            }
+        },
+        {
+            "differential_diagnosis": "D016",
+            "additional_condition": "Presence of repetitive thoughts and behaviors regarding appearance",
+            "key_difference": "Scope of repetitive thoughts and behaviors",
+            "rules": {
+                "D017": [
+                    "Repetitive thoughts and behaviors are focused exclusively on appearance due to preoccupation with appearance."
+                ],
+                "D016": [
+                    "Repetitive thoughts and behaviors appear across various areas besides appearance."
+                ]
+            }
+        },
+        {
+            "differential_diagnosis": "D013",
+            "additional_condition": "Presence of Depressive Symptoms",
+            "key_difference": "Presence of preoccupation with appearance",
+            "rules": {
+                "D017": [
+                    "Prominent preoccupation with appearance and excessive repetitive behaviors are present, and depressive symptoms are experienced due to the resulting distress."
+                ],
+                "D013": [
+                    "Depressive symptoms including low self-esteem regarding appearance are accompanied, but preoccupation with specific body parts and compulsive behaviors are not accompanied."
+                ]
+            }
+        },
+        {
+            "differential_diagnosis": "D011",
+            "additional_condition": "Presence of Anxiety Symptoms",
+            "key_difference": "Scope of anxiety and worry",
+            "rules": {
+                "D017": [
+                    "Anxiety and worry are limited to perceived appearance defects, and prominent preoccupation with appearance and repetitive behaviors are accompanied."
+                ],
+                "D011": [
+                    "Anxiety and worry include future problems in various areas including appearance."
+                ]
+            }
+        },
+        {
+            "differential_diagnosis": "D004",
+            "additional_condition": "Presence of delusional beliefs regarding body/appearance defects",
+            "key_difference": "Presence of delusional beliefs regarding body/appearance defects and compulsive behaviors",
+            "rules": {
+                "D017": [
+                    "Holds delusional beliefs about body appearance/defects, and repetitive and ritualistic compulsive behaviors are accompanied."
+                ],
+                "D004": [
+                    "Delusions related to body appearance/defects may appear, but repetitive and ritualistic compulsive behaviors are not accompanied."
+                ]
+            }
+        },
+        {
+            "differential_diagnosis": "D005",
+            "additional_condition": "Presence of delusional beliefs regarding body/appearance defects",
+            "key_difference": "Presence of other psychotic symptoms",
+            "rules": {
+                "D017": [
+                    "Holds delusional beliefs about body appearance/defects, but other psychotic symptoms of schizophrenia are not accompanied."
+                ],
+                "D005": [
+                    "Holds delusional beliefs about body appearance/defects, and other psychotic symptoms are accompanied."
+                ]
+            }
+        }
+    ]
+}

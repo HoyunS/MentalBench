@@ -1,0 +1,56 @@
+{
+    "D008": [
+        {
+            "differential_diagnosis": "D011",
+            "additional_condition": "Presence of Anxiety Symptoms",
+            "key_difference": "Relationship between anxiety and racing-thoughts/impulsivity",
+            "rules": {
+                "D008": [
+                    "May be accompanied by mild anxiety symptoms, but racing thoughts/impulsivity occur independently of anxiety."
+                ],
+                "D011": [
+                    "Anxiety, worry, and rumination prevalent in daily activities appear, and racing thoughts/impulsivity occur due to anxiety."
+                ]
+            }
+        },
+        {
+            "differential_diagnosis": "D018",
+            "additional_condition": "Presence of Traumatic Event",
+            "key_difference": "Relationship with traumatic event",
+            "rules": {
+                "D008": [
+                    "May have experienced a traumatic event, but irritability/impulsivity/sleep disturbance appear episodically and unrelated to the traumatic event."
+                ],
+                "D018": [
+                    "Experienced a traumatic event, and hyperarousal/impulsivity/sleep disturbance appear after the trauma. These are not episodic."
+                ]
+            }
+        },
+        {
+            "differential_diagnosis": "D001",
+            "additional_condition": "Hyperactivity/Impulsivity/Inattention prominent during manic symptoms",
+            "key_difference": "Duration of hyperactivity/impulsivity/inattention symptoms",
+            "rules": {
+                "D008": [
+                    "Symptoms such as rapid speech, racing thoughts, distractibility, and decreased need for sleep appear exclusively during the manic episode."
+                ],
+                "D001": [
+                    "Symptoms such as rapid speech, racing thoughts, distractibility, and decreased need for sleep appear continuously starting from childhood (prior to age 12)."
+                ]
+            }
+        },
+        {
+            "differential_diagnosis": "D003",
+            "additional_condition": "Hyperactivity/Impulsivity prominent during manic symptoms",
+            "key_difference": "Duration of hyperactivity/impulsivity symptoms",
+            "rules": {
+                "D008": [
+                    "Symptoms such as rapid speech, racing thoughts, distractibility, and decreased need for sleep appear exclusively during the manic episode."
+                ],
+                "D003": [
+                    "Symptoms such as rapid speech, racing thoughts, distractibility, and decreased need for sleep appear continuously starting from childhood (prior to age 12)."
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,71 @@
+{
+  "D001": {
+    "name": "Attention-Deficit/Hyperactivity Disorder (Combined Presentation)"
+  },
+  "D002": {
+    "name": "Attention-Deficit/Hyperactivity Disorder (Predominantly Inattentive Presentation)"
+  },
+  "D003": {
+    "name": "Attention-Deficit/Hyperactivity Disorder (Predominantly Hyperactive/Impulsive Presentation)"
+  },
+  "D004": {
+    "name": "Delusional Disorder"
+  },
+  "D005": {
+    "name": "Schizophrenia"
+  },
+  "D006": {
+    "name": "Schizoaffective Disorder (Bipolar Type)"
+  },
+  "D007": {
+    "name": "Schizoaffective Disorder (Depressive Type)"
+  },
+  "D008": {
+    "name": "Bipolar I Disorder"
+  },
+  "D009": {
+    "name": "Bipolar II Disorder"
+  },
+  "D010": {
+    "name": "Bipolar I Disorder with Psychotic Features"
+  },
+  "D011": {
+    "name": "Generalized Anxiety Disorder"
+  },
+  "D012": {
+    "name": "Specific Phobia"
+  },
+  "D013": {
+    "name": "Major Depressive Disorder"
+  },
+  "D014": {
+    "name": "Persistent Depressive Disorder"
+  }, 
+  "D015": {
+    "name": "Major Depressive Disorder with Psychotic Features"
+  },
+  "D016": {
+    "name": "Obsessive-Compulsive Disorder"
+  },
+  "D017": {
+    "name": "Body Dysmorphic Disorder"
+  },
+  "D018": {
+    "name": "Posttraumatic Stress Disorder"
+  },
+  "D019": {
+    "name": "Acute Stress Disorder"
+  },
+  "D020": {
+    "name": "Adjustment Disorder"
+  },
+  "D021": {
+    "name": "Anorexia Nervosa"
+  },
+  "D022": {
+    "name": "Bulimia Nervosa"
+  },
+  "D023": {
+    "name": "Binge-Eating Disorder"
+  }
+}

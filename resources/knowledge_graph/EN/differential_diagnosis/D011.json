@@ -1,0 +1,56 @@
+{
+    "D011": [
+        {
+            "differential_diagnosis": "D016",
+            "additional_condition": "None",
+            "key_difference": "Form and characteristics of anxiety",
+            "rules": {
+                "D011": [
+                    "The focus of worry is on forthcoming problems, and the degree is excessive."
+                ],
+                "D016": [
+                    "Anxiety and worry appear repeatedly in the form of intrusive and unwanted thoughts, impulses, or images."
+                ]
+            }
+        },
+        {
+            "differential_diagnosis": "D018",
+            "additional_condition": "Experience of Traumatic Event",
+            "key_difference": "Cause of anxiety and relationship with traumatic event",
+            "rules": {
+                "D011": [
+                    "May have experienced a traumatic event, but anxiety and worry appear pervasively in daily activities unrelated to it."
+                ],
+                "D018": [
+                    "Exposure to a traumatic event occurred, and the anxiety and worry experienced developed after the traumatic event."
+                ]
+            }
+        },
+        {
+            "differential_diagnosis": "D020",
+            "additional_condition": "Experience of Psychosocial Stress",
+            "key_difference": "Cause of anxiety and relationship with recent stressors",
+            "rules": {
+                "D011": [
+                    "May have experienced a psychosocial stressor, but anxiety and worry appear pervasively in daily activities unrelated to it."
+                ],
+                "D020": [
+                    "A recent psychosocial stressor occurred, and the anxiety and worry experienced developed after that factor."
+                ]
+            }
+        },
+        {
+            "differential_diagnosis": "D012",
+            "additional_condition": "Anxiety regarding Specific Object/Situation",
+            "key_difference": "Scope and characteristics of anxiety",
+            "rules": {
+                "D011": [
+                    "Extensive anxiety and worry appear across various areas of daily life (work, school, health, family, etc.), not just specific objects."
+                ],
+                "D012": [
+                    "Intense fear and anxiety limited only to specific objects or situations appear, and anxiety does not appear in other areas."
+                ]
+            }
+        }
+    ]
+}

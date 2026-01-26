@@ -1,0 +1,101 @@
+{
+    "S010": {
+        "name": "Fidgeting",
+        "category": "hyperactivity_impulsivity",
+        "description": "Often fidgets with or taps hands or feet or squirms in seat.",
+        "examples": [
+            "Constantly shaking legs or twisting and squirming body while seated.",
+            "Spinning a pen or fiddling with nearby objects, unable to keep hands still.",
+            "Continually changing posture and feeling uncomfortable while sitting.",
+            "Constantly moving, such as tapping the desk with fingers or tapping feet on the floor."
+        ]
+    },
+    "S011": {
+        "name": "Leaving_Seat",
+        "category": "hyperactivity_impulsivity",
+        "description": "Often leaves seat in situations when remaining seated is expected.",
+        "examples": [
+            "Frequently leaves seat or wanders around during class or meetings using excuses.",
+            "Unable to sit still during meals and keeps getting up.",
+            "Leaves seat in the middle of a movie or performance to go to the restroom or go outside.",
+            "Continually leaves seat and wanders around in the office where one is expected to sit and work."
+        ]
+    },
+    "S012": {
+        "name": "Feeling_Restless",
+        "category": "hyperactivity_impulsivity",
+        "description": "Often runs about or climbs in situations where it is inappropriate. (Note: In adolescents or adults, may be limited to feeling restless.)",
+        "examples": [
+            "Feels uncomfortable and restless as if something is squirming inside when sitting still.",
+            "Feels internally anxious and stifled in situations requiring prolonged sitting.",
+            "A sense of urgency and anxiety that one must keep moving or doing something.",
+            "Feels unable to endure staying still and must constantly be doing something."
+        ]
+    },
+    "S013": {
+        "name": "Quiet_Activity_Difficulty",
+        "category": "hyperactivity_impulsivity",
+        "description": "Often unable to play or engage in leisure activities quietly.",
+        "examples": [
+            "Unable to engage in calm activities for long, such as reading quietly or drawing.",
+            "Cannot play quietly, often shouting or making loud noises during games or play.",
+            "Unable to stay quiet in quiet places like libraries or movie theaters, making noise.",
+            "Cannot endure and avoids quiet and calm activities like meditation or yoga."
+        ]
+    },
+    "S014": {
+        "name": "Constant_Activity",
+        "category": "hyperactivity_impulsivity",
+        "description": "Is often 'on the go', acting as if 'driven by a motor'.",
+        "examples": [
+            "Constantly moving and active as if driven by a motor.",
+            "Starts another task immediately after finishing one, without resting for a moment.",
+            "Unable to stay still even on weekends or days off, constantly doing something.",
+            "Appears to others to be always busy and bustling about."
+        ]
+    },
+    "S015": {
+        "name": "Excessive_Talking",
+        "category": "hyperactivity_impulsivity",
+        "description": "Often talks excessively.",
+        "examples": [
+            "Talks incessantly and cannot tolerate silence, continuing to chatter.",
+            "Continues to talk even when others are bored or try to cut the conversation short.",
+            "Talks too much inappropriately for the situation, making people around them uncomfortable.",
+            "Monopolizes the conversation and gives almost no chance for others to speak."
+        ]
+    },
+    "S016": {
+        "name": "Blurting_Answers",
+        "category": "hyperactivity_impulsivity",
+        "description": "Often blurts out an answer before a question has been completed.",
+        "examples": [
+            "Raises hand or blurts out the answer before the question is even finished in class or meetings.",
+            "Jumps to conclusions and speaks before the other person finishes their sentence.",
+            "Answers hastily without reading the question to the end in quizzes or exams.",
+            "Interrupts and answers in the middle of a conversation without listening to the other person until the end."
+        ]
+    },
+    "S017": {
+        "name": "Waiting_Turn_Difficulty",
+        "category": "hyperactivity_impulsivity",
+        "description": "Often has difficulty waiting his or her turn.",
+        "examples": [
+            "Cannot wait and cuts in line or gets impatient when standing in a queue.",
+            "Rushes or cuts in without waiting for their turn in games or board games.",
+            "Keeps checking the time or complaining when waiting for their turn at hospitals or public offices.",
+            "Fidgets, complains, or gets annoyed in situations where waiting for a turn is required."
+        ]
+    },
+    "S018": {
+        "name": "Interrupting_Intruding",
+        "category": "hyperactivity_impulsivity",
+        "description": "Often interrupts or intrudes on others (e.g., butts into conversations, games, or activities).",
+        "examples": [
+            "Butts into conversations of others where they have not been invited.",
+            "Joins in on others' work or games without permission or interferes.",
+            "Touches or uses other people's belongings or work without permission.",
+            "Keeps talking to and disturbing others when they are focusing on work or studying."
+        ]
+    }
+}

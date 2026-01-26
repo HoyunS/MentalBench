@@ -1,0 +1,146 @@
+{
+    "S043": {
+        "name": "Restrictive_Intake",
+        "category": "anorexia_nervosa",
+        "description": "Persistent restriction of energy intake relative to requirements, leading to significantly low body weight.",
+        "subtypes": {
+            "Eating Very Small Amounts": "Eating only one or two bites a day or extremely small portions per meal.",
+            "Skipping Meals": "Intentionally skipping breakfast, lunch, or dinner.",
+            "Exclusion of Specific Food Groups": "Strictly avoiding specific food groups like carbohydrates or fats to prevent nutritional imbalance.",
+            "Strict Calorie Restriction": "Limiting daily caloric intake to an extremely low level."
+        }
+    },
+    "S044": {
+        "name": "Low_Weight",
+        "category": "anorexia_nervosa",
+        "description": "A body weight that is significantly below the minimum level of health for age, sex, developmental trajectory, and physical health.",
+        "subtypes": {
+            "Continuous Weight Loss": "A state where weight continues to decrease due to intentional restriction of intake.",
+            "Insistence on Low Weight": "Attempting to lose more weight or refusing to restore weight despite already being underweight."
+        }
+    },
+    "S045": {
+        "name": "Fear_of_Weight_Gain",
+        "category": "body_image_cognition",
+        "description": "Intense fear of gaining weight or of becoming fat, even though at a significantly low weight.",
+        "subtypes": {
+            "Fear of Weight Gain": "Extreme fear and loathing of gaining weight or becoming fat.",
+            "Fear of Specific Foods": "Fear that eating high-calorie foods will immediately lead to weight gain.",
+            "Obsession with Weight Gain": "Compulsively checking the scale and becoming extremely anxious about even the slightest increase."
+        }
+    },
+    "S046": {
+        "name": "Body_Image_Weight_Shape_Disturbance",
+        "category": "body_image_cognition",
+        "description": "Undue influence of body weight or shape on self-evaluation.",
+        "subtypes": {
+            "Distorted Body Image": "Perceiving one's body as much fatter than it actually is or perceiving specific parts as excessively large when looking in the mirror.",
+            "Self-Worth Dependent on Weight": "Judging whether one is a good or successful person solely based on weight or body shape."
+        }
+    },
+    "S047": {
+        "name": "Compensatory_Behavior_NonPurging",
+        "category": "compensatory_behavior",
+        "description": "Recurrent inappropriate compensatory behaviors to prevent weight gain without purging (direct removal of food).",
+        "subtypes": {
+            "Fasting": "Intentionally stopping food intake for a certain period to prevent weight gain.",
+            "Excessive Exercise": "Repetitively performing exercise at a level that exceeds physical limits to prevent weight gain."
+        }
+    },
+    "S048": {
+        "name": "Compensatory_Behavior_Purging",
+        "category": "compensatory_behavior",
+        "description": "Recurrent inappropriate compensatory behaviors involving the expulsion of food or fluids to prevent weight gain.",
+        "subtypes": {
+            "Self-Induced Vomiting": "Intentionally inducing vomiting to remove ingested food.",
+            "Misuse of Medications": "Repetitively misusing laxatives, diuretics, or enemas for the purpose of weight control."
+        }
+    },
+    "S049": {
+        "name": "Eating_Large_Amount",
+        "category": "binge_episode",
+        "description": "Eating, in a discrete period of time, an amount of food that is definitely larger than what most individuals would eat in a similar period of time under similar circumstances.",
+        "examples": [
+            "Eating more than 3-4 times the amount of a typical meal within 2 hours.",
+            "Continuously eating large amounts of high-calorie snacks in addition to main meals.",
+            "Eating enough to empty a significant portion of the refrigerator or pantry at once.",
+            "Eating clearly more food than others during the same period of time."
+        ]
+    },
+    "S050": {
+        "name": "Loss_of_Control",
+        "category": "binge_episode",
+        "description": "A sense of lack of control over eating during the episode (e.g., a feeling that one cannot stop eating or control what or how much one is eating).",
+        "examples": [
+            "A feeling that once I start eating, I cannot stop even if I want to.",
+            "Thinking 'I shouldn't eat any more' but mechanically continuing to eat.",
+            "A feeling of helplessness that I cannot decide for myself how much to eat.",
+            "Eating as if my body is being controlled by someone else."
+        ]
+    },
+    "S051": {
+        "name": "Rapid_Eating",
+        "category": "binge_episode_related",
+        "description": "Eating much more rapidly than normal.",
+        "examples": [
+            "Swallowing food without chewing it properly.",
+            "Eating continuously and rapidly to the point where it is difficult to breathe.",
+            "Eating so urgently that there is no time to taste the food.",
+            "Eating at a speed that surprises others."
+        ]
+    },
+    "S052": {
+        "name": "Eating_Until_Uncomfortably_Full",
+        "category": "binge_episode_related",
+        "description": "Eating until feeling uncomfortably full.",
+        "examples": [
+            "Eating until the stomach feels distended to the point of bursting and pain.",
+            "Eating so much that it is difficult to even stand up or move.",
+            "Continuing to eat until feeling nauseous or like vomiting.",
+            "Unable to stop eating even though it is physically uncomfortable and painful."
+        ]
+    },
+    "S053": {
+        "name": "Eating_Without_Hunger",
+        "category": "binge_episode_related",
+        "description": "Eating large amounts of food when not feeling physically hungry.",
+        "examples": [
+            "Starting to eat a large amount of food again immediately after finishing a meal.",
+            "A binge eating episode starting when not hungry at all.",
+            "Continuing to eat large amounts despite being full.",
+            "Seeking out food even when there are absolutely no physical hunger signals."
+        ]
+    },
+    "S054": {
+        "name": "Eating_Alone_Due_to_Embarrassment",
+        "category": "binge_episode_related",
+        "description": "Eating alone because of feeling embarrassed by how much one is eating.",
+        "examples": [
+            "Eating only when alone because of fear that others will think strangely of the amount eaten.",
+            "Eating secretly after family members have gone to sleep.",
+            "Pretending to eat little in front of people, then binging when alone.",
+            "Locking the door or eating in a secret place like a car to avoid being seen eating."
+        ]
+    },
+    "S055": {
+        "name": "Negative_Affect_After_Binge",
+        "category": "binge_episode_related",
+        "description": "Feeling disgusted with oneself, depressed, or very guilty afterward.",
+        "examples": [
+            "Feeling unbearable disgust and self-loathing after binging.",
+            "Falling into extreme depression and self-criticism immediately after binging.",
+            "Feeling intense guilt and regret over the fact that I binged again.",
+            "Feeling shame that I am pathetic and have weak willpower after binging."
+        ]
+    },
+    "S084": {
+        "name": "Low_Weight_Severity_Non_Recognition",
+        "category": "body_image_cognition",
+        "description": "Persistent lack of recognition of the seriousness of the current low body weight.",
+        "subtypes": {
+            "Denial of Medical Risk": "Not admitting or dismissing the health risks caused by being underweight.",
+            "Disregard of Symptoms": "Not taking physical symptoms caused by low weight (dizziness, hair loss, amenorrhea) seriously.",
+            "Dismissal of Concerns": "Exaggerating or rejecting the concerns of doctors or family as unnecessary."
+        }
+    }
+}

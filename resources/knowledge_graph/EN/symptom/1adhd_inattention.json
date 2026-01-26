@@ -1,0 +1,101 @@
+{
+  "S001": {
+    "name": "Detail_Inattention_Errors",
+    "category": "inattention",
+    "description": "Often fails to give close attention to details or makes careless mistakes.",
+    "examples": [
+      "Makes mistakes in homework or tests by misreading questions or skipping important parts.",
+      "Frequently omits details or makes typos in work documents or reports.",
+      "Repeats mistakes in calculations or numerical work, such as switching signs or getting digits wrong.",
+      "Performs tasks incorrectly by missing important details in instructions."
+    ]
+  },
+  "S002": {
+    "name": "Sustained_Attention_Difficulty",
+    "category": "inattention",
+    "description": "Often has difficulty sustaining attention in tasks or play activities.",
+    "examples": [
+      "Focuses at first during class or meetings but soon becomes distracted or spaces out.",
+      "Re-reads the same paragraph in a book multiple times but the content does not register.",
+      "Loses focus while watching movies or TV and misses the plot.",
+      "Unable to maintain attention until the end of a long meeting or lecture, often drifting off or becoming drowsy."
+    ]
+  },
+  "S003": {
+    "name": "Listening_Difficulty",
+    "category": "inattention",
+    "description": "Often does not seem to listen when spoken to directly.",
+    "examples": [
+      "Appears not to be listening, looking elsewhere or spacing out during conversation.",
+      "Immediately asks to repeat what was just said or instructed.",
+      "Does not respond when name is called or answers only after a long delay.",
+      "Misses the content of the conversation, giving unrelated answers or out-of-context reactions."
+    ]
+  },
+  "S004": {
+    "name": "Instruction_Follow through_Difficulty",
+    "category": "inattention",
+    "description": "Often does not follow through on instructions and fails to finish schoolwork, chores, or duties in the workplace.",
+    "examples": [
+      "Starts homework or projects but fails to complete them, submitting unfinished work or missing deadlines.",
+      "When given multi-step instructions, follows only the first few steps and forgets the rest.",
+      "Starts cleaning or organizing but switches to another task midway, failing to finish.",
+      "Leaves almost completed work reports or paperwork unfinished, neglecting the final steps."
+    ]
+  },
+  "S005": {
+    "name": "Organization_Difficulty",
+    "category": "inattention",
+    "description": "Often has difficulty organizing tasks and activities.",
+    "examples": [
+      "Desk, bag, or room is always messy and remains disorganized.",
+      "Unable to prioritize or determine the order of tasks, starting them randomly.",
+      "Fails to plan time effectively, frequently missing deadlines or rushing to finish at the last minute.",
+      "Feels overwhelmed by how to start multi-step projects and procrastinates."
+    ]
+  },
+  "S006": {
+    "name": "Sustained_Mental_Effort_Avoidance",
+    "category": "inattention",
+    "description": "Often avoids, dislikes, or is reluctant to engage in tasks that require sustained mental effort.",
+    "examples": [
+      "Continually procrastinates or is reluctant to start writing long reports or complex homework.",
+      "Avoids activities that require long periods of concentration, such as reading books or studying.",
+      "Passes off tasks that require complex thinking or planning to others.",
+      "Gets annoyed or resists when asked to start a task that requires significant mental effort."
+    ]
+  },
+  "S007": {
+    "name": "Losing_Items",
+    "category": "inattention",
+    "description": "Often loses things necessary for tasks or activities.",
+    "examples": [
+      "Frequently loses school supplies or office supplies like pens, erasers, and calculators.",
+      "Always searching for glasses, cell phones, wallets, or keys because they do not know where they are.",
+      "Loses necessary documents or materials at home or in the office and cannot find them.",
+      "Cannot remember where they placed an item they were holding just moments ago."
+    ]
+  },
+  "S008": {
+    "name": "Distractibility",
+    "category": "inattention",
+    "description": "Often easily distracted by extraneous stimuli (for older adolescents and adults, may include unrelated thoughts).",
+    "examples": [
+      "Easily distracted and stops working due to small noises or movements nearby.",
+      "Cannot concentrate because eyes keep wandering to the scenery outside the window or people passing by.",
+      "Starts daydreaming or gets sidetracked by sudden thoughts while working or studying.",
+      "Loses focus and listens in when hearing side conversations or TV sounds."
+    ]
+  },
+  "S009": {
+    "name": "Daily_Activities_Forgetfulness",
+    "category": "inattention",
+    "description": "Often forgetful in daily activities (e.g., doing chores, running errands; for older adolescents and adults, returning calls, paying bills, keeping appointments).",
+    "examples": [
+      "Forgets appointment times or meeting schedules, arriving late or missing them entirely.",
+      "Forgets to reply to received calls or messages for days.",
+      "Frequently incurs late fees because of missing deadlines for utility bills or credit card payments.",
+      "Forgets to take medication or leaves necessary items at home when going out."
+    ]
+  }
+}

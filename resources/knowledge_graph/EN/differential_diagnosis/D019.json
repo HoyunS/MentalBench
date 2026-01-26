@@ -1,0 +1,56 @@
+{
+    "D019": [
+        {
+            "differential_diagnosis": "D020",
+            "additional_condition": "None",
+            "key_difference": "Meeting diagnostic criteria for Acute Stress Disorder",
+            "rules": {
+                "D019": [
+                    "Symptoms meeting diagnostic criteria for acute stress disorder appear between 3 days and 1 month after exposure to the traumatic event."
+                ],
+                "D020": [
+                    "Symptoms appeared between 3 days and 1 month after exposure to the traumatic event, but diagnostic criteria for acute stress disorder are not met."
+                ]
+            }
+        },
+        {
+            "differential_diagnosis": "D018",
+            "additional_condition": "None",
+            "key_difference": "Duration of symptoms",
+            "rules": {
+                "D019": [
+                    "Symptoms experienced after exposure to a traumatic event are limited to a duration of 3 days to 1 month."
+                ],
+                "D018": [
+                    "Symptoms experienced after exposure to a traumatic event persist for more than 1 month."
+                ]
+            }
+        },
+        {
+            "differential_diagnosis": "D016",
+            "additional_condition": "Presence of Repetitive and Intrusive Thoughts",
+            "key_difference": "Content of intrusive thoughts and presence of Acute Stress Disorder symptoms",
+            "rules": {
+                "D019": [
+                    "Intrusive thoughts are related to the experience of the traumatic event, and compulsive behaviors do not appear."
+                ],
+                "D016": [
+                    "Intrusive thoughts are unrelated to the traumatic event, and compulsive behaviors appear. Other symptoms of acute stress disorder are not accompanied."
+                ]
+            }
+        },
+        {
+            "differential_diagnosis": "D005",
+            "additional_condition": "Presence of Hallucinations",
+            "key_difference": "Association between hallucinations and traumatic event, and presence of psychotic symptoms",
+            "rules": {
+                "D019": [
+                    "Hallucinations are directly related to the traumatic experience (in the form of flashbacks), and other psychotic symptoms are not accompanied."
+                ],
+                "D005": [
+                    "Hallucinations appear unrelated to the traumatic experience, and other psychotic symptoms are accompanied."
+                ]
+            }
+        }
+    ]
+}

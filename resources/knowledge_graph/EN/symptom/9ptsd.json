@@ -1,0 +1,151 @@
+{
+    "S069": {
+        "name": "Intrusive_Symptoms",
+        "category": "trauma_related_symptoms",
+        "description": "Recurrent, involuntary, and intrusive distressing memories of the traumatic event.",
+        "subtypes": {
+            "Intrusive Memories": "Recurrent, involuntary, and intrusive distressing memories of the traumatic event.",
+            "Distressing Dreams": "Recurrent distressing dreams in which the content and/or affect of the dream are related to the traumatic event.",
+            "Dissociative Reactions (Flashbacks)": "Dissociative reactions (e.g., flashbacks) in which the individual feels or acts as if the traumatic event were recurring.",
+            "Psychological Distress at Cues": "Intense or prolonged psychological distress at exposure to internal or external cues that symbolize or resemble an aspect of the traumatic event.",
+            "Physiological Reactions to Cues": "Marked physiological reactions to internal or external cues that symbolize or resemble an aspect of the traumatic event."
+        }
+    },
+    "S070": {
+        "name": "Trauma_Avoidance",
+        "category": "trauma_related_symptoms",
+        "description": "Persistent avoidance of stimuli associated with the traumatic event.",
+        "subtypes": {
+            "Internal Avoidance": "Efforts to avoid distressing memories, thoughts, or feelings about or closely associated with the traumatic event.",
+            "External Avoidance": "Efforts to avoid external reminders (people, places, conversations, activities, objects, situations) that arouse distressing memories, thoughts, or feelings."
+        }
+    },
+    "S071": {
+        "name": "Trauma_Related_Amnesia",
+        "category": "trauma_related_alterations",
+        "description": "Inability to remember an important aspect of the traumatic event (typically due to dissociative amnesia and not to other factors like head injury or alcohol).",
+        "subtypes": {
+            "Fragmented Memory": "Inability to recall only specific parts of the traumatic event while remembering others.",
+            "Generalized Amnesia": "Inability to recall the majority or the entirety of the traumatic event."
+        }
+    },
+    "S072": {
+        "name": "Negative_Beliefs",
+        "category": "trauma_related_alterations",
+        "description": "Persistent and exaggerated negative beliefs or expectations about oneself, others, or the world.",
+        "subtypes": {
+            "Negative Self-Beliefs": "Distorted beliefs such as 'I am fundamentally bad,' 'I am damaged,' or 'I am worthless'.",
+            "Negative Beliefs about Others": "Distorted beliefs such as 'No one can be trusted' or 'Others are dangerous'.",
+            "Negative Worldview": "Extreme beliefs such as 'The world is completely dangerous' or 'Life is meaningless'."
+        }
+    },
+    "S073": {
+        "name": "Distorted_Cognitions_With_Blame",
+        "category": "trauma_related_alterations",
+        "description": "Persistent, distorted cognitions about the cause or consequences of the traumatic event that lead the individual to blame himself/herself or others.",
+        "subtypes": {
+            "Self-Blame": "Blaming oneself for the occurrence of the trauma or for not preventing it.",
+            "Blaming Others": "Distorting the situation to blame specific others for the occurrence or damage of the trauma."
+        }
+    },
+    "S074": {
+        "name": "Persistent_Negative_Emotional_State",
+        "category": "trauma_related_alterations",
+        "description": "Persistent negative emotional state (e.g., fear, horror, anger, guilt, or shame).",
+        "subtypes": {
+            "Persistent Fear": "A state of constant fear, anxiety, and tension.",
+            "Persistent Horror": "The shock and terror of the traumatic moment do not fade and remain.",
+            "Persistent Anger": "A state of chronic anger boiling inside or being expressed aggressively.",
+            "Persistent Guilt": "Unceasing feelings of guilt or remorse related to the trauma.",
+            "Persistent Shame": "Continuing to feel shame or humiliation due to the trauma."
+        }
+    },
+    "S075": {
+        "name": "Social_Detachment",
+        "category": "trauma_related_alterations",
+        "description": "Feelings of detachment or estrangement from others.",
+        "subtypes": {
+            "Emotional Detachment": "Feeling cut off from others even when physically present, unable to feel connection.",
+            "Social Isolation": "Increasingly isolating oneself and not participating in social activities or gatherings.",
+            "Difficulty with Intimacy": "Distancing oneself from close people as it is difficult to become emotionally close.",
+            "Loss of Belonging": "Feeling like an outsider who belongs nowhere."
+        }
+    },
+    "S076": {
+        "name": "Inability_Positive_Emotions",
+        "category": "trauma_related_alterations",
+        "description": "Persistent inability to experience positive emotions (e.g., inability to experience happiness, satisfaction, or loving feelings).",
+        "subtypes": {
+            "Anhedonia for Happiness": "Unable to feel happiness or joy even when good things happen.",
+            "Lack of Satisfaction": "Unable to experience satisfaction or pride even after achieving something good.",
+            "Inability to Feel Love": "Feeling numb to love or affection towards family or lovers.",
+            "Emotional Numbness": "A state where the mind feels empty and nothing is felt, as if all positive emotions are blocked."
+        }
+    },
+    "S077": {
+        "name": "Irritability_Aggression",
+        "category": "arousal_and_reactivity",
+        "description": "Irritable behavior and angry outbursts (with little or no provocation) typically expressed as verbal or physical aggression.",
+        "subtypes": {
+            "Impulsive Anger": "Sudden explosions of anger for trivial reasons or no clear reason.",
+            "Verbal Aggression": "Attacking others with shouting, cursing, or blame without holding back.",
+            "Physical Aggression": "Physically attacking people or throwing/breaking objects.",
+            "Chronic Irritability": "A state where nerves are always sharp and sensitive, ready to explode at the slightest touch."
+        }
+    },
+    "S078": {
+        "name": "Reckless_Self_Destructive_Behavior",
+        "category": "arousal_and_reactivity",
+        "description": "Reckless or self-destructive behavior pattern that endangers one's safety or health.",
+        "subtypes": {
+            "Risky Behaviors": "Reckless actions disregarding consequences, such as speeding, dangerous sports, or criminal acts.",
+            "Substance Abuse": "Excessive drinking or drug use to harm oneself.",
+            "Indisicriminate Sexual Behavior": "Engaging in unprotected or dangerous sexual activities repetitively.",
+            "Self-Harm": "Actions that intentionally harm or scar one's own body."
+        }
+    },
+    "S079": {
+        "name": "Hypervigilance",
+        "category": "arousal_and_reactivity",
+        "description": "Persistent state of being alert and tense about the surrounding environment.",
+        "subtypes": {
+            "Scanning for Danger": "Always scanning the surroundings and being alert to find potential threats or risks.",
+            "Safety Checking": "Repetitively confirming safety, such as checking exit locations or observing people around.",
+            "Sustained Alertness": "Unable to relax tension even in safe environments and maintaining a constant state of alertness."
+        }
+    },
+    "S080": {
+        "name": "Exaggerated_Startle_Response",
+        "category": "arousal_and_reactivity",
+        "description": "Exaggerated startle response to minor stimuli.",
+        "subtypes": {
+            "Auditory Startle": "Startling excessively and flinching physically at sudden noises.",
+            "Tactile Startle": "Being extremely startled by unexpected physical contact.",
+            "Visual Startle": "Being greatly startled and wary of sudden appearances of people or rapid movements.",
+            "Slow Recovery": "Heart pounding and trembling for a long time after being startled, not calming down easily."
+        }
+    },
+    "S081": {
+        "name": "Stress_Related_Maladaptive_Response",
+        "category": "adjustment_symptoms",
+        "description": "Emotional or behavioral symptoms appearing in response to an identifiable stressor.",
+        "subtypes": {
+            "With Depressed Mood": "Symptoms mainly include low mood, tearfulness, or feelings of hopelessness.",
+            "With Anxiety": "Symptoms mainly include nervousness, worry, jitteriness, or separation anxiety.",
+            "With Mixed Anxiety and Depressed Mood": "A combination of depression and anxiety symptoms appears.",
+            "With Disturbance of Conduct": "Symptoms mainly involve violation of rules, truancy, vandalism, reckless driving, or fighting.",
+            "With Mixed Disturbance of Emotions and Conduct": "Both emotional symptoms (depression, anxiety) and behavioral problems appear together.",
+            "Unspecified": "Maladaptive reactions not classified into the above types (e.g., physical complaints, social withdrawal)."
+        }
+    },
+    "S082": {
+        "name": "Depersonalization_Derealization",
+        "category": "acute_stress_symptoms",
+        "description": "Altered sense of the reality of one's self or surroundings after a traumatic event.",
+        "subtypes": {
+            "Depersonalization": "Feeling detached from one's own body or mental processes, as if being an outside observer.",
+            "Derealization": "The surrounding environment feels unreal, dreamlike, distant, or distorted.",
+            "Time Distortion": "Time feels like it has stopped during the traumatic moment, or is perceived as moving extremely slowly or quickly."
+        }
+    }
+}

@@ -1,0 +1,72 @@
+{
+    "S019": {
+        "name": "Delusions",
+        "category": "psychotic_symptoms",
+        "description": "Fixed beliefs that do not change easily, even in the face of contradictory evidence.",
+        "subtypes": {
+            "Persecutory Delusions": "The false belief that one is being harmed or monitored by other people or organizations.",
+            "Referential Delusions": "The conviction that ordinary events, remarks, or behaviors have specific relevance to oneself.",
+            "Grandiose Delusions": "The false belief that one possesses special abilities, power, or fame.",
+            "Erotomanic Delusions": "The false belief that another person is in love with or has affection for them.",
+            "Nihilistic Delusions": "A destructive or negative conviction that the world is ending or that a major catastrophe will occur.",
+            "Somatic Delusions": "The baseless conviction that there is a serious abnormality with one's body or organs.",
+            "Jealous Delusions": "The conviction that one's spouse or romantic partner is being unfaithful without sufficient evidence."
+        }
+    },
+    "S020": {
+        "name": "Hallucinations",
+        "category": "psychotic_symptoms",
+        "description": "Perception-like experiences that occur without an external stimulus and are as vivid and clear as normal perception.",
+        "subtypes": {
+            "Auditory Hallucinations": "The perceptual experience of hearing voices or sounds when there is no actual sound.",
+            "Visual Hallucinations": "The perceptual experience of seeing people or objects that do not exist.",
+            "Tactile Hallucinations": "Experiencing the sensation of being touched or movement on the skin when there is no actual stimulus.",
+            "Olfactory Hallucinations": "The perceptual experience of smelling odors that do not exist.",
+            "Gustatory Hallucinations": "The perceptual experience of tasting flavors that are not actually present."
+        }
+    },
+    "S021": {
+        "name": "Disorganized_Thinking_Speech",
+        "category": "psychotic_symptoms",
+        "description": "Symptoms where speech or thought appears scattered and difficult to follow due to a lack of logical or consistent flow.",
+        "subtypes": {
+            "Derailment or Loose Associations": "A speech pattern of switching rapidly from one topic to another with no logical connection between thoughts.",
+            "Tangentiality": "Speech that deviates entirely from the question and fails to answer directly.",
+            "Incoherence or Word Salad": "Severe fragmentation of speech and sentence structure, making it nearly impossible to understand.",
+            "Neologisms": "Using made-up words that have meaning only to the individual.",
+            "Clang Associations": "Speech governed by sounds, such as rhyming, rather than the meaning of words."
+        }
+    },
+    "S022": {
+        "name": "Disorganized_Abnormal_Behavior",
+        "category": "psychotic_symptoms",
+        "description": "A state where behavior and motor control are severely disturbed, appearing as movements or reactions inappropriate to the situation.",
+        "subtypes": {
+            "Childlike Silliness": "Inappropriate, childish, or illogical behavior appearing in situations.",
+            "Stupor": "No psychomotor activity; not actively relating to environment.",
+            "Catalepsy": "Passive induction of a posture held against gravity.",
+            "Waxy Flexibility": "Slight, even resistance to positioning by examiner.",
+            "Mutism": "No, or very little, verbal response despite the ability to speak.",
+            "Negativism": "Opposition or no response to instructions or external stimuli without apparent motive.",
+            "Posturing": "Spontaneous and active maintenance of a posture against gravity.",
+            "Mannerism": "Odd, circumstantial caricature of normal actions.",
+            "Stereotypy": "Repetitive, abnormally frequent, non-goal-directed movements.",
+            "Agitation": "Excessive motor activity without obvious external cause.",
+            "Grimacing": "Contorted facial expressions irrelevant to the situation.",
+            "Echolalia": "Mimicking another's speech.",
+            "Echopraxia": "Mimicking another's movements."
+        }
+    },
+    "S023": {
+        "name": "Negative_Symptoms",
+        "category": "psychotic_symptoms",
+        "description": "A state where emotions, motivation, speech, or social interest that should normally be present are diminished or lost.",
+        "subtypes": {
+            "Diminished Emotional Expression": "A state of reduced emotional expression in facial expressions, eye contact, intonation of speech, and movements.",
+            "Avolition": "A decrease in motivated self-initiated purposeful activities.",
+            "Alogia": "A state where the quantity of spontaneous speech is significantly reduced.",
+            "Anhedonia": "A decrease in the ability to experience pleasure or interest in enjoyable activities.",
+            "Asociality": "A state where interest in social activities or interpersonal relationships is significantly reduced."
+        }
+    }
+}

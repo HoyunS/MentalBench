@@ -1,0 +1,810 @@
+{
+  "D001": {
+    "name": "Attention-Deficit/Hyperactivity Disorder (Combined Presentation)",
+    "required_criteria": {
+      "inattention": {
+        "relation": "must_include",
+        "min_count": 5,
+        "symptom_pool": [
+          "S001",
+          "S002",
+          "S003",
+          "S004",
+          "S005",
+          "S006",
+          "S007",
+          "S008",
+          "S009"
+        ]
+      },
+      "hyperactivity_impulsivity": {
+        "relation": "must_include",
+        "min_count": 5,
+        "symptom_pool": [
+          "S010",
+          "S011",
+          "S012",
+          "S013",
+          "S014",
+          "S015",
+          "S016",
+          "S017",
+          "S018"
+        ]
+      },
+      "min_duration": "6 months",
+      "additional_requirements": [
+        "Onset prior to age 12 years"
+      ],
+      "functional_impairment_required": true
+    }
+  },
+  "D002": {
+    "name": "Attention-Deficit/Hyperactivity Disorder (Predominantly Inattentive Presentation)",
+    "required_criteria": {
+      "inattention": {
+        "relation": "must_include",
+        "min_count": 5,
+        "symptom_pool": [
+          "S001",
+          "S002",
+          "S003",
+          "S004",
+          "S005",
+          "S006",
+          "S007",
+          "S008",
+          "S009"
+        ]
+      },
+      "hyperactivity_impulsivity": {
+        "relation": "include",
+        "min_count": 5,
+        "symptom_pool": [
+          "S010",
+          "S011",
+          "S012",
+          "S013",
+          "S014",
+          "S015",
+          "S016",
+          "S017",
+          "S018"
+        ]
+      },
+      "min_duration": "6 months",
+      "additional_requirements": [
+        "Onset prior to age 12 years"
+      ],
+      "functional_impairment_required": true
+    }
+  },
+  "D003": {
+    "name": "Attention-Deficit/Hyperactivity Disorder (Predominantly Hyperactive/Impulsive Presentation)",
+    "required_criteria": {
+      "inattention": {
+        "relation": "include",
+        "min_count": 5,
+        "symptom_pool": [
+          "S001",
+          "S002",
+          "S003",
+          "S004",
+          "S005",
+          "S006",
+          "S007",
+          "S008",
+          "S009"
+        ]
+      },
+      "hyperactivity_impulsivity": {
+        "relation": "must_include",
+        "min_count": 5,
+        "symptom_pool": [
+          "S010",
+          "S011",
+          "S012",
+          "S013",
+          "S014",
+          "S015",
+          "S016",
+          "S017",
+          "S018"
+        ]
+      },
+      "min_duration": "6 months",
+      "additional_requirements": [
+        "Onset prior to age 12 years"
+      ],
+      "functional_impairment_required": true
+    }
+  },
+  "D004": {
+    "name": "Delusional Disorder",
+    "required_criteria": {
+      "delusions": {
+        "relation": "must_include",
+        "min_count": 1,
+        "symptom_pool": [
+          "S019"
+        ]
+      },
+      "min_duration": "1 month",
+      "functional_impairment_required": false,
+      "additional_requirements": [
+        "Functioning is not markedly impaired apart from the impact of the delusion(s) or its ramifications"
+      ]
+    }
+  },
+  "D005": {
+    "name": "Schizophrenia",
+    "required_criteria": {
+      "psychotic_symptoms": {
+        "relation": "must_include",
+        "min_count": 2,
+        "must_include_one_of": [
+          "S019",
+          "S020",
+          "S021"
+        ],
+        "symptom_pool": [
+          "S019",
+          "S020",
+          "S021",
+          "S022",
+          "S023"
+        ],
+        "min_duration": "1 month"
+      },
+      "min_duration": "6 months",
+      "functional_impairment_required": true
+    }
+  },
+  "D006": {
+    "name": "Schizoaffective Disorder (Bipolar Type)",
+    "required_criteria": {
+      "psychotic_symptoms": {
+        "relation": "must_include",
+        "min_count": 2,
+        "must_include_one_of": [
+          "S019",
+          "S020",
+          "S021"
+        ],
+        "symptom_pool": [
+          "S019",
+          "S020",
+          "S021",
+          "S022",
+          "S023"
+        ],
+        "min_duration": "1 month"
+      },
+      "manic_episode": {
+        "relation": "must_include",
+        "min_count": 5,
+        "must_include_all": [
+          "S033",
+          "S034"
+        ],
+        "symptom_pool": [
+          "S033",
+          "S034",
+          "S035",
+          "S036",
+          "S037",
+          "S038",
+          "S039",
+          "S040",
+          "S041"
+        ],
+        "min_duration": "1 week",
+        "functional_impairment_required": true
+      },
+      "depressive_episode": {
+        "relation": "include",
+        "min_count": 5,
+        "must_include_one_of": [
+          "S024",
+          "S025"
+        ],
+        "symptom_pool": [
+          "S024",
+          "S025",
+          "S026",
+          "S027",
+          "S028",
+          "S029",
+          "S030",
+          "S031",
+          "S032"
+        ],
+        "min_duration": "2 weeks",
+        "functional_impairment_required": true
+      },
+      "delusions_and_hallucinations": {
+        "relation": "must_include",
+        "min_count": 1,
+        "symptom_pool": [
+          "S019",
+          "S020"
+        ]
+      },
+      "min_duration": "6 months",
+      "functional_impairment_required": true,
+      "additional_requirements": [
+        "psychotic_symptoms and manic_episode occur concurrently",
+        "manic_episode is present for the majority of the total duration of the active and residual portions of the illness",
+        "delusions_and_hallucinations occur for 2 or more weeks in the absence of a major mood episode"
+      ]
+    }
+  },
+  "D007": {
+    "name": "Schizoaffective Disorder (Depressive Type)",
+    "required_criteria": {
+      "psychotic_symptoms": {
+        "relation": "must_include",
+        "min_count": 2,
+        "must_include_one_of": [
+          "S019",
+          "S020",
+          "S021"
+        ],
+        "symptom_pool": [
+          "S019",
+          "S020",
+          "S021",
+          "S022",
+          "S023"
+        ],
+        "min_duration": "1 month"
+      },
+      "depressive_episode": {
+        "relation": "must_include",
+        "min_count": 5,
+        "must_include_one_of": [
+          "S024",
+          "S025"
+        ],
+        "symptom_pool": [
+          "S024",
+          "S025",
+          "S026",
+          "S027",
+          "S028",
+          "S029",
+          "S030",
+          "S031",
+          "S032"
+        ],
+        "min_duration": "2 weeks",
+        "functional_impairment_required": true
+      },
+      "delusions_and_hallucinations": {
+        "relation": "must_include",
+        "min_count": 1,
+        "symptom_pool": [
+          "S019",
+          "S020"
+        ]
+      },
+      "min_duration": "6 months",
+      "functional_impairment_required": true,
+      "additional_requirements": [
+        "psychotic_symptoms and depressive_episode occur concurrently",
+        "depressive_episode is present for the majority of the total duration of the active and residual portions of the illness (Criterion C)",
+        "delusions_and_hallucinations occur for 2 or more weeks in the absence of a major mood episode (Criterion B)"
+      ]
+    }
+  },
+  "D008": {
+    "name": "Bipolar I Disorder",
+    "required_criteria": {
+      "manic_episode": {
+        "relation": "must_include",
+        "min_count": 5,
+        "must_include_all": [
+          "S033",
+          "S034"
+        ],
+        "symptom_pool": [
+          "S033",
+          "S034",
+          "S035",
+          "S036",
+          "S037",
+          "S038",
+          "S039",
+          "S040",
+          "S041"
+        ],
+        "min_duration": "1 week",
+        "functional_impairment_required": true
+      },
+      "depressive_episode": {
+        "relation": "include",
+        "min_count": 5,
+        "must_include_one_of": [
+          "S024",
+          "S025"
+        ],
+        "symptom_pool": [
+          "S024",
+          "S025",
+          "S026",
+          "S027",
+          "S028",
+          "S029",
+          "S030",
+          "S031",
+          "S032"
+        ],
+        "min_duration": "2 weeks",
+        "functional_impairment_required": true
+      }
+    }
+  },
+  "D009": {
+    "name": "Bipolar II Disorder",
+    "required_criteria": {
+      "hypomanic_episode": {
+        "relation": "must_include",
+        "min_count": 5,
+        "must_include_all": [
+          "S033",
+          "S034"
+        ],
+        "symptom_pool": [
+          "S033",
+          "S034",
+          "S035",
+          "S036",
+          "S037",
+          "S038",
+          "S039",
+          "S040",
+          "S041"
+        ],
+        "min_duration": "4 days",
+        "functional_impairment_required": false
+      },
+      "depressive_episode": {
+        "relation": "must_include",
+        "min_count": 5,
+        "must_include_one_of": [
+          "S024",
+          "S025"
+        ],
+        "symptom_pool": [
+          "S024",
+          "S025",
+          "S026",
+          "S027",
+          "S028",
+          "S029",
+          "S030",
+          "S031",
+          "S032"
+        ],
+        "min_duration": "2 weeks",
+        "functional_impairment_required": true
+      }
+    }
+  },
+  "D010": {
+    "name": "Bipolar I Disorder with Psychotic Features",
+    "required_criteria": {
+      "manic_episode": {
+        "relation": "must_include",
+        "min_count": 5,
+        "must_include_all": [
+          "S033",
+          "S034"
+        ],
+        "symptom_pool": [
+          "S033",
+          "S034",
+          "S035",
+          "S036",
+          "S037",
+          "S038",
+          "S039",
+          "S040",
+          "S041"
+        ],
+        "min_duration": "1 week",
+        "functional_impairment_required": true
+      },
+      "depressive_episode": {
+        "relation": "include",
+        "min_count": 5,
+        "must_include_one_of": [
+          "S024",
+          "S025"
+        ],
+        "symptom_pool": [
+          "S024",
+          "S025",
+          "S026",
+          "S027",
+          "S028",
+          "S029",
+          "S030",
+          "S031",
+          "S032"
+        ],
+        "min_duration": "2 weeks",
+        "functional_impairment_required": true
+      },
+      "delusions_and_hallucinations": {
+        "relation": "must_include",
+        "min_count": 1,
+        "symptom_pool": [
+          "S019",
+          "S020"
+        ]
+      },
+      "additional_requirements": [
+        "delusions_and_hallucinations occur exclusively during the manic episode"
+      ]
+    }
+  },
+  "D011": {
+    "name": "Generalized Anxiety Disorder",
+    "required_criteria": {
+      "anxiety_symptoms": {
+        "relation": "must_include",
+        "min_count": 5,
+        "must_include_all": [
+          "S056",
+          "S057"
+        ],
+        "symptom_pool": [
+          "S056",
+          "S057",
+          "S058",
+          "S059",
+          "S060",
+          "S061",
+          "S027",
+          "S029"
+        ]
+      },
+      "min_duration": "6 months",
+      "functional_impairment_required": true
+    }
+  },
+  "D012": {
+    "name": "Specific Phobia",
+    "required_criteria": {
+      "phobic_symptoms": {
+        "relation": "must_include",
+        "min_count": 3,
+        "must_include_all": [
+          "S062",
+          "S063",
+          "S064"
+        ],
+        "symptom_pool": [
+          "S062",
+          "S063",
+          "S064"
+        ]
+      },
+      "min_duration": "6 months",
+      "functional_impairment_required": true
+    }
+  },
+  "D013": {
+    "name": "Major Depressive Disorder",
+    "required_criteria": {
+      "depressive_episode": {
+        "relation": "must_include",
+        "min_count": 5,
+        "must_include_one_of": [
+          "S024",
+          "S025"
+        ],
+        "symptom_pool": [
+          "S024",
+          "S025",
+          "S026",
+          "S027",
+          "S028",
+          "S029",
+          "S030",
+          "S031",
+          "S032"
+        ],
+        "min_duration": "2 weeks",
+        "functional_impairment_required": true
+      }
+    }
+  },
+  "D014": {
+    "name": "Persistent Depressive Disorder",
+    "required_criteria": {
+      "dysthymic_symptoms": {
+        "relation": "must_include",
+        "min_count": 3,
+        "must_include_one_of": [
+          "S024"
+        ],
+        "symptom_pool": [
+          "S024",
+          "S026",
+          "S027",
+          "S029",
+          "S042",
+          "S031",
+          "S083"
+        ],
+        "min_duration": "2 years",
+        "functional_impairment_required": true
+      }
+    }
+  },
+  "D015": {
+    "name": "Major Depressive Disorder with Psychotic Features",
+    "required_criteria": {
+      "depressive_episode": {
+        "relation": "must_include",
+        "min_count": 5,
+        "must_include_one_of": [
+          "S024",
+          "S025"
+        ],
+        "symptom_pool": [
+          "S024",
+          "S025",
+          "S026",
+          "S027",
+          "S028",
+          "S029",
+          "S030",
+          "S031",
+          "S032"
+        ],
+        "min_duration": "2 weeks",
+        "functional_impairment_required": true
+      },
+      "delusions_and_hallucinations": {
+        "relation": "must_include",
+        "min_count": 1,
+        "symptom_pool": [
+          "S019",
+          "S020"
+        ]
+      },
+      "additional_requirements": [
+        "delusions_and_hallucinations occur exclusively during the major depressive episode"
+      ]
+    }
+  },
+  "D016": {
+    "name": "Obsessive-Compulsive Disorder",
+    "required_criteria": {
+      "obsessive_compulsive_symptoms": {
+        "relation": "must_include",
+        "min_count": 1,
+        "must_include_one_of": [
+          "S065",
+          "S066"
+        ],
+        "symptom_pool": [
+          "S065",
+          "S066"
+        ]
+      },
+      "functional_impairment_required": true
+    }
+  },
+  "D017": {
+    "name": "Body Dysmorphic Disorder",
+    "required_criteria": {
+      "dysmorphic_symptoms": {
+        "relation": "must_include",
+        "min_count": 2,
+        "must_include_all": [
+          "S067",
+          "S068"
+        ],
+        "symptom_pool": [
+          "S067",
+          "S068"
+        ]
+      },
+      "functional_impairment_required": true
+    }
+  },
+  "D018": {
+    "name": "Posttraumatic Stress Disorder",
+    "required_criteria": {
+      "traumatic_stressor_required": "traumatic_event",
+      "trauma_related_symptoms": {
+        "relation": "must_include",
+        "min_count": 2,
+        "must_include_all": [
+          "S069",
+          "S070"
+        ],
+        "symptom_pool": [
+          "S069",
+          "S070"
+        ]
+      },
+      "trauma_related_alterations": {
+        "relation": "must_include",
+        "min_count": 2,
+        "symptom_pool": [
+          "S071",
+          "S072",
+          "S073",
+          "S074",
+          "S075",
+          "S076",
+          "S025"
+        ]
+      },
+      "arousal_and_reactivity": {
+        "relation": "must_include",
+        "min_count": 2,
+        "symptom_pool": [
+          "S077",
+          "S078",
+          "S079",
+          "S080",
+          "S027",
+          "S031"
+        ]
+      },
+      "min_duration": "1 month",
+      "functional_impairment_required": true
+    }
+  },
+  "D019": {
+    "name": "Acute Stress Disorder",
+    "required_criteria": {
+      "traumatic_stressor_required": "traumatic_event",
+      "acute_stress_symptoms": {
+        "relation": "must_include",
+        "min_count": 6,
+        "symptom_pool": [
+          "S069",
+          "S076",
+          "S082",
+          "S071",
+          "S070",
+          "S027",
+          "S031",
+          "S077",
+          "S079",
+          "S080"
+        ]
+      },
+      "min_duration": "3 days",
+      "max_duration": "1 month",
+      "functional_impairment_required": true
+    }
+  },
+  "D020": {
+    "name": "Adjustment Disorder",
+    "required_criteria": {
+      "psychosocial_stressor_required": "psychosocial_stressor",
+      "adjustment_symptoms": {
+        "relation": "must_include",
+        "min_count": 1,
+        "must_include_all": [
+          "S081"
+        ],
+        "symptom_pool": [
+          "S081"
+        ]
+      },
+      "functional_impairment_required": true,
+      "max_duration": "6 months",
+      "additional_requirements": [
+        "Symptoms must develop within 3 months of the onset of the stressor",
+        "Within 6 months of the termination of the stressor or its consequences"
+      ]
+    }
+  },
+  "D021": {
+    "name": "Anorexia Nervosa",
+    "required_criteria": {
+      "anorexia_nervosa": {
+        "relation": "must_include",
+        "min_count": 4,
+        "must_include_all": [
+          "S043",
+          "S044",
+          "S045"
+        ],
+        "symptom_pool": [
+          "S043",
+          "S044",
+          "S045",
+          "S046",
+          "S084"
+        ]
+      }
+    }
+  },
+  "D022": {
+    "name": "Bulimia Nervosa",
+    "required_criteria": {
+      "binge_episode": {
+        "relation": "must_include",
+        "min_count": 2,
+        "must_include_all": [
+          "S049",
+          "S050"
+        ],
+        "symptom_pool": [
+          "S049",
+          "S050"
+        ]
+      },
+      "compensatory_behavior": {
+        "relation": "must_include",
+        "min_count": 1,
+        "must_include_one_of": [
+          "S047",
+          "S048"
+        ],
+        "symptom_pool": [
+          "S047",
+          "S048"
+        ]
+      },
+      "body_image_cognition": {
+        "relation": "must_include",
+        "min_count": 1,
+        "must_include_one_of": [
+          "S045",
+          "S046"
+        ],
+        "symptom_pool": [
+          "S045",
+          "S046"
+        ]
+      },
+      "min_duration": "3 months",
+      "additional_requirements": [
+        "The binge eating and inappropriate compensatory behaviors both occur, on average, at least once a week for 3 months"
+      ]
+    }
+  },
+  "D023": {
+    "name": "Binge-Eating Disorder",
+    "required_criteria": {
+      "binge_episode": {
+        "relation": "must_include",
+        "min_count": 2,
+        "must_include_all": [
+          "S049",
+          "S050"
+        ],
+        "symptom_pool": [
+          "S049",
+          "S050"
+        ]
+      },
+      "binge_episode_related": {
+        "relation": "must_include",
+        "min_count": 3,
+        "symptom_pool": [
+          "S051",
+          "S052",
+          "S053",
+          "S054",
+          "S055"
+        ]
+      },
+      "min_duration": "3 months",
+      "additional_requirements": [
+        "The binge eating occurs, on average, at least once a week for 3 months"
+      ]
+    }
+  }
+}

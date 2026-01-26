@@ -1,0 +1,69 @@
+{
+    "D016": [
+        {
+            "differential_diagnosis": "D011",
+            "additional_condition": "Presence of Anxiety Symptoms",
+            "key_difference": "Nature of anxiety/worry and presence of compulsive behaviors",
+            "rules": {
+                "D016": [
+                    "Repetitive anxiety and worry appear as intrusive and unwanted thoughts, urges, or images, take on an irrational or unrealistic nature, and are accompanied by compulsive behaviors."
+                ],
+                "D011": [
+                    "Repetitive anxiety and worry are based on realistic content and are not accompanied by compulsive behaviors."
+                ]
+            }
+        },
+        {
+            "differential_diagnosis": "D012",
+            "additional_condition": "Presence of Fear Symptoms",
+            "key_difference": "Scope of feared object and presence of compulsive behaviors",
+            "rules": {
+                "D016": [
+                    "The feared object may be broad, and compulsive behaviors related to obsessions are accompanied."
+                ],
+                "D012": [
+                    "The feared object is specific and limited, and compulsive behaviors are not accompanied."
+                ]
+            }
+        },
+        {
+            "differential_diagnosis": "D013",
+            "additional_condition": "Presence of Repetitive Rumination",
+            "key_difference": "Nature of repetitive rumination and presence of compulsive behaviors",
+            "rules": {
+                "D016": [
+                    "Repetitive rumination occurs intrusively regardless of mood and is accompanied by compulsive behaviors."
+                ],
+                "D013": [
+                    "Repetitive rumination is mood-congruent (consistent with depressive mood) and is not accompanied by compulsive behaviors."
+                ]
+            }
+        },
+        {
+            "differential_diagnosis": "D021",
+            "additional_condition": "Presence of Obsessions/Compulsions regarding Weight and Food",
+            "key_difference": "Scope of obsessions or compulsions",
+            "rules": {
+                "D016": [
+                    "Obsessions and compulsions appear across various areas other than weight and food."
+                ],
+                "D021": [
+                    "Obsessions and compulsions are limited to concerns about weight and food."
+                ]
+            }
+        },
+        {
+            "differential_diagnosis": "D005",
+            "additional_condition": "Presence of Delusional Beliefs",
+            "key_difference": "Presence of other psychotic symptoms",
+            "rules": {
+                "D016": [
+                    "Repetitive thoughts and behaviors due to delusional beliefs are accompanied, but other psychotic symptoms of schizophrenia are not accompanied."
+                ],
+                "D005": [
+                    "Delusional beliefs appear, and other psychotic symptoms of schizophrenia are additionally accompanied."
+                ]
+            }
+        }
+    ]
+}

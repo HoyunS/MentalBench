@@ -1,0 +1,95 @@
+{
+    "D004": [
+        {
+            "differential_diagnosis": "D016",
+            "additional_condition": "Presence of Intrusive Obsessive Thoughts",
+            "key_difference": "Presence of repetitive compulsive behaviors",
+            "rules": {
+                "D004": [
+                    "Delusions may exist in the form of intrusive obsessive thoughts, but repetitive and ritualistic compulsive behaviors to neutralize them are not accompanied."
+                ],
+                "D016": [
+                    "Delusions exist in the form of intrusive obsessive thoughts, and repetitive and ritualistic compulsive behaviors to neutralize them are accompanied."
+                ]
+            }
+        },
+        {
+            "differential_diagnosis": "D017",
+            "additional_condition": "Presence of Delusional Beliefs about Body/Appearance Defects",
+            "key_difference": "Presence of repetitive compulsive behaviors",
+            "rules": {
+                "D004": [
+                    "Delusional beliefs involving somatic functions or sensations may appear, but repetitive and ritualistic compulsive behaviors to neutralize them are not accompanied."
+                ],
+                "D017": [
+                    "Delusional beliefs about body appearance/defects are held, and repetitive and ritualistic compulsive behaviors to neutralize them are accompanied."
+                ]
+            }
+        },
+        {
+            "differential_diagnosis": "D005",
+            "additional_condition": "None",
+            "key_difference": "Nature of delusions and presence of other characteristic schizophrenia symptoms",
+            "rules": {
+                "D004": [
+                    "Other active-phase psychotic symptoms of schizophrenia are not accompanied."
+                ],
+                "D005": [
+                    "Other psychotic symptoms of the active phase of schizophrenia are partially accompanied."
+                ]
+            }
+        },
+        {
+            "differential_diagnosis": "D015",
+            "additional_condition": "Presence of Depressive Symptoms",
+            "key_difference": "Duration of depression vs. delusions",
+            "rules": {
+                "D004": [
+                    "Depressive symptoms may be accompanied but appear for a relatively short period compared to the total duration of the delusion, and delusions appear continuously regardless of depressive symptoms."
+                ],
+                "D015": [
+                    "Depressive symptoms are accompanied, and delusions appear only during the period of the major depressive episode."
+                ]
+            }
+        },
+        {
+            "differential_diagnosis": "D010",
+            "additional_condition": "Presence of Manic Symptoms",
+            "key_difference": "Duration of mania vs. delusions",
+            "rules": {
+                "D004": [
+                    "Manic symptoms may be accompanied but appear for a relatively short period compared to the total duration of the delusion, and delusions appear continuously regardless of manic symptoms."
+                ],
+                "D010": [
+                    "Manic symptoms are accompanied, and delusions appear only during the period of the manic episode."
+                ]
+            }
+        },
+        {
+            "differential_diagnosis": "D007",
+            "additional_condition": "Presence of Depressive Symptoms",
+            "key_difference": "Duration of depressive symptoms and independent persistence of delusions",
+            "rules": {
+                "D004": [
+                    "Depressive symptoms may be accompanied but appear for a relatively short period compared to the total duration of the delusion; does not meet diagnostic criteria for schizophrenia."
+                ],
+                "D007": [
+                    "Meets diagnostic criteria for schizophrenia, and both delusions and depressive symptoms are accompanied for a long term. There is a period where delusions persist for at least 2 weeks without depressive symptoms."
+                ]
+            }
+        },
+        {
+            "differential_diagnosis": "D006",
+            "additional_condition": "Presence of Manic Symptoms",
+            "key_difference": "Duration of manic symptoms and independent persistence of delusions",
+            "rules": {
+                "D004": [
+                    "Manic symptoms may be accompanied but appear for a relatively short period compared to the total duration of the delusion; does not meet diagnostic criteria for schizophrenia."
+                ],
+                "D006": [
+                    "Meets diagnostic criteria for schizophrenia, and both delusions and manic symptoms are accompanied for a long term. There is a period where delusions persist for at least 2 weeks without manic symptoms."
+                ]
+            }
+        }
+    ]
+}

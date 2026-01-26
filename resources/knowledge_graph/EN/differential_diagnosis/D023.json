@@ -1,0 +1,56 @@
+{
+    "D023": [
+        {
+            "differential_diagnosis": "D022",
+            "additional_condition": "Presence of Inappropriate Compensatory Behaviors",
+            "key_difference": "Regularity of compensatory behaviors",
+            "rules": {
+                "D023": [
+                    "Binge eating and inappropriate compensatory behaviors are accompanied, but they are one-off or not regular."
+                ],
+                "D022": [
+                    "Inappropriate compensatory behaviors accompanied by binge eating are repeated regularly."
+                ]
+            }
+        },
+        {
+            "differential_diagnosis": "D013",
+            "additional_condition": "Presence of Depressive Symptoms",
+            "key_difference": "Meeting criteria for Major Depressive Disorder",
+            "rules": {
+                "D023": [
+                    "Binge eating and depressive symptoms may be accompanied, but diagnostic criteria for major depressive disorder are not met."
+                ],
+                "D013": [
+                    "Binge eating and depressive symptoms may be accompanied, but diagnostic criteria for major depressive disorder are met."
+                ]
+            }
+        },
+        {
+            "differential_diagnosis": "D008",
+            "additional_condition": "Presence of Manic Symptoms",
+            "key_difference": "Meeting criteria for Bipolar I Disorder",
+            "rules": {
+                "D023": [
+                    "Binge eating and manic symptoms may be accompanied, but diagnostic criteria for bipolar I disorder are not met."
+                ],
+                "D008": [
+                    "Binge eating and manic symptoms may be accompanied, but diagnostic criteria for bipolar I disorder are met."
+                ]
+            }
+        },
+        {
+            "differential_diagnosis": "D009",
+            "additional_condition": "Presence of Manic Symptoms",
+            "key_difference": "Meeting criteria for Bipolar II Disorder",
+            "rules": {
+                "D023": [
+                    "Binge eating and hypomanic symptoms may be accompanied, but diagnostic criteria for bipolar II disorder are not met."
+                ],
+                "D009": [
+                    "Binge eating and hypomanic symptoms may be accompanied, but diagnostic criteria for bipolar II disorder are met."
+                ]
+            }
+        }
+    ]
+}

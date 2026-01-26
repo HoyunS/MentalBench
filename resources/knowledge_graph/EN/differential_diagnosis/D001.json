@@ -1,0 +1,56 @@
+{
+    "D001": [
+        {
+            "differential_diagnosis": "D008",
+            "additional_condition": "Presence of Manic Symptoms",
+            "key_difference": "Onset of inattention/hyperactivity-impulsivity and relationship with manic symptoms",
+            "rules": {
+                "D001": [
+                    "Mood changes may occur but are distinct from a manic episode; symptoms of inattention/hyperactivity-impulsivity appear continuously regardless of this."
+                ],
+                "D008": [
+                    "Symptoms of inattention/hyperactivity-impulsivity occur exclusively during the course of a manic episode."
+                ]
+            }
+        },
+        {
+            "differential_diagnosis": "D005",
+            "additional_condition": "Presence of Psychotic Symptoms",
+            "key_difference": "Onset of inattention/hyperactivity-impulsivity and relationship with psychotic symptoms",
+            "rules": {
+                "D001": [
+                    "Psychotic symptoms may co-occur, but inattention/hyperactivity-impulsivity appear continuously from before, unrelated to psychotic symptoms."
+                ],
+                "D005": [
+                    "Inattention/hyperactivity-impulsivity are observed starting from the prodromal phase or after the onset of psychotic symptoms."
+                ]
+            }
+        },
+        {
+            "differential_diagnosis": "D011",
+            "additional_condition": "Presence of Anxiety Symptoms",
+            "key_difference": "Underlying cause of inattention",
+            "rules": {
+                "D001": [
+                    "Inattention is caused by external stimuli and interest/curiosity in new activities. Restlessness is unrelated to worry or rumination."
+                ],
+                "D011": [
+                    "Inattention occurs due to worry or rumination associated with anxiety symptoms."
+                ]
+            }
+        },
+        {
+            "differential_diagnosis": "D013",
+            "additional_condition": "Presence of Depressive Symptoms",
+            "key_difference": "Onset of concentration problems and relationship with depressive symptoms",
+            "rules": {
+                "D001": [
+                    "Mood symptoms may appear but are distinct from a depressive episode; concentration problems appear continuously unrelated to depressive symptoms."
+                ],
+                "D013": [
+                    "Concentration problems occur exclusively during the major depressive episode."
+                ]
+            }
+        }
+    ]
+}

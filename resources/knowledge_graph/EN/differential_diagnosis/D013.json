@@ -1,0 +1,43 @@
+{
+    "D013": [
+        {
+            "differential_diagnosis": "D008",
+            "additional_condition": "Presence of Manic Symptoms",
+            "key_difference": "Meeting criteria for manic episode and history",
+            "rules": {
+                "D013": [
+                    "Manic-like symptoms may be present, but criteria for a manic episode are not met, and there is no history of manic or hypomanic episodes."
+                ],
+                "D008": [
+                    "Manic symptoms are accompanied, and criteria for a manic episode are met, or there is a history of a manic episode."
+                ]
+            }
+        },
+        {
+            "differential_diagnosis": "D009",
+            "additional_condition": "Presence of Manic Symptoms",
+            "key_difference": "Meeting criteria for hypomanic episode and history",
+            "rules": {
+                "D013": [
+                    "Hypomanic-like symptoms may be present, but criteria for a hypomanic episode are not met, and there is no history of hypomanic episodes."
+                ],
+                "D009": [
+                    "Hypomanic symptoms are accompanied, and there is a history of a hypomanic episode."
+                ]
+            }
+        },
+        {
+            "differential_diagnosis": "D020",
+            "additional_condition": "Experience of Psychosocial Stress",
+            "key_difference": "Meeting criteria for Major Depressive Episode",
+            "rules": {
+                "D013": [
+                    "Depressive symptoms may appear after a psychosocial stressor, and the full criteria for a major depressive episode are met."
+                ],
+                "D020": [
+                    "Depressive symptoms appeared after a psychosocial stressor, but the criteria for a major depressive episode are not met."
+                ]
+            }
+        }
+    ]
+}

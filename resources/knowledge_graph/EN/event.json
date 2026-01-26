@@ -1,0 +1,43 @@
+{
+    "functional_impairment_required": {
+        "name": "Functional Impairment",
+        "types": {
+            "social": "Social Functioning",
+            "academic": "Academic Functioning",
+            "occupational": "Occupational Functioning",
+            "interpersonal": "Interpersonal Relationships",
+            "daily_living": "Activities of Daily Living"
+        }
+	},
+
+    "traumatic_stressor_required": {
+        "name": "Traumatic Event",
+        "description": "Exposure to actual or threatened death, serious injury, or sexual violence.",
+        "types": {
+            "Direct Exposure": "Directly experiencing the traumatic event(s).",
+            "Witnessing": "Witnessing, in person, the event(s) as it occurred to others.",
+            "Indirect Exposure (Learning)": "Learning that the traumatic event(s) occurred to a close family member or close friend. (Note: Violent or accidental).",
+            "Repeated Exposure to Aversive Details": "Experiencing repeated or extreme exposure to aversive details of the traumatic event(s) (e.g., first responders collecting human remains; excludes exposure through media)."
+        },
+        "examples": {
+            "Combat and War": "War, combat, or experience as a prisoner of war.",
+            "Physical Violence": "Physical assault, mugging, kidnapping, terrorism, or domestic violence.",
+            "Sexual Violence": "Rape, sexual assault, or sexual abuse.",
+            "Accidents": "Severe traffic accidents, industrial accidents, or fire.",
+            "Natural Disasters": "Natural disasters such as earthquakes or floods.",
+            "Medical Trauma": "Life-threatening medical situations such as waking up during surgery."
+        }
+    },
+    "psychosocial_stressor_required": {
+        "name": "Psychosocial Stressor",
+        "description": "Identifiable life events that cause psychological distress but do not reach the level of life-threatening trauma",
+        "examples": {
+            "Relational": "Breakup, divorce, marital conflict, family conflict, or interpersonal problems.",
+            "Occupational": "Termination, job loss, workplace bullying, excessive workload, or retirement.",
+            "Academic": "Academic failure, entrance exam failure, transferring schools, or school maladjustment.",
+            "Economic": "Bankruptcy, debt, sudden drop in economic status, or poverty.",
+            "Health": "Diagnosis of a chronic illness, surgery recovery, or infertility.",
+            "Developmental": "Life cycle changes such as independence, marriage, childbirth, or menopause."
+        }
+    }
+}

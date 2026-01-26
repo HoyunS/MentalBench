@@ -1,0 +1,43 @@
+{
+    "D014": [
+        {
+            "differential_diagnosis": "D013",
+            "additional_condition": "Depressive Symptoms persist long-term",
+            "key_difference": "Meeting criteria for Major Depressive Episode",
+            "rules": {
+                "D014": [
+                    "Depressive symptoms are present for the majority of the time, lasting for 2 years or more."
+                ],
+                "D013": [
+                    "Depressive symptoms lasting less than 2 years meet the criteria for a major depressive episode."
+                ]
+            }
+        },
+        {
+            "differential_diagnosis": "D008",
+            "additional_condition": "Presence of Manic Symptoms",
+            "key_difference": "Meeting criteria for manic episode and history",
+            "rules": {
+                "D014": [
+                    "Manic symptoms may be accompanied, but criteria for a manic episode are not met, and there is no history of manic or hypomanic episodes."
+                ],
+                "D008": [
+                    "Manic symptoms are accompanied, and criteria for a manic episode are met, or there is a history of a manic episode."
+                ]
+            }
+        },
+        {
+            "differential_diagnosis": "D009",
+            "additional_condition": "Presence of Manic Symptoms",
+            "key_difference": "Meeting criteria for hypomanic episode and history",
+            "rules": {
+                "D014": [
+                    "Hypomanic symptoms may be accompanied, but criteria for a hypomanic episode are not met, and there is no history of hypomanic episodes."
+                ],
+                "D009": [
+                    "Hypomanic symptoms are accompanied, and there is a history of a hypomanic episode."
+                ]
+            }
+        }
+    ]
+}

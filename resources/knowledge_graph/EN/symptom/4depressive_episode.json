@@ -1,0 +1,116 @@
+{
+    "S024": {
+        "name": "Depressed_Mood",
+        "category": "depressive_episode",
+        "description": "A state where a sad, empty, or hopeless mood persists.",
+        "subtypes": {
+            "Depressed Mood": "A persistently sunken mood or feeling of depression.",
+            "Tearfulness": "A state of frequent crying or inability to hold back tears.",
+            "Sadness": "A state where a sad or gloomy mood is maintained continuously.",
+            "Emptiness": "A feeling of inner emptiness or a state of feeling no emotion.",
+            "Emotional Numbness": "A state where emotions feel dulled or paralyzed."
+        }
+    },
+    "S025": {
+        "name": "Loss_of_Interest",
+        "category": "depressive_episode",
+        "description": "A state where interest or pleasure in previously enjoyed activities is markedly diminished.",
+        "subtypes": {
+            "Loss of Interest": "Reduced interest in previously enjoyed hobbies or leisure activities.",
+            "Social Withdrawal": "Reduced interest or effort in social interactions and maintaining relationships.",
+            "Loss of Motivation": "Lack of motivation to initiate or complete work or tasks.",
+            "Anhedonia": "Inability to experience positive emotions such as happiness, satisfaction, love, or pleasure.",
+            "Indifference to Achievement": "Insensitivity or indifference to personal achievements or success."
+        }
+    },
+    "S026": {
+        "name": "Weight_Appetite_Change",
+        "category": "depressive_episode",
+        "description": "Significant increase or decrease in appetite or weight.",
+        "subtypes": {
+            "Significant Weight Loss": "Weight loss of more than 5% in a month without dieting.",
+            "Weight Gain": "Weight gain of more than 5% in a month.",
+            "Decrease in Appetite": "Decrease in appetite occurring nearly every day.",
+            "Increase in Appetite": "Increase in appetite occurring nearly every day."
+        }
+    },
+    "S027": {
+        "name": "Sleep_Disturbance",
+        "category": "depressive_episode",
+        "description": "A state where there is a significant change in the quantity or quality of sleep.",
+        "subtypes": {
+            "Initial Insomnia": "Difficulty falling asleep and taking a long time to do so.",
+            "Middle Insomnia": "Waking up frequently during sleep or having difficulty falling back asleep.",
+            "Early Morning Awakening": "Waking up too early and being unable to fall back asleep.",
+            "Hypersomnia": "Sleeping for long periods at night or excessive sleep during the day.",
+            "Nightmare Disorder": "Sleep disturbance caused by repeated and distressing dreams.",
+            "Non-Restorative Sleep": "Feeling unrefreshed despite having slept enough."
+        }
+    },
+    "S028": {
+        "name": "Psychomotor_Changes",
+        "category": "depressive_episode",
+        "description": "Observable increase or decrease in psychomotor activity.",
+        "subtypes": {
+            "Psychomotor Agitation": "Purposeless repetitive behaviors such as inability to sit still, pacing, hand-wringing, or picking at skin.",
+            "Psychomotor Retardation (Motor)": "Visible slowing of general body movements, such as walking speed or picking up objects.",
+            "Psychomotor Retardation (Speech)": "Long response latency or slowed speech when asked a question."
+        }
+    },
+    "S029": {
+        "name": "Fatigue",
+        "category": "depressive_episode",
+        "description": "Persistent fatigue that is not relieved by rest and a marked lack of energy.",
+        "subtypes": {
+            "Chronic Fatigue": "Fatigue that persists for a long period even after adequate rest.",
+            "Physical Fatigue": "A state of physical exhaustion where the body feels heavy and easily tires even from minor activities.",
+            "Mental Fatigue": "A state where fatigue accumulates rapidly during the process of thinking or concentrating.",
+            "Loss of Energy": "Difficulty performing daily activities due to a decline in energy and vitality."
+        }
+    },
+    "S030": {
+        "name": "Worthlessness_Guilt",
+        "category": "depressive_episode",
+        "description": "Feelings of worthlessness or excessive or inappropriate guilt (which may be delusional; not merely self-reproach or guilt about being sick).",
+        "subtypes": {
+            "Feelings of Worthlessness": "The feeling that one is useless and has no value.",
+            "Ruminative Guilt": "A thought pattern of obsessively replaying past minor mistakes or flaws and constantly reproaching oneself.",
+            "Excessive or Inappropriate Guilt": "Feeling excessive responsibility for trivial matters or daily events and believing one deserves punishment.",
+            "Delusional Guilt": "Guilt reaching a delusional level, disconnected from reality, involving feeling responsible for unrelated unfortunate events."
+        }
+    },
+    "S031": {
+        "name": "Diminished_Thinking",
+        "category": "depressive_episode",
+        "description": "Diminished ability to think or concentrate, or indecisiveness.",
+        "subtypes": {
+            "Reduced Concentration": "Unable to pay attention or maintain focus on specific activities like conversation, reading, or watching TV.",
+            "Indecisiveness": "Extreme difficulty making even minor daily choices (e.g., menu, clothes) and hesitating to make decisions.",
+            "Subjective Memory Complaints": "Complaining of memory decline, such as forgetting where things were placed, due to reduced focus.",
+            "Clouded Thinking": "Thinking feels foggy, dazed, or not clear."
+        }
+    },
+    "S032": {
+        "name": "Death_Suicide",
+        "category": "depressive_episode",
+        "description": "Recurrent thoughts of death, recurrent suicidal ideation, or a suicide attempt.",
+        "subtypes": {
+            "Recurrent Thoughts of Death": "Passive wish to die (e.g., 'I wish I wouldn't wake up') without active intent to kill oneself.",
+            "Suicidal Ideation": "Recurring thoughts of 'I want to die' or 'I want to kill myself' without a specific plan.",
+            "Suicidal Impulse": "Strong, sudden urges to jump from a height or run into traffic without a concrete plan.",
+            "Specific Plan for Suicide": "Conceiving specific scenarios or methods regarding when, where, and how to die.",
+            "Suicide Attempt": "Actual actions taken to end one's life or preparatory behaviors like hoarding pills or writing a will."
+        }
+    },
+    "S083": {
+        "name": "Hopelessness",
+        "category": "depressive_episode",
+        "description": "A feeling of despair or having no hope for the future.",
+        "subtypes": {
+            "Future Hopelessness": "The persistent conviction that the future holds no possibility of improvement.",
+            "Belief in Impossibility of Improvement": "The belief that the current situation will absolutely not get better.",
+            "Helpless Resignation": "A state of helplessness and resignation, believing that nothing will change despite effort.",
+            "Chronic Pessimism": "A persistent tendency to view everything negatively and fail to consider positive possibilities."
+        }
+    }
+}
