@@ -1,0 +1,2402 @@
+{
+    "D012_l001": {
+        "question": "A 28-year-old single female, a PhD Researcher, presents with a 7-month history of significant distress related to natural environmental phenomena. The patient reports marked fear responses upon exposure to natural elements such as storms, heights, and water. During these episodes, she describes experiencing a profound sense of freezing or paralysis, rendering her immobile. She is barely able to endure these situations and often relies heavily on the presence of a companion or a specific safety object, which she carries to mitigate her anxiety. This constellation of symptoms has resulted in demonstrable functional impairment.",
+        "options": "\n    A. Specific Phobia\n    B. Acute Stress Disorder\n    C. Major Depressive Disorder with Psychotic Features\n    D. Schizophrenia\n    ",
+        "answer": "A. Specific Phobia",
+        "features": {
+            "question": {
+                "disease_code": "D012",
+                "disease_name": "Specific Phobia",
+                "sampled_features": {
+                    "disease_code": "D012",
+                    "disease_name": "Specific Phobia",
+                    "sampled_diagnostic_criteria": {
+                        "functional_impairment_required": true,
+                        "duration": "7 months"
+                    },
+                    "sampled_symptom_groups": {
+                        "phobic_symptoms": {
+                            "symptoms": [
+                                "S062",
+                                "S063",
+                                "S064"
+                            ],
+                            "name": "phobic_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S062",
+                        "S063",
+                        "S064"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S062": {
+                            "name": "Specific_Phobic_Fear",
+                            "categoty": "phobic_symptoms",
+                            "description": "Marked fear or anxiety about a specific object or situation that is out of proportion to the actual danger. (Note: In children, may be expressed by crying, tantrums, freezing, or clinging).",
+                            "subtypes": {
+                                "Natural Environment Type": "Marked fear of the natural environment like storms, heights, water, or the dark."
+                            }
+                        },
+                        "S063": {
+                            "name": "Immediate_Fear/Anxiety_Response",
+                            "categoty": "phobic_symptoms",
+                            "description": "The phobic object or situation almost always provokes immediate fear or anxiety.",
+                            "subtypes": {
+                                "Freezing": "Feeling paralyzed or unable to move due to extreme fear."
+                            }
+                        },
+                        "S064": {
+                            "name": "Phobic_Avoidance_Endure",
+                            "categoty": "phobic_symptoms",
+                            "description": "The phobic object or situation is actively avoided or endured with intense fear or anxiety.",
+                            "subtypes": {
+                                "Reliance on Safety Signals": "Barely enduring the exposure by relying on a companion or safety object."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Specific Phobia",
+                    "Acute Stress Disorder",
+                    "Major Depressive Disorder with Psychotic Features",
+                    "Schizophrenia"
+                ],
+                "answer_index": [
+                    0
+                ],
+                "index_types": [
+                    "answer",
+                    "must_contain_option",
+                    "Less likely option",
+                    "Less likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D012",
+                        "disease_name": "Specific Phobia"
+                    },
+                    {
+                        "disease_code": "D019",
+                        "disease_name": "Acute Stress Disorder"
+                    },
+                    {
+                        "disease_code": "D015",
+                        "disease_name": "Major Depressive Disorder with Psychotic Features"
+                    },
+                    {
+                        "disease_code": "D005",
+                        "disease_name": "Schizophrenia"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 28\n- **Gender:** Female\n- **Occupation:** PhD Researcher\n- **Marital Status:** Single\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Specific Phobia\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. phobic_symptoms Requirements:**\n- Natural Environment Type (Marked fear of the natural environment like storms, heights, water, or the dark.)\n- Freezing (Feeling paralyzed or unable to move due to extreme fear.)\n- Reliance on Safety Signals (Barely enduring the exposure by relying on a companion or safety object.)\n\n**Critical Diagnostic Criteria:**\n\n- Duration: 7 months\n\n- Functional Impairment: True"
+    },
+    "D012_l002": {
+        "question": "A 43-year-old married female, a private tutor by occupation, presents with an enduring pattern of marked fear and anxiety. The patient reports significant distress for the past seven months specifically related to the sight of blood, receiving injections, and medical procedures. This phobic presentation is consistently accompanied by a freezing response, in which she feels paralyzed or unable to move when confronted with these stimuli. She actively avoids any situations or environments that could potentially expose her to these feared objects, leading to considerable functional impairment in her daily life.",
+        "options": "\n    A. Specific Phobia\n    B. Acute Stress Disorder\n    C. Major Depressive Disorder with Psychotic Features\n    D. Schizophrenia\n    ",
+        "answer": "A. Specific Phobia",
+        "features": {
+            "question": {
+                "disease_code": "D012",
+                "disease_name": "Specific Phobia",
+                "sampled_features": {
+                    "disease_code": "D012",
+                    "disease_name": "Specific Phobia",
+                    "sampled_diagnostic_criteria": {
+                        "functional_impairment_required": true,
+                        "duration": "7 months"
+                    },
+                    "sampled_symptom_groups": {
+                        "phobic_symptoms": {
+                            "symptoms": [
+                                "S062",
+                                "S063",
+                                "S064"
+                            ],
+                            "name": "phobic_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S062",
+                        "S063",
+                        "S064"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S062": {
+                            "name": "Specific_Phobic_Fear",
+                            "categoty": "phobic_symptoms",
+                            "description": "Marked fear or anxiety about a specific object or situation that is out of proportion to the actual danger. (Note: In children, may be expressed by crying, tantrums, freezing, or clinging).",
+                            "subtypes": {
+                                "Blood-Injection-Injury Type": "Marked fear of seeing blood, receiving injections, or medical procedures."
+                            }
+                        },
+                        "S063": {
+                            "name": "Immediate_Fear/Anxiety_Response",
+                            "categoty": "phobic_symptoms",
+                            "description": "The phobic object or situation almost always provokes immediate fear or anxiety.",
+                            "subtypes": {
+                                "Freezing": "Feeling paralyzed or unable to move due to extreme fear."
+                            }
+                        },
+                        "S064": {
+                            "name": "Phobic_Avoidance_Endure",
+                            "categoty": "phobic_symptoms",
+                            "description": "The phobic object or situation is actively avoided or endured with intense fear or anxiety.",
+                            "subtypes": {
+                                "Active Avoidance": "Intentionally and completely staying away from contact with the phobic object or situation."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Specific Phobia",
+                    "Acute Stress Disorder",
+                    "Major Depressive Disorder with Psychotic Features",
+                    "Schizophrenia"
+                ],
+                "answer_index": [
+                    0
+                ],
+                "index_types": [
+                    "answer",
+                    "must_contain_option",
+                    "Less likely option",
+                    "Less likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D012",
+                        "disease_name": "Specific Phobia"
+                    },
+                    {
+                        "disease_code": "D019",
+                        "disease_name": "Acute Stress Disorder"
+                    },
+                    {
+                        "disease_code": "D015",
+                        "disease_name": "Major Depressive Disorder with Psychotic Features"
+                    },
+                    {
+                        "disease_code": "D005",
+                        "disease_name": "Schizophrenia"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 43\n- **Gender:** Female\n- **Occupation:** Private Tutor\n- **Marital Status:** Divorced\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Specific Phobia\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. phobic_symptoms Requirements:**\n- Blood-Injection-Injury Type (Marked fear of seeing blood, receiving injections, or medical procedures.)\n- Freezing (Feeling paralyzed or unable to move due to extreme fear.)\n- Active Avoidance (Intentionally and completely staying away from contact with the phobic object or situation.)\n\n**Critical Diagnostic Criteria:**\n\n- Duration: 7 months\n\n- Functional Impairment: True"
+    },
+    "D012_l003": {
+        "question": "A 31-year-old married female elementary school teacher presents with a 7-month history of marked fear related to specific animals. She reports significant distress upon encountering or anticipating interactions with certain animals or insects. This fear is accompanied by physiological panic symptoms, including heart palpitations, shortness of breath, perspiration, and tremor. The patient endorses substantial functional impairment, reporting significant modifications to her daily routine, occupational tasks, and social engagements in an effort to avoid exposure to the feared stimuli.",
+        "options": "\n    A. Specific Phobia\n    B. Acute Stress Disorder\n    C. Major Depressive Disorder with Psychotic Features\n    D. Schizophrenia\n    ",
+        "answer": "A. Specific Phobia",
+        "features": {
+            "question": {
+                "disease_code": "D012",
+                "disease_name": "Specific Phobia",
+                "sampled_features": {
+                    "disease_code": "D012",
+                    "disease_name": "Specific Phobia",
+                    "sampled_diagnostic_criteria": {
+                        "functional_impairment_required": true,
+                        "duration": "7 months"
+                    },
+                    "sampled_symptom_groups": {
+                        "phobic_symptoms": {
+                            "symptoms": [
+                                "S062",
+                                "S063",
+                                "S064"
+                            ],
+                            "name": "phobic_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S062",
+                        "S063",
+                        "S064"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S062": {
+                            "name": "Specific_Phobic_Fear",
+                            "categoty": "phobic_symptoms",
+                            "description": "Marked fear or anxiety about a specific object or situation that is out of proportion to the actual danger. (Note: In children, may be expressed by crying, tantrums, freezing, or clinging).",
+                            "subtypes": {
+                                "Animal Type": "Marked fear of animals or insects like dogs, bees, snakes, or spiders."
+                            }
+                        },
+                        "S063": {
+                            "name": "Immediate_Fear/Anxiety_Response",
+                            "categoty": "phobic_symptoms",
+                            "description": "The phobic object or situation almost always provokes immediate fear or anxiety.",
+                            "subtypes": {
+                                "Physiological Panic Symptoms": "Intense physical reactions such as heart palpitations, shortness of breath, sweating, or trembling."
+                            }
+                        },
+                        "S064": {
+                            "name": "Phobic_Avoidance_Endure",
+                            "categoty": "phobic_symptoms",
+                            "description": "The phobic object or situation is actively avoided or endured with intense fear or anxiety.",
+                            "subtypes": {
+                                "Functional Impairment due to Avoidance": "Accepting severe restrictions on daily life, job, or social activities to avoid the phobic object."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Specific Phobia",
+                    "Acute Stress Disorder",
+                    "Major Depressive Disorder with Psychotic Features",
+                    "Schizophrenia"
+                ],
+                "answer_index": [
+                    0
+                ],
+                "index_types": [
+                    "answer",
+                    "must_contain_option",
+                    "Less likely option",
+                    "Less likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D012",
+                        "disease_name": "Specific Phobia"
+                    },
+                    {
+                        "disease_code": "D019",
+                        "disease_name": "Acute Stress Disorder"
+                    },
+                    {
+                        "disease_code": "D015",
+                        "disease_name": "Major Depressive Disorder with Psychotic Features"
+                    },
+                    {
+                        "disease_code": "D005",
+                        "disease_name": "Schizophrenia"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 31\n- **Gender:** Female\n- **Occupation:** Elementary School Teacher\n- **Marital Status:** Married\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Specific Phobia\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. phobic_symptoms Requirements:**\n- Animal Type (Marked fear of animals or insects like dogs, bees, snakes, or spiders.)\n- Physiological Panic Symptoms (Intense physical reactions such as heart palpitations, shortness of breath, sweating, or trembling.)\n- Functional Impairment due to Avoidance (Accepting severe restrictions on daily life, job, or social activities to avoid the phobic object.)\n\n**Critical Diagnostic Criteria:**\n\n- Duration: 7 months\n\n- Functional Impairment: True"
+    },
+    "D012_l004": {
+        "question": "A 53-year-old married unemployed male presents with a 7-month history of significant apprehension in the presence of certain animals. He describes an intense fear response characterized by physiological symptoms including palpitations, dyspnea, diaphoresis, and trembling. He reports that encounters with the feared stimuli are typically endured with extreme distress and often necessitate the nearby presence of a companion or a cherished object to mitigate his anxiety. His symptoms have led to notable functional impairment, impacting his daily activities and limiting his engagement in social and recreational pursuits.",
+        "options": "\n    A. Specific Phobia\n    B. Acute Stress Disorder\n    C. Major Depressive Disorder with Psychotic Features\n    D. Schizophrenia\n    ",
+        "answer": "A. Specific Phobia",
+        "features": {
+            "question": {
+                "disease_code": "D012",
+                "disease_name": "Specific Phobia",
+                "sampled_features": {
+                    "disease_code": "D012",
+                    "disease_name": "Specific Phobia",
+                    "sampled_diagnostic_criteria": {
+                        "functional_impairment_required": true,
+                        "duration": "7 months"
+                    },
+                    "sampled_symptom_groups": {
+                        "phobic_symptoms": {
+                            "symptoms": [
+                                "S062",
+                                "S063",
+                                "S064"
+                            ],
+                            "name": "phobic_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S062",
+                        "S063",
+                        "S064"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S062": {
+                            "name": "Specific_Phobic_Fear",
+                            "categoty": "phobic_symptoms",
+                            "description": "Marked fear or anxiety about a specific object or situation that is out of proportion to the actual danger. (Note: In children, may be expressed by crying, tantrums, freezing, or clinging).",
+                            "subtypes": {
+                                "Animal Type": "Marked fear of animals or insects like dogs, bees, snakes, or spiders."
+                            }
+                        },
+                        "S063": {
+                            "name": "Immediate_Fear/Anxiety_Response",
+                            "categoty": "phobic_symptoms",
+                            "description": "The phobic object or situation almost always provokes immediate fear or anxiety.",
+                            "subtypes": {
+                                "Physiological Panic Symptoms": "Intense physical reactions such as heart palpitations, shortness of breath, sweating, or trembling."
+                            }
+                        },
+                        "S064": {
+                            "name": "Phobic_Avoidance_Endure",
+                            "categoty": "phobic_symptoms",
+                            "description": "The phobic object or situation is actively avoided or endured with intense fear or anxiety.",
+                            "subtypes": {
+                                "Reliance on Safety Signals": "Barely enduring the exposure by relying on a companion or safety object."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Specific Phobia",
+                    "Acute Stress Disorder",
+                    "Major Depressive Disorder with Psychotic Features",
+                    "Schizophrenia"
+                ],
+                "answer_index": [
+                    0
+                ],
+                "index_types": [
+                    "answer",
+                    "must_contain_option",
+                    "Less likely option",
+                    "Less likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D012",
+                        "disease_name": "Specific Phobia"
+                    },
+                    {
+                        "disease_code": "D019",
+                        "disease_name": "Acute Stress Disorder"
+                    },
+                    {
+                        "disease_code": "D015",
+                        "disease_name": "Major Depressive Disorder with Psychotic Features"
+                    },
+                    {
+                        "disease_code": "D005",
+                        "disease_name": "Schizophrenia"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 53\n- **Gender:** Male\n- **Occupation:** Unemployed (Laid off recently)\n- **Marital Status:** Married\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Specific Phobia\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. phobic_symptoms Requirements:**\n- Animal Type (Marked fear of animals or insects like dogs, bees, snakes, or spiders.)\n- Physiological Panic Symptoms (Intense physical reactions such as heart palpitations, shortness of breath, sweating, or trembling.)\n- Reliance on Safety Signals (Barely enduring the exposure by relying on a companion or safety object.)\n\n**Critical Diagnostic Criteria:**\n\n- Duration: 7 months\n\n- Functional Impairment: True"
+    },
+    "D012_l005": {
+        "question": "A 65-year-old married male, employed as a building janitor, presents with a 7-month history of significant distress. The patient reports marked fear and anxiety specifically related to certain animals, including dogs and spiders. Exposure to these stimuli elicits intense physiological symptoms, such as heart palpitations, shortness of breath, perspiration, and tremor. He describes enduring situations involving these animals with considerable internal distress and anxiety, acknowledging the excessive nature of his fear. This condition has resulted in notable functional impairment, impacting his daily activities and occupational duties.",
+        "options": "\n    A. Specific Phobia\n    B. Acute Stress Disorder\n    C. Major Depressive Disorder with Psychotic Features\n    D. Schizophrenia\n    ",
+        "answer": "A. Specific Phobia",
+        "features": {
+            "question": {
+                "disease_code": "D012",
+                "disease_name": "Specific Phobia",
+                "sampled_features": {
+                    "disease_code": "D012",
+                    "disease_name": "Specific Phobia",
+                    "sampled_diagnostic_criteria": {
+                        "functional_impairment_required": true,
+                        "duration": "7 months"
+                    },
+                    "sampled_symptom_groups": {
+                        "phobic_symptoms": {
+                            "symptoms": [
+                                "S062",
+                                "S063",
+                                "S064"
+                            ],
+                            "name": "phobic_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S062",
+                        "S063",
+                        "S064"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S062": {
+                            "name": "Specific_Phobic_Fear",
+                            "categoty": "phobic_symptoms",
+                            "description": "Marked fear or anxiety about a specific object or situation that is out of proportion to the actual danger. (Note: In children, may be expressed by crying, tantrums, freezing, or clinging).",
+                            "subtypes": {
+                                "Animal Type": "Marked fear of animals or insects like dogs, bees, snakes, or spiders."
+                            }
+                        },
+                        "S063": {
+                            "name": "Immediate_Fear/Anxiety_Response",
+                            "categoty": "phobic_symptoms",
+                            "description": "The phobic object or situation almost always provokes immediate fear or anxiety.",
+                            "subtypes": {
+                                "Physiological Panic Symptoms": "Intense physical reactions such as heart palpitations, shortness of breath, sweating, or trembling."
+                            }
+                        },
+                        "S064": {
+                            "name": "Phobic_Avoidance_Endure",
+                            "categoty": "phobic_symptoms",
+                            "description": "The phobic object or situation is actively avoided or endured with intense fear or anxiety.",
+                            "subtypes": {
+                                "Enduring with Distress": "Forcing oneself to endure the situation while experiencing intense fear and anxiety because it cannot be avoided."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Specific Phobia",
+                    "Acute Stress Disorder",
+                    "Major Depressive Disorder with Psychotic Features",
+                    "Schizophrenia"
+                ],
+                "answer_index": [
+                    0
+                ],
+                "index_types": [
+                    "answer",
+                    "must_contain_option",
+                    "Less likely option",
+                    "Less likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D012",
+                        "disease_name": "Specific Phobia"
+                    },
+                    {
+                        "disease_code": "D019",
+                        "disease_name": "Acute Stress Disorder"
+                    },
+                    {
+                        "disease_code": "D015",
+                        "disease_name": "Major Depressive Disorder with Psychotic Features"
+                    },
+                    {
+                        "disease_code": "D005",
+                        "disease_name": "Schizophrenia"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 65\n- **Gender:** Male\n- **Occupation:** Building Janitor\n- **Marital Status:** Married\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Specific Phobia\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. phobic_symptoms Requirements:**\n- Animal Type (Marked fear of animals or insects like dogs, bees, snakes, or spiders.)\n- Physiological Panic Symptoms (Intense physical reactions such as heart palpitations, shortness of breath, sweating, or trembling.)\n- Enduring with Distress (Forcing oneself to endure the situation while experiencing intense fear and anxiety because it cannot be avoided.)\n\n**Critical Diagnostic Criteria:**\n\n- Duration: 7 months\n\n- Functional Impairment: True"
+    },
+    "D012_l006": {
+        "question": "A 56-year-old male, a lawyer, and divorced, presents with a 2-year and 5-month history of marked and persistent fear. The patient reports an intense phobic response to specific situations, manifesting as an immediate and overwhelming panic when confronted with the feared stimulus. He acknowledges a significant reliance on the presence of others or specific objects to tolerate exposure to these situations. This phobic avoidance and distress have resulted in notable functional impairment across various aspects of his daily life.",
+        "options": "\n    A. Generalized Anxiety Disorder\n    B. Posttraumatic Stress Disorder\n    C. Acute Stress Disorder\n    D. Specific Phobia\n    ",
+        "answer": "D. Specific Phobia",
+        "features": {
+            "question": {
+                "disease_code": "D012",
+                "disease_name": "Specific Phobia",
+                "sampled_features": {
+                    "disease_code": "D012",
+                    "disease_name": "Specific Phobia",
+                    "sampled_diagnostic_criteria": {
+                        "functional_impairment_required": true,
+                        "duration": "2 years and 5 months"
+                    },
+                    "sampled_symptom_groups": {
+                        "phobic_symptoms": {
+                            "symptoms": [
+                                "S062",
+                                "S063",
+                                "S064"
+                            ],
+                            "name": "phobic_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S062",
+                        "S063",
+                        "S064"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S062": {
+                            "name": "Specific_Phobic_Fear",
+                            "categoty": "phobic_symptoms",
+                            "description": "Marked fear or anxiety about a specific object or situation that is out of proportion to the actual danger. (Note: In children, may be expressed by crying, tantrums, freezing, or clinging).",
+                            "subtypes": {
+                                "Other Type": "Marked fear of other situations like choking, vomiting, loud sounds, or costumed characters."
+                            }
+                        },
+                        "S063": {
+                            "name": "Immediate_Fear/Anxiety_Response",
+                            "categoty": "phobic_symptoms",
+                            "description": "The phobic object or situation almost always provokes immediate fear or anxiety.",
+                            "subtypes": {
+                                "Immediate Panic Response": "Overwhelming fear erupting immediately upon facing the phobic object."
+                            }
+                        },
+                        "S064": {
+                            "name": "Phobic_Avoidance_Endure",
+                            "categoty": "phobic_symptoms",
+                            "description": "The phobic object or situation is actively avoided or endured with intense fear or anxiety.",
+                            "subtypes": {
+                                "Reliance on Safety Signals": "Barely enduring the exposure by relying on a companion or safety object."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Generalized Anxiety Disorder",
+                    "Posttraumatic Stress Disorder",
+                    "Acute Stress Disorder",
+                    "Specific Phobia"
+                ],
+                "answer_index": [
+                    3
+                ],
+                "index_types": [
+                    "must_contain_option",
+                    "must_contain_option",
+                    "must_contain_option",
+                    "answer"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D011",
+                        "disease_name": "Generalized Anxiety Disorder"
+                    },
+                    {
+                        "disease_code": "D018",
+                        "disease_name": "Posttraumatic Stress Disorder"
+                    },
+                    {
+                        "disease_code": "D019",
+                        "disease_name": "Acute Stress Disorder"
+                    },
+                    {
+                        "disease_code": "D012",
+                        "disease_name": "Specific Phobia"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 56\n- **Gender:** Male\n- **Occupation:** Lawyer\n- **Marital Status:** Divorced\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Specific Phobia\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. phobic_symptoms Requirements:**\n- Other Type (Marked fear of other situations like choking, vomiting, loud sounds, or costumed characters.)\n- Immediate Panic Response (Overwhelming fear erupting immediately upon facing the phobic object.)\n- Reliance on Safety Signals (Barely enduring the exposure by relying on a companion or safety object.)\n\n**Critical Diagnostic Criteria:**\n\n- Duration: 2 years and 5 months\n\n- Functional Impairment: True"
+    },
+    "D012_l007": {
+        "question": "A 30-year-old single male, employed as an oil rig worker, presents with a 2-year and 5-month history of significant anxiety and avoidance behaviors. The patient reports a marked fear of animals, specifically canines. This fear is characterized by intense anticipatory anxiety, triggered merely by the thought of potential encounters with dogs. He actively engages in avoidance strategies, intentionally refraining from situations or locations where he might encounter dogs. These symptoms have resulted in notable functional impairment.",
+        "options": "\n    A. Generalized Anxiety Disorder\n    B. Posttraumatic Stress Disorder\n    C. Acute Stress Disorder\n    D. Specific Phobia\n    ",
+        "answer": "D. Specific Phobia",
+        "features": {
+            "question": {
+                "disease_code": "D012",
+                "disease_name": "Specific Phobia",
+                "sampled_features": {
+                    "disease_code": "D012",
+                    "disease_name": "Specific Phobia",
+                    "sampled_diagnostic_criteria": {
+                        "functional_impairment_required": true,
+                        "duration": "2 years and 5 months"
+                    },
+                    "sampled_symptom_groups": {
+                        "phobic_symptoms": {
+                            "symptoms": [
+                                "S062",
+                                "S063",
+                                "S064"
+                            ],
+                            "name": "phobic_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S062",
+                        "S063",
+                        "S064"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S062": {
+                            "name": "Specific_Phobic_Fear",
+                            "categoty": "phobic_symptoms",
+                            "description": "Marked fear or anxiety about a specific object or situation that is out of proportion to the actual danger. (Note: In children, may be expressed by crying, tantrums, freezing, or clinging).",
+                            "subtypes": {
+                                "Animal Type": "Marked fear of animals or insects like dogs, bees, snakes, or spiders."
+                            }
+                        },
+                        "S063": {
+                            "name": "Immediate_Fear/Anxiety_Response",
+                            "categoty": "phobic_symptoms",
+                            "description": "The phobic object or situation almost always provokes immediate fear or anxiety.",
+                            "subtypes": {
+                                "Anticipatory Anxiety": "Strong anxiety triggered just by thinking about the possibility of encountering the phobic object."
+                            }
+                        },
+                        "S064": {
+                            "name": "Phobic_Avoidance_Endure",
+                            "categoty": "phobic_symptoms",
+                            "description": "The phobic object or situation is actively avoided or endured with intense fear or anxiety.",
+                            "subtypes": {
+                                "Active Avoidance": "Intentionally and completely staying away from contact with the phobic object or situation."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Generalized Anxiety Disorder",
+                    "Posttraumatic Stress Disorder",
+                    "Acute Stress Disorder",
+                    "Specific Phobia"
+                ],
+                "answer_index": [
+                    3
+                ],
+                "index_types": [
+                    "must_contain_option",
+                    "must_contain_option",
+                    "must_contain_option",
+                    "answer"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D011",
+                        "disease_name": "Generalized Anxiety Disorder"
+                    },
+                    {
+                        "disease_code": "D018",
+                        "disease_name": "Posttraumatic Stress Disorder"
+                    },
+                    {
+                        "disease_code": "D019",
+                        "disease_name": "Acute Stress Disorder"
+                    },
+                    {
+                        "disease_code": "D012",
+                        "disease_name": "Specific Phobia"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 30\n- **Gender:** Male\n- **Occupation:** Oil Rig Worker\n- **Marital Status:** Single\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Specific Phobia\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. phobic_symptoms Requirements:**\n- Animal Type (Marked fear of animals or insects like dogs, bees, snakes, or spiders.)\n- Anticipatory Anxiety (Strong anxiety triggered just by thinking about the possibility of encountering the phobic object.)\n- Active Avoidance (Intentionally and completely staying away from contact with the phobic object or situation.)\n\n**Critical Diagnostic Criteria:**\n\n- Duration: 2 years and 5 months\n\n- Functional Impairment: True"
+    },
+    "D012_l008": {
+        "question": "A 22-year-old single female, employed as a pet groomer, presents with a 2-year and 5-month history of significant anxiety. The patient reports a marked fear of specific animals, which she experiences as extremely distressing. This apprehension is not limited to direct encounters; she describes strong anticipatory anxiety at the mere thought of potentially encountering these animals. Despite the intensity of her fear, her occupation necessitates exposure to her phobic stimulus, leading to situations where she must endure considerable internal distress and anxiety. This enduring fear and subsequent avoidance behaviors have resulted in notable functional impairment.",
+        "options": "\n    A. Generalized Anxiety Disorder\n    B. Posttraumatic Stress Disorder\n    C. Acute Stress Disorder\n    D. Specific Phobia\n    ",
+        "answer": "D. Specific Phobia",
+        "features": {
+            "question": {
+                "disease_code": "D012",
+                "disease_name": "Specific Phobia",
+                "sampled_features": {
+                    "disease_code": "D012",
+                    "disease_name": "Specific Phobia",
+                    "sampled_diagnostic_criteria": {
+                        "functional_impairment_required": true,
+                        "duration": "2 years and 5 months"
+                    },
+                    "sampled_symptom_groups": {
+                        "phobic_symptoms": {
+                            "symptoms": [
+                                "S062",
+                                "S063",
+                                "S064"
+                            ],
+                            "name": "phobic_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S062",
+                        "S063",
+                        "S064"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S062": {
+                            "name": "Specific_Phobic_Fear",
+                            "categoty": "phobic_symptoms",
+                            "description": "Marked fear or anxiety about a specific object or situation that is out of proportion to the actual danger. (Note: In children, may be expressed by crying, tantrums, freezing, or clinging).",
+                            "subtypes": {
+                                "Animal Type": "Marked fear of animals or insects like dogs, bees, snakes, or spiders."
+                            }
+                        },
+                        "S063": {
+                            "name": "Immediate_Fear/Anxiety_Response",
+                            "categoty": "phobic_symptoms",
+                            "description": "The phobic object or situation almost always provokes immediate fear or anxiety.",
+                            "subtypes": {
+                                "Anticipatory Anxiety": "Strong anxiety triggered just by thinking about the possibility of encountering the phobic object."
+                            }
+                        },
+                        "S064": {
+                            "name": "Phobic_Avoidance_Endure",
+                            "categoty": "phobic_symptoms",
+                            "description": "The phobic object or situation is actively avoided or endured with intense fear or anxiety.",
+                            "subtypes": {
+                                "Enduring with Distress": "Forcing oneself to endure the situation while experiencing intense fear and anxiety because it cannot be avoided."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Generalized Anxiety Disorder",
+                    "Posttraumatic Stress Disorder",
+                    "Acute Stress Disorder",
+                    "Specific Phobia"
+                ],
+                "answer_index": [
+                    3
+                ],
+                "index_types": [
+                    "must_contain_option",
+                    "must_contain_option",
+                    "must_contain_option",
+                    "answer"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D011",
+                        "disease_name": "Generalized Anxiety Disorder"
+                    },
+                    {
+                        "disease_code": "D018",
+                        "disease_name": "Posttraumatic Stress Disorder"
+                    },
+                    {
+                        "disease_code": "D019",
+                        "disease_name": "Acute Stress Disorder"
+                    },
+                    {
+                        "disease_code": "D012",
+                        "disease_name": "Specific Phobia"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 22\n- **Gender:** Female\n- **Occupation:** Pet Groomer\n- **Marital Status:** Single\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Specific Phobia\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. phobic_symptoms Requirements:**\n- Animal Type (Marked fear of animals or insects like dogs, bees, snakes, or spiders.)\n- Anticipatory Anxiety (Strong anxiety triggered just by thinking about the possibility of encountering the phobic object.)\n- Enduring with Distress (Forcing oneself to endure the situation while experiencing intense fear and anxiety because it cannot be avoided.)\n\n**Critical Diagnostic Criteria:**\n\n- Duration: 2 years and 5 months\n\n- Functional Impairment: True"
+    },
+    "D012_l009": {
+        "question": "A 58-year-old male, a school bus driver and widower, presents with significant anxiety symptoms that have been ongoing for 2 years and 5 months. The patient endorsed a marked fear of natural environmental phenomena, specifically relating to storms. He experiences intense physiological arousal when exposed to or anticipating these situations, manifesting as heart palpitations, shortness of breath, increased perspiration, and tremor. Despite these profound symptoms, the patient often places himself in situations involving storms due to occupational and personal obligations, leading to considerable distress and anxiety. This pattern of avoidance and endured distress has resulted in notable functional impairment.",
+        "options": "\n    A. Generalized Anxiety Disorder\n    B. Posttraumatic Stress Disorder\n    C. Acute Stress Disorder\n    D. Specific Phobia\n    ",
+        "answer": "D. Specific Phobia",
+        "features": {
+            "question": {
+                "disease_code": "D012",
+                "disease_name": "Specific Phobia",
+                "sampled_features": {
+                    "disease_code": "D012",
+                    "disease_name": "Specific Phobia",
+                    "sampled_diagnostic_criteria": {
+                        "functional_impairment_required": true,
+                        "duration": "2 years and 5 months"
+                    },
+                    "sampled_symptom_groups": {
+                        "phobic_symptoms": {
+                            "symptoms": [
+                                "S062",
+                                "S063",
+                                "S064"
+                            ],
+                            "name": "phobic_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S062",
+                        "S063",
+                        "S064"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S062": {
+                            "name": "Specific_Phobic_Fear",
+                            "categoty": "phobic_symptoms",
+                            "description": "Marked fear or anxiety about a specific object or situation that is out of proportion to the actual danger. (Note: In children, may be expressed by crying, tantrums, freezing, or clinging).",
+                            "subtypes": {
+                                "Natural Environment Type": "Marked fear of the natural environment like storms, heights, water, or the dark."
+                            }
+                        },
+                        "S063": {
+                            "name": "Immediate_Fear/Anxiety_Response",
+                            "categoty": "phobic_symptoms",
+                            "description": "The phobic object or situation almost always provokes immediate fear or anxiety.",
+                            "subtypes": {
+                                "Physiological Panic Symptoms": "Intense physical reactions such as heart palpitations, shortness of breath, sweating, or trembling."
+                            }
+                        },
+                        "S064": {
+                            "name": "Phobic_Avoidance_Endure",
+                            "categoty": "phobic_symptoms",
+                            "description": "The phobic object or situation is actively avoided or endured with intense fear or anxiety.",
+                            "subtypes": {
+                                "Enduring with Distress": "Forcing oneself to endure the situation while experiencing intense fear and anxiety because it cannot be avoided."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Generalized Anxiety Disorder",
+                    "Posttraumatic Stress Disorder",
+                    "Acute Stress Disorder",
+                    "Specific Phobia"
+                ],
+                "answer_index": [
+                    3
+                ],
+                "index_types": [
+                    "must_contain_option",
+                    "must_contain_option",
+                    "must_contain_option",
+                    "answer"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D011",
+                        "disease_name": "Generalized Anxiety Disorder"
+                    },
+                    {
+                        "disease_code": "D018",
+                        "disease_name": "Posttraumatic Stress Disorder"
+                    },
+                    {
+                        "disease_code": "D019",
+                        "disease_name": "Acute Stress Disorder"
+                    },
+                    {
+                        "disease_code": "D012",
+                        "disease_name": "Specific Phobia"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 58\n- **Gender:** Male\n- **Occupation:** School Bus Driver\n- **Marital Status:** Widowed\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Specific Phobia\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. phobic_symptoms Requirements:**\n- Natural Environment Type (Marked fear of the natural environment like storms, heights, water, or the dark.)\n- Physiological Panic Symptoms (Intense physical reactions such as heart palpitations, shortness of breath, sweating, or trembling.)\n- Enduring with Distress (Forcing oneself to endure the situation while experiencing intense fear and anxiety because it cannot be avoided.)\n\n**Critical Diagnostic Criteria:**\n\n- Duration: 2 years and 5 months\n\n- Functional Impairment: True"
+    },
+    "D012_l010": {
+        "question": "A 28-year-old married female, who works as a UI/UX designer, presents with a chief complaint of intense fear. For the past two years and five months, she has experienced marked fear in specific situations, particularly concerning choking. Exposure to this phobic stimulus consistently elicits an immediate and overwhelming panic response. During these encounters, the patient reports relying on the presence of a companion or a designated safety object to endure the situation, rather than directly coping with the perceived threat. This phobic avoidance and distress have led to significant functional impairment in her daily life.",
+        "options": "\n    A. Generalized Anxiety Disorder\n    B. Posttraumatic Stress Disorder\n    C. Acute Stress Disorder\n    D. Specific Phobia\n    ",
+        "answer": "D. Specific Phobia",
+        "features": {
+            "question": {
+                "disease_code": "D012",
+                "disease_name": "Specific Phobia",
+                "sampled_features": {
+                    "disease_code": "D012",
+                    "disease_name": "Specific Phobia",
+                    "sampled_diagnostic_criteria": {
+                        "functional_impairment_required": true,
+                        "duration": "2 years and 5 months"
+                    },
+                    "sampled_symptom_groups": {
+                        "phobic_symptoms": {
+                            "symptoms": [
+                                "S062",
+                                "S063",
+                                "S064"
+                            ],
+                            "name": "phobic_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S062",
+                        "S063",
+                        "S064"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S062": {
+                            "name": "Specific_Phobic_Fear",
+                            "categoty": "phobic_symptoms",
+                            "description": "Marked fear or anxiety about a specific object or situation that is out of proportion to the actual danger. (Note: In children, may be expressed by crying, tantrums, freezing, or clinging).",
+                            "subtypes": {
+                                "Other Type": "Marked fear of other situations like choking, vomiting, loud sounds, or costumed characters."
+                            }
+                        },
+                        "S063": {
+                            "name": "Immediate_Fear/Anxiety_Response",
+                            "categoty": "phobic_symptoms",
+                            "description": "The phobic object or situation almost always provokes immediate fear or anxiety.",
+                            "subtypes": {
+                                "Immediate Panic Response": "Overwhelming fear erupting immediately upon facing the phobic object."
+                            }
+                        },
+                        "S064": {
+                            "name": "Phobic_Avoidance_Endure",
+                            "categoty": "phobic_symptoms",
+                            "description": "The phobic object or situation is actively avoided or endured with intense fear or anxiety.",
+                            "subtypes": {
+                                "Reliance on Safety Signals": "Barely enduring the exposure by relying on a companion or safety object."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Generalized Anxiety Disorder",
+                    "Posttraumatic Stress Disorder",
+                    "Acute Stress Disorder",
+                    "Specific Phobia"
+                ],
+                "answer_index": [
+                    3
+                ],
+                "index_types": [
+                    "must_contain_option",
+                    "must_contain_option",
+                    "must_contain_option",
+                    "answer"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D011",
+                        "disease_name": "Generalized Anxiety Disorder"
+                    },
+                    {
+                        "disease_code": "D018",
+                        "disease_name": "Posttraumatic Stress Disorder"
+                    },
+                    {
+                        "disease_code": "D019",
+                        "disease_name": "Acute Stress Disorder"
+                    },
+                    {
+                        "disease_code": "D012",
+                        "disease_name": "Specific Phobia"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 28\n- **Gender:** Female\n- **Occupation:** UI/UX Designer\n- **Marital Status:** Married\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Specific Phobia\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. phobic_symptoms Requirements:**\n- Other Type (Marked fear of other situations like choking, vomiting, loud sounds, or costumed characters.)\n- Immediate Panic Response (Overwhelming fear erupting immediately upon facing the phobic object.)\n- Reliance on Safety Signals (Barely enduring the exposure by relying on a companion or safety object.)\n\n**Critical Diagnostic Criteria:**\n\n- Duration: 2 years and 5 months\n\n- Functional Impairment: True"
+    },
+    "D012_l011": {
+        "question": "A 35-year-old single female PhD candidate presents with a two-year history of significant distress related to phobic symptoms. She reports a marked fear of specific animals, experiencing an immediate and overwhelming panic response upon exposure to the phobic object. During such encounters, she describes barely enduring the situation, often relying heavily on the presence of a companion or a safety object to manage her anxiety. This constellation of symptoms has resulted in notable functional impairment, impacting her daily life and activities.",
+        "options": "\n    A. Adjustment Disorder\n    B. Posttraumatic Stress Disorder\n    C. Specific Phobia\n    D. Acute Stress Disorder\n    ",
+        "answer": "C. Specific Phobia",
+        "features": {
+            "question": {
+                "disease_code": "D012",
+                "disease_name": "Specific Phobia",
+                "sampled_features": {
+                    "disease_code": "D012",
+                    "disease_name": "Specific Phobia",
+                    "sampled_diagnostic_criteria": {
+                        "functional_impairment_required": true,
+                        "duration": "2 years and 0 months"
+                    },
+                    "sampled_symptom_groups": {
+                        "phobic_symptoms": {
+                            "symptoms": [
+                                "S062",
+                                "S063",
+                                "S064"
+                            ],
+                            "name": "phobic_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S062",
+                        "S063",
+                        "S064"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S062": {
+                            "name": "Specific_Phobic_Fear",
+                            "categoty": "phobic_symptoms",
+                            "description": "Marked fear or anxiety about a specific object or situation that is out of proportion to the actual danger. (Note: In children, may be expressed by crying, tantrums, freezing, or clinging).",
+                            "subtypes": {
+                                "Animal Type": "Marked fear of animals or insects like dogs, bees, snakes, or spiders."
+                            }
+                        },
+                        "S063": {
+                            "name": "Immediate_Fear/Anxiety_Response",
+                            "categoty": "phobic_symptoms",
+                            "description": "The phobic object or situation almost always provokes immediate fear or anxiety.",
+                            "subtypes": {
+                                "Immediate Panic Response": "Overwhelming fear erupting immediately upon facing the phobic object."
+                            }
+                        },
+                        "S064": {
+                            "name": "Phobic_Avoidance_Endure",
+                            "categoty": "phobic_symptoms",
+                            "description": "The phobic object or situation is actively avoided or endured with intense fear or anxiety.",
+                            "subtypes": {
+                                "Reliance on Safety Signals": "Barely enduring the exposure by relying on a companion or safety object."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Adjustment Disorder",
+                    "Posttraumatic Stress Disorder",
+                    "Specific Phobia",
+                    "Acute Stress Disorder"
+                ],
+                "answer_index": [
+                    2
+                ],
+                "index_types": [
+                    "Less likely option",
+                    "must_contain_option",
+                    "answer",
+                    "must_contain_option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D020",
+                        "disease_name": "Adjustment Disorder"
+                    },
+                    {
+                        "disease_code": "D018",
+                        "disease_name": "Posttraumatic Stress Disorder"
+                    },
+                    {
+                        "disease_code": "D012",
+                        "disease_name": "Specific Phobia"
+                    },
+                    {
+                        "disease_code": "D019",
+                        "disease_name": "Acute Stress Disorder"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 35\n- **Gender:** Female\n- **Occupation:** PhD Candidate (Thesis Pressure)\n- **Marital Status:** Single\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Specific Phobia\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. phobic_symptoms Requirements:**\n- Animal Type (Marked fear of animals or insects like dogs, bees, snakes, or spiders.)\n- Immediate Panic Response (Overwhelming fear erupting immediately upon facing the phobic object.)\n- Reliance on Safety Signals (Barely enduring the exposure by relying on a companion or safety object.)\n\n**Critical Diagnostic Criteria:**\n\n- Duration: 2 years and 0 months\n\n- Functional Impairment: True"
+    },
+    "D012_l012": {
+        "question": "A 42-year-old married female journalist presented with a two-year history of significant distress related to phobic symptoms. The patient reports a marked and persistent fear of specific animals, including dogs and spiders. This fear is not limited to direct encounters; she experiences considerable anticipatory anxiety solely from contemplating potential exposure to these phobic stimuli. Her avoidance behaviors have led to notable functional impairment, as she has accepted substantial restrictions in her daily life, occupational activities, and social engagements to circumvent any possibility of encountering the feared animals.",
+        "options": "\n    A. Adjustment Disorder\n    B. Posttraumatic Stress Disorder\n    C. Specific Phobia\n    D. Acute Stress Disorder\n    ",
+        "answer": "C. Specific Phobia",
+        "features": {
+            "question": {
+                "disease_code": "D012",
+                "disease_name": "Specific Phobia",
+                "sampled_features": {
+                    "disease_code": "D012",
+                    "disease_name": "Specific Phobia",
+                    "sampled_diagnostic_criteria": {
+                        "functional_impairment_required": true,
+                        "duration": "2 years and 0 months"
+                    },
+                    "sampled_symptom_groups": {
+                        "phobic_symptoms": {
+                            "symptoms": [
+                                "S062",
+                                "S063",
+                                "S064"
+                            ],
+                            "name": "phobic_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S062",
+                        "S063",
+                        "S064"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S062": {
+                            "name": "Specific_Phobic_Fear",
+                            "categoty": "phobic_symptoms",
+                            "description": "Marked fear or anxiety about a specific object or situation that is out of proportion to the actual danger. (Note: In children, may be expressed by crying, tantrums, freezing, or clinging).",
+                            "subtypes": {
+                                "Animal Type": "Marked fear of animals or insects like dogs, bees, snakes, or spiders."
+                            }
+                        },
+                        "S063": {
+                            "name": "Immediate_Fear/Anxiety_Response",
+                            "categoty": "phobic_symptoms",
+                            "description": "The phobic object or situation almost always provokes immediate fear or anxiety.",
+                            "subtypes": {
+                                "Anticipatory Anxiety": "Strong anxiety triggered just by thinking about the possibility of encountering the phobic object."
+                            }
+                        },
+                        "S064": {
+                            "name": "Phobic_Avoidance_Endure",
+                            "categoty": "phobic_symptoms",
+                            "description": "The phobic object or situation is actively avoided or endured with intense fear or anxiety.",
+                            "subtypes": {
+                                "Functional Impairment due to Avoidance": "Accepting severe restrictions on daily life, job, or social activities to avoid the phobic object."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Adjustment Disorder",
+                    "Posttraumatic Stress Disorder",
+                    "Specific Phobia",
+                    "Acute Stress Disorder"
+                ],
+                "answer_index": [
+                    2
+                ],
+                "index_types": [
+                    "Less likely option",
+                    "must_contain_option",
+                    "answer",
+                    "must_contain_option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D020",
+                        "disease_name": "Adjustment Disorder"
+                    },
+                    {
+                        "disease_code": "D018",
+                        "disease_name": "Posttraumatic Stress Disorder"
+                    },
+                    {
+                        "disease_code": "D012",
+                        "disease_name": "Specific Phobia"
+                    },
+                    {
+                        "disease_code": "D019",
+                        "disease_name": "Acute Stress Disorder"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 42\n- **Gender:** Female\n- **Occupation:** Journalist\n- **Marital Status:** Married\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Specific Phobia\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. phobic_symptoms Requirements:**\n- Animal Type (Marked fear of animals or insects like dogs, bees, snakes, or spiders.)\n- Anticipatory Anxiety (Strong anxiety triggered just by thinking about the possibility of encountering the phobic object.)\n- Functional Impairment due to Avoidance (Accepting severe restrictions on daily life, job, or social activities to avoid the phobic object.)\n\n**Critical Diagnostic Criteria:**\n\n- Duration: 2 years and 0 months\n\n- Functional Impairment: True"
+    },
+    "D012_l013": {
+        "question": "A 65-year-old male, a forest ranger and widower, presents with a 2-year history of marked fear. The patient experiences an immediate and overwhelming panic response when confronted with loud sounds. This phobic stimulus invariably elicits significant anxiety. He actively and intentionally avoids situations where he anticipates exposure to loud noises. This avoidance behavior and the presence of the phobic response result in clinically significant distress and functional impairment in his daily life.",
+        "options": "\n    A. Adjustment Disorder\n    B. Posttraumatic Stress Disorder\n    C. Specific Phobia\n    D. Acute Stress Disorder\n    ",
+        "answer": "C. Specific Phobia",
+        "features": {
+            "question": {
+                "disease_code": "D012",
+                "disease_name": "Specific Phobia",
+                "sampled_features": {
+                    "disease_code": "D012",
+                    "disease_name": "Specific Phobia",
+                    "sampled_diagnostic_criteria": {
+                        "functional_impairment_required": true,
+                        "duration": "2 years and 0 months"
+                    },
+                    "sampled_symptom_groups": {
+                        "phobic_symptoms": {
+                            "symptoms": [
+                                "S062",
+                                "S063",
+                                "S064"
+                            ],
+                            "name": "phobic_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S062",
+                        "S063",
+                        "S064"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S062": {
+                            "name": "Specific_Phobic_Fear",
+                            "categoty": "phobic_symptoms",
+                            "description": "Marked fear or anxiety about a specific object or situation that is out of proportion to the actual danger. (Note: In children, may be expressed by crying, tantrums, freezing, or clinging).",
+                            "subtypes": {
+                                "Other Type": "Marked fear of other situations like choking, vomiting, loud sounds, or costumed characters."
+                            }
+                        },
+                        "S063": {
+                            "name": "Immediate_Fear/Anxiety_Response",
+                            "categoty": "phobic_symptoms",
+                            "description": "The phobic object or situation almost always provokes immediate fear or anxiety.",
+                            "subtypes": {
+                                "Immediate Panic Response": "Overwhelming fear erupting immediately upon facing the phobic object."
+                            }
+                        },
+                        "S064": {
+                            "name": "Phobic_Avoidance_Endure",
+                            "categoty": "phobic_symptoms",
+                            "description": "The phobic object or situation is actively avoided or endured with intense fear or anxiety.",
+                            "subtypes": {
+                                "Active Avoidance": "Intentionally and completely staying away from contact with the phobic object or situation."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Adjustment Disorder",
+                    "Posttraumatic Stress Disorder",
+                    "Specific Phobia",
+                    "Acute Stress Disorder"
+                ],
+                "answer_index": [
+                    2
+                ],
+                "index_types": [
+                    "Less likely option",
+                    "must_contain_option",
+                    "answer",
+                    "must_contain_option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D020",
+                        "disease_name": "Adjustment Disorder"
+                    },
+                    {
+                        "disease_code": "D018",
+                        "disease_name": "Posttraumatic Stress Disorder"
+                    },
+                    {
+                        "disease_code": "D012",
+                        "disease_name": "Specific Phobia"
+                    },
+                    {
+                        "disease_code": "D019",
+                        "disease_name": "Acute Stress Disorder"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 65\n- **Gender:** Male\n- **Occupation:** Forest Ranger\n- **Marital Status:** Widowed\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Specific Phobia\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. phobic_symptoms Requirements:**\n- Other Type (Marked fear of other situations like choking, vomiting, loud sounds, or costumed characters.)\n- Immediate Panic Response (Overwhelming fear erupting immediately upon facing the phobic object.)\n- Active Avoidance (Intentionally and completely staying away from contact with the phobic object or situation.)\n\n**Critical Diagnostic Criteria:**\n\n- Duration: 2 years and 0 months\n\n- Functional Impairment: True"
+    },
+    "D012_l014": {
+        "question": "A 49-year-old married female, who works as a real estate agent, presents with a 2-year history of marked fear related to blood, injections, and medical procedures. The patient experiences significant anticipatory anxiety, reporting intense distress solely at the thought of encountering these phobic stimuli. This fear has led to considerable functional impairment, as she reports accepting severe restrictions in her daily life, employment, and social engagements to avoid situations where she might encounter blood or require medical intervention.",
+        "options": "\n    A. Adjustment Disorder\n    B. Posttraumatic Stress Disorder\n    C. Specific Phobia\n    D. Acute Stress Disorder\n    ",
+        "answer": "C. Specific Phobia",
+        "features": {
+            "question": {
+                "disease_code": "D012",
+                "disease_name": "Specific Phobia",
+                "sampled_features": {
+                    "disease_code": "D012",
+                    "disease_name": "Specific Phobia",
+                    "sampled_diagnostic_criteria": {
+                        "functional_impairment_required": true,
+                        "duration": "2 years and 0 months"
+                    },
+                    "sampled_symptom_groups": {
+                        "phobic_symptoms": {
+                            "symptoms": [
+                                "S062",
+                                "S063",
+                                "S064"
+                            ],
+                            "name": "phobic_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S062",
+                        "S063",
+                        "S064"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S062": {
+                            "name": "Specific_Phobic_Fear",
+                            "categoty": "phobic_symptoms",
+                            "description": "Marked fear or anxiety about a specific object or situation that is out of proportion to the actual danger. (Note: In children, may be expressed by crying, tantrums, freezing, or clinging).",
+                            "subtypes": {
+                                "Blood-Injection-Injury Type": "Marked fear of seeing blood, receiving injections, or medical procedures."
+                            }
+                        },
+                        "S063": {
+                            "name": "Immediate_Fear/Anxiety_Response",
+                            "categoty": "phobic_symptoms",
+                            "description": "The phobic object or situation almost always provokes immediate fear or anxiety.",
+                            "subtypes": {
+                                "Anticipatory Anxiety": "Strong anxiety triggered just by thinking about the possibility of encountering the phobic object."
+                            }
+                        },
+                        "S064": {
+                            "name": "Phobic_Avoidance_Endure",
+                            "categoty": "phobic_symptoms",
+                            "description": "The phobic object or situation is actively avoided or endured with intense fear or anxiety.",
+                            "subtypes": {
+                                "Functional Impairment due to Avoidance": "Accepting severe restrictions on daily life, job, or social activities to avoid the phobic object."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Adjustment Disorder",
+                    "Posttraumatic Stress Disorder",
+                    "Specific Phobia",
+                    "Acute Stress Disorder"
+                ],
+                "answer_index": [
+                    2
+                ],
+                "index_types": [
+                    "Less likely option",
+                    "must_contain_option",
+                    "answer",
+                    "must_contain_option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D020",
+                        "disease_name": "Adjustment Disorder"
+                    },
+                    {
+                        "disease_code": "D018",
+                        "disease_name": "Posttraumatic Stress Disorder"
+                    },
+                    {
+                        "disease_code": "D012",
+                        "disease_name": "Specific Phobia"
+                    },
+                    {
+                        "disease_code": "D019",
+                        "disease_name": "Acute Stress Disorder"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 49\n- **Gender:** Female\n- **Occupation:** Real Estate Agent\n- **Marital Status:** Divorced\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Specific Phobia\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. phobic_symptoms Requirements:**\n- Blood-Injection-Injury Type (Marked fear of seeing blood, receiving injections, or medical procedures.)\n- Anticipatory Anxiety (Strong anxiety triggered just by thinking about the possibility of encountering the phobic object.)\n- Functional Impairment due to Avoidance (Accepting severe restrictions on daily life, job, or social activities to avoid the phobic object.)\n\n**Critical Diagnostic Criteria:**\n\n- Duration: 2 years and 0 months\n\n- Functional Impairment: True"
+    },
+    "D012_l015": {
+        "question": "A 72-year-old retired widower presents with a 2-year history of intense fear related to medical procedures, injections, and the sight of blood. He reports significant autonomic arousal in these situations, often describing a sensation of freezing or being paralyzed. Despite the distress, he reports enduring these encounters when unavoidable, experiencing marked anxiety throughout. The patient denies any recent life stressors related to his retired or widowed status, noting these events occurred well before the onset of his current symptoms. This phobic presentation results in notable functional impairment, as he avoids necessary medical care due to his symptoms.",
+        "options": "\n    A. Adjustment Disorder\n    B. Posttraumatic Stress Disorder\n    C. Specific Phobia\n    D. Acute Stress Disorder\n    ",
+        "answer": "C. Specific Phobia",
+        "features": {
+            "question": {
+                "disease_code": "D012",
+                "disease_name": "Specific Phobia",
+                "sampled_features": {
+                    "disease_code": "D012",
+                    "disease_name": "Specific Phobia",
+                    "sampled_diagnostic_criteria": {
+                        "functional_impairment_required": true,
+                        "duration": "2 years and 0 months"
+                    },
+                    "sampled_symptom_groups": {
+                        "phobic_symptoms": {
+                            "symptoms": [
+                                "S062",
+                                "S063",
+                                "S064"
+                            ],
+                            "name": "phobic_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S062",
+                        "S063",
+                        "S064"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S062": {
+                            "name": "Specific_Phobic_Fear",
+                            "categoty": "phobic_symptoms",
+                            "description": "Marked fear or anxiety about a specific object or situation that is out of proportion to the actual danger. (Note: In children, may be expressed by crying, tantrums, freezing, or clinging).",
+                            "subtypes": {
+                                "Blood-Injection-Injury Type": "Marked fear of seeing blood, receiving injections, or medical procedures."
+                            }
+                        },
+                        "S063": {
+                            "name": "Immediate_Fear/Anxiety_Response",
+                            "categoty": "phobic_symptoms",
+                            "description": "The phobic object or situation almost always provokes immediate fear or anxiety.",
+                            "subtypes": {
+                                "Freezing": "Feeling paralyzed or unable to move due to extreme fear."
+                            }
+                        },
+                        "S064": {
+                            "name": "Phobic_Avoidance_Endure",
+                            "categoty": "phobic_symptoms",
+                            "description": "The phobic object or situation is actively avoided or endured with intense fear or anxiety.",
+                            "subtypes": {
+                                "Enduring with Distress": "Forcing oneself to endure the situation while experiencing intense fear and anxiety because it cannot be avoided."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Adjustment Disorder",
+                    "Posttraumatic Stress Disorder",
+                    "Specific Phobia",
+                    "Acute Stress Disorder"
+                ],
+                "answer_index": [
+                    2
+                ],
+                "index_types": [
+                    "Less likely option",
+                    "must_contain_option",
+                    "answer",
+                    "must_contain_option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D020",
+                        "disease_name": "Adjustment Disorder"
+                    },
+                    {
+                        "disease_code": "D018",
+                        "disease_name": "Posttraumatic Stress Disorder"
+                    },
+                    {
+                        "disease_code": "D012",
+                        "disease_name": "Specific Phobia"
+                    },
+                    {
+                        "disease_code": "D019",
+                        "disease_name": "Acute Stress Disorder"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 72\n- **Gender:** Male\n- **Occupation:** Retired\n- **Marital Status:** Widowed\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Specific Phobia\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. phobic_symptoms Requirements:**\n- Blood-Injection-Injury Type (Marked fear of seeing blood, receiving injections, or medical procedures.)\n- Freezing (Feeling paralyzed or unable to move due to extreme fear.)\n- Enduring with Distress (Forcing oneself to endure the situation while experiencing intense fear and anxiety because it cannot be avoided.)\n\n**Critical Diagnostic Criteria:**\n\n- Duration: 2 years and 0 months\n\n- Functional Impairment: True"
+    },
+    "D012_l016": {
+        "question": "A 44-year-old single male architect presents with a clinical picture characterized by significant anxiety symptoms over the past 11 months. He reports a marked and persistent fear of specific situations, particularly enclosed spaces and bridges. Exposure to these stimuli consistently elicits an immediate and intense anxiolytic response, often escalating to panic-like symptoms. To mitigate this distress, the patient engages in extensive avoidance behaviors. This pervasive avoidance has led to considerable functional impairment, restricting his professional activities and daily routines, necessitating significant alterations to accommodate his fears.",
+        "options": "\n    A. Binge-Eating Disorder\n    B. Acute Stress Disorder\n    C. Specific Phobia\n    D. Generalized Anxiety Disorder\n    ",
+        "answer": "C. Specific Phobia",
+        "features": {
+            "question": {
+                "disease_code": "D012",
+                "disease_name": "Specific Phobia",
+                "sampled_features": {
+                    "disease_code": "D012",
+                    "disease_name": "Specific Phobia",
+                    "sampled_diagnostic_criteria": {
+                        "functional_impairment_required": true,
+                        "duration": "11 months"
+                    },
+                    "sampled_symptom_groups": {
+                        "phobic_symptoms": {
+                            "symptoms": [
+                                "S062",
+                                "S063",
+                                "S064"
+                            ],
+                            "name": "phobic_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S062",
+                        "S063",
+                        "S064"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S062": {
+                            "name": "Specific_Phobic_Fear",
+                            "categoty": "phobic_symptoms",
+                            "description": "Marked fear or anxiety about a specific object or situation that is out of proportion to the actual danger. (Note: In children, may be expressed by crying, tantrums, freezing, or clinging).",
+                            "subtypes": {
+                                "Situational Type": "Marked fear of specific situations like airplanes, elevators, tunnels, bridges, or enclosed spaces."
+                            }
+                        },
+                        "S063": {
+                            "name": "Immediate_Fear/Anxiety_Response",
+                            "categoty": "phobic_symptoms",
+                            "description": "The phobic object or situation almost always provokes immediate fear or anxiety.",
+                            "subtypes": {
+                                "Immediate Panic Response": "Overwhelming fear erupting immediately upon facing the phobic object."
+                            }
+                        },
+                        "S064": {
+                            "name": "Phobic_Avoidance_Endure",
+                            "categoty": "phobic_symptoms",
+                            "description": "The phobic object or situation is actively avoided or endured with intense fear or anxiety.",
+                            "subtypes": {
+                                "Functional Impairment due to Avoidance": "Accepting severe restrictions on daily life, job, or social activities to avoid the phobic object."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Binge-Eating Disorder",
+                    "Acute Stress Disorder",
+                    "Specific Phobia",
+                    "Generalized Anxiety Disorder"
+                ],
+                "answer_index": [
+                    2
+                ],
+                "index_types": [
+                    "Less likely option",
+                    "must_contain_option",
+                    "answer",
+                    "must_contain_option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D023",
+                        "disease_name": "Binge-Eating Disorder"
+                    },
+                    {
+                        "disease_code": "D019",
+                        "disease_name": "Acute Stress Disorder"
+                    },
+                    {
+                        "disease_code": "D012",
+                        "disease_name": "Specific Phobia"
+                    },
+                    {
+                        "disease_code": "D011",
+                        "disease_name": "Generalized Anxiety Disorder"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 44\n- **Gender:** Male\n- **Occupation:** Architect\n- **Marital Status:** Single\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Specific Phobia\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. phobic_symptoms Requirements:**\n- Situational Type (Marked fear of specific situations like airplanes, elevators, tunnels, bridges, or enclosed spaces.)\n- Immediate Panic Response (Overwhelming fear erupting immediately upon facing the phobic object.)\n- Functional Impairment due to Avoidance (Accepting severe restrictions on daily life, job, or social activities to avoid the phobic object.)\n\n**Critical Diagnostic Criteria:**\n\n- Duration: 11 months\n\n- Functional Impairment: True"
+    },
+    "D012_l017": {
+        "question": "A 46-year-old divorced male taxi driver presents with a chief complaint of intense fear and avoidance related to specific animals. The patient reports a marked and persistent fear of canines, bees, and spiders. This phobic response has been present for 11 months. He experiences significant anticipatory anxiety, reporting considerable distress when merely contemplating the possibility of encountering these animals. Consequently, he engages in active avoidance behaviors, systematically refraining from situations or locations where such encounters might occur. These symptoms have led to notable functional impairment, impacting his daily activities and occupational duties.",
+        "options": "\n    A. Binge-Eating Disorder\n    B. Acute Stress Disorder\n    C. Specific Phobia\n    D. Generalized Anxiety Disorder\n    ",
+        "answer": "C. Specific Phobia",
+        "features": {
+            "question": {
+                "disease_code": "D012",
+                "disease_name": "Specific Phobia",
+                "sampled_features": {
+                    "disease_code": "D012",
+                    "disease_name": "Specific Phobia",
+                    "sampled_diagnostic_criteria": {
+                        "functional_impairment_required": true,
+                        "duration": "11 months"
+                    },
+                    "sampled_symptom_groups": {
+                        "phobic_symptoms": {
+                            "symptoms": [
+                                "S062",
+                                "S063",
+                                "S064"
+                            ],
+                            "name": "phobic_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S062",
+                        "S063",
+                        "S064"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S062": {
+                            "name": "Specific_Phobic_Fear",
+                            "categoty": "phobic_symptoms",
+                            "description": "Marked fear or anxiety about a specific object or situation that is out of proportion to the actual danger. (Note: In children, may be expressed by crying, tantrums, freezing, or clinging).",
+                            "subtypes": {
+                                "Animal Type": "Marked fear of animals or insects like dogs, bees, snakes, or spiders."
+                            }
+                        },
+                        "S063": {
+                            "name": "Immediate_Fear/Anxiety_Response",
+                            "categoty": "phobic_symptoms",
+                            "description": "The phobic object or situation almost always provokes immediate fear or anxiety.",
+                            "subtypes": {
+                                "Anticipatory Anxiety": "Strong anxiety triggered just by thinking about the possibility of encountering the phobic object."
+                            }
+                        },
+                        "S064": {
+                            "name": "Phobic_Avoidance_Endure",
+                            "categoty": "phobic_symptoms",
+                            "description": "The phobic object or situation is actively avoided or endured with intense fear or anxiety.",
+                            "subtypes": {
+                                "Active Avoidance": "Intentionally and completely staying away from contact with the phobic object or situation."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Binge-Eating Disorder",
+                    "Acute Stress Disorder",
+                    "Specific Phobia",
+                    "Generalized Anxiety Disorder"
+                ],
+                "answer_index": [
+                    2
+                ],
+                "index_types": [
+                    "Less likely option",
+                    "must_contain_option",
+                    "answer",
+                    "must_contain_option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D023",
+                        "disease_name": "Binge-Eating Disorder"
+                    },
+                    {
+                        "disease_code": "D019",
+                        "disease_name": "Acute Stress Disorder"
+                    },
+                    {
+                        "disease_code": "D012",
+                        "disease_name": "Specific Phobia"
+                    },
+                    {
+                        "disease_code": "D011",
+                        "disease_name": "Generalized Anxiety Disorder"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 46\n- **Gender:** Male\n- **Occupation:** Taxi Driver\n- **Marital Status:** Divorced\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Specific Phobia\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. phobic_symptoms Requirements:**\n- Animal Type (Marked fear of animals or insects like dogs, bees, snakes, or spiders.)\n- Anticipatory Anxiety (Strong anxiety triggered just by thinking about the possibility of encountering the phobic object.)\n- Active Avoidance (Intentionally and completely staying away from contact with the phobic object or situation.)\n\n**Critical Diagnostic Criteria:**\n\n- Duration: 11 months\n\n- Functional Impairment: True"
+    },
+    "D012_l018": {
+        "question": "A 34-year-old married female, employed as a Bioinformatics Scientist, presents with a chief complaint of intense fear and anxiety. For the past 11 months, she has experienced marked fear related to specific situations, particularly the possibility of choking. This fear is not limited to direct encounters; anticipatory anxiety is prominent, with significant distress reported when merely contemplating potential exposure to the feared situation. The patient reports actively enduring these situations when unavoidable, at which times she experiences intense fear and anxiety. These symptoms have resulted in notable functional impairment in her daily life.",
+        "options": "\n    A. Binge-Eating Disorder\n    B. Acute Stress Disorder\n    C. Specific Phobia\n    D. Generalized Anxiety Disorder\n    ",
+        "answer": "C. Specific Phobia",
+        "features": {
+            "question": {
+                "disease_code": "D012",
+                "disease_name": "Specific Phobia",
+                "sampled_features": {
+                    "disease_code": "D012",
+                    "disease_name": "Specific Phobia",
+                    "sampled_diagnostic_criteria": {
+                        "functional_impairment_required": true,
+                        "duration": "11 months"
+                    },
+                    "sampled_symptom_groups": {
+                        "phobic_symptoms": {
+                            "symptoms": [
+                                "S062",
+                                "S063",
+                                "S064"
+                            ],
+                            "name": "phobic_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S062",
+                        "S063",
+                        "S064"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S062": {
+                            "name": "Specific_Phobic_Fear",
+                            "categoty": "phobic_symptoms",
+                            "description": "Marked fear or anxiety about a specific object or situation that is out of proportion to the actual danger. (Note: In children, may be expressed by crying, tantrums, freezing, or clinging).",
+                            "subtypes": {
+                                "Other Type": "Marked fear of other situations like choking, vomiting, loud sounds, or costumed characters."
+                            }
+                        },
+                        "S063": {
+                            "name": "Immediate_Fear/Anxiety_Response",
+                            "categoty": "phobic_symptoms",
+                            "description": "The phobic object or situation almost always provokes immediate fear or anxiety.",
+                            "subtypes": {
+                                "Anticipatory Anxiety": "Strong anxiety triggered just by thinking about the possibility of encountering the phobic object."
+                            }
+                        },
+                        "S064": {
+                            "name": "Phobic_Avoidance_Endure",
+                            "categoty": "phobic_symptoms",
+                            "description": "The phobic object or situation is actively avoided or endured with intense fear or anxiety.",
+                            "subtypes": {
+                                "Enduring with Distress": "Forcing oneself to endure the situation while experiencing intense fear and anxiety because it cannot be avoided."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Binge-Eating Disorder",
+                    "Acute Stress Disorder",
+                    "Specific Phobia",
+                    "Generalized Anxiety Disorder"
+                ],
+                "answer_index": [
+                    2
+                ],
+                "index_types": [
+                    "Less likely option",
+                    "must_contain_option",
+                    "answer",
+                    "must_contain_option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D023",
+                        "disease_name": "Binge-Eating Disorder"
+                    },
+                    {
+                        "disease_code": "D019",
+                        "disease_name": "Acute Stress Disorder"
+                    },
+                    {
+                        "disease_code": "D012",
+                        "disease_name": "Specific Phobia"
+                    },
+                    {
+                        "disease_code": "D011",
+                        "disease_name": "Generalized Anxiety Disorder"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 34\n- **Gender:** Female\n- **Occupation:** Bioinformatics Scientist\n- **Marital Status:** Married\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Specific Phobia\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. phobic_symptoms Requirements:**\n- Other Type (Marked fear of other situations like choking, vomiting, loud sounds, or costumed characters.)\n- Anticipatory Anxiety (Strong anxiety triggered just by thinking about the possibility of encountering the phobic object.)\n- Enduring with Distress (Forcing oneself to endure the situation while experiencing intense fear and anxiety because it cannot be avoided.)\n\n**Critical Diagnostic Criteria:**\n\n- Duration: 11 months\n\n- Functional Impairment: True"
+    },
+    "D012_l019": {
+        "question": "A 30-year-old married female UX/UI Researcher presents with a chief complaint of intense fear related to medical procedures, blood, and injections, enduring for 11 months. The patient describes marked apprehension when confronted with phobic stimuli, and experiences significant anticipatory anxiety at the mere thought of encountering the phobic object. She reports distress and intense fear when forced to endure situations involving these stimuli, acknowledging the profound impact on her daily functioning. Specifically, the patient's pervasive fear and avoidance behaviors have resulted in notable functional impairment across multiple domains.",
+        "options": "\n    A. Binge-Eating Disorder\n    B. Acute Stress Disorder\n    C. Specific Phobia\n    D. Generalized Anxiety Disorder\n    ",
+        "answer": "C. Specific Phobia",
+        "features": {
+            "question": {
+                "disease_code": "D012",
+                "disease_name": "Specific Phobia",
+                "sampled_features": {
+                    "disease_code": "D012",
+                    "disease_name": "Specific Phobia",
+                    "sampled_diagnostic_criteria": {
+                        "functional_impairment_required": true,
+                        "duration": "11 months"
+                    },
+                    "sampled_symptom_groups": {
+                        "phobic_symptoms": {
+                            "symptoms": [
+                                "S062",
+                                "S063",
+                                "S064"
+                            ],
+                            "name": "phobic_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S062",
+                        "S063",
+                        "S064"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S062": {
+                            "name": "Specific_Phobic_Fear",
+                            "categoty": "phobic_symptoms",
+                            "description": "Marked fear or anxiety about a specific object or situation that is out of proportion to the actual danger. (Note: In children, may be expressed by crying, tantrums, freezing, or clinging).",
+                            "subtypes": {
+                                "Blood-Injection-Injury Type": "Marked fear of seeing blood, receiving injections, or medical procedures."
+                            }
+                        },
+                        "S063": {
+                            "name": "Immediate_Fear/Anxiety_Response",
+                            "categoty": "phobic_symptoms",
+                            "description": "The phobic object or situation almost always provokes immediate fear or anxiety.",
+                            "subtypes": {
+                                "Anticipatory Anxiety": "Strong anxiety triggered just by thinking about the possibility of encountering the phobic object."
+                            }
+                        },
+                        "S064": {
+                            "name": "Phobic_Avoidance_Endure",
+                            "categoty": "phobic_symptoms",
+                            "description": "The phobic object or situation is actively avoided or endured with intense fear or anxiety.",
+                            "subtypes": {
+                                "Enduring with Distress": "Forcing oneself to endure the situation while experiencing intense fear and anxiety because it cannot be avoided."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Binge-Eating Disorder",
+                    "Acute Stress Disorder",
+                    "Specific Phobia",
+                    "Generalized Anxiety Disorder"
+                ],
+                "answer_index": [
+                    2
+                ],
+                "index_types": [
+                    "Less likely option",
+                    "must_contain_option",
+                    "answer",
+                    "must_contain_option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D023",
+                        "disease_name": "Binge-Eating Disorder"
+                    },
+                    {
+                        "disease_code": "D019",
+                        "disease_name": "Acute Stress Disorder"
+                    },
+                    {
+                        "disease_code": "D012",
+                        "disease_name": "Specific Phobia"
+                    },
+                    {
+                        "disease_code": "D011",
+                        "disease_name": "Generalized Anxiety Disorder"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 30\n- **Gender:** Female\n- **Occupation:** UX/UI Researcher\n- **Marital Status:** Married\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Specific Phobia\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. phobic_symptoms Requirements:**\n- Blood-Injection-Injury Type (Marked fear of seeing blood, receiving injections, or medical procedures.)\n- Anticipatory Anxiety (Strong anxiety triggered just by thinking about the possibility of encountering the phobic object.)\n- Enduring with Distress (Forcing oneself to endure the situation while experiencing intense fear and anxiety because it cannot be avoided.)\n\n**Critical Diagnostic Criteria:**\n\n- Duration: 11 months\n\n- Functional Impairment: True"
+    },
+    "D012_l020": {
+        "question": "A 55-year-old married female, a real estate broker by profession, presents with significant anxiety symptoms that have been ongoing for 11 months. The patient exhibits marked fear in specific situations, including a notable dread of costumed characters. This apprehension is not limited to direct encounters, as she experiences intense anticipatory anxiety merely by contemplating exposure to the phobic stimuli. Her symptoms have led to considerable functional impairment, as evidenced by her acceptance of substantial restrictions in her daily life, occupational responsibilities, and social engagements in an effort to avoid these feared situations.",
+        "options": "\n    A. Binge-Eating Disorder\n    B. Acute Stress Disorder\n    C. Specific Phobia\n    D. Generalized Anxiety Disorder\n    ",
+        "answer": "C. Specific Phobia",
+        "features": {
+            "question": {
+                "disease_code": "D012",
+                "disease_name": "Specific Phobia",
+                "sampled_features": {
+                    "disease_code": "D012",
+                    "disease_name": "Specific Phobia",
+                    "sampled_diagnostic_criteria": {
+                        "functional_impairment_required": true,
+                        "duration": "11 months"
+                    },
+                    "sampled_symptom_groups": {
+                        "phobic_symptoms": {
+                            "symptoms": [
+                                "S062",
+                                "S063",
+                                "S064"
+                            ],
+                            "name": "phobic_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S062",
+                        "S063",
+                        "S064"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S062": {
+                            "name": "Specific_Phobic_Fear",
+                            "categoty": "phobic_symptoms",
+                            "description": "Marked fear or anxiety about a specific object or situation that is out of proportion to the actual danger. (Note: In children, may be expressed by crying, tantrums, freezing, or clinging).",
+                            "subtypes": {
+                                "Other Type": "Marked fear of other situations like choking, vomiting, loud sounds, or costumed characters."
+                            }
+                        },
+                        "S063": {
+                            "name": "Immediate_Fear/Anxiety_Response",
+                            "categoty": "phobic_symptoms",
+                            "description": "The phobic object or situation almost always provokes immediate fear or anxiety.",
+                            "subtypes": {
+                                "Anticipatory Anxiety": "Strong anxiety triggered just by thinking about the possibility of encountering the phobic object."
+                            }
+                        },
+                        "S064": {
+                            "name": "Phobic_Avoidance_Endure",
+                            "categoty": "phobic_symptoms",
+                            "description": "The phobic object or situation is actively avoided or endured with intense fear or anxiety.",
+                            "subtypes": {
+                                "Functional Impairment due to Avoidance": "Accepting severe restrictions on daily life, job, or social activities to avoid the phobic object."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Binge-Eating Disorder",
+                    "Acute Stress Disorder",
+                    "Specific Phobia",
+                    "Generalized Anxiety Disorder"
+                ],
+                "answer_index": [
+                    2
+                ],
+                "index_types": [
+                    "Less likely option",
+                    "must_contain_option",
+                    "answer",
+                    "must_contain_option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D023",
+                        "disease_name": "Binge-Eating Disorder"
+                    },
+                    {
+                        "disease_code": "D019",
+                        "disease_name": "Acute Stress Disorder"
+                    },
+                    {
+                        "disease_code": "D012",
+                        "disease_name": "Specific Phobia"
+                    },
+                    {
+                        "disease_code": "D011",
+                        "disease_name": "Generalized Anxiety Disorder"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 55\n- **Gender:** Female\n- **Occupation:** Real Estate Broker\n- **Marital Status:** Widowed\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Specific Phobia\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. phobic_symptoms Requirements:**\n- Other Type (Marked fear of other situations like choking, vomiting, loud sounds, or costumed characters.)\n- Anticipatory Anxiety (Strong anxiety triggered just by thinking about the possibility of encountering the phobic object.)\n- Functional Impairment due to Avoidance (Accepting severe restrictions on daily life, job, or social activities to avoid the phobic object.)\n\n**Critical Diagnostic Criteria:**\n\n- Duration: 11 months\n\n- Functional Impairment: True"
+    },
+    "D012_l021": {
+        "question": "A 58-year-old married female accountant presents with a 13-month history of significant anxiety. She reports marked fear and apprehension in specific situations, particularly within enclosed spaces, on airplanes, or while crossing tunnels and bridges. Exposure to these phobic stimuli consistently elicits an immediate and intense panic response. The patient acknowledges that this fear is disproportionate to the actual danger, and she has adopted extensive avoidance behaviors. These behaviors have resulted in considerable functional impairment, necessitating severe restrictions in her daily activities and impacting her professional and social engagements.",
+        "options": "\n    A. Major Depressive Disorder with Psychotic Features\n    B. Posttraumatic Stress Disorder\n    C. Specific Phobia\n    D. Obsessive-Compulsive Disorder\n    ",
+        "answer": "C. Specific Phobia",
+        "features": {
+            "question": {
+                "disease_code": "D012",
+                "disease_name": "Specific Phobia",
+                "sampled_features": {
+                    "disease_code": "D012",
+                    "disease_name": "Specific Phobia",
+                    "sampled_diagnostic_criteria": {
+                        "functional_impairment_required": true,
+                        "duration": "1 year and 1 months"
+                    },
+                    "sampled_symptom_groups": {
+                        "phobic_symptoms": {
+                            "symptoms": [
+                                "S062",
+                                "S063",
+                                "S064"
+                            ],
+                            "name": "phobic_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S062",
+                        "S063",
+                        "S064"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S062": {
+                            "name": "Specific_Phobic_Fear",
+                            "categoty": "phobic_symptoms",
+                            "description": "Marked fear or anxiety about a specific object or situation that is out of proportion to the actual danger. (Note: In children, may be expressed by crying, tantrums, freezing, or clinging).",
+                            "subtypes": {
+                                "Situational Type": "Marked fear of specific situations like airplanes, elevators, tunnels, bridges, or enclosed spaces."
+                            }
+                        },
+                        "S063": {
+                            "name": "Immediate_Fear/Anxiety_Response",
+                            "categoty": "phobic_symptoms",
+                            "description": "The phobic object or situation almost always provokes immediate fear or anxiety.",
+                            "subtypes": {
+                                "Immediate Panic Response": "Overwhelming fear erupting immediately upon facing the phobic object."
+                            }
+                        },
+                        "S064": {
+                            "name": "Phobic_Avoidance_Endure",
+                            "categoty": "phobic_symptoms",
+                            "description": "The phobic object or situation is actively avoided or endured with intense fear or anxiety.",
+                            "subtypes": {
+                                "Functional Impairment due to Avoidance": "Accepting severe restrictions on daily life, job, or social activities to avoid the phobic object."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Major Depressive Disorder with Psychotic Features",
+                    "Posttraumatic Stress Disorder",
+                    "Specific Phobia",
+                    "Obsessive-Compulsive Disorder"
+                ],
+                "answer_index": [
+                    2
+                ],
+                "index_types": [
+                    "Less likely option",
+                    "must_contain_option",
+                    "answer",
+                    "Less likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D015",
+                        "disease_name": "Major Depressive Disorder with Psychotic Features"
+                    },
+                    {
+                        "disease_code": "D018",
+                        "disease_name": "Posttraumatic Stress Disorder"
+                    },
+                    {
+                        "disease_code": "D012",
+                        "disease_name": "Specific Phobia"
+                    },
+                    {
+                        "disease_code": "D016",
+                        "disease_name": "Obsessive-Compulsive Disorder"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 58\n- **Gender:** Female\n- **Occupation:** Accountant\n- **Marital Status:** Married\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Specific Phobia\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. phobic_symptoms Requirements:**\n- Situational Type (Marked fear of specific situations like airplanes, elevators, tunnels, bridges, or enclosed spaces.)\n- Immediate Panic Response (Overwhelming fear erupting immediately upon facing the phobic object.)\n- Functional Impairment due to Avoidance (Accepting severe restrictions on daily life, job, or social activities to avoid the phobic object.)\n\n**Critical Diagnostic Criteria:**\n\n- Duration: 1 year and 1 months\n\n- Functional Impairment: True"
+    },
+    "D012_l022": {
+        "question": "A 38-year-old single male, employed as a crime scene cleaner, presents with a chief complaint of intense fear related to natural environmental stimuli. For approximately 13 months, he has reported marked phobic symptoms characterized by an immediate panic response when exposed to or anticipating natural environmental events such as storms, heights, or large bodies of water. This pervasive fear has led to significant functional impairment, as evidenced by his acceptance of severe restrictions in his daily life, occupation, and social interactions to avoid these phobic objects. His avoidance behaviors have demonstrably impacted his overall functioning.",
+        "options": "\n    A. Major Depressive Disorder with Psychotic Features\n    B. Posttraumatic Stress Disorder\n    C. Specific Phobia\n    D. Obsessive-Compulsive Disorder\n    ",
+        "answer": "C. Specific Phobia",
+        "features": {
+            "question": {
+                "disease_code": "D012",
+                "disease_name": "Specific Phobia",
+                "sampled_features": {
+                    "disease_code": "D012",
+                    "disease_name": "Specific Phobia",
+                    "sampled_diagnostic_criteria": {
+                        "functional_impairment_required": true,
+                        "duration": "1 year and 1 months"
+                    },
+                    "sampled_symptom_groups": {
+                        "phobic_symptoms": {
+                            "symptoms": [
+                                "S062",
+                                "S063",
+                                "S064"
+                            ],
+                            "name": "phobic_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S062",
+                        "S063",
+                        "S064"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S062": {
+                            "name": "Specific_Phobic_Fear",
+                            "categoty": "phobic_symptoms",
+                            "description": "Marked fear or anxiety about a specific object or situation that is out of proportion to the actual danger. (Note: In children, may be expressed by crying, tantrums, freezing, or clinging).",
+                            "subtypes": {
+                                "Natural Environment Type": "Marked fear of the natural environment like storms, heights, water, or the dark."
+                            }
+                        },
+                        "S063": {
+                            "name": "Immediate_Fear/Anxiety_Response",
+                            "categoty": "phobic_symptoms",
+                            "description": "The phobic object or situation almost always provokes immediate fear or anxiety.",
+                            "subtypes": {
+                                "Immediate Panic Response": "Overwhelming fear erupting immediately upon facing the phobic object."
+                            }
+                        },
+                        "S064": {
+                            "name": "Phobic_Avoidance_Endure",
+                            "categoty": "phobic_symptoms",
+                            "description": "The phobic object or situation is actively avoided or endured with intense fear or anxiety.",
+                            "subtypes": {
+                                "Functional Impairment due to Avoidance": "Accepting severe restrictions on daily life, job, or social activities to avoid the phobic object."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Major Depressive Disorder with Psychotic Features",
+                    "Posttraumatic Stress Disorder",
+                    "Specific Phobia",
+                    "Obsessive-Compulsive Disorder"
+                ],
+                "answer_index": [
+                    2
+                ],
+                "index_types": [
+                    "Less likely option",
+                    "must_contain_option",
+                    "answer",
+                    "Less likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D015",
+                        "disease_name": "Major Depressive Disorder with Psychotic Features"
+                    },
+                    {
+                        "disease_code": "D018",
+                        "disease_name": "Posttraumatic Stress Disorder"
+                    },
+                    {
+                        "disease_code": "D012",
+                        "disease_name": "Specific Phobia"
+                    },
+                    {
+                        "disease_code": "D016",
+                        "disease_name": "Obsessive-Compulsive Disorder"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 38\n- **Gender:** Male\n- **Occupation:** Crime Scene Cleaner\n- **Marital Status:** Single\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Specific Phobia\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. phobic_symptoms Requirements:**\n- Natural Environment Type (Marked fear of the natural environment like storms, heights, water, or the dark.)\n- Immediate Panic Response (Overwhelming fear erupting immediately upon facing the phobic object.)\n- Functional Impairment due to Avoidance (Accepting severe restrictions on daily life, job, or social activities to avoid the phobic object.)\n\n**Critical Diagnostic Criteria:**\n\n- Duration: 1 year and 1 months\n\n- Functional Impairment: True"
+    },
+    "D012_l023": {
+        "question": "A 33-year-old single male logistics coordinator presents with a clinical picture characterized by significant anxiety and avoidance behaviors. For the past 13 months, the patient has experienced marked fear specific to particular situations, specifically enclosed spaces. Encountering these situations immediately elicits an overwhelming fear response, consistent with a panic-like reaction. As a result, the patient actively and completely avoids these phobic objects or situations, leading to notable functional impairment in his daily life and occupational responsibilities. The patient reports no other significant psychiatric history.",
+        "options": "\n    A. Major Depressive Disorder with Psychotic Features\n    B. Posttraumatic Stress Disorder\n    C. Specific Phobia\n    D. Obsessive-Compulsive Disorder\n    ",
+        "answer": "C. Specific Phobia",
+        "features": {
+            "question": {
+                "disease_code": "D012",
+                "disease_name": "Specific Phobia",
+                "sampled_features": {
+                    "disease_code": "D012",
+                    "disease_name": "Specific Phobia",
+                    "sampled_diagnostic_criteria": {
+                        "functional_impairment_required": true,
+                        "duration": "1 year and 1 months"
+                    },
+                    "sampled_symptom_groups": {
+                        "phobic_symptoms": {
+                            "symptoms": [
+                                "S062",
+                                "S063",
+                                "S064"
+                            ],
+                            "name": "phobic_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S062",
+                        "S063",
+                        "S064"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S062": {
+                            "name": "Specific_Phobic_Fear",
+                            "categoty": "phobic_symptoms",
+                            "description": "Marked fear or anxiety about a specific object or situation that is out of proportion to the actual danger. (Note: In children, may be expressed by crying, tantrums, freezing, or clinging).",
+                            "subtypes": {
+                                "Situational Type": "Marked fear of specific situations like airplanes, elevators, tunnels, bridges, or enclosed spaces."
+                            }
+                        },
+                        "S063": {
+                            "name": "Immediate_Fear/Anxiety_Response",
+                            "categoty": "phobic_symptoms",
+                            "description": "The phobic object or situation almost always provokes immediate fear or anxiety.",
+                            "subtypes": {
+                                "Immediate Panic Response": "Overwhelming fear erupting immediately upon facing the phobic object."
+                            }
+                        },
+                        "S064": {
+                            "name": "Phobic_Avoidance_Endure",
+                            "categoty": "phobic_symptoms",
+                            "description": "The phobic object or situation is actively avoided or endured with intense fear or anxiety.",
+                            "subtypes": {
+                                "Active Avoidance": "Intentionally and completely staying away from contact with the phobic object or situation."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Major Depressive Disorder with Psychotic Features",
+                    "Posttraumatic Stress Disorder",
+                    "Specific Phobia",
+                    "Obsessive-Compulsive Disorder"
+                ],
+                "answer_index": [
+                    2
+                ],
+                "index_types": [
+                    "Less likely option",
+                    "must_contain_option",
+                    "answer",
+                    "Less likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D015",
+                        "disease_name": "Major Depressive Disorder with Psychotic Features"
+                    },
+                    {
+                        "disease_code": "D018",
+                        "disease_name": "Posttraumatic Stress Disorder"
+                    },
+                    {
+                        "disease_code": "D012",
+                        "disease_name": "Specific Phobia"
+                    },
+                    {
+                        "disease_code": "D016",
+                        "disease_name": "Obsessive-Compulsive Disorder"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 33\n- **Gender:** Male\n- **Occupation:** Logistics Coordinator\n- **Marital Status:** Single\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Specific Phobia\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. phobic_symptoms Requirements:**\n- Situational Type (Marked fear of specific situations like airplanes, elevators, tunnels, bridges, or enclosed spaces.)\n- Immediate Panic Response (Overwhelming fear erupting immediately upon facing the phobic object.)\n- Active Avoidance (Intentionally and completely staying away from contact with the phobic object or situation.)\n\n**Critical Diagnostic Criteria:**\n\n- Duration: 1 year and 1 months\n\n- Functional Impairment: True"
+    },
+    "D012_l024": {
+        "question": "A 46-year-old married female, who works as a matchmaker/couple manager, presents with a chief complaint of intense fear. The patient reports marked and persistent fear specifically in the presence of certain animals. When exposed to the feared stimulus, she experiences significant physiological panic symptoms, including heart palpitations and shortness of breath, accompanied by sweating and trembling. She describes actively forcing herself to endure encounters with these animals when avoidance is not possible, experiencing intense anxiety and distress throughout these situations. These symptoms have been present for approximately 1 year and 1 month and have resulted in notable functional impairment in her daily life.",
+        "options": "\n    A. Major Depressive Disorder with Psychotic Features\n    B. Posttraumatic Stress Disorder\n    C. Specific Phobia\n    D. Obsessive-Compulsive Disorder\n    ",
+        "answer": "C. Specific Phobia",
+        "features": {
+            "question": {
+                "disease_code": "D012",
+                "disease_name": "Specific Phobia",
+                "sampled_features": {
+                    "disease_code": "D012",
+                    "disease_name": "Specific Phobia",
+                    "sampled_diagnostic_criteria": {
+                        "functional_impairment_required": true,
+                        "duration": "1 year and 1 months"
+                    },
+                    "sampled_symptom_groups": {
+                        "phobic_symptoms": {
+                            "symptoms": [
+                                "S062",
+                                "S063",
+                                "S064"
+                            ],
+                            "name": "phobic_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S062",
+                        "S063",
+                        "S064"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S062": {
+                            "name": "Specific_Phobic_Fear",
+                            "categoty": "phobic_symptoms",
+                            "description": "Marked fear or anxiety about a specific object or situation that is out of proportion to the actual danger. (Note: In children, may be expressed by crying, tantrums, freezing, or clinging).",
+                            "subtypes": {
+                                "Animal Type": "Marked fear of animals or insects like dogs, bees, snakes, or spiders."
+                            }
+                        },
+                        "S063": {
+                            "name": "Immediate_Fear/Anxiety_Response",
+                            "categoty": "phobic_symptoms",
+                            "description": "The phobic object or situation almost always provokes immediate fear or anxiety.",
+                            "subtypes": {
+                                "Physiological Panic Symptoms": "Intense physical reactions such as heart palpitations, shortness of breath, sweating, or trembling."
+                            }
+                        },
+                        "S064": {
+                            "name": "Phobic_Avoidance_Endure",
+                            "categoty": "phobic_symptoms",
+                            "description": "The phobic object or situation is actively avoided or endured with intense fear or anxiety.",
+                            "subtypes": {
+                                "Enduring with Distress": "Forcing oneself to endure the situation while experiencing intense fear and anxiety because it cannot be avoided."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Major Depressive Disorder with Psychotic Features",
+                    "Posttraumatic Stress Disorder",
+                    "Specific Phobia",
+                    "Obsessive-Compulsive Disorder"
+                ],
+                "answer_index": [
+                    2
+                ],
+                "index_types": [
+                    "Less likely option",
+                    "must_contain_option",
+                    "answer",
+                    "Less likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D015",
+                        "disease_name": "Major Depressive Disorder with Psychotic Features"
+                    },
+                    {
+                        "disease_code": "D018",
+                        "disease_name": "Posttraumatic Stress Disorder"
+                    },
+                    {
+                        "disease_code": "D012",
+                        "disease_name": "Specific Phobia"
+                    },
+                    {
+                        "disease_code": "D016",
+                        "disease_name": "Obsessive-Compulsive Disorder"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 46\n- **Gender:** Female\n- **Occupation:** Matchmaker / Couple Manager\n- **Marital Status:** Married\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Specific Phobia\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. phobic_symptoms Requirements:**\n- Animal Type (Marked fear of animals or insects like dogs, bees, snakes, or spiders.)\n- Physiological Panic Symptoms (Intense physical reactions such as heart palpitations, shortness of breath, sweating, or trembling.)\n- Enduring with Distress (Forcing oneself to endure the situation while experiencing intense fear and anxiety because it cannot be avoided.)\n\n**Critical Diagnostic Criteria:**\n\n- Duration: 1 year and 1 months\n\n- Functional Impairment: True"
+    },
+    "D012_l025": {
+        "question": "A 38-year-old married female piano teacher presents with a 13-month history of significant distress and functional impairment related to specific phobic symptoms. She reports a marked fear of blood, injections, and medical procedures. This fear is not limited to direct exposure, as she experiences intense anticipatory anxiety merely by contemplating the possibility of encountering these stimuli. Consequently, she actively and intentionally avoids situations where she might encounter blood or require medical intervention. This avoidance has led to considerable disruption in her daily life and has precluded necessary medical care.",
+        "options": "\n    A. Major Depressive Disorder with Psychotic Features\n    B. Posttraumatic Stress Disorder\n    C. Specific Phobia\n    D. Obsessive-Compulsive Disorder\n    ",
+        "answer": "C. Specific Phobia",
+        "features": {
+            "question": {
+                "disease_code": "D012",
+                "disease_name": "Specific Phobia",
+                "sampled_features": {
+                    "disease_code": "D012",
+                    "disease_name": "Specific Phobia",
+                    "sampled_diagnostic_criteria": {
+                        "functional_impairment_required": true,
+                        "duration": "1 year and 1 months"
+                    },
+                    "sampled_symptom_groups": {
+                        "phobic_symptoms": {
+                            "symptoms": [
+                                "S062",
+                                "S063",
+                                "S064"
+                            ],
+                            "name": "phobic_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S062",
+                        "S063",
+                        "S064"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S062": {
+                            "name": "Specific_Phobic_Fear",
+                            "categoty": "phobic_symptoms",
+                            "description": "Marked fear or anxiety about a specific object or situation that is out of proportion to the actual danger. (Note: In children, may be expressed by crying, tantrums, freezing, or clinging).",
+                            "subtypes": {
+                                "Blood-Injection-Injury Type": "Marked fear of seeing blood, receiving injections, or medical procedures."
+                            }
+                        },
+                        "S063": {
+                            "name": "Immediate_Fear/Anxiety_Response",
+                            "categoty": "phobic_symptoms",
+                            "description": "The phobic object or situation almost always provokes immediate fear or anxiety.",
+                            "subtypes": {
+                                "Anticipatory Anxiety": "Strong anxiety triggered just by thinking about the possibility of encountering the phobic object."
+                            }
+                        },
+                        "S064": {
+                            "name": "Phobic_Avoidance_Endure",
+                            "categoty": "phobic_symptoms",
+                            "description": "The phobic object or situation is actively avoided or endured with intense fear or anxiety.",
+                            "subtypes": {
+                                "Active Avoidance": "Intentionally and completely staying away from contact with the phobic object or situation."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Major Depressive Disorder with Psychotic Features",
+                    "Posttraumatic Stress Disorder",
+                    "Specific Phobia",
+                    "Obsessive-Compulsive Disorder"
+                ],
+                "answer_index": [
+                    2
+                ],
+                "index_types": [
+                    "Less likely option",
+                    "must_contain_option",
+                    "answer",
+                    "Less likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D015",
+                        "disease_name": "Major Depressive Disorder with Psychotic Features"
+                    },
+                    {
+                        "disease_code": "D018",
+                        "disease_name": "Posttraumatic Stress Disorder"
+                    },
+                    {
+                        "disease_code": "D012",
+                        "disease_name": "Specific Phobia"
+                    },
+                    {
+                        "disease_code": "D016",
+                        "disease_name": "Obsessive-Compulsive Disorder"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 38\n- **Gender:** Female\n- **Occupation:** Piano Teacher\n- **Marital Status:** Married\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Specific Phobia\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. phobic_symptoms Requirements:**\n- Blood-Injection-Injury Type (Marked fear of seeing blood, receiving injections, or medical procedures.)\n- Anticipatory Anxiety (Strong anxiety triggered just by thinking about the possibility of encountering the phobic object.)\n- Active Avoidance (Intentionally and completely staying away from contact with the phobic object or situation.)\n\n**Critical Diagnostic Criteria:**\n\n- Duration: 1 year and 1 months\n\n- Functional Impairment: True"
+    }
+}

@@ -1,0 +1,2127 @@
+{
+    "D016_l001": {
+        "question": "A 44-year-old married male shipbuilder presents with a several-year history of recurrent and intrusive thoughts concerning contamination, specifically regarding germs and dirt. These obsessions are accompanied by repetitive behaviors aimed at neutralizing the associated distress. He endorses compulsive cleaning and washing rituals, including frequent hand washing and showering, which consume a significant portion of his day. These symptoms have led to notable functional impairment across occupational and social domains. The patient's marital status and occupation were established years prior to the onset of the current symptom complex.",
+        "options": "\n    A. Generalized Anxiety Disorder\n    B. Attention-Deficit/Hyperactivity Disorder (Combined Presentation)\n    C. Obsessive-Compulsive Disorder\n    D. Persistent Depressive Disorder\n    ",
+        "answer": "C. Obsessive-Compulsive Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D016",
+                "disease_name": "Obsessive-Compulsive Disorder",
+                "sampled_features": {
+                    "disease_code": "D016",
+                    "disease_name": "Obsessive-Compulsive Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "functional_impairment_required": true
+                    },
+                    "sampled_symptom_groups": {
+                        "obsessive_compulsive_symptoms": {
+                            "symptoms": [
+                                "S065",
+                                "S066"
+                            ],
+                            "name": "obsessive_compulsive_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S065",
+                        "S066"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S065": {
+                            "name": "Obsessions",
+                            "categoty": "obsessive_compulsive_symptoms",
+                            "description": "Recurrent and persistent thoughts, urges, or images that are experienced as intrusive and unwanted, and attempts to ignore or suppress them.",
+                            "subtypes": {
+                                "Contamination Obsessions": "Recurrent and intrusive worries about contamination, germs, or dirt."
+                            }
+                        },
+                        "S066": {
+                            "name": "Compulsions",
+                            "categoty": "obsessive_compulsive_symptoms",
+                            "description": "Repetitive behaviors or mental acts performed in response to an obsession or to prevent anxiety/distress; clearly excessive or not realistically connected.",
+                            "subtypes": {
+                                "Cleaning or Washing Compulsions": "Repetitive acts to remove contamination, such as hand washing, showering, or excessive cleaning."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Generalized Anxiety Disorder",
+                    "Attention-Deficit/Hyperactivity Disorder (Combined Presentation)",
+                    "Obsessive-Compulsive Disorder",
+                    "Persistent Depressive Disorder"
+                ],
+                "answer_index": [
+                    2
+                ],
+                "index_types": [
+                    "Less likely option",
+                    "Less likely option",
+                    "answer",
+                    "Less likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D011",
+                        "disease_name": "Generalized Anxiety Disorder"
+                    },
+                    {
+                        "disease_code": "D001",
+                        "disease_name": "Attention-Deficit/Hyperactivity Disorder (Combined Presentation)"
+                    },
+                    {
+                        "disease_code": "D016",
+                        "disease_name": "Obsessive-Compulsive Disorder"
+                    },
+                    {
+                        "disease_code": "D014",
+                        "disease_name": "Persistent Depressive Disorder"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 44\n- **Gender:** Male\n- **Occupation:** Shipbuilder\n- **Marital Status:** Married\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Obsessive-Compulsive Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. obsessive_compulsive_symptoms Requirements:**\n- Contamination Obsessions (Recurrent and intrusive worries about contamination, germs, or dirt.)\n- Cleaning or Washing Compulsions (Repetitive acts to remove contamination, such as hand washing, showering, or excessive cleaning.)\n\n**Critical Diagnostic Criteria:**\n\n- Functional Impairment: True"
+    },
+    "D016_l002": {
+        "question": "A 30-year-old single male fitness trainer presents with a clinical picture characterized by intrusive, persistent thoughts and repetitive behaviors occurring for several years. The patient reports a pervasive preoccupation with symmetry and exactness, experiencing significant distress when objects are not perfectly aligned or arranged. These obsessions are frequently accompanied by compulsive ordering and arranging behaviors, wherein he feels compelled to organize items in a precise manner or at specific angles. These rituals are performed in an attempt to alleviate the anxiety associated with the obsessions. The symptoms cause significant functional impairment across various aspects of his daily life, including his professional duties and social interactions.",
+        "options": "\n    A. Generalized Anxiety Disorder\n    B. Attention-Deficit/Hyperactivity Disorder (Combined Presentation)\n    C. Obsessive-Compulsive Disorder\n    D. Persistent Depressive Disorder\n    ",
+        "answer": "C. Obsessive-Compulsive Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D016",
+                "disease_name": "Obsessive-Compulsive Disorder",
+                "sampled_features": {
+                    "disease_code": "D016",
+                    "disease_name": "Obsessive-Compulsive Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "functional_impairment_required": true
+                    },
+                    "sampled_symptom_groups": {
+                        "obsessive_compulsive_symptoms": {
+                            "symptoms": [
+                                "S065",
+                                "S066"
+                            ],
+                            "name": "obsessive_compulsive_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S065",
+                        "S066"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S065": {
+                            "name": "Obsessions",
+                            "categoty": "obsessive_compulsive_symptoms",
+                            "description": "Recurrent and persistent thoughts, urges, or images that are experienced as intrusive and unwanted, and attempts to ignore or suppress them.",
+                            "subtypes": {
+                                "Symmetry and Exactness Obsessions": "A strong urge that items must be lined up exactly or be symmetrical."
+                            }
+                        },
+                        "S066": {
+                            "name": "Compulsions",
+                            "categoty": "obsessive_compulsive_symptoms",
+                            "description": "Repetitive behaviors or mental acts performed in response to an obsession or to prevent anxiety/distress; clearly excessive or not realistically connected.",
+                            "subtypes": {
+                                "Ordering and Arranging Compulsions": "Organizing objects in a specific order or at a precise angle to reduce anxiety."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Generalized Anxiety Disorder",
+                    "Attention-Deficit/Hyperactivity Disorder (Combined Presentation)",
+                    "Obsessive-Compulsive Disorder",
+                    "Persistent Depressive Disorder"
+                ],
+                "answer_index": [
+                    2
+                ],
+                "index_types": [
+                    "Less likely option",
+                    "Less likely option",
+                    "answer",
+                    "Less likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D011",
+                        "disease_name": "Generalized Anxiety Disorder"
+                    },
+                    {
+                        "disease_code": "D001",
+                        "disease_name": "Attention-Deficit/Hyperactivity Disorder (Combined Presentation)"
+                    },
+                    {
+                        "disease_code": "D016",
+                        "disease_name": "Obsessive-Compulsive Disorder"
+                    },
+                    {
+                        "disease_code": "D014",
+                        "disease_name": "Persistent Depressive Disorder"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 30\n- **Gender:** Male\n- **Occupation:** Fitness Trainer\n- **Marital Status:** Single\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Obsessive-Compulsive Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. obsessive_compulsive_symptoms Requirements:**\n- Symmetry and Exactness Obsessions (A strong urge that items must be lined up exactly or be symmetrical.)\n- Ordering and Arranging Compulsions (Organizing objects in a specific order or at a precise angle to reduce anxiety.)\n\n**Critical Diagnostic Criteria:**\n\n- Functional Impairment: True"
+    },
+    "D016_l003": {
+        "question": "A 45-year-old female, employed as a social worker and single, presents with a clinical picture characterized by recurrent, intrusive thoughts and associated repetitive behaviors. For the past 18 months, the patient has experienced significant pathological doubt, primarily concerning the security of her home, manifesting as persistent worries about unlocked doors or unattended gas valves, despite personally verifying their status. This has led to time-consuming checking rituals. Additionally, she engages in repeating specific actions, such as standing up or passing through doorways, a set number of times. These symptoms consume several hours daily, causing marked distress and significant interference with her occupational and social functioning.",
+        "options": "\n    A. Generalized Anxiety Disorder\n    B. Attention-Deficit/Hyperactivity Disorder (Combined Presentation)\n    C. Obsessive-Compulsive Disorder\n    D. Persistent Depressive Disorder\n    ",
+        "answer": "C. Obsessive-Compulsive Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D016",
+                "disease_name": "Obsessive-Compulsive Disorder",
+                "sampled_features": {
+                    "disease_code": "D016",
+                    "disease_name": "Obsessive-Compulsive Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "functional_impairment_required": true
+                    },
+                    "sampled_symptom_groups": {
+                        "obsessive_compulsive_symptoms": {
+                            "symptoms": [
+                                "S065",
+                                "S066"
+                            ],
+                            "name": "obsessive_compulsive_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S065",
+                        "S066"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S065": {
+                            "name": "Obsessions",
+                            "categoty": "obsessive_compulsive_symptoms",
+                            "description": "Recurrent and persistent thoughts, urges, or images that are experienced as intrusive and unwanted, and attempts to ignore or suppress them.",
+                            "subtypes": {
+                                "Pathological Doubt": "Pathological doubt regarding safety or mistakes, such as whether doors are locked or gas valves are closed."
+                            }
+                        },
+                        "S066": {
+                            "name": "Compulsions",
+                            "categoty": "obsessive_compulsive_symptoms",
+                            "description": "Repetitive behaviors or mental acts performed in response to an obsession or to prevent anxiety/distress; clearly excessive or not realistically connected.",
+                            "subtypes": {
+                                "Repeating Rituals": "Repeating specific actions (e.g., standing up, passing through a door) a set number of times."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Generalized Anxiety Disorder",
+                    "Attention-Deficit/Hyperactivity Disorder (Combined Presentation)",
+                    "Obsessive-Compulsive Disorder",
+                    "Persistent Depressive Disorder"
+                ],
+                "answer_index": [
+                    2
+                ],
+                "index_types": [
+                    "Less likely option",
+                    "Less likely option",
+                    "answer",
+                    "Less likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D011",
+                        "disease_name": "Generalized Anxiety Disorder"
+                    },
+                    {
+                        "disease_code": "D001",
+                        "disease_name": "Attention-Deficit/Hyperactivity Disorder (Combined Presentation)"
+                    },
+                    {
+                        "disease_code": "D016",
+                        "disease_name": "Obsessive-Compulsive Disorder"
+                    },
+                    {
+                        "disease_code": "D014",
+                        "disease_name": "Persistent Depressive Disorder"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 45\n- **Gender:** Female\n- **Occupation:** Social Worker\n- **Marital Status:** Single\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Obsessive-Compulsive Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. obsessive_compulsive_symptoms Requirements:**\n- Pathological Doubt (Pathological doubt regarding safety or mistakes, such as whether doors are locked or gas valves are closed.)\n- Repeating Rituals (Repeating specific actions (e.g., standing up, passing through a door) a set number of times.)\n\n**Critical Diagnostic Criteria:**\n\n- Functional Impairment: True"
+    },
+    "D016_l004": {
+        "question": "A 59-year-old married male farmer presents with a clinical picture characterized by intrusive thoughts and repetitive behaviors, enduring for at least six months. The patient reports significant distress related to a pervasive need for symmetry and exactness, experiencing considerable anxiety when objects are not perfectly aligned or arranged. This is accompanied by a compulsion to perform repetitive rituals, specifically noting the need to repeat actions such as standing or passing through doorways a precise number of times. These symptoms are time-consuming and have led to marked functional impairment in his daily activities and occupational duties.",
+        "options": "\n    A. Generalized Anxiety Disorder\n    B. Attention-Deficit/Hyperactivity Disorder (Combined Presentation)\n    C. Obsessive-Compulsive Disorder\n    D. Persistent Depressive Disorder\n    ",
+        "answer": "C. Obsessive-Compulsive Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D016",
+                "disease_name": "Obsessive-Compulsive Disorder",
+                "sampled_features": {
+                    "disease_code": "D016",
+                    "disease_name": "Obsessive-Compulsive Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "functional_impairment_required": true
+                    },
+                    "sampled_symptom_groups": {
+                        "obsessive_compulsive_symptoms": {
+                            "symptoms": [
+                                "S065",
+                                "S066"
+                            ],
+                            "name": "obsessive_compulsive_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S065",
+                        "S066"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S065": {
+                            "name": "Obsessions",
+                            "categoty": "obsessive_compulsive_symptoms",
+                            "description": "Recurrent and persistent thoughts, urges, or images that are experienced as intrusive and unwanted, and attempts to ignore or suppress them.",
+                            "subtypes": {
+                                "Symmetry and Exactness Obsessions": "A strong urge that items must be lined up exactly or be symmetrical."
+                            }
+                        },
+                        "S066": {
+                            "name": "Compulsions",
+                            "categoty": "obsessive_compulsive_symptoms",
+                            "description": "Repetitive behaviors or mental acts performed in response to an obsession or to prevent anxiety/distress; clearly excessive or not realistically connected.",
+                            "subtypes": {
+                                "Repeating Rituals": "Repeating specific actions (e.g., standing up, passing through a door) a set number of times."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Generalized Anxiety Disorder",
+                    "Attention-Deficit/Hyperactivity Disorder (Combined Presentation)",
+                    "Obsessive-Compulsive Disorder",
+                    "Persistent Depressive Disorder"
+                ],
+                "answer_index": [
+                    2
+                ],
+                "index_types": [
+                    "Less likely option",
+                    "Less likely option",
+                    "answer",
+                    "Less likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D011",
+                        "disease_name": "Generalized Anxiety Disorder"
+                    },
+                    {
+                        "disease_code": "D001",
+                        "disease_name": "Attention-Deficit/Hyperactivity Disorder (Combined Presentation)"
+                    },
+                    {
+                        "disease_code": "D016",
+                        "disease_name": "Obsessive-Compulsive Disorder"
+                    },
+                    {
+                        "disease_code": "D014",
+                        "disease_name": "Persistent Depressive Disorder"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 59\n- **Gender:** Male\n- **Occupation:** Farmer\n- **Marital Status:** Married\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Obsessive-Compulsive Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. obsessive_compulsive_symptoms Requirements:**\n- Symmetry and Exactness Obsessions (A strong urge that items must be lined up exactly or be symmetrical.)\n- Repeating Rituals (Repeating specific actions (e.g., standing up, passing through a door) a set number of times.)\n\n**Critical Diagnostic Criteria:**\n\n- Functional Impairment: True"
+    },
+    "D016_l005": {
+        "question": "A 28-year-old single male software developer presents with a clinical picture characterized by persistent, intrusive thoughts and associated repetitive behaviors. For approximately two years, the patient has experienced significant pathological doubt, primarily concerning safety-related issues such as the locking of doors and the closing of gas valves. This doubt often leads to extensive checking rituals. In addition, he reports engaging in ordering and arranging compulsions, meticulously aligning objects to specific angles or in particular sequences, which he describes as a means to alleviate internal distress. These symptoms have led to notable functional impairment in his daily life.",
+        "options": "\n    A. Generalized Anxiety Disorder\n    B. Attention-Deficit/Hyperactivity Disorder (Combined Presentation)\n    C. Obsessive-Compulsive Disorder\n    D. Persistent Depressive Disorder\n    ",
+        "answer": "C. Obsessive-Compulsive Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D016",
+                "disease_name": "Obsessive-Compulsive Disorder",
+                "sampled_features": {
+                    "disease_code": "D016",
+                    "disease_name": "Obsessive-Compulsive Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "functional_impairment_required": true
+                    },
+                    "sampled_symptom_groups": {
+                        "obsessive_compulsive_symptoms": {
+                            "symptoms": [
+                                "S065",
+                                "S066"
+                            ],
+                            "name": "obsessive_compulsive_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S065",
+                        "S066"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S065": {
+                            "name": "Obsessions",
+                            "categoty": "obsessive_compulsive_symptoms",
+                            "description": "Recurrent and persistent thoughts, urges, or images that are experienced as intrusive and unwanted, and attempts to ignore or suppress them.",
+                            "subtypes": {
+                                "Pathological Doubt": "Pathological doubt regarding safety or mistakes, such as whether doors are locked or gas valves are closed."
+                            }
+                        },
+                        "S066": {
+                            "name": "Compulsions",
+                            "categoty": "obsessive_compulsive_symptoms",
+                            "description": "Repetitive behaviors or mental acts performed in response to an obsession or to prevent anxiety/distress; clearly excessive or not realistically connected.",
+                            "subtypes": {
+                                "Ordering and Arranging Compulsions": "Organizing objects in a specific order or at a precise angle to reduce anxiety."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Generalized Anxiety Disorder",
+                    "Attention-Deficit/Hyperactivity Disorder (Combined Presentation)",
+                    "Obsessive-Compulsive Disorder",
+                    "Persistent Depressive Disorder"
+                ],
+                "answer_index": [
+                    2
+                ],
+                "index_types": [
+                    "Less likely option",
+                    "Less likely option",
+                    "answer",
+                    "Less likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D011",
+                        "disease_name": "Generalized Anxiety Disorder"
+                    },
+                    {
+                        "disease_code": "D001",
+                        "disease_name": "Attention-Deficit/Hyperactivity Disorder (Combined Presentation)"
+                    },
+                    {
+                        "disease_code": "D016",
+                        "disease_name": "Obsessive-Compulsive Disorder"
+                    },
+                    {
+                        "disease_code": "D014",
+                        "disease_name": "Persistent Depressive Disorder"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 28\n- **Gender:** Male\n- **Occupation:** Software Developer\n- **Marital Status:** Single\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Obsessive-Compulsive Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. obsessive_compulsive_symptoms Requirements:**\n- Pathological Doubt (Pathological doubt regarding safety or mistakes, such as whether doors are locked or gas valves are closed.)\n- Ordering and Arranging Compulsions (Organizing objects in a specific order or at a precise angle to reduce anxiety.)\n\n**Critical Diagnostic Criteria:**\n\n- Functional Impairment: True"
+    },
+    "D016_l006": {
+        "question": "A 34-year-old married male chef presents with a clinical picture of distress and functional interference over the past 18 months. He reports persistent intrusive thoughts necessitating that objects in his environment be arranged precisely and symmetrically. This is accompanied by repetitive checking behaviors, including repeatedly verifying the security of door locks and the status of the gas stove and electrical switches, driven by a fear of potential harm. These symptoms are ego-dystonic and significantly impair his occupational performance and daily functioning.",
+        "options": "\n    A. Body Dysmorphic Disorder\n    B. Obsessive-Compulsive Disorder\n    C. Schizoaffective Disorder (Bipolar Type)\n    D. Posttraumatic Stress Disorder\n    ",
+        "answer": "B. Obsessive-Compulsive Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D016",
+                "disease_name": "Obsessive-Compulsive Disorder",
+                "sampled_features": {
+                    "disease_code": "D016",
+                    "disease_name": "Obsessive-Compulsive Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "functional_impairment_required": true
+                    },
+                    "sampled_symptom_groups": {
+                        "obsessive_compulsive_symptoms": {
+                            "symptoms": [
+                                "S065",
+                                "S066"
+                            ],
+                            "name": "obsessive_compulsive_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S065",
+                        "S066"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S065": {
+                            "name": "Obsessions",
+                            "categoty": "obsessive_compulsive_symptoms",
+                            "description": "Recurrent and persistent thoughts, urges, or images that are experienced as intrusive and unwanted, and attempts to ignore or suppress them.",
+                            "subtypes": {
+                                "Symmetry and Exactness Obsessions": "A strong urge that items must be lined up exactly or be symmetrical."
+                            }
+                        },
+                        "S066": {
+                            "name": "Compulsions",
+                            "categoty": "obsessive_compulsive_symptoms",
+                            "description": "Repetitive behaviors or mental acts performed in response to an obsession or to prevent anxiety/distress; clearly excessive or not realistically connected.",
+                            "subtypes": {
+                                "Checking Compulsions": "Repeatedly checking items like door locks, gas stoves, or switches to prevent danger."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Body Dysmorphic Disorder",
+                    "Obsessive-Compulsive Disorder",
+                    "Schizoaffective Disorder (Bipolar Type)",
+                    "Posttraumatic Stress Disorder"
+                ],
+                "answer_index": [
+                    1
+                ],
+                "index_types": [
+                    "Less likely option",
+                    "answer",
+                    "Less likely option",
+                    "Less likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D017",
+                        "disease_name": "Body Dysmorphic Disorder"
+                    },
+                    {
+                        "disease_code": "D016",
+                        "disease_name": "Obsessive-Compulsive Disorder"
+                    },
+                    {
+                        "disease_code": "D006",
+                        "disease_name": "Schizoaffective Disorder (Bipolar Type)"
+                    },
+                    {
+                        "disease_code": "D018",
+                        "disease_name": "Posttraumatic Stress Disorder"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 34\n- **Gender:** Male\n- **Occupation:** Chef\n- **Marital Status:** Married\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Obsessive-Compulsive Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. obsessive_compulsive_symptoms Requirements:**\n- Symmetry and Exactness Obsessions (A strong urge that items must be lined up exactly or be symmetrical.)\n- Checking Compulsions (Repeatedly checking items like door locks, gas stoves, or switches to prevent danger.)\n\n**Critical Diagnostic Criteria:**\n\n- Functional Impairment: True"
+    },
+    "D016_l007": {
+        "question": "A 25-year-old single female graduate student presents with a several-year history of recurrent and intrusive thoughts concerning contamination, germs, and dirt. This is accompanied by repetitive behaviors, specifically an urge to organize objects in a precise order and exact angle, which she reports performing to alleviate significant internal distress. These symptoms cause considerable functional impairment in her academic and social spheres, interfering with her ability to complete coursework and engage in social activities. Her symptoms are of sufficient severity to significantly impact her daily functioning.",
+        "options": "\n    A. Body Dysmorphic Disorder\n    B. Obsessive-Compulsive Disorder\n    C. Schizoaffective Disorder (Bipolar Type)\n    D. Posttraumatic Stress Disorder\n    ",
+        "answer": "B. Obsessive-Compulsive Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D016",
+                "disease_name": "Obsessive-Compulsive Disorder",
+                "sampled_features": {
+                    "disease_code": "D016",
+                    "disease_name": "Obsessive-Compulsive Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "functional_impairment_required": true
+                    },
+                    "sampled_symptom_groups": {
+                        "obsessive_compulsive_symptoms": {
+                            "symptoms": [
+                                "S065",
+                                "S066"
+                            ],
+                            "name": "obsessive_compulsive_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S065",
+                        "S066"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S065": {
+                            "name": "Obsessions",
+                            "categoty": "obsessive_compulsive_symptoms",
+                            "description": "Recurrent and persistent thoughts, urges, or images that are experienced as intrusive and unwanted, and attempts to ignore or suppress them.",
+                            "subtypes": {
+                                "Contamination Obsessions": "Recurrent and intrusive worries about contamination, germs, or dirt."
+                            }
+                        },
+                        "S066": {
+                            "name": "Compulsions",
+                            "categoty": "obsessive_compulsive_symptoms",
+                            "description": "Repetitive behaviors or mental acts performed in response to an obsession or to prevent anxiety/distress; clearly excessive or not realistically connected.",
+                            "subtypes": {
+                                "Ordering and Arranging Compulsions": "Organizing objects in a specific order or at a precise angle to reduce anxiety."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Body Dysmorphic Disorder",
+                    "Obsessive-Compulsive Disorder",
+                    "Schizoaffective Disorder (Bipolar Type)",
+                    "Posttraumatic Stress Disorder"
+                ],
+                "answer_index": [
+                    1
+                ],
+                "index_types": [
+                    "Less likely option",
+                    "answer",
+                    "Less likely option",
+                    "Less likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D017",
+                        "disease_name": "Body Dysmorphic Disorder"
+                    },
+                    {
+                        "disease_code": "D016",
+                        "disease_name": "Obsessive-Compulsive Disorder"
+                    },
+                    {
+                        "disease_code": "D006",
+                        "disease_name": "Schizoaffective Disorder (Bipolar Type)"
+                    },
+                    {
+                        "disease_code": "D018",
+                        "disease_name": "Posttraumatic Stress Disorder"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 25\n- **Gender:** Female\n- **Occupation:** Graduate Student\n- **Marital Status:** Single\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Obsessive-Compulsive Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. obsessive_compulsive_symptoms Requirements:**\n- Contamination Obsessions (Recurrent and intrusive worries about contamination, germs, or dirt.)\n- Ordering and Arranging Compulsions (Organizing objects in a specific order or at a precise angle to reduce anxiety.)\n\n**Critical Diagnostic Criteria:**\n\n- Functional Impairment: True"
+    },
+    "D016_l008": {
+        "question": "A 31-year-old married male sous chef presents with a several-year history of intrusive thoughts and repetitive behaviors. He reports significant preoccupation with symmetry and exactness, experiencing considerable distress if objects are not precisely aligned or arranged. This ideation compels him to engage in ordering and arranging behaviors, such as meticulously organizing items in a specific sequence or at precise angles, which he finds temporarily alleviates the associated anxiety. These symptoms are time-consuming and have led to notable functional impairment in his professional and personal life.",
+        "options": "\n    A. Body Dysmorphic Disorder\n    B. Obsessive-Compulsive Disorder\n    C. Schizoaffective Disorder (Bipolar Type)\n    D. Posttraumatic Stress Disorder\n    ",
+        "answer": "B. Obsessive-Compulsive Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D016",
+                "disease_name": "Obsessive-Compulsive Disorder",
+                "sampled_features": {
+                    "disease_code": "D016",
+                    "disease_name": "Obsessive-Compulsive Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "functional_impairment_required": true
+                    },
+                    "sampled_symptom_groups": {
+                        "obsessive_compulsive_symptoms": {
+                            "symptoms": [
+                                "S065",
+                                "S066"
+                            ],
+                            "name": "obsessive_compulsive_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S065",
+                        "S066"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S065": {
+                            "name": "Obsessions",
+                            "categoty": "obsessive_compulsive_symptoms",
+                            "description": "Recurrent and persistent thoughts, urges, or images that are experienced as intrusive and unwanted, and attempts to ignore or suppress them.",
+                            "subtypes": {
+                                "Symmetry and Exactness Obsessions": "A strong urge that items must be lined up exactly or be symmetrical."
+                            }
+                        },
+                        "S066": {
+                            "name": "Compulsions",
+                            "categoty": "obsessive_compulsive_symptoms",
+                            "description": "Repetitive behaviors or mental acts performed in response to an obsession or to prevent anxiety/distress; clearly excessive or not realistically connected.",
+                            "subtypes": {
+                                "Ordering and Arranging Compulsions": "Organizing objects in a specific order or at a precise angle to reduce anxiety."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Body Dysmorphic Disorder",
+                    "Obsessive-Compulsive Disorder",
+                    "Schizoaffective Disorder (Bipolar Type)",
+                    "Posttraumatic Stress Disorder"
+                ],
+                "answer_index": [
+                    1
+                ],
+                "index_types": [
+                    "Less likely option",
+                    "answer",
+                    "Less likely option",
+                    "Less likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D017",
+                        "disease_name": "Body Dysmorphic Disorder"
+                    },
+                    {
+                        "disease_code": "D016",
+                        "disease_name": "Obsessive-Compulsive Disorder"
+                    },
+                    {
+                        "disease_code": "D006",
+                        "disease_name": "Schizoaffective Disorder (Bipolar Type)"
+                    },
+                    {
+                        "disease_code": "D018",
+                        "disease_name": "Posttraumatic Stress Disorder"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 31\n- **Gender:** Male\n- **Occupation:** Sous Chef\n- **Marital Status:** Married\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Obsessive-Compulsive Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. obsessive_compulsive_symptoms Requirements:**\n- Symmetry and Exactness Obsessions (A strong urge that items must be lined up exactly or be symmetrical.)\n- Ordering and Arranging Compulsions (Organizing objects in a specific order or at a precise angle to reduce anxiety.)\n\n**Critical Diagnostic Criteria:**\n\n- Functional Impairment: True"
+    },
+    "D016_l009": {
+        "question": "A 48-year-old married female, who works as a travel agent, presents with a several-year history of intrusive and persistent preoccupations regarding contamination and germs. These obsessional thoughts are accompanied by repetitive behaviors aimed at neutralizing the distress associated with her concerns. Specifically, she engages in extensive handwashing and showering, as well as meticulous cleaning of her environment. Despite her efforts, these symptoms continue to recur. The patient reports significant functional impairment in her daily life due to the time-consuming nature of these compulsions and the pervasive anxiety related to her obsessions.",
+        "options": "\n    A. Body Dysmorphic Disorder\n    B. Obsessive-Compulsive Disorder\n    C. Schizoaffective Disorder (Bipolar Type)\n    D. Posttraumatic Stress Disorder\n    ",
+        "answer": "B. Obsessive-Compulsive Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D016",
+                "disease_name": "Obsessive-Compulsive Disorder",
+                "sampled_features": {
+                    "disease_code": "D016",
+                    "disease_name": "Obsessive-Compulsive Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "functional_impairment_required": true
+                    },
+                    "sampled_symptom_groups": {
+                        "obsessive_compulsive_symptoms": {
+                            "symptoms": [
+                                "S065",
+                                "S066"
+                            ],
+                            "name": "obsessive_compulsive_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S065",
+                        "S066"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S065": {
+                            "name": "Obsessions",
+                            "categoty": "obsessive_compulsive_symptoms",
+                            "description": "Recurrent and persistent thoughts, urges, or images that are experienced as intrusive and unwanted, and attempts to ignore or suppress them.",
+                            "subtypes": {
+                                "Contamination Obsessions": "Recurrent and intrusive worries about contamination, germs, or dirt."
+                            }
+                        },
+                        "S066": {
+                            "name": "Compulsions",
+                            "categoty": "obsessive_compulsive_symptoms",
+                            "description": "Repetitive behaviors or mental acts performed in response to an obsession or to prevent anxiety/distress; clearly excessive or not realistically connected.",
+                            "subtypes": {
+                                "Cleaning or Washing Compulsions": "Repetitive acts to remove contamination, such as hand washing, showering, or excessive cleaning."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Body Dysmorphic Disorder",
+                    "Obsessive-Compulsive Disorder",
+                    "Schizoaffective Disorder (Bipolar Type)",
+                    "Posttraumatic Stress Disorder"
+                ],
+                "answer_index": [
+                    1
+                ],
+                "index_types": [
+                    "Less likely option",
+                    "answer",
+                    "Less likely option",
+                    "Less likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D017",
+                        "disease_name": "Body Dysmorphic Disorder"
+                    },
+                    {
+                        "disease_code": "D016",
+                        "disease_name": "Obsessive-Compulsive Disorder"
+                    },
+                    {
+                        "disease_code": "D006",
+                        "disease_name": "Schizoaffective Disorder (Bipolar Type)"
+                    },
+                    {
+                        "disease_code": "D018",
+                        "disease_name": "Posttraumatic Stress Disorder"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 48\n- **Gender:** Female\n- **Occupation:** Travel Agent\n- **Marital Status:** Divorced\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Obsessive-Compulsive Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. obsessive_compulsive_symptoms Requirements:**\n- Contamination Obsessions (Recurrent and intrusive worries about contamination, germs, or dirt.)\n- Cleaning or Washing Compulsions (Repetitive acts to remove contamination, such as hand washing, showering, or excessive cleaning.)\n\n**Critical Diagnostic Criteria:**\n\n- Functional Impairment: True"
+    },
+    "D016_l010": {
+        "question": "A 38-year-old married male bank manager presents with a clinical picture characterized by intrusive thoughts and repetitive behaviors. For approximately three years, he has experienced persistent and specific somatic obsessions, centering on an unshakeable fear of having a serious, undiagnosed illness. This preoccupation is not assuaged by medical reassurance. Concurrently, he engages in repeating rituals, specifically performing certain actions, such as standing up or passing through a doorway, a predetermined number of times. These rituals are performed in an attempt to alleviate distress associated with the obsessive thoughts. The patient reports significant functional impairment in his professional and personal life due to the time-consuming nature of these symptoms.",
+        "options": "\n    A. Body Dysmorphic Disorder\n    B. Obsessive-Compulsive Disorder\n    C. Schizoaffective Disorder (Bipolar Type)\n    D. Posttraumatic Stress Disorder\n    ",
+        "answer": "B. Obsessive-Compulsive Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D016",
+                "disease_name": "Obsessive-Compulsive Disorder",
+                "sampled_features": {
+                    "disease_code": "D016",
+                    "disease_name": "Obsessive-Compulsive Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "functional_impairment_required": true
+                    },
+                    "sampled_symptom_groups": {
+                        "obsessive_compulsive_symptoms": {
+                            "symptoms": [
+                                "S065",
+                                "S066"
+                            ],
+                            "name": "obsessive_compulsive_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S065",
+                        "S066"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S065": {
+                            "name": "Obsessions",
+                            "categoty": "obsessive_compulsive_symptoms",
+                            "description": "Recurrent and persistent thoughts, urges, or images that are experienced as intrusive and unwanted, and attempts to ignore or suppress them.",
+                            "subtypes": {
+                                "Somatic Obsessions": "Persistent and specific fear that one might have a serious disease."
+                            }
+                        },
+                        "S066": {
+                            "name": "Compulsions",
+                            "categoty": "obsessive_compulsive_symptoms",
+                            "description": "Repetitive behaviors or mental acts performed in response to an obsession or to prevent anxiety/distress; clearly excessive or not realistically connected.",
+                            "subtypes": {
+                                "Repeating Rituals": "Repeating specific actions (e.g., standing up, passing through a door) a set number of times."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Body Dysmorphic Disorder",
+                    "Obsessive-Compulsive Disorder",
+                    "Schizoaffective Disorder (Bipolar Type)",
+                    "Posttraumatic Stress Disorder"
+                ],
+                "answer_index": [
+                    1
+                ],
+                "index_types": [
+                    "Less likely option",
+                    "answer",
+                    "Less likely option",
+                    "Less likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D017",
+                        "disease_name": "Body Dysmorphic Disorder"
+                    },
+                    {
+                        "disease_code": "D016",
+                        "disease_name": "Obsessive-Compulsive Disorder"
+                    },
+                    {
+                        "disease_code": "D006",
+                        "disease_name": "Schizoaffective Disorder (Bipolar Type)"
+                    },
+                    {
+                        "disease_code": "D018",
+                        "disease_name": "Posttraumatic Stress Disorder"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 38\n- **Gender:** Male\n- **Occupation:** Bank Manager\n- **Marital Status:** Married\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Obsessive-Compulsive Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. obsessive_compulsive_symptoms Requirements:**\n- Somatic Obsessions (Persistent and specific fear that one might have a serious disease.)\n- Repeating Rituals (Repeating specific actions (e.g., standing up, passing through a door) a set number of times.)\n\n**Critical Diagnostic Criteria:**\n\n- Functional Impairment: True"
+    },
+    "D016_l011": {
+        "question": "An 82-year-old widowed female, residing in a nursing home, presents with a several-year history of recurrent, intrusive thoughts and repetitive behaviors. She exhibits prominent pathological doubt, frequently verbalizing concerns about the security of doors and the status of gas valves, despite these being managed by nursing home staff. This patient also engages in extensive cleaning and washing compulsions, including excessive hand washing and showering to an extent that interferes with her daily routine. These symptoms cause significant distress and functional impairment in her daily life, impacting her ability to participate in social activities within the nursing home setting. Her widowhood occurred over two decades prior to the onset of her current symptoms.",
+        "options": "\n    A. Schizophrenia\n    B. Obsessive-Compulsive Disorder\n    C. Body Dysmorphic Disorder\n    D. Bulimia Nervosa\n    ",
+        "answer": "B. Obsessive-Compulsive Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D016",
+                "disease_name": "Obsessive-Compulsive Disorder",
+                "sampled_features": {
+                    "disease_code": "D016",
+                    "disease_name": "Obsessive-Compulsive Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "functional_impairment_required": true
+                    },
+                    "sampled_symptom_groups": {
+                        "obsessive_compulsive_symptoms": {
+                            "symptoms": [
+                                "S065",
+                                "S066"
+                            ],
+                            "name": "obsessive_compulsive_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S065",
+                        "S066"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S065": {
+                            "name": "Obsessions",
+                            "categoty": "obsessive_compulsive_symptoms",
+                            "description": "Recurrent and persistent thoughts, urges, or images that are experienced as intrusive and unwanted, and attempts to ignore or suppress them.",
+                            "subtypes": {
+                                "Pathological Doubt": "Pathological doubt regarding safety or mistakes, such as whether doors are locked or gas valves are closed."
+                            }
+                        },
+                        "S066": {
+                            "name": "Compulsions",
+                            "categoty": "obsessive_compulsive_symptoms",
+                            "description": "Repetitive behaviors or mental acts performed in response to an obsession or to prevent anxiety/distress; clearly excessive or not realistically connected.",
+                            "subtypes": {
+                                "Cleaning or Washing Compulsions": "Repetitive acts to remove contamination, such as hand washing, showering, or excessive cleaning."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Schizophrenia",
+                    "Obsessive-Compulsive Disorder",
+                    "Body Dysmorphic Disorder",
+                    "Bulimia Nervosa"
+                ],
+                "answer_index": [
+                    1
+                ],
+                "index_types": [
+                    "Less likely option",
+                    "answer",
+                    "Less likely option",
+                    "Less likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D005",
+                        "disease_name": "Schizophrenia"
+                    },
+                    {
+                        "disease_code": "D016",
+                        "disease_name": "Obsessive-Compulsive Disorder"
+                    },
+                    {
+                        "disease_code": "D017",
+                        "disease_name": "Body Dysmorphic Disorder"
+                    },
+                    {
+                        "disease_code": "D022",
+                        "disease_name": "Bulimia Nervosa"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 82\n- **Gender:** Female\n- **Occupation:** Nursing Home Resident\n- **Marital Status:** Widowed\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Obsessive-Compulsive Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. obsessive_compulsive_symptoms Requirements:**\n- Pathological Doubt (Pathological doubt regarding safety or mistakes, such as whether doors are locked or gas valves are closed.)\n- Cleaning or Washing Compulsions (Repetitive acts to remove contamination, such as hand washing, showering, or excessive cleaning.)\n\n**Critical Diagnostic Criteria:**\n\n- Functional Impairment: True"
+    },
+    "D016_l012": {
+        "question": "A 45-year-old married male M&A consultant presents with a clinical picture characterized by intrusive and persistent thoughts, as well as repetitive behaviors, that have been present for approximately one year. He reports distressing, forbidden thoughts of an aggressive or taboo nature. These thoughts are ego-dystonic and cause significant anxiety. To mitigate this distress, the patient engages in compulsive acts of ordering and arranging objects in a precise and specific manner. This ritualistic behavior is performed in an attempt to alleviate the anxiety provoked by the obsessional thoughts. The patient reports that these symptoms cause significant functional impairment in his professional and personal life.",
+        "options": "\n    A. Schizophrenia\n    B. Obsessive-Compulsive Disorder\n    C. Body Dysmorphic Disorder\n    D. Bulimia Nervosa\n    ",
+        "answer": "B. Obsessive-Compulsive Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D016",
+                "disease_name": "Obsessive-Compulsive Disorder",
+                "sampled_features": {
+                    "disease_code": "D016",
+                    "disease_name": "Obsessive-Compulsive Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "functional_impairment_required": true
+                    },
+                    "sampled_symptom_groups": {
+                        "obsessive_compulsive_symptoms": {
+                            "symptoms": [
+                                "S065",
+                                "S066"
+                            ],
+                            "name": "obsessive_compulsive_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S065",
+                        "S066"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S065": {
+                            "name": "Obsessions",
+                            "categoty": "obsessive_compulsive_symptoms",
+                            "description": "Recurrent and persistent thoughts, urges, or images that are experienced as intrusive and unwanted, and attempts to ignore or suppress them.",
+                            "subtypes": {
+                                "Forbidden or Taboo Thoughts": "Intrusive thoughts involving aggressive (harming others), sexual, or religious content that are prohibited."
+                            }
+                        },
+                        "S066": {
+                            "name": "Compulsions",
+                            "categoty": "obsessive_compulsive_symptoms",
+                            "description": "Repetitive behaviors or mental acts performed in response to an obsession or to prevent anxiety/distress; clearly excessive or not realistically connected.",
+                            "subtypes": {
+                                "Ordering and Arranging Compulsions": "Organizing objects in a specific order or at a precise angle to reduce anxiety."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Schizophrenia",
+                    "Obsessive-Compulsive Disorder",
+                    "Body Dysmorphic Disorder",
+                    "Bulimia Nervosa"
+                ],
+                "answer_index": [
+                    1
+                ],
+                "index_types": [
+                    "Less likely option",
+                    "answer",
+                    "Less likely option",
+                    "Less likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D005",
+                        "disease_name": "Schizophrenia"
+                    },
+                    {
+                        "disease_code": "D016",
+                        "disease_name": "Obsessive-Compulsive Disorder"
+                    },
+                    {
+                        "disease_code": "D017",
+                        "disease_name": "Body Dysmorphic Disorder"
+                    },
+                    {
+                        "disease_code": "D022",
+                        "disease_name": "Bulimia Nervosa"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 45\n- **Gender:** Male\n- **Occupation:** M&A Consultant\n- **Marital Status:** Divorced\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Obsessive-Compulsive Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. obsessive_compulsive_symptoms Requirements:**\n- Forbidden or Taboo Thoughts (Intrusive thoughts involving aggressive (harming others), sexual, or religious content that are prohibited.)\n- Ordering and Arranging Compulsions (Organizing objects in a specific order or at a precise angle to reduce anxiety.)\n\n**Critical Diagnostic Criteria:**\n\n- Functional Impairment: True"
+    },
+    "D016_l013": {
+        "question": "A 50-year-old single female IT Auditor presents with a chronic history of intrusive thoughts and repetitive behaviors. For over two years, she has experienced persistent and specific somatic obsessions, characterized by significant apprehension regarding the potential for serious illness. These intrusive thoughts are accompanied by time-consuming cleaning and washing compulsions, including excessive hand washing and showering, which she performs in an attempt to alleviate her anxiety. These symptoms cause considerable distress and functional impairment in her daily life.",
+        "options": "\n    A. Schizophrenia\n    B. Obsessive-Compulsive Disorder\n    C. Body Dysmorphic Disorder\n    D. Bulimia Nervosa\n    ",
+        "answer": "B. Obsessive-Compulsive Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D016",
+                "disease_name": "Obsessive-Compulsive Disorder",
+                "sampled_features": {
+                    "disease_code": "D016",
+                    "disease_name": "Obsessive-Compulsive Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "functional_impairment_required": true
+                    },
+                    "sampled_symptom_groups": {
+                        "obsessive_compulsive_symptoms": {
+                            "symptoms": [
+                                "S065",
+                                "S066"
+                            ],
+                            "name": "obsessive_compulsive_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S065",
+                        "S066"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S065": {
+                            "name": "Obsessions",
+                            "categoty": "obsessive_compulsive_symptoms",
+                            "description": "Recurrent and persistent thoughts, urges, or images that are experienced as intrusive and unwanted, and attempts to ignore or suppress them.",
+                            "subtypes": {
+                                "Somatic Obsessions": "Persistent and specific fear that one might have a serious disease."
+                            }
+                        },
+                        "S066": {
+                            "name": "Compulsions",
+                            "categoty": "obsessive_compulsive_symptoms",
+                            "description": "Repetitive behaviors or mental acts performed in response to an obsession or to prevent anxiety/distress; clearly excessive or not realistically connected.",
+                            "subtypes": {
+                                "Cleaning or Washing Compulsions": "Repetitive acts to remove contamination, such as hand washing, showering, or excessive cleaning."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Schizophrenia",
+                    "Obsessive-Compulsive Disorder",
+                    "Body Dysmorphic Disorder",
+                    "Bulimia Nervosa"
+                ],
+                "answer_index": [
+                    1
+                ],
+                "index_types": [
+                    "Less likely option",
+                    "answer",
+                    "Less likely option",
+                    "Less likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D005",
+                        "disease_name": "Schizophrenia"
+                    },
+                    {
+                        "disease_code": "D016",
+                        "disease_name": "Obsessive-Compulsive Disorder"
+                    },
+                    {
+                        "disease_code": "D017",
+                        "disease_name": "Body Dysmorphic Disorder"
+                    },
+                    {
+                        "disease_code": "D022",
+                        "disease_name": "Bulimia Nervosa"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 50\n- **Gender:** Female\n- **Occupation:** IT Auditor\n- **Marital Status:** Single\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Obsessive-Compulsive Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. obsessive_compulsive_symptoms Requirements:**\n- Somatic Obsessions (Persistent and specific fear that one might have a serious disease.)\n- Cleaning or Washing Compulsions (Repetitive acts to remove contamination, such as hand washing, showering, or excessive cleaning.)\n\n**Critical Diagnostic Criteria:**\n\n- Functional Impairment: True"
+    },
+    "D016_l014": {
+        "question": "A 63-year-old married female, who owns a bakery, presents with a several-year history of intrusive and unwanted thoughts. These thoughts frequently involve aggressive or taboo sexual content, causing significant distress. To neutralize these distressing obsessions, she engages in mental rituals, such as silently repeating specific phrases or numbers. The patient reports these symptoms significantly interfere with her daily functioning and her ability to concentrate on her responsibilities at the bakery. She has experienced notable functional impairment as a direct result of these symptoms.",
+        "options": "\n    A. Schizophrenia\n    B. Obsessive-Compulsive Disorder\n    C. Body Dysmorphic Disorder\n    D. Bulimia Nervosa\n    ",
+        "answer": "B. Obsessive-Compulsive Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D016",
+                "disease_name": "Obsessive-Compulsive Disorder",
+                "sampled_features": {
+                    "disease_code": "D016",
+                    "disease_name": "Obsessive-Compulsive Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "functional_impairment_required": true
+                    },
+                    "sampled_symptom_groups": {
+                        "obsessive_compulsive_symptoms": {
+                            "symptoms": [
+                                "S065",
+                                "S066"
+                            ],
+                            "name": "obsessive_compulsive_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S065",
+                        "S066"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S065": {
+                            "name": "Obsessions",
+                            "categoty": "obsessive_compulsive_symptoms",
+                            "description": "Recurrent and persistent thoughts, urges, or images that are experienced as intrusive and unwanted, and attempts to ignore or suppress them.",
+                            "subtypes": {
+                                "Forbidden or Taboo Thoughts": "Intrusive thoughts involving aggressive (harming others), sexual, or religious content that are prohibited."
+                            }
+                        },
+                        "S066": {
+                            "name": "Compulsions",
+                            "categoty": "obsessive_compulsive_symptoms",
+                            "description": "Repetitive behaviors or mental acts performed in response to an obsession or to prevent anxiety/distress; clearly excessive or not realistically connected.",
+                            "subtypes": {
+                                "Mental Acts": "Mental rituals performed internally, such as praying, counting, or repeating specific words silently."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Schizophrenia",
+                    "Obsessive-Compulsive Disorder",
+                    "Body Dysmorphic Disorder",
+                    "Bulimia Nervosa"
+                ],
+                "answer_index": [
+                    1
+                ],
+                "index_types": [
+                    "Less likely option",
+                    "answer",
+                    "Less likely option",
+                    "Less likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D005",
+                        "disease_name": "Schizophrenia"
+                    },
+                    {
+                        "disease_code": "D016",
+                        "disease_name": "Obsessive-Compulsive Disorder"
+                    },
+                    {
+                        "disease_code": "D017",
+                        "disease_name": "Body Dysmorphic Disorder"
+                    },
+                    {
+                        "disease_code": "D022",
+                        "disease_name": "Bulimia Nervosa"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 63\n- **Gender:** Female\n- **Occupation:** Bakery Owner\n- **Marital Status:** Widowed\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Obsessive-Compulsive Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. obsessive_compulsive_symptoms Requirements:**\n- Forbidden or Taboo Thoughts (Intrusive thoughts involving aggressive (harming others), sexual, or religious content that are prohibited.)\n- Mental Acts (Mental rituals performed internally, such as praying, counting, or repeating specific words silently.)\n\n**Critical Diagnostic Criteria:**\n\n- Functional Impairment: True"
+    },
+    "D016_l015": {
+        "question": "A 74-year-old retired widow presents with a clinical picture spanning several years, characterized by recurrent, intrusive thoughts and repetitive mental acts. The patient reports significant distress stemming from persistent doubts regarding safety and responsibilities, specifically concerning the security of doors and the closure of gas valves. These intrusive thoughts are often accompanied by extensive internal rituals, including silent prayer, counting, and the repetition of specific words, which the patient feels compelled to perform to alleviate anxiety or prevent perceived negative outcomes. These symptoms have led to noticeable functional impairment in her daily life, affecting her independence and overall well-being. Of note, her widowhood occurred several years prior to the onset of these symptoms.",
+        "options": "\n    A. Schizophrenia\n    B. Obsessive-Compulsive Disorder\n    C. Body Dysmorphic Disorder\n    D. Bulimia Nervosa\n    ",
+        "answer": "B. Obsessive-Compulsive Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D016",
+                "disease_name": "Obsessive-Compulsive Disorder",
+                "sampled_features": {
+                    "disease_code": "D016",
+                    "disease_name": "Obsessive-Compulsive Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "functional_impairment_required": true
+                    },
+                    "sampled_symptom_groups": {
+                        "obsessive_compulsive_symptoms": {
+                            "symptoms": [
+                                "S065",
+                                "S066"
+                            ],
+                            "name": "obsessive_compulsive_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S065",
+                        "S066"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S065": {
+                            "name": "Obsessions",
+                            "categoty": "obsessive_compulsive_symptoms",
+                            "description": "Recurrent and persistent thoughts, urges, or images that are experienced as intrusive and unwanted, and attempts to ignore or suppress them.",
+                            "subtypes": {
+                                "Pathological Doubt": "Pathological doubt regarding safety or mistakes, such as whether doors are locked or gas valves are closed."
+                            }
+                        },
+                        "S066": {
+                            "name": "Compulsions",
+                            "categoty": "obsessive_compulsive_symptoms",
+                            "description": "Repetitive behaviors or mental acts performed in response to an obsession or to prevent anxiety/distress; clearly excessive or not realistically connected.",
+                            "subtypes": {
+                                "Mental Acts": "Mental rituals performed internally, such as praying, counting, or repeating specific words silently."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Schizophrenia",
+                    "Obsessive-Compulsive Disorder",
+                    "Body Dysmorphic Disorder",
+                    "Bulimia Nervosa"
+                ],
+                "answer_index": [
+                    1
+                ],
+                "index_types": [
+                    "Less likely option",
+                    "answer",
+                    "Less likely option",
+                    "Less likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D005",
+                        "disease_name": "Schizophrenia"
+                    },
+                    {
+                        "disease_code": "D016",
+                        "disease_name": "Obsessive-Compulsive Disorder"
+                    },
+                    {
+                        "disease_code": "D017",
+                        "disease_name": "Body Dysmorphic Disorder"
+                    },
+                    {
+                        "disease_code": "D022",
+                        "disease_name": "Bulimia Nervosa"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 74\n- **Gender:** Female\n- **Occupation:** Retired\n- **Marital Status:** Widowed\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Obsessive-Compulsive Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. obsessive_compulsive_symptoms Requirements:**\n- Pathological Doubt (Pathological doubt regarding safety or mistakes, such as whether doors are locked or gas valves are closed.)\n- Mental Acts (Mental rituals performed internally, such as praying, counting, or repeating specific words silently.)\n\n**Critical Diagnostic Criteria:**\n\n- Functional Impairment: True"
+    },
+    "D016_l016": {
+        "question": "A 56-year-old married male truck driver presents with a history of recurrent, intrusive thoughts and repetitive behaviors spanning over two years. He reports significant pathological doubt, frequently checking and re-checking door locks and gas valves due to persistent concerns about safety and potential errors, despite having previously verified them. He also describes engaging in mental rituals, including silent prayer and counting, as a means to alleviate distress. These symptoms cause considerable distress and functional impairment, significantly impacting his daily routine and occupational responsibilities.",
+        "options": "\n    A. Schizoaffective Disorder (Bipolar Type)\n    B. Obsessive-Compulsive Disorder\n    C. Delusional Disorder\n    D. Persistent Depressive Disorder\n    ",
+        "answer": "B. Obsessive-Compulsive Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D016",
+                "disease_name": "Obsessive-Compulsive Disorder",
+                "sampled_features": {
+                    "disease_code": "D016",
+                    "disease_name": "Obsessive-Compulsive Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "functional_impairment_required": true
+                    },
+                    "sampled_symptom_groups": {
+                        "obsessive_compulsive_symptoms": {
+                            "symptoms": [
+                                "S065",
+                                "S066"
+                            ],
+                            "name": "obsessive_compulsive_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S065",
+                        "S066"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S065": {
+                            "name": "Obsessions",
+                            "categoty": "obsessive_compulsive_symptoms",
+                            "description": "Recurrent and persistent thoughts, urges, or images that are experienced as intrusive and unwanted, and attempts to ignore or suppress them.",
+                            "subtypes": {
+                                "Pathological Doubt": "Pathological doubt regarding safety or mistakes, such as whether doors are locked or gas valves are closed."
+                            }
+                        },
+                        "S066": {
+                            "name": "Compulsions",
+                            "categoty": "obsessive_compulsive_symptoms",
+                            "description": "Repetitive behaviors or mental acts performed in response to an obsession or to prevent anxiety/distress; clearly excessive or not realistically connected.",
+                            "subtypes": {
+                                "Mental Acts": "Mental rituals performed internally, such as praying, counting, or repeating specific words silently."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Schizoaffective Disorder (Bipolar Type)",
+                    "Obsessive-Compulsive Disorder",
+                    "Delusional Disorder",
+                    "Persistent Depressive Disorder"
+                ],
+                "answer_index": [
+                    1
+                ],
+                "index_types": [
+                    "Less likely option",
+                    "answer",
+                    "Less likely option",
+                    "Less likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D006",
+                        "disease_name": "Schizoaffective Disorder (Bipolar Type)"
+                    },
+                    {
+                        "disease_code": "D016",
+                        "disease_name": "Obsessive-Compulsive Disorder"
+                    },
+                    {
+                        "disease_code": "D004",
+                        "disease_name": "Delusional Disorder"
+                    },
+                    {
+                        "disease_code": "D014",
+                        "disease_name": "Persistent Depressive Disorder"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 56\n- **Gender:** Male\n- **Occupation:** Truck Driver\n- **Marital Status:** Divorced\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Obsessive-Compulsive Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. obsessive_compulsive_symptoms Requirements:**\n- Pathological Doubt (Pathological doubt regarding safety or mistakes, such as whether doors are locked or gas valves are closed.)\n- Mental Acts (Mental rituals performed internally, such as praying, counting, or repeating specific words silently.)\n\n**Critical Diagnostic Criteria:**\n\n- Functional Impairment: True"
+    },
+    "D016_l017": {
+        "question": "A 49-year-old married female, who works as a real estate agent, presents with a several-year history of recurrent and intrusive thoughts related to contamination. These obsessions are characterized by persistent worries concerning germs, dirt, and potential environmental contaminants. In response to these intrusive thoughts, she engages in repetitive cleaning and washing compulsions. Specifically, she describes excessive hand washing, frequent showering, and arduous cleaning rituals aimed at mitigating perceived contamination. These symptoms cause significant distress and functional impairment in her daily life, interfering with her occupational duties and personal relationships.",
+        "options": "\n    A. Schizoaffective Disorder (Bipolar Type)\n    B. Obsessive-Compulsive Disorder\n    C. Delusional Disorder\n    D. Persistent Depressive Disorder\n    ",
+        "answer": "B. Obsessive-Compulsive Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D016",
+                "disease_name": "Obsessive-Compulsive Disorder",
+                "sampled_features": {
+                    "disease_code": "D016",
+                    "disease_name": "Obsessive-Compulsive Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "functional_impairment_required": true
+                    },
+                    "sampled_symptom_groups": {
+                        "obsessive_compulsive_symptoms": {
+                            "symptoms": [
+                                "S065",
+                                "S066"
+                            ],
+                            "name": "obsessive_compulsive_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S065",
+                        "S066"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S065": {
+                            "name": "Obsessions",
+                            "categoty": "obsessive_compulsive_symptoms",
+                            "description": "Recurrent and persistent thoughts, urges, or images that are experienced as intrusive and unwanted, and attempts to ignore or suppress them.",
+                            "subtypes": {
+                                "Contamination Obsessions": "Recurrent and intrusive worries about contamination, germs, or dirt."
+                            }
+                        },
+                        "S066": {
+                            "name": "Compulsions",
+                            "categoty": "obsessive_compulsive_symptoms",
+                            "description": "Repetitive behaviors or mental acts performed in response to an obsession or to prevent anxiety/distress; clearly excessive or not realistically connected.",
+                            "subtypes": {
+                                "Cleaning or Washing Compulsions": "Repetitive acts to remove contamination, such as hand washing, showering, or excessive cleaning."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Schizoaffective Disorder (Bipolar Type)",
+                    "Obsessive-Compulsive Disorder",
+                    "Delusional Disorder",
+                    "Persistent Depressive Disorder"
+                ],
+                "answer_index": [
+                    1
+                ],
+                "index_types": [
+                    "Less likely option",
+                    "answer",
+                    "Less likely option",
+                    "Less likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D006",
+                        "disease_name": "Schizoaffective Disorder (Bipolar Type)"
+                    },
+                    {
+                        "disease_code": "D016",
+                        "disease_name": "Obsessive-Compulsive Disorder"
+                    },
+                    {
+                        "disease_code": "D004",
+                        "disease_name": "Delusional Disorder"
+                    },
+                    {
+                        "disease_code": "D014",
+                        "disease_name": "Persistent Depressive Disorder"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 49\n- **Gender:** Female\n- **Occupation:** Real Estate Agent\n- **Marital Status:** Divorced\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Obsessive-Compulsive Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. obsessive_compulsive_symptoms Requirements:**\n- Contamination Obsessions (Recurrent and intrusive worries about contamination, germs, or dirt.)\n- Cleaning or Washing Compulsions (Repetitive acts to remove contamination, such as hand washing, showering, or excessive cleaning.)\n\n**Critical Diagnostic Criteria:**\n\n- Functional Impairment: True"
+    },
+    "D016_l018": {
+        "question": "A 52-year-old female, employed as a tailor/seamstress and widowed for several years, presents with a several-month history of distress associated with recurrent, intrusive thoughts. These thoughts are often aggressive in nature, including urges to harm others, and also encompass sexual and religious content that the patient finds highly disturbing. In response to these intrusive thoughts, she engages in mental rituals, such as silently counting, praying, and repeating specific words internally, to neutralize her distress. The patient reports that these symptoms consume a significant portion of her day and have led to marked impairment in her occupational and social functioning.",
+        "options": "\n    A. Schizoaffective Disorder (Bipolar Type)\n    B. Obsessive-Compulsive Disorder\n    C. Delusional Disorder\n    D. Persistent Depressive Disorder\n    ",
+        "answer": "B. Obsessive-Compulsive Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D016",
+                "disease_name": "Obsessive-Compulsive Disorder",
+                "sampled_features": {
+                    "disease_code": "D016",
+                    "disease_name": "Obsessive-Compulsive Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "functional_impairment_required": true
+                    },
+                    "sampled_symptom_groups": {
+                        "obsessive_compulsive_symptoms": {
+                            "symptoms": [
+                                "S065",
+                                "S066"
+                            ],
+                            "name": "obsessive_compulsive_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S065",
+                        "S066"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S065": {
+                            "name": "Obsessions",
+                            "categoty": "obsessive_compulsive_symptoms",
+                            "description": "Recurrent and persistent thoughts, urges, or images that are experienced as intrusive and unwanted, and attempts to ignore or suppress them.",
+                            "subtypes": {
+                                "Forbidden or Taboo Thoughts": "Intrusive thoughts involving aggressive (harming others), sexual, or religious content that are prohibited."
+                            }
+                        },
+                        "S066": {
+                            "name": "Compulsions",
+                            "categoty": "obsessive_compulsive_symptoms",
+                            "description": "Repetitive behaviors or mental acts performed in response to an obsession or to prevent anxiety/distress; clearly excessive or not realistically connected.",
+                            "subtypes": {
+                                "Mental Acts": "Mental rituals performed internally, such as praying, counting, or repeating specific words silently."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Schizoaffective Disorder (Bipolar Type)",
+                    "Obsessive-Compulsive Disorder",
+                    "Delusional Disorder",
+                    "Persistent Depressive Disorder"
+                ],
+                "answer_index": [
+                    1
+                ],
+                "index_types": [
+                    "Less likely option",
+                    "answer",
+                    "Less likely option",
+                    "Less likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D006",
+                        "disease_name": "Schizoaffective Disorder (Bipolar Type)"
+                    },
+                    {
+                        "disease_code": "D016",
+                        "disease_name": "Obsessive-Compulsive Disorder"
+                    },
+                    {
+                        "disease_code": "D004",
+                        "disease_name": "Delusional Disorder"
+                    },
+                    {
+                        "disease_code": "D014",
+                        "disease_name": "Persistent Depressive Disorder"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 52\n- **Gender:** Female\n- **Occupation:** Tailor / Seamstress\n- **Marital Status:** Widowed\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Obsessive-Compulsive Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. obsessive_compulsive_symptoms Requirements:**\n- Forbidden or Taboo Thoughts (Intrusive thoughts involving aggressive (harming others), sexual, or religious content that are prohibited.)\n- Mental Acts (Mental rituals performed internally, such as praying, counting, or repeating specific words silently.)\n\n**Critical Diagnostic Criteria:**\n\n- Functional Impairment: True"
+    },
+    "D016_l019": {
+        "question": "A 47-year-old male, widowed, and employed as a Legacy System Maintainer, presents with a clinical picture characterized by distressing intrusive thoughts and compulsive behaviors. His widowhood occurred several years prior to the onset of the current symptoms. For the past year, he has experienced recurrent and persistent forbidden thoughts, often aggressive in nature, involving concerns of harming others. These intrusive thoughts are ego-dystonic and cause significant anxiety. In an attempt to mitigate perceived danger and related distress, the patient engages in repetitive checking compulsions, such as repeatedly verifying door locks, the gas stove, and electrical switches. These symptoms collectively cause significant functional impairment in his daily life.",
+        "options": "\n    A. Schizoaffective Disorder (Bipolar Type)\n    B. Obsessive-Compulsive Disorder\n    C. Delusional Disorder\n    D. Persistent Depressive Disorder\n    ",
+        "answer": "B. Obsessive-Compulsive Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D016",
+                "disease_name": "Obsessive-Compulsive Disorder",
+                "sampled_features": {
+                    "disease_code": "D016",
+                    "disease_name": "Obsessive-Compulsive Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "functional_impairment_required": true
+                    },
+                    "sampled_symptom_groups": {
+                        "obsessive_compulsive_symptoms": {
+                            "symptoms": [
+                                "S065",
+                                "S066"
+                            ],
+                            "name": "obsessive_compulsive_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S065",
+                        "S066"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S065": {
+                            "name": "Obsessions",
+                            "categoty": "obsessive_compulsive_symptoms",
+                            "description": "Recurrent and persistent thoughts, urges, or images that are experienced as intrusive and unwanted, and attempts to ignore or suppress them.",
+                            "subtypes": {
+                                "Forbidden or Taboo Thoughts": "Intrusive thoughts involving aggressive (harming others), sexual, or religious content that are prohibited."
+                            }
+                        },
+                        "S066": {
+                            "name": "Compulsions",
+                            "categoty": "obsessive_compulsive_symptoms",
+                            "description": "Repetitive behaviors or mental acts performed in response to an obsession or to prevent anxiety/distress; clearly excessive or not realistically connected.",
+                            "subtypes": {
+                                "Checking Compulsions": "Repeatedly checking items like door locks, gas stoves, or switches to prevent danger."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Schizoaffective Disorder (Bipolar Type)",
+                    "Obsessive-Compulsive Disorder",
+                    "Delusional Disorder",
+                    "Persistent Depressive Disorder"
+                ],
+                "answer_index": [
+                    1
+                ],
+                "index_types": [
+                    "Less likely option",
+                    "answer",
+                    "Less likely option",
+                    "Less likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D006",
+                        "disease_name": "Schizoaffective Disorder (Bipolar Type)"
+                    },
+                    {
+                        "disease_code": "D016",
+                        "disease_name": "Obsessive-Compulsive Disorder"
+                    },
+                    {
+                        "disease_code": "D004",
+                        "disease_name": "Delusional Disorder"
+                    },
+                    {
+                        "disease_code": "D014",
+                        "disease_name": "Persistent Depressive Disorder"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 47\n- **Gender:** Male\n- **Occupation:** Legacy System Maintainer (COBOL)\n- **Marital Status:** Widowed\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Obsessive-Compulsive Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. obsessive_compulsive_symptoms Requirements:**\n- Forbidden or Taboo Thoughts (Intrusive thoughts involving aggressive (harming others), sexual, or religious content that are prohibited.)\n- Checking Compulsions (Repeatedly checking items like door locks, gas stoves, or switches to prevent danger.)\n\n**Critical Diagnostic Criteria:**\n\n- Functional Impairment: True"
+    },
+    "D016_l020": {
+        "question": "A 33-year-old married male logistics manager presents with a clinical picture characterized by intrusive thoughts and repetitive behaviors of approximately nine months in duration. He reports significant distress related to recurrent doubts concerning safety, specifically regarding the proper locking of doors and the closure of gas valves. This is frequently accompanied by a compulsive need to repeatedly check these items. The patient also describes engaging in ritualistic actions, such as standing up or passing through doorways a predetermined number of times. These symptoms are causing notable functional impairment in his professional and personal life.",
+        "options": "\n    A. Schizoaffective Disorder (Bipolar Type)\n    B. Obsessive-Compulsive Disorder\n    C. Delusional Disorder\n    D. Persistent Depressive Disorder\n    ",
+        "answer": "B. Obsessive-Compulsive Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D016",
+                "disease_name": "Obsessive-Compulsive Disorder",
+                "sampled_features": {
+                    "disease_code": "D016",
+                    "disease_name": "Obsessive-Compulsive Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "functional_impairment_required": true
+                    },
+                    "sampled_symptom_groups": {
+                        "obsessive_compulsive_symptoms": {
+                            "symptoms": [
+                                "S065",
+                                "S066"
+                            ],
+                            "name": "obsessive_compulsive_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S065",
+                        "S066"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S065": {
+                            "name": "Obsessions",
+                            "categoty": "obsessive_compulsive_symptoms",
+                            "description": "Recurrent and persistent thoughts, urges, or images that are experienced as intrusive and unwanted, and attempts to ignore or suppress them.",
+                            "subtypes": {
+                                "Pathological Doubt": "Pathological doubt regarding safety or mistakes, such as whether doors are locked or gas valves are closed."
+                            }
+                        },
+                        "S066": {
+                            "name": "Compulsions",
+                            "categoty": "obsessive_compulsive_symptoms",
+                            "description": "Repetitive behaviors or mental acts performed in response to an obsession or to prevent anxiety/distress; clearly excessive or not realistically connected.",
+                            "subtypes": {
+                                "Repeating Rituals": "Repeating specific actions (e.g., standing up, passing through a door) a set number of times."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Schizoaffective Disorder (Bipolar Type)",
+                    "Obsessive-Compulsive Disorder",
+                    "Delusional Disorder",
+                    "Persistent Depressive Disorder"
+                ],
+                "answer_index": [
+                    1
+                ],
+                "index_types": [
+                    "Less likely option",
+                    "answer",
+                    "Less likely option",
+                    "Less likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D006",
+                        "disease_name": "Schizoaffective Disorder (Bipolar Type)"
+                    },
+                    {
+                        "disease_code": "D016",
+                        "disease_name": "Obsessive-Compulsive Disorder"
+                    },
+                    {
+                        "disease_code": "D004",
+                        "disease_name": "Delusional Disorder"
+                    },
+                    {
+                        "disease_code": "D014",
+                        "disease_name": "Persistent Depressive Disorder"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 33\n- **Gender:** Male\n- **Occupation:** Logistics Manager\n- **Marital Status:** Married\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Obsessive-Compulsive Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. obsessive_compulsive_symptoms Requirements:**\n- Pathological Doubt (Pathological doubt regarding safety or mistakes, such as whether doors are locked or gas valves are closed.)\n- Repeating Rituals (Repeating specific actions (e.g., standing up, passing through a door) a set number of times.)\n\n**Critical Diagnostic Criteria:**\n\n- Functional Impairment: True"
+    },
+    "D016_l021": {
+        "question": "A 29-year-old married male fund manager presents with a several-year history of intrusive, unwanted thoughts and repetitive behaviors. The patient describes significant distress regarding an intense preoccupation with symmetry and exactness, characterized by a compelling urge for objects to be perfectly aligned. These obsessions are accompanied by internal mental acts, such as silent counting and repeating specific words, performed in an attempt to alleviate anxiety. The patient reports these symptoms consume a substantial amount of time daily and cause marked academic and social impairment. Denies any substance use or significant medical history.",
+        "options": "\n    A. Obsessive-Compulsive Disorder\n    B. Major Depressive Disorder with Psychotic Features\n    C. Bipolar II Disorder\n    D. Major Depressive Disorder\n    ",
+        "answer": "A. Obsessive-Compulsive Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D016",
+                "disease_name": "Obsessive-Compulsive Disorder",
+                "sampled_features": {
+                    "disease_code": "D016",
+                    "disease_name": "Obsessive-Compulsive Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "functional_impairment_required": true
+                    },
+                    "sampled_symptom_groups": {
+                        "obsessive_compulsive_symptoms": {
+                            "symptoms": [
+                                "S065",
+                                "S066"
+                            ],
+                            "name": "obsessive_compulsive_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S065",
+                        "S066"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S065": {
+                            "name": "Obsessions",
+                            "categoty": "obsessive_compulsive_symptoms",
+                            "description": "Recurrent and persistent thoughts, urges, or images that are experienced as intrusive and unwanted, and attempts to ignore or suppress them.",
+                            "subtypes": {
+                                "Symmetry and Exactness Obsessions": "A strong urge that items must be lined up exactly or be symmetrical."
+                            }
+                        },
+                        "S066": {
+                            "name": "Compulsions",
+                            "categoty": "obsessive_compulsive_symptoms",
+                            "description": "Repetitive behaviors or mental acts performed in response to an obsession or to prevent anxiety/distress; clearly excessive or not realistically connected.",
+                            "subtypes": {
+                                "Mental Acts": "Mental rituals performed internally, such as praying, counting, or repeating specific words silently."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Obsessive-Compulsive Disorder",
+                    "Major Depressive Disorder with Psychotic Features",
+                    "Bipolar II Disorder",
+                    "Major Depressive Disorder"
+                ],
+                "answer_index": [
+                    0
+                ],
+                "index_types": [
+                    "answer",
+                    "Less likely option",
+                    "Less likely option",
+                    "Less likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D016",
+                        "disease_name": "Obsessive-Compulsive Disorder"
+                    },
+                    {
+                        "disease_code": "D015",
+                        "disease_name": "Major Depressive Disorder with Psychotic Features"
+                    },
+                    {
+                        "disease_code": "D009",
+                        "disease_name": "Bipolar II Disorder"
+                    },
+                    {
+                        "disease_code": "D013",
+                        "disease_name": "Major Depressive Disorder"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 29\n- **Gender:** Male\n- **Occupation:** Fund Manager\n- **Marital Status:** Married\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Obsessive-Compulsive Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. obsessive_compulsive_symptoms Requirements:**\n- Symmetry and Exactness Obsessions (A strong urge that items must be lined up exactly or be symmetrical.)\n- Mental Acts (Mental rituals performed internally, such as praying, counting, or repeating specific words silently.)\n\n**Critical Diagnostic Criteria:**\n\n- Functional Impairment: True"
+    },
+    "D016_l022": {
+        "question": "A 30-year-old single female yoga instructor presents with a clinical picture characterized by intrusive thoughts and repetitive behaviors of several years' duration. She reports a persistent preoccupation with symmetry and exactness, experiencing significant distress when objects are not perfectly aligned. This is accompanied by compulsive checking rituals, primarily involving household appliances and locks, which she carries out repeatedly to mitigate perceived dangers. These symptoms are time-consuming and contribute to notable functional impairment in her daily life.",
+        "options": "\n    A. Obsessive-Compulsive Disorder\n    B. Major Depressive Disorder with Psychotic Features\n    C. Bipolar II Disorder\n    D. Major Depressive Disorder\n    ",
+        "answer": "A. Obsessive-Compulsive Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D016",
+                "disease_name": "Obsessive-Compulsive Disorder",
+                "sampled_features": {
+                    "disease_code": "D016",
+                    "disease_name": "Obsessive-Compulsive Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "functional_impairment_required": true
+                    },
+                    "sampled_symptom_groups": {
+                        "obsessive_compulsive_symptoms": {
+                            "symptoms": [
+                                "S065",
+                                "S066"
+                            ],
+                            "name": "obsessive_compulsive_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S065",
+                        "S066"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S065": {
+                            "name": "Obsessions",
+                            "categoty": "obsessive_compulsive_symptoms",
+                            "description": "Recurrent and persistent thoughts, urges, or images that are experienced as intrusive and unwanted, and attempts to ignore or suppress them.",
+                            "subtypes": {
+                                "Symmetry and Exactness Obsessions": "A strong urge that items must be lined up exactly or be symmetrical."
+                            }
+                        },
+                        "S066": {
+                            "name": "Compulsions",
+                            "categoty": "obsessive_compulsive_symptoms",
+                            "description": "Repetitive behaviors or mental acts performed in response to an obsession or to prevent anxiety/distress; clearly excessive or not realistically connected.",
+                            "subtypes": {
+                                "Checking Compulsions": "Repeatedly checking items like door locks, gas stoves, or switches to prevent danger."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Obsessive-Compulsive Disorder",
+                    "Major Depressive Disorder with Psychotic Features",
+                    "Bipolar II Disorder",
+                    "Major Depressive Disorder"
+                ],
+                "answer_index": [
+                    0
+                ],
+                "index_types": [
+                    "answer",
+                    "Less likely option",
+                    "Less likely option",
+                    "Less likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D016",
+                        "disease_name": "Obsessive-Compulsive Disorder"
+                    },
+                    {
+                        "disease_code": "D015",
+                        "disease_name": "Major Depressive Disorder with Psychotic Features"
+                    },
+                    {
+                        "disease_code": "D009",
+                        "disease_name": "Bipolar II Disorder"
+                    },
+                    {
+                        "disease_code": "D013",
+                        "disease_name": "Major Depressive Disorder"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 30\n- **Gender:** Female\n- **Occupation:** Yoga Instructor\n- **Marital Status:** Single\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Obsessive-Compulsive Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. obsessive_compulsive_symptoms Requirements:**\n- Symmetry and Exactness Obsessions (A strong urge that items must be lined up exactly or be symmetrical.)\n- Checking Compulsions (Repeatedly checking items like door locks, gas stoves, or switches to prevent danger.)\n\n**Critical Diagnostic Criteria:**\n\n- Functional Impairment: True"
+    },
+    "D016_l023": {
+        "question": "A 28-year-old single female, a PhD researcher, presents with a clinical picture characterized by persistent intrusions and repetitive behaviors. For the past twelve months, she has endorsed significant apprehension regarding the potential for serious illness, focusing on specific somatic concerns. This obsessive ideation is accompanied by a compulsion to perform certain actions a fixed number of times, such as standing up or passing through doorways. These symptoms are not merely excessive worries about real-life problems and are time-consuming, causing marked distress and interfering with her academic and personal functioning.",
+        "options": "\n    A. Obsessive-Compulsive Disorder\n    B. Major Depressive Disorder with Psychotic Features\n    C. Bipolar II Disorder\n    D. Major Depressive Disorder\n    ",
+        "answer": "A. Obsessive-Compulsive Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D016",
+                "disease_name": "Obsessive-Compulsive Disorder",
+                "sampled_features": {
+                    "disease_code": "D016",
+                    "disease_name": "Obsessive-Compulsive Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "functional_impairment_required": true
+                    },
+                    "sampled_symptom_groups": {
+                        "obsessive_compulsive_symptoms": {
+                            "symptoms": [
+                                "S065",
+                                "S066"
+                            ],
+                            "name": "obsessive_compulsive_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S065",
+                        "S066"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S065": {
+                            "name": "Obsessions",
+                            "categoty": "obsessive_compulsive_symptoms",
+                            "description": "Recurrent and persistent thoughts, urges, or images that are experienced as intrusive and unwanted, and attempts to ignore or suppress them.",
+                            "subtypes": {
+                                "Somatic Obsessions": "Persistent and specific fear that one might have a serious disease."
+                            }
+                        },
+                        "S066": {
+                            "name": "Compulsions",
+                            "categoty": "obsessive_compulsive_symptoms",
+                            "description": "Repetitive behaviors or mental acts performed in response to an obsession or to prevent anxiety/distress; clearly excessive or not realistically connected.",
+                            "subtypes": {
+                                "Repeating Rituals": "Repeating specific actions (e.g., standing up, passing through a door) a set number of times."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Obsessive-Compulsive Disorder",
+                    "Major Depressive Disorder with Psychotic Features",
+                    "Bipolar II Disorder",
+                    "Major Depressive Disorder"
+                ],
+                "answer_index": [
+                    0
+                ],
+                "index_types": [
+                    "answer",
+                    "Less likely option",
+                    "Less likely option",
+                    "Less likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D016",
+                        "disease_name": "Obsessive-Compulsive Disorder"
+                    },
+                    {
+                        "disease_code": "D015",
+                        "disease_name": "Major Depressive Disorder with Psychotic Features"
+                    },
+                    {
+                        "disease_code": "D009",
+                        "disease_name": "Bipolar II Disorder"
+                    },
+                    {
+                        "disease_code": "D013",
+                        "disease_name": "Major Depressive Disorder"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 28\n- **Gender:** Female\n- **Occupation:** PhD Researcher\n- **Marital Status:** Single\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Obsessive-Compulsive Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. obsessive_compulsive_symptoms Requirements:**\n- Somatic Obsessions (Persistent and specific fear that one might have a serious disease.)\n- Repeating Rituals (Repeating specific actions (e.g., standing up, passing through a door) a set number of times.)\n\n**Critical Diagnostic Criteria:**\n\n- Functional Impairment: True"
+    },
+    "D016_l024": {
+        "question": "A 58-year-old married female accountant presents with a one-year history of intrusive thoughts and repetitive behaviors. She reports persistent and specific fears of contracting a serious disease. These obsessions are accompanied by compulsions involving extensive cleaning and washing rituals, such as prolonged hand washing and showering, aimed at eliminating perceived contamination. Despite acknowledging the excessiveness of these behaviors, she feels compelled to perform them to alleviate anxiety. The patient experiences significant functional impairment, noting that these symptoms interfere with her occupational duties and personal relationships. Her marital status and occupation were established years prior to the onset of current symptoms.",
+        "options": "\n    A. Obsessive-Compulsive Disorder\n    B. Major Depressive Disorder with Psychotic Features\n    C. Bipolar II Disorder\n    D. Major Depressive Disorder\n    ",
+        "answer": "A. Obsessive-Compulsive Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D016",
+                "disease_name": "Obsessive-Compulsive Disorder",
+                "sampled_features": {
+                    "disease_code": "D016",
+                    "disease_name": "Obsessive-Compulsive Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "functional_impairment_required": true
+                    },
+                    "sampled_symptom_groups": {
+                        "obsessive_compulsive_symptoms": {
+                            "symptoms": [
+                                "S065",
+                                "S066"
+                            ],
+                            "name": "obsessive_compulsive_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S065",
+                        "S066"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S065": {
+                            "name": "Obsessions",
+                            "categoty": "obsessive_compulsive_symptoms",
+                            "description": "Recurrent and persistent thoughts, urges, or images that are experienced as intrusive and unwanted, and attempts to ignore or suppress them.",
+                            "subtypes": {
+                                "Somatic Obsessions": "Persistent and specific fear that one might have a serious disease."
+                            }
+                        },
+                        "S066": {
+                            "name": "Compulsions",
+                            "categoty": "obsessive_compulsive_symptoms",
+                            "description": "Repetitive behaviors or mental acts performed in response to an obsession or to prevent anxiety/distress; clearly excessive or not realistically connected.",
+                            "subtypes": {
+                                "Cleaning or Washing Compulsions": "Repetitive acts to remove contamination, such as hand washing, showering, or excessive cleaning."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Obsessive-Compulsive Disorder",
+                    "Major Depressive Disorder with Psychotic Features",
+                    "Bipolar II Disorder",
+                    "Major Depressive Disorder"
+                ],
+                "answer_index": [
+                    0
+                ],
+                "index_types": [
+                    "answer",
+                    "Less likely option",
+                    "Less likely option",
+                    "Less likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D016",
+                        "disease_name": "Obsessive-Compulsive Disorder"
+                    },
+                    {
+                        "disease_code": "D015",
+                        "disease_name": "Major Depressive Disorder with Psychotic Features"
+                    },
+                    {
+                        "disease_code": "D009",
+                        "disease_name": "Bipolar II Disorder"
+                    },
+                    {
+                        "disease_code": "D013",
+                        "disease_name": "Major Depressive Disorder"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 58\n- **Gender:** Female\n- **Occupation:** Accountant\n- **Marital Status:** Married\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Obsessive-Compulsive Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. obsessive_compulsive_symptoms Requirements:**\n- Somatic Obsessions (Persistent and specific fear that one might have a serious disease.)\n- Cleaning or Washing Compulsions (Repetitive acts to remove contamination, such as hand washing, showering, or excessive cleaning.)\n\n**Critical Diagnostic Criteria:**\n\n- Functional Impairment: True"
+    },
+    "D016_l025": {
+        "question": "A 36-year-old married male, employed as a solar panel technician, presents with a clinical picture characterized by recurrent, intrusive thoughts and repetitive behaviors occurring over the past 18 months. The patient endorses significant preoccupation with potential errors or safety oversights, such as whether doors are securely locked or gas valves are definitively closed. This is accompanied by compulsive cleaning and washing rituals, specifically repetitive hand washing and showering, performed to alleviate intense feelings of contamination. These symptoms cause significant distress and have led to marked impairment in his occupational functioning and daily activities.",
+        "options": "\n    A. Obsessive-Compulsive Disorder\n    B. Major Depressive Disorder with Psychotic Features\n    C. Bipolar II Disorder\n    D. Major Depressive Disorder\n    ",
+        "answer": "A. Obsessive-Compulsive Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D016",
+                "disease_name": "Obsessive-Compulsive Disorder",
+                "sampled_features": {
+                    "disease_code": "D016",
+                    "disease_name": "Obsessive-Compulsive Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "functional_impairment_required": true
+                    },
+                    "sampled_symptom_groups": {
+                        "obsessive_compulsive_symptoms": {
+                            "symptoms": [
+                                "S065",
+                                "S066"
+                            ],
+                            "name": "obsessive_compulsive_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S065",
+                        "S066"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S065": {
+                            "name": "Obsessions",
+                            "categoty": "obsessive_compulsive_symptoms",
+                            "description": "Recurrent and persistent thoughts, urges, or images that are experienced as intrusive and unwanted, and attempts to ignore or suppress them.",
+                            "subtypes": {
+                                "Pathological Doubt": "Pathological doubt regarding safety or mistakes, such as whether doors are locked or gas valves are closed."
+                            }
+                        },
+                        "S066": {
+                            "name": "Compulsions",
+                            "categoty": "obsessive_compulsive_symptoms",
+                            "description": "Repetitive behaviors or mental acts performed in response to an obsession or to prevent anxiety/distress; clearly excessive or not realistically connected.",
+                            "subtypes": {
+                                "Cleaning or Washing Compulsions": "Repetitive acts to remove contamination, such as hand washing, showering, or excessive cleaning."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Obsessive-Compulsive Disorder",
+                    "Major Depressive Disorder with Psychotic Features",
+                    "Bipolar II Disorder",
+                    "Major Depressive Disorder"
+                ],
+                "answer_index": [
+                    0
+                ],
+                "index_types": [
+                    "answer",
+                    "Less likely option",
+                    "Less likely option",
+                    "Less likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D016",
+                        "disease_name": "Obsessive-Compulsive Disorder"
+                    },
+                    {
+                        "disease_code": "D015",
+                        "disease_name": "Major Depressive Disorder with Psychotic Features"
+                    },
+                    {
+                        "disease_code": "D009",
+                        "disease_name": "Bipolar II Disorder"
+                    },
+                    {
+                        "disease_code": "D013",
+                        "disease_name": "Major Depressive Disorder"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 36\n- **Gender:** Male\n- **Occupation:** Solar Panel Technician\n- **Marital Status:** Married\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Obsessive-Compulsive Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. obsessive_compulsive_symptoms Requirements:**\n- Pathological Doubt (Pathological doubt regarding safety or mistakes, such as whether doors are locked or gas valves are closed.)\n- Cleaning or Washing Compulsions (Repetitive acts to remove contamination, such as hand washing, showering, or excessive cleaning.)\n\n**Critical Diagnostic Criteria:**\n\n- Functional Impairment: True"
+    }
+}

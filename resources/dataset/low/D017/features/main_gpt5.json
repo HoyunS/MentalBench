@@ -1,0 +1,2127 @@
+{
+    "D017_l001": {
+        "question": "A 34-year-old married male firefighter presents with a chronic preoccupation with perceived defects in his facial appearance, ongoing for several years. He reports excessive concern regarding the shape and proportion of his nose and eyes, describing them as abnormal or disfiguring, despite reassurances from others and normal appearance on clinical observation.\n\nOver this period, he has pursued multiple cosmetic consultations and has undergone several facial procedures and dermatologic interventions aimed at correcting these perceived flaws, with only transient or no relief in distress. He spends significant time checking mirrors, comparing his face to others, and mentally reviewing perceived imperfections.\n\nThese concerns cause marked distress and have led to functional impairment, including avoidance of social interactions outside of work, reluctance to participate in team-related social activities, and difficulty concentrating when off duty due to persistent ruminations about his appearance. He denies psychotic symptoms, substance use contributing to symptoms, or a history of neurological illness. There is no evidence of a major medical condition explaining his appearance concerns.",
+        "options": "\n    A. Bulimia Nervosa\n    B. Body Dysmorphic Disorder\n    C. Bipolar II Disorder\n    D. Bipolar I Disorder with Psychotic Features\n    ",
+        "answer": "B. Body Dysmorphic Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D017",
+                "disease_name": "Body Dysmorphic Disorder",
+                "sampled_features": {
+                    "disease_code": "D017",
+                    "disease_name": "Body Dysmorphic Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "functional_impairment_required": true
+                    },
+                    "sampled_symptom_groups": {
+                        "dysmorphic_symptoms": {
+                            "symptoms": [
+                                "S067",
+                                "S068"
+                            ],
+                            "name": "dysmorphic_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S067",
+                        "S068"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S067": {
+                            "name": "Preoccupation_with_Appearance",
+                            "categoty": "dysmorphic_symptoms",
+                            "description": "Preoccupation with one or more perceived defects or flaws in physical appearance that are not observable or appear slight to others.",
+                            "subtypes": {
+                                "Facial Features": "Preoccupation with the shape or size of the nose, eyes, or mouth, which appear normal to others."
+                            }
+                        },
+                        "S068": {
+                            "name": "Appearance_Related_Repetitive_Behaviors",
+                            "categoty": "dysmorphic_symptoms",
+                            "description": "Repetitive behaviors or mental acts performed in response to appearance concerns.",
+                            "subtypes": {
+                                "Seeking Cosmetic Procedures": "Repeatedly seeking or receiving plastic surgery or dermatological procedures."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Bulimia Nervosa",
+                    "Body Dysmorphic Disorder",
+                    "Bipolar II Disorder",
+                    "Bipolar I Disorder with Psychotic Features"
+                ],
+                "answer_index": [
+                    1
+                ],
+                "index_types": [
+                    "Less likely option",
+                    "answer",
+                    "Less likely option",
+                    "Less likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D022",
+                        "disease_name": "Bulimia Nervosa"
+                    },
+                    {
+                        "disease_code": "D017",
+                        "disease_name": "Body Dysmorphic Disorder"
+                    },
+                    {
+                        "disease_code": "D009",
+                        "disease_name": "Bipolar II Disorder"
+                    },
+                    {
+                        "disease_code": "D010",
+                        "disease_name": "Bipolar I Disorder with Psychotic Features"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 34\n- **Gender:** Male\n- **Occupation:** Firefighter (Rescue Team)\n- **Marital Status:** Married\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Body Dysmorphic Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. dysmorphic_symptoms Requirements:**\n- Facial Features (Preoccupation with the shape or size of the nose, eyes, or mouth, which appear normal to others.)\n- Seeking Cosmetic Procedures (Repeatedly seeking or receiving plastic surgery or dermatological procedures.)\n\n**Critical Diagnostic Criteria:**\n\n- Functional Impairment: True"
+    },
+    "D017_l002": {
+        "question": "A 40-year-old single female hotel manager presents with a history of body image–related preoccupation for approximately several years. She reports a persistent belief that her body is inadequately developed and insufficiently muscular despite reassurance from others and objective findings within normal limits. She spends significant time scrutinizing her physique, including frequent mirror checking and comparative evaluation of her body to others.\n\nThe patient describes ongoing dissatisfaction with specific perceived physical flaws and has repeatedly pursued cosmetic and dermatologic interventions in an effort to correct these concerns, with only transient relief and rapid recurrence of distress about her appearance. She continues to research additional procedures and consultations despite prior interventions.\n\nThese symptoms are associated with marked functional impairment. She reports interference with occupational performance due to distraction by appearance-related thoughts and avoidance of certain work and social situations where her body might be visible or subject to perceived scrutiny. There is no indication that these appearance concerns are better explained by a general dissatisfaction with body weight alone or by cultural or occupational demands. Mood symptoms and substance use are denied as primary drivers of the presentation.",
+        "options": "\n    A. Bulimia Nervosa\n    B. Body Dysmorphic Disorder\n    C. Bipolar II Disorder\n    D. Bipolar I Disorder with Psychotic Features\n    ",
+        "answer": "B. Body Dysmorphic Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D017",
+                "disease_name": "Body Dysmorphic Disorder",
+                "sampled_features": {
+                    "disease_code": "D017",
+                    "disease_name": "Body Dysmorphic Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "functional_impairment_required": true
+                    },
+                    "sampled_symptom_groups": {
+                        "dysmorphic_symptoms": {
+                            "symptoms": [
+                                "S067",
+                                "S068"
+                            ],
+                            "name": "dysmorphic_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S067",
+                        "S068"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S067": {
+                            "name": "Preoccupation_with_Appearance",
+                            "categoty": "dysmorphic_symptoms",
+                            "description": "Preoccupation with one or more perceived defects or flaws in physical appearance that are not observable or appear slight to others.",
+                            "subtypes": {
+                                "Muscle Dysmorphia": "The belief that one's body is too small or insufficiently muscular despite being normal or muscular."
+                            }
+                        },
+                        "S068": {
+                            "name": "Appearance_Related_Repetitive_Behaviors",
+                            "categoty": "dysmorphic_symptoms",
+                            "description": "Repetitive behaviors or mental acts performed in response to appearance concerns.",
+                            "subtypes": {
+                                "Seeking Cosmetic Procedures": "Repeatedly seeking or receiving plastic surgery or dermatological procedures."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Bulimia Nervosa",
+                    "Body Dysmorphic Disorder",
+                    "Bipolar II Disorder",
+                    "Bipolar I Disorder with Psychotic Features"
+                ],
+                "answer_index": [
+                    1
+                ],
+                "index_types": [
+                    "Less likely option",
+                    "answer",
+                    "Less likely option",
+                    "Less likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D022",
+                        "disease_name": "Bulimia Nervosa"
+                    },
+                    {
+                        "disease_code": "D017",
+                        "disease_name": "Body Dysmorphic Disorder"
+                    },
+                    {
+                        "disease_code": "D009",
+                        "disease_name": "Bipolar II Disorder"
+                    },
+                    {
+                        "disease_code": "D010",
+                        "disease_name": "Bipolar I Disorder with Psychotic Features"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 40\n- **Gender:** Female\n- **Occupation:** Hotel Manager\n- **Marital Status:** Single\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Body Dysmorphic Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. dysmorphic_symptoms Requirements:**\n- Muscle Dysmorphia (The belief that one's body is too small or insufficiently muscular despite being normal or muscular.)\n- Seeking Cosmetic Procedures (Repeatedly seeking or receiving plastic surgery or dermatological procedures.)\n\n**Critical Diagnostic Criteria:**\n\n- Functional Impairment: True"
+    },
+    "D017_l003": {
+        "question": "A 37-year-old married female real estate agent presents with a prolonged history (≥12 months) of persistent preoccupation with perceived defects in her facial skin, including concerns about minimal or non-apparent acne, scars, and uneven complexion. She reports spending extensive time scrutinizing these areas in mirrors and frequently comparing her appearance to others.\n\nThe patient engages in recurrent skin picking and manual manipulation of facial skin in efforts to correct or remove the perceived imperfections, leading to irritation and occasional minor excoriations. Despite reassurance from others that the skin changes are not noticeable or are minimal, she remains convinced that her appearance is markedly flawed and disfiguring.\n\nThese appearance-related concerns consume a significant portion of her day and are associated with marked distress. She reports avoidance of social and occupational situations when she believes her skin looks “bad,” rescheduling client meetings and declining social invitations. The preoccupation and repetitive behaviors have resulted in clinically significant interference with her occupational functioning, social interactions, and overall quality of life.",
+        "options": "\n    A. Bulimia Nervosa\n    B. Body Dysmorphic Disorder\n    C. Bipolar II Disorder\n    D. Bipolar I Disorder with Psychotic Features\n    ",
+        "answer": "B. Body Dysmorphic Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D017",
+                "disease_name": "Body Dysmorphic Disorder",
+                "sampled_features": {
+                    "disease_code": "D017",
+                    "disease_name": "Body Dysmorphic Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "functional_impairment_required": true
+                    },
+                    "sampled_symptom_groups": {
+                        "dysmorphic_symptoms": {
+                            "symptoms": [
+                                "S067",
+                                "S068"
+                            ],
+                            "name": "dysmorphic_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S067",
+                        "S068"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S067": {
+                            "name": "Preoccupation_with_Appearance",
+                            "categoty": "dysmorphic_symptoms",
+                            "description": "Preoccupation with one or more perceived defects or flaws in physical appearance that are not observable or appear slight to others.",
+                            "subtypes": {
+                                "Skin Defects": "Excessive preoccupation with practically invisible acne, scars, or complexion."
+                            }
+                        },
+                        "S068": {
+                            "name": "Appearance_Related_Repetitive_Behaviors",
+                            "categoty": "dysmorphic_symptoms",
+                            "description": "Repetitive behaviors or mental acts performed in response to appearance concerns.",
+                            "subtypes": {
+                                "Skin Picking": "Picking or manipulating the skin excessively to remove or 'fix' flaws."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Bulimia Nervosa",
+                    "Body Dysmorphic Disorder",
+                    "Bipolar II Disorder",
+                    "Bipolar I Disorder with Psychotic Features"
+                ],
+                "answer_index": [
+                    1
+                ],
+                "index_types": [
+                    "Less likely option",
+                    "answer",
+                    "Less likely option",
+                    "Less likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D022",
+                        "disease_name": "Bulimia Nervosa"
+                    },
+                    {
+                        "disease_code": "D017",
+                        "disease_name": "Body Dysmorphic Disorder"
+                    },
+                    {
+                        "disease_code": "D009",
+                        "disease_name": "Bipolar II Disorder"
+                    },
+                    {
+                        "disease_code": "D010",
+                        "disease_name": "Bipolar I Disorder with Psychotic Features"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 37\n- **Gender:** Female\n- **Occupation:** Real Estate Agent\n- **Marital Status:** Married\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Body Dysmorphic Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. dysmorphic_symptoms Requirements:**\n- Skin Defects (Excessive preoccupation with practically invisible acne, scars, or complexion.)\n- Skin Picking (Picking or manipulating the skin excessively to remove or 'fix' flaws.)\n\n**Critical Diagnostic Criteria:**\n\n- Functional Impairment: True"
+    },
+    "D017_l004": {
+        "question": "A 52-year-old married female head nurse presents with a history of persistent preoccupation with perceived defects in facial appearance over several years. She reports excessive concern about the shape and size of her nose, as well as the appearance of her eyes and mouth, despite repeated reassurance from others that these features appear normal. The preoccupation is time-consuming, occurring on a daily basis, and is associated with significant distress.\n\nShe engages in extensive camouflaging behaviors, including prolonged use of makeup, strategic hairstyling, and frequent use of accessories such as hats and glasses to conceal perceived flaws. These behaviors often require substantial preparation time before leaving home and have led to avoidance of social situations and reluctance to participate in activities where her face may be visible or scrutinized.\n\nThe symptoms have been present for more than 12 months and cause clinically significant functional impairment, including difficulty maintaining usual social interactions and increased stress related to her professional role. There is no evidence of psychotic symptoms, and her concerns remain circumscribed to perceived physical imperfections of the face.",
+        "options": "\n    A. Bulimia Nervosa\n    B. Body Dysmorphic Disorder\n    C. Bipolar II Disorder\n    D. Bipolar I Disorder with Psychotic Features\n    ",
+        "answer": "B. Body Dysmorphic Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D017",
+                "disease_name": "Body Dysmorphic Disorder",
+                "sampled_features": {
+                    "disease_code": "D017",
+                    "disease_name": "Body Dysmorphic Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "functional_impairment_required": true
+                    },
+                    "sampled_symptom_groups": {
+                        "dysmorphic_symptoms": {
+                            "symptoms": [
+                                "S067",
+                                "S068"
+                            ],
+                            "name": "dysmorphic_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S067",
+                        "S068"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S067": {
+                            "name": "Preoccupation_with_Appearance",
+                            "categoty": "dysmorphic_symptoms",
+                            "description": "Preoccupation with one or more perceived defects or flaws in physical appearance that are not observable or appear slight to others.",
+                            "subtypes": {
+                                "Facial Features": "Preoccupation with the shape or size of the nose, eyes, or mouth, which appear normal to others."
+                            }
+                        },
+                        "S068": {
+                            "name": "Appearance_Related_Repetitive_Behaviors",
+                            "categoty": "dysmorphic_symptoms",
+                            "description": "Repetitive behaviors or mental acts performed in response to appearance concerns.",
+                            "subtypes": {
+                                "Excessive Camouflaging": "Spending excessive time and effort to hide perceived flaws using makeup, clothes, hats, or sunglasses."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Bulimia Nervosa",
+                    "Body Dysmorphic Disorder",
+                    "Bipolar II Disorder",
+                    "Bipolar I Disorder with Psychotic Features"
+                ],
+                "answer_index": [
+                    1
+                ],
+                "index_types": [
+                    "Less likely option",
+                    "answer",
+                    "Less likely option",
+                    "Less likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D022",
+                        "disease_name": "Bulimia Nervosa"
+                    },
+                    {
+                        "disease_code": "D017",
+                        "disease_name": "Body Dysmorphic Disorder"
+                    },
+                    {
+                        "disease_code": "D009",
+                        "disease_name": "Bipolar II Disorder"
+                    },
+                    {
+                        "disease_code": "D010",
+                        "disease_name": "Bipolar I Disorder with Psychotic Features"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 52\n- **Gender:** Female\n- **Occupation:** Head Nurse\n- **Marital Status:** Married\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Body Dysmorphic Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. dysmorphic_symptoms Requirements:**\n- Facial Features (Preoccupation with the shape or size of the nose, eyes, or mouth, which appear normal to others.)\n- Excessive Camouflaging (Spending excessive time and effort to hide perceived flaws using makeup, clothes, hats, or sunglasses.)\n\n**Critical Diagnostic Criteria:**\n\n- Functional Impairment: True"
+    },
+    "D017_l005": {
+        "question": "A 26-year-old single female game QA tester presents with a history of preoccupation with perceived facial defects for several months. She reports intense and persistent concern about the shape and proportions of her facial features, especially her nose, eyes, and mouth, which she believes appear abnormal or unattractive. According to collateral and clinical observation, these features appear within normal limits, without visible deformity.\n\nThe patient describes spending significant time mentally comparing her appearance to others and monitoring these perceived flaws, leading to marked distress. She frequently seeks repeated reassurance from friends, family, and coworkers about whether her face looks acceptable or unusual, although any reassurance provides only brief relief before anxiety recurs.\n\nHer preoccupation has contributed to functional impairment, including difficulty concentrating at work due to intrusive appearance-related thoughts and avoidance of social interactions where she fears her face will be scrutinized. She denies psychotic symptoms, substance misuse, or a history of an eating disorder. There is no evidence that a prior demographic or life event is temporally linked to the onset of these symptoms.",
+        "options": "\n    A. Bulimia Nervosa\n    B. Body Dysmorphic Disorder\n    C. Bipolar II Disorder\n    D. Bipolar I Disorder with Psychotic Features\n    ",
+        "answer": "B. Body Dysmorphic Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D017",
+                "disease_name": "Body Dysmorphic Disorder",
+                "sampled_features": {
+                    "disease_code": "D017",
+                    "disease_name": "Body Dysmorphic Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "functional_impairment_required": true
+                    },
+                    "sampled_symptom_groups": {
+                        "dysmorphic_symptoms": {
+                            "symptoms": [
+                                "S067",
+                                "S068"
+                            ],
+                            "name": "dysmorphic_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S067",
+                        "S068"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S067": {
+                            "name": "Preoccupation_with_Appearance",
+                            "categoty": "dysmorphic_symptoms",
+                            "description": "Preoccupation with one or more perceived defects or flaws in physical appearance that are not observable or appear slight to others.",
+                            "subtypes": {
+                                "Facial Features": "Preoccupation with the shape or size of the nose, eyes, or mouth, which appear normal to others."
+                            }
+                        },
+                        "S068": {
+                            "name": "Appearance_Related_Repetitive_Behaviors",
+                            "categoty": "dysmorphic_symptoms",
+                            "description": "Repetitive behaviors or mental acts performed in response to appearance concerns.",
+                            "subtypes": {
+                                "Reassurance Seeking": "Repetitively asking others for confirmation that one's appearance is okay or not strange."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Bulimia Nervosa",
+                    "Body Dysmorphic Disorder",
+                    "Bipolar II Disorder",
+                    "Bipolar I Disorder with Psychotic Features"
+                ],
+                "answer_index": [
+                    1
+                ],
+                "index_types": [
+                    "Less likely option",
+                    "answer",
+                    "Less likely option",
+                    "Less likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D022",
+                        "disease_name": "Bulimia Nervosa"
+                    },
+                    {
+                        "disease_code": "D017",
+                        "disease_name": "Body Dysmorphic Disorder"
+                    },
+                    {
+                        "disease_code": "D009",
+                        "disease_name": "Bipolar II Disorder"
+                    },
+                    {
+                        "disease_code": "D010",
+                        "disease_name": "Bipolar I Disorder with Psychotic Features"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 26\n- **Gender:** Female\n- **Occupation:** Game QA Tester\n- **Marital Status:** Single\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Body Dysmorphic Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. dysmorphic_symptoms Requirements:**\n- Facial Features (Preoccupation with the shape or size of the nose, eyes, or mouth, which appear normal to others.)\n- Reassurance Seeking (Repetitively asking others for confirmation that one's appearance is okay or not strange.)\n\n**Critical Diagnostic Criteria:**\n\n- Functional Impairment: True"
+    },
+    "D017_l006": {
+        "question": "A 38-year-old single male tattoo artist presents with a history of body image preoccupation lasting approximately several years. He reports persistent beliefs that his body is inadequately developed and insufficiently muscular, despite reassurance from others and an appearance within normal to muscular range on examination. These concerns occupy a substantial portion of his waking hours and are described as distressing and intrusive.\n\nThe patient engages in frequent and prolonged mirror checking focused on perceived muscular “defects,” at times alternating with periods of deliberately avoiding reflective surfaces due to heightened anxiety and shame. He reports repeatedly comparing his physique to that of others, as well as spending excessive time planning exercise and body-focused routines aimed at “correcting” these perceived flaws.\n\nThese symptoms cause marked functional impairment, including difficulty concentrating at work, turning down professional opportunities that would require him to wear less concealing clothing, and social withdrawal to avoid situations where his body might be visible. He denies psychotic symptoms, substance intoxication as a cause, or a history suggestive of an eating disorder driving these concerns.",
+        "options": "\n    A. Persistent Depressive Disorder\n    B. Bipolar II Disorder\n    C. Body Dysmorphic Disorder\n    D. Obsessive-Compulsive Disorder\n    ",
+        "answer": "C. Body Dysmorphic Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D017",
+                "disease_name": "Body Dysmorphic Disorder",
+                "sampled_features": {
+                    "disease_code": "D017",
+                    "disease_name": "Body Dysmorphic Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "functional_impairment_required": true
+                    },
+                    "sampled_symptom_groups": {
+                        "dysmorphic_symptoms": {
+                            "symptoms": [
+                                "S067",
+                                "S068"
+                            ],
+                            "name": "dysmorphic_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S067",
+                        "S068"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S067": {
+                            "name": "Preoccupation_with_Appearance",
+                            "categoty": "dysmorphic_symptoms",
+                            "description": "Preoccupation with one or more perceived defects or flaws in physical appearance that are not observable or appear slight to others.",
+                            "subtypes": {
+                                "Muscle Dysmorphia": "The belief that one's body is too small or insufficiently muscular despite being normal or muscular."
+                            }
+                        },
+                        "S068": {
+                            "name": "Appearance_Related_Repetitive_Behaviors",
+                            "categoty": "dysmorphic_symptoms",
+                            "description": "Repetitive behaviors or mental acts performed in response to appearance concerns.",
+                            "subtypes": {
+                                "Mirror Checking or Avoidance": "Compulsively checking oneself in the mirror frequently or, conversely, avoiding mirrors strictly."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Persistent Depressive Disorder",
+                    "Bipolar II Disorder",
+                    "Body Dysmorphic Disorder",
+                    "Obsessive-Compulsive Disorder"
+                ],
+                "answer_index": [
+                    2
+                ],
+                "index_types": [
+                    "Less likely option",
+                    "Less likely option",
+                    "answer",
+                    "Less likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D014",
+                        "disease_name": "Persistent Depressive Disorder"
+                    },
+                    {
+                        "disease_code": "D009",
+                        "disease_name": "Bipolar II Disorder"
+                    },
+                    {
+                        "disease_code": "D017",
+                        "disease_name": "Body Dysmorphic Disorder"
+                    },
+                    {
+                        "disease_code": "D016",
+                        "disease_name": "Obsessive-Compulsive Disorder"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 38\n- **Gender:** Male\n- **Occupation:** Tattoo Artist\n- **Marital Status:** Single\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Body Dysmorphic Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. dysmorphic_symptoms Requirements:**\n- Muscle Dysmorphia (The belief that one's body is too small or insufficiently muscular despite being normal or muscular.)\n- Mirror Checking or Avoidance (Compulsively checking oneself in the mirror frequently or, conversely, avoiding mirrors strictly.)\n\n**Critical Diagnostic Criteria:**\n\n- Functional Impairment: True"
+    },
+    "D017_l007": {
+        "question": "A 53-year-old widowed female social worker presents with a history of >1 year of persistent preoccupation with perceived defects in her facial skin. She reports spending extensive time examining her face for minor blemishes, including minimal acne, faint scars, and subtle irregularities in complexion that are not apparent or are considered trivial by others. She frequently compares her appearance to others and engages in repetitive reassurance-seeking behaviors regarding her skin.\n\nThe patient describes recurrent urges to manipulate and “fix” these perceived imperfections through frequent touching, squeezing, and picking at her skin, often using mirrors at close range. These behaviors result in erythema and occasional superficial excoriations, which then further increase her distress and focus on appearance.\n\nThe preoccupation and associated behaviors consume a substantial part of her day, leading to marked distress. She avoids social interactions and professional activities that involve close face-to-face contact due to embarrassment about her appearance, resulting in significant functional impairment in occupational performance and social functioning. There is no evidence that these concerns are better explained by a general medical condition or by culturally normative appearance-related worries.",
+        "options": "\n    A. Persistent Depressive Disorder\n    B. Bipolar II Disorder\n    C. Body Dysmorphic Disorder\n    D. Obsessive-Compulsive Disorder\n    ",
+        "answer": "C. Body Dysmorphic Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D017",
+                "disease_name": "Body Dysmorphic Disorder",
+                "sampled_features": {
+                    "disease_code": "D017",
+                    "disease_name": "Body Dysmorphic Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "functional_impairment_required": true
+                    },
+                    "sampled_symptom_groups": {
+                        "dysmorphic_symptoms": {
+                            "symptoms": [
+                                "S067",
+                                "S068"
+                            ],
+                            "name": "dysmorphic_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S067",
+                        "S068"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S067": {
+                            "name": "Preoccupation_with_Appearance",
+                            "categoty": "dysmorphic_symptoms",
+                            "description": "Preoccupation with one or more perceived defects or flaws in physical appearance that are not observable or appear slight to others.",
+                            "subtypes": {
+                                "Skin Defects": "Excessive preoccupation with practically invisible acne, scars, or complexion."
+                            }
+                        },
+                        "S068": {
+                            "name": "Appearance_Related_Repetitive_Behaviors",
+                            "categoty": "dysmorphic_symptoms",
+                            "description": "Repetitive behaviors or mental acts performed in response to appearance concerns.",
+                            "subtypes": {
+                                "Skin Picking": "Picking or manipulating the skin excessively to remove or 'fix' flaws."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Persistent Depressive Disorder",
+                    "Bipolar II Disorder",
+                    "Body Dysmorphic Disorder",
+                    "Obsessive-Compulsive Disorder"
+                ],
+                "answer_index": [
+                    2
+                ],
+                "index_types": [
+                    "Less likely option",
+                    "Less likely option",
+                    "answer",
+                    "Less likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D014",
+                        "disease_name": "Persistent Depressive Disorder"
+                    },
+                    {
+                        "disease_code": "D009",
+                        "disease_name": "Bipolar II Disorder"
+                    },
+                    {
+                        "disease_code": "D017",
+                        "disease_name": "Body Dysmorphic Disorder"
+                    },
+                    {
+                        "disease_code": "D016",
+                        "disease_name": "Obsessive-Compulsive Disorder"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 53\n- **Gender:** Female\n- **Occupation:** Social Worker\n- **Marital Status:** Widowed\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Body Dysmorphic Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. dysmorphic_symptoms Requirements:**\n- Skin Defects (Excessive preoccupation with practically invisible acne, scars, or complexion.)\n- Skin Picking (Picking or manipulating the skin excessively to remove or 'fix' flaws.)\n\n**Critical Diagnostic Criteria:**\n\n- Functional Impairment: True"
+    },
+    "D017_l008": {
+        "question": "A 40-year-old married female, employed as a human resources department head, presents with a history of body-focused appearance concerns persisting for approximately 3 years. She reports persistent preoccupation with perceived defects in her facial features, specifically the shape and size of her nose and the appearance of her eyes and mouth, despite reassurance from others that these features appear normal. \n\nShe spends significant time scrutinizing her face in mirrors and using reflective surfaces, as well as seeking repeated reassurance about her appearance. The patient engages in frequent and prolonged manipulation of facial skin, including picking at minor irregularities and blemishes in attempts to correct perceived imperfections. This behavior has led to episodic skin irritation and exacerbation of visible marks, further intensifying her distress.\n\nThese concerns and behaviors have resulted in marked functional impairment, including avoidance of social gatherings, reluctance to participate in work-related meetings or presentations, increased time spent on grooming, and decreased efficiency at work due to intrusive appearance-related thoughts. There is no evidence of a primary psychotic process or substance-induced etiology.",
+        "options": "\n    A. Persistent Depressive Disorder\n    B. Bipolar II Disorder\n    C. Body Dysmorphic Disorder\n    D. Obsessive-Compulsive Disorder\n    ",
+        "answer": "C. Body Dysmorphic Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D017",
+                "disease_name": "Body Dysmorphic Disorder",
+                "sampled_features": {
+                    "disease_code": "D017",
+                    "disease_name": "Body Dysmorphic Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "functional_impairment_required": true
+                    },
+                    "sampled_symptom_groups": {
+                        "dysmorphic_symptoms": {
+                            "symptoms": [
+                                "S067",
+                                "S068"
+                            ],
+                            "name": "dysmorphic_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S067",
+                        "S068"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S067": {
+                            "name": "Preoccupation_with_Appearance",
+                            "categoty": "dysmorphic_symptoms",
+                            "description": "Preoccupation with one or more perceived defects or flaws in physical appearance that are not observable or appear slight to others.",
+                            "subtypes": {
+                                "Facial Features": "Preoccupation with the shape or size of the nose, eyes, or mouth, which appear normal to others."
+                            }
+                        },
+                        "S068": {
+                            "name": "Appearance_Related_Repetitive_Behaviors",
+                            "categoty": "dysmorphic_symptoms",
+                            "description": "Repetitive behaviors or mental acts performed in response to appearance concerns.",
+                            "subtypes": {
+                                "Skin Picking": "Picking or manipulating the skin excessively to remove or 'fix' flaws."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Persistent Depressive Disorder",
+                    "Bipolar II Disorder",
+                    "Body Dysmorphic Disorder",
+                    "Obsessive-Compulsive Disorder"
+                ],
+                "answer_index": [
+                    2
+                ],
+                "index_types": [
+                    "Less likely option",
+                    "Less likely option",
+                    "answer",
+                    "Less likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D014",
+                        "disease_name": "Persistent Depressive Disorder"
+                    },
+                    {
+                        "disease_code": "D009",
+                        "disease_name": "Bipolar II Disorder"
+                    },
+                    {
+                        "disease_code": "D017",
+                        "disease_name": "Body Dysmorphic Disorder"
+                    },
+                    {
+                        "disease_code": "D016",
+                        "disease_name": "Obsessive-Compulsive Disorder"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 40\n- **Gender:** Female\n- **Occupation:** HR Department Head\n- **Marital Status:** Married\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Body Dysmorphic Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. dysmorphic_symptoms Requirements:**\n- Facial Features (Preoccupation with the shape or size of the nose, eyes, or mouth, which appear normal to others.)\n- Skin Picking (Picking or manipulating the skin excessively to remove or 'fix' flaws.)\n\n**Critical Diagnostic Criteria:**\n\n- Functional Impairment: True"
+    },
+    "D017_l009": {
+        "question": "A 34-year-old married male chef presents with a multi-month history of distress centered on perceived defects in his facial skin. He reports intense concern about minimal or non-apparent facial blemishes, including very small areas of acne, faint scarring, and subtle complexion irregularities that are not evident to others on examination. These preoccupations occupy a substantial portion of his waking hours.\n\nHe repeatedly seeks reassurance from his spouse, coworkers, and friends regarding whether his skin appears abnormal, disfigured, or noticeable to others, often asking the same questions multiple times per day. Despite frequent reassurance, his anxiety about these perceived defects persists and he remains unconvinced by others’ feedback.\n\nThe associated distress has led to significant functional impairment over several months, including difficulty concentrating at work, prolonged time spent examining his face in mirrors before shifts, and occasional avoidance of social interactions when he believes his skin looks “unacceptable.” He denies psychotic symptoms, substance misuse, or a history of dermatologic illness that would account for his concerns. Mood is described as anxious and discouraged in relation to his appearance, without clear episodic mood instability.",
+        "options": "\n    A. Persistent Depressive Disorder\n    B. Bipolar II Disorder\n    C. Body Dysmorphic Disorder\n    D. Obsessive-Compulsive Disorder\n    ",
+        "answer": "C. Body Dysmorphic Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D017",
+                "disease_name": "Body Dysmorphic Disorder",
+                "sampled_features": {
+                    "disease_code": "D017",
+                    "disease_name": "Body Dysmorphic Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "functional_impairment_required": true
+                    },
+                    "sampled_symptom_groups": {
+                        "dysmorphic_symptoms": {
+                            "symptoms": [
+                                "S067",
+                                "S068"
+                            ],
+                            "name": "dysmorphic_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S067",
+                        "S068"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S067": {
+                            "name": "Preoccupation_with_Appearance",
+                            "categoty": "dysmorphic_symptoms",
+                            "description": "Preoccupation with one or more perceived defects or flaws in physical appearance that are not observable or appear slight to others.",
+                            "subtypes": {
+                                "Skin Defects": "Excessive preoccupation with practically invisible acne, scars, or complexion."
+                            }
+                        },
+                        "S068": {
+                            "name": "Appearance_Related_Repetitive_Behaviors",
+                            "categoty": "dysmorphic_symptoms",
+                            "description": "Repetitive behaviors or mental acts performed in response to appearance concerns.",
+                            "subtypes": {
+                                "Reassurance Seeking": "Repetitively asking others for confirmation that one's appearance is okay or not strange."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Persistent Depressive Disorder",
+                    "Bipolar II Disorder",
+                    "Body Dysmorphic Disorder",
+                    "Obsessive-Compulsive Disorder"
+                ],
+                "answer_index": [
+                    2
+                ],
+                "index_types": [
+                    "Less likely option",
+                    "Less likely option",
+                    "answer",
+                    "Less likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D014",
+                        "disease_name": "Persistent Depressive Disorder"
+                    },
+                    {
+                        "disease_code": "D009",
+                        "disease_name": "Bipolar II Disorder"
+                    },
+                    {
+                        "disease_code": "D017",
+                        "disease_name": "Body Dysmorphic Disorder"
+                    },
+                    {
+                        "disease_code": "D016",
+                        "disease_name": "Obsessive-Compulsive Disorder"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 34\n- **Gender:** Male\n- **Occupation:** Chef\n- **Marital Status:** Married\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Body Dysmorphic Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. dysmorphic_symptoms Requirements:**\n- Skin Defects (Excessive preoccupation with practically invisible acne, scars, or complexion.)\n- Reassurance Seeking (Repetitively asking others for confirmation that one's appearance is okay or not strange.)\n\n**Critical Diagnostic Criteria:**\n\n- Functional Impairment: True"
+    },
+    "D017_l010": {
+        "question": "A 74-year-old widowed retired female presents with a persistent preoccupation over several years with perceived defects in her facial appearance, primarily involving the shape and size of her nose, eyes, and mouth. She repeatedly reports that these features appear distorted or abnormal, despite reassurance from others and the absence of observable abnormalities on examination.\n\nThe patient spends a substantial portion of the day engaged in appearance-related behaviors, including prolonged application of makeup and frequent use of hats, scarves, and large sunglasses to conceal her face when outside the home. She frequently checks mirrors and may adjust or redo cosmetic coverings multiple times before feeling able to leave the house.\n\nThis preoccupation and associated camouflaging behaviors have led to marked functional impairment. She avoids social gatherings and public places, limits errands to times when she anticipates fewer people will be present, and has reduced participation in previously enjoyed activities. Distress related to perceived facial defects is significant and persistent, and is not better accounted for by concerns related to aging alone.",
+        "options": "\n    A. Persistent Depressive Disorder\n    B. Bipolar II Disorder\n    C. Body Dysmorphic Disorder\n    D. Obsessive-Compulsive Disorder\n    ",
+        "answer": "C. Body Dysmorphic Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D017",
+                "disease_name": "Body Dysmorphic Disorder",
+                "sampled_features": {
+                    "disease_code": "D017",
+                    "disease_name": "Body Dysmorphic Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "functional_impairment_required": true
+                    },
+                    "sampled_symptom_groups": {
+                        "dysmorphic_symptoms": {
+                            "symptoms": [
+                                "S067",
+                                "S068"
+                            ],
+                            "name": "dysmorphic_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S067",
+                        "S068"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S067": {
+                            "name": "Preoccupation_with_Appearance",
+                            "categoty": "dysmorphic_symptoms",
+                            "description": "Preoccupation with one or more perceived defects or flaws in physical appearance that are not observable or appear slight to others.",
+                            "subtypes": {
+                                "Facial Features": "Preoccupation with the shape or size of the nose, eyes, or mouth, which appear normal to others."
+                            }
+                        },
+                        "S068": {
+                            "name": "Appearance_Related_Repetitive_Behaviors",
+                            "categoty": "dysmorphic_symptoms",
+                            "description": "Repetitive behaviors or mental acts performed in response to appearance concerns.",
+                            "subtypes": {
+                                "Excessive Camouflaging": "Spending excessive time and effort to hide perceived flaws using makeup, clothes, hats, or sunglasses."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Persistent Depressive Disorder",
+                    "Bipolar II Disorder",
+                    "Body Dysmorphic Disorder",
+                    "Obsessive-Compulsive Disorder"
+                ],
+                "answer_index": [
+                    2
+                ],
+                "index_types": [
+                    "Less likely option",
+                    "Less likely option",
+                    "answer",
+                    "Less likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D014",
+                        "disease_name": "Persistent Depressive Disorder"
+                    },
+                    {
+                        "disease_code": "D009",
+                        "disease_name": "Bipolar II Disorder"
+                    },
+                    {
+                        "disease_code": "D017",
+                        "disease_name": "Body Dysmorphic Disorder"
+                    },
+                    {
+                        "disease_code": "D016",
+                        "disease_name": "Obsessive-Compulsive Disorder"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 74\n- **Gender:** Female\n- **Occupation:** Retired\n- **Marital Status:** Widowed\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Body Dysmorphic Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. dysmorphic_symptoms Requirements:**\n- Facial Features (Preoccupation with the shape or size of the nose, eyes, or mouth, which appear normal to others.)\n- Excessive Camouflaging (Spending excessive time and effort to hide perceived flaws using makeup, clothes, hats, or sunglasses.)\n\n**Critical Diagnostic Criteria:**\n\n- Functional Impairment: True"
+    },
+    "D017_l011": {
+        "question": "A 47-year-old widowed male, employed as a legacy system maintainer (COBOL), presents with a several-year history of persistent preoccupation with perceived defects in his physical appearance. He is convinced that his body is inadequately muscular despite having a build that appears within normal to muscular range on examination. He reports spending extensive time checking his physique in mirrors, comparing himself to others, and engaging in excessive exercise and strict dietary practices aimed at increasing muscle mass.  \n\nHe also describes recurrent manipulation of his skin, including frequent picking at perceived surface irregularities and blemishes, leading to excoriations and occasional superficial scarring. Attempts to resist these behaviors cause marked anxiety and distress.  \n\nThese preoccupations and repetitive behaviors have been present for more than 3 years and are associated with significant functional impairment, including difficulty concentrating at work due to intrusive appearance-related thoughts, avoidance of social situations where his body might be visible, and considerable time spent on grooming and body-checking rituals. There is no evidence of psychotic disorganization or gross cognitive impairment.",
+        "options": "\n    A. Bipolar I Disorder with Psychotic Features\n    B. Bipolar II Disorder\n    C. Delusional Disorder\n    D. Body Dysmorphic Disorder\n    ",
+        "answer": "D. Body Dysmorphic Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D017",
+                "disease_name": "Body Dysmorphic Disorder",
+                "sampled_features": {
+                    "disease_code": "D017",
+                    "disease_name": "Body Dysmorphic Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "functional_impairment_required": true
+                    },
+                    "sampled_symptom_groups": {
+                        "dysmorphic_symptoms": {
+                            "symptoms": [
+                                "S067",
+                                "S068"
+                            ],
+                            "name": "dysmorphic_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S067",
+                        "S068"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S067": {
+                            "name": "Preoccupation_with_Appearance",
+                            "categoty": "dysmorphic_symptoms",
+                            "description": "Preoccupation with one or more perceived defects or flaws in physical appearance that are not observable or appear slight to others.",
+                            "subtypes": {
+                                "Muscle Dysmorphia": "The belief that one's body is too small or insufficiently muscular despite being normal or muscular."
+                            }
+                        },
+                        "S068": {
+                            "name": "Appearance_Related_Repetitive_Behaviors",
+                            "categoty": "dysmorphic_symptoms",
+                            "description": "Repetitive behaviors or mental acts performed in response to appearance concerns.",
+                            "subtypes": {
+                                "Skin Picking": "Picking or manipulating the skin excessively to remove or 'fix' flaws."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Bipolar I Disorder with Psychotic Features",
+                    "Bipolar II Disorder",
+                    "Delusional Disorder",
+                    "Body Dysmorphic Disorder"
+                ],
+                "answer_index": [
+                    3
+                ],
+                "index_types": [
+                    "Less likely option",
+                    "Less likely option",
+                    "Less likely option",
+                    "answer"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D010",
+                        "disease_name": "Bipolar I Disorder with Psychotic Features"
+                    },
+                    {
+                        "disease_code": "D009",
+                        "disease_name": "Bipolar II Disorder"
+                    },
+                    {
+                        "disease_code": "D004",
+                        "disease_name": "Delusional Disorder"
+                    },
+                    {
+                        "disease_code": "D017",
+                        "disease_name": "Body Dysmorphic Disorder"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 47\n- **Gender:** Male\n- **Occupation:** Legacy System Maintainer (COBOL)\n- **Marital Status:** Widowed\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Body Dysmorphic Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. dysmorphic_symptoms Requirements:**\n- Muscle Dysmorphia (The belief that one's body is too small or insufficiently muscular despite being normal or muscular.)\n- Skin Picking (Picking or manipulating the skin excessively to remove or 'fix' flaws.)\n\n**Critical Diagnostic Criteria:**\n\n- Functional Impairment: True"
+    },
+    "D017_l012": {
+        "question": "A 44-year-old married male construction site foreman presents with a several-year history of persistent preoccupation with perceived defects in his physique, specifically a conviction that his body is too small and inadequately muscular despite others describing him as well built. He spends extensive time scrutinizing his appearance and comparing his musculature to others, leading to marked distress.\n\nThe patient reports engaging in excessive behaviors aimed at concealing and controlling these perceived flaws, including wearing particular clothing styles and layered garments to alter the apparent size and shape of his body. He frequently adjusts his attire and posture to hide areas he considers deficient and avoids situations where his body might be visible or evaluated by others.\n\nThese concerns and associated behaviors occupy a substantial portion of his day and interfere with occupational functioning, including distraction at work and difficulty concentrating on supervisory tasks. Social functioning is also impaired, with avoidance of social and recreational activities where his body might be seen. He denies psychotic symptoms or substance misuse contributing to these concerns.",
+        "options": "\n    A. Bipolar I Disorder with Psychotic Features\n    B. Bipolar II Disorder\n    C. Delusional Disorder\n    D. Body Dysmorphic Disorder\n    ",
+        "answer": "D. Body Dysmorphic Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D017",
+                "disease_name": "Body Dysmorphic Disorder",
+                "sampled_features": {
+                    "disease_code": "D017",
+                    "disease_name": "Body Dysmorphic Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "functional_impairment_required": true
+                    },
+                    "sampled_symptom_groups": {
+                        "dysmorphic_symptoms": {
+                            "symptoms": [
+                                "S067",
+                                "S068"
+                            ],
+                            "name": "dysmorphic_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S067",
+                        "S068"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S067": {
+                            "name": "Preoccupation_with_Appearance",
+                            "categoty": "dysmorphic_symptoms",
+                            "description": "Preoccupation with one or more perceived defects or flaws in physical appearance that are not observable or appear slight to others.",
+                            "subtypes": {
+                                "Muscle Dysmorphia": "The belief that one's body is too small or insufficiently muscular despite being normal or muscular."
+                            }
+                        },
+                        "S068": {
+                            "name": "Appearance_Related_Repetitive_Behaviors",
+                            "categoty": "dysmorphic_symptoms",
+                            "description": "Repetitive behaviors or mental acts performed in response to appearance concerns.",
+                            "subtypes": {
+                                "Excessive Camouflaging": "Spending excessive time and effort to hide perceived flaws using makeup, clothes, hats, or sunglasses."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Bipolar I Disorder with Psychotic Features",
+                    "Bipolar II Disorder",
+                    "Delusional Disorder",
+                    "Body Dysmorphic Disorder"
+                ],
+                "answer_index": [
+                    3
+                ],
+                "index_types": [
+                    "Less likely option",
+                    "Less likely option",
+                    "Less likely option",
+                    "answer"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D010",
+                        "disease_name": "Bipolar I Disorder with Psychotic Features"
+                    },
+                    {
+                        "disease_code": "D009",
+                        "disease_name": "Bipolar II Disorder"
+                    },
+                    {
+                        "disease_code": "D004",
+                        "disease_name": "Delusional Disorder"
+                    },
+                    {
+                        "disease_code": "D017",
+                        "disease_name": "Body Dysmorphic Disorder"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 44\n- **Gender:** Male\n- **Occupation:** Construction Site Foreman\n- **Marital Status:** Married\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Body Dysmorphic Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. dysmorphic_symptoms Requirements:**\n- Muscle Dysmorphia (The belief that one's body is too small or insufficiently muscular despite being normal or muscular.)\n- Excessive Camouflaging (Spending excessive time and effort to hide perceived flaws using makeup, clothes, hats, or sunglasses.)\n\n**Critical Diagnostic Criteria:**\n\n- Functional Impairment: True"
+    },
+    "D017_l013": {
+        "question": "A 37-year-old single male subway driver presents with a history over several years of persistent preoccupation with perceived defects in his physical appearance, primarily involving his hair, teeth, and chest. He reports spending extensive time scrutinizing these areas and comparing his appearance to others, with marked distress about being unattractive or deformed despite reassurances from others.\n\nHe has repeatedly sought cosmetic and dermatological interventions targeting these body regions, with multiple consultations and procedures that have provided minimal or short-lived relief from his concerns. He frequently researches additional cosmetic options and expresses dissatisfaction with prior outcomes.\n\nThese appearance-related preoccupations occupy a substantial portion of his waking hours and are associated with significant functional impairment. He avoids social activities, feels uncomfortable in workplace interactions, and sometimes attempts to limit visibility at work due to fears of being judged for his perceived defects. There is no evidence of a temporal association between his occupational status or marital status and the onset of his symptoms. Mood symptoms appear secondary to his distress about appearance, and there is no indication of psychotic symptoms or substance-related etiology.",
+        "options": "\n    A. Bipolar I Disorder with Psychotic Features\n    B. Bipolar II Disorder\n    C. Delusional Disorder\n    D. Body Dysmorphic Disorder\n    ",
+        "answer": "D. Body Dysmorphic Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D017",
+                "disease_name": "Body Dysmorphic Disorder",
+                "sampled_features": {
+                    "disease_code": "D017",
+                    "disease_name": "Body Dysmorphic Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "functional_impairment_required": true
+                    },
+                    "sampled_symptom_groups": {
+                        "dysmorphic_symptoms": {
+                            "symptoms": [
+                                "S067",
+                                "S068"
+                            ],
+                            "name": "dysmorphic_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S067",
+                        "S068"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S067": {
+                            "name": "Preoccupation_with_Appearance",
+                            "categoty": "dysmorphic_symptoms",
+                            "description": "Preoccupation with one or more perceived defects or flaws in physical appearance that are not observable or appear slight to others.",
+                            "subtypes": {
+                                "Specific Body Parts": "Obsession that specific parts like hair, teeth, or chest are ugly or abnormal."
+                            }
+                        },
+                        "S068": {
+                            "name": "Appearance_Related_Repetitive_Behaviors",
+                            "categoty": "dysmorphic_symptoms",
+                            "description": "Repetitive behaviors or mental acts performed in response to appearance concerns.",
+                            "subtypes": {
+                                "Seeking Cosmetic Procedures": "Repeatedly seeking or receiving plastic surgery or dermatological procedures."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Bipolar I Disorder with Psychotic Features",
+                    "Bipolar II Disorder",
+                    "Delusional Disorder",
+                    "Body Dysmorphic Disorder"
+                ],
+                "answer_index": [
+                    3
+                ],
+                "index_types": [
+                    "Less likely option",
+                    "Less likely option",
+                    "Less likely option",
+                    "answer"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D010",
+                        "disease_name": "Bipolar I Disorder with Psychotic Features"
+                    },
+                    {
+                        "disease_code": "D009",
+                        "disease_name": "Bipolar II Disorder"
+                    },
+                    {
+                        "disease_code": "D004",
+                        "disease_name": "Delusional Disorder"
+                    },
+                    {
+                        "disease_code": "D017",
+                        "disease_name": "Body Dysmorphic Disorder"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 37\n- **Gender:** Male\n- **Occupation:** Subway Driver\n- **Marital Status:** Single\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Body Dysmorphic Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. dysmorphic_symptoms Requirements:**\n- Specific Body Parts (Obsession that specific parts like hair, teeth, or chest are ugly or abnormal.)\n- Seeking Cosmetic Procedures (Repeatedly seeking or receiving plastic surgery or dermatological procedures.)\n\n**Critical Diagnostic Criteria:**\n\n- Functional Impairment: True"
+    },
+    "D017_l014": {
+        "question": "A 34-year-old married female landscape architect presents with a multi-year history of distress related to perceived facial skin imperfections. She reports persistent, intrusive concerns about minor or barely visible irregularities in her complexion, including small blemishes and faint scars, which she describes as highly noticeable and disfiguring. These concerns occupy a substantial portion of her waking hours and are difficult for her to dismiss.\n\nShe has pursued multiple cosmetic interventions, including repeated dermatologic treatments and consultations for procedures intended to improve skin texture and tone, despite being reassured by clinicians that findings are minimal. Dissatisfaction with outcomes has led to further provider-shopping for additional procedures.\n\nHer appearance-related preoccupations have led to significant functional impairment. She frequently avoids social gatherings and professional networking events due to embarrassment about her skin, spends excessive time examining and attempting to conceal perceived defects, and reports decreased productivity at work secondary to ruminative focus on her appearance. There is no clear temporal relationship between her marital status or occupational history and the onset of these symptoms; these demographic factors predate the development of her current appearance-related concerns.",
+        "options": "\n    A. Bipolar I Disorder with Psychotic Features\n    B. Bipolar II Disorder\n    C. Delusional Disorder\n    D. Body Dysmorphic Disorder\n    ",
+        "answer": "D. Body Dysmorphic Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D017",
+                "disease_name": "Body Dysmorphic Disorder",
+                "sampled_features": {
+                    "disease_code": "D017",
+                    "disease_name": "Body Dysmorphic Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "functional_impairment_required": true
+                    },
+                    "sampled_symptom_groups": {
+                        "dysmorphic_symptoms": {
+                            "symptoms": [
+                                "S067",
+                                "S068"
+                            ],
+                            "name": "dysmorphic_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S067",
+                        "S068"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S067": {
+                            "name": "Preoccupation_with_Appearance",
+                            "categoty": "dysmorphic_symptoms",
+                            "description": "Preoccupation with one or more perceived defects or flaws in physical appearance that are not observable or appear slight to others.",
+                            "subtypes": {
+                                "Skin Defects": "Excessive preoccupation with practically invisible acne, scars, or complexion."
+                            }
+                        },
+                        "S068": {
+                            "name": "Appearance_Related_Repetitive_Behaviors",
+                            "categoty": "dysmorphic_symptoms",
+                            "description": "Repetitive behaviors or mental acts performed in response to appearance concerns.",
+                            "subtypes": {
+                                "Seeking Cosmetic Procedures": "Repeatedly seeking or receiving plastic surgery or dermatological procedures."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Bipolar I Disorder with Psychotic Features",
+                    "Bipolar II Disorder",
+                    "Delusional Disorder",
+                    "Body Dysmorphic Disorder"
+                ],
+                "answer_index": [
+                    3
+                ],
+                "index_types": [
+                    "Less likely option",
+                    "Less likely option",
+                    "Less likely option",
+                    "answer"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D010",
+                        "disease_name": "Bipolar I Disorder with Psychotic Features"
+                    },
+                    {
+                        "disease_code": "D009",
+                        "disease_name": "Bipolar II Disorder"
+                    },
+                    {
+                        "disease_code": "D004",
+                        "disease_name": "Delusional Disorder"
+                    },
+                    {
+                        "disease_code": "D017",
+                        "disease_name": "Body Dysmorphic Disorder"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 34\n- **Gender:** Female\n- **Occupation:** Landscape Architect\n- **Marital Status:** Married\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Body Dysmorphic Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. dysmorphic_symptoms Requirements:**\n- Skin Defects (Excessive preoccupation with practically invisible acne, scars, or complexion.)\n- Seeking Cosmetic Procedures (Repeatedly seeking or receiving plastic surgery or dermatological procedures.)\n\n**Critical Diagnostic Criteria:**\n\n- Functional Impairment: True"
+    },
+    "D017_l015": {
+        "question": "A 50-year-old married female Human Resources Director presents with a several-year history of persistent preoccupation with perceived defects in her facial appearance, primarily focusing on the shape and size of her nose, as well as concerns about her eyes and mouth. These features are described by others as within normal limits, yet the patient reports spending prolonged periods scrutinizing them and attempting to correct or conceal them.\n\nShe engages in extensive camouflaging behaviors, including heavy use of makeup and strategic use of clothing, hats, and sunglasses to hide perceived facial imperfections. These behaviors consume substantial time daily and are prioritized over social, occupational, and recreational activities.\n\nThe patient reports significant distress when unable to perform these routines and often avoids situations in which her face might be observed or photographed. Her preoccupation and related behaviors have led to notable functional impairment, including difficulty participating in work-related events, social gatherings, and routine errands, as well as reduced efficiency and reliability in her occupational role.",
+        "options": "\n    A. Bipolar I Disorder with Psychotic Features\n    B. Bipolar II Disorder\n    C. Delusional Disorder\n    D. Body Dysmorphic Disorder\n    ",
+        "answer": "D. Body Dysmorphic Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D017",
+                "disease_name": "Body Dysmorphic Disorder",
+                "sampled_features": {
+                    "disease_code": "D017",
+                    "disease_name": "Body Dysmorphic Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "functional_impairment_required": true
+                    },
+                    "sampled_symptom_groups": {
+                        "dysmorphic_symptoms": {
+                            "symptoms": [
+                                "S067",
+                                "S068"
+                            ],
+                            "name": "dysmorphic_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S067",
+                        "S068"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S067": {
+                            "name": "Preoccupation_with_Appearance",
+                            "categoty": "dysmorphic_symptoms",
+                            "description": "Preoccupation with one or more perceived defects or flaws in physical appearance that are not observable or appear slight to others.",
+                            "subtypes": {
+                                "Facial Features": "Preoccupation with the shape or size of the nose, eyes, or mouth, which appear normal to others."
+                            }
+                        },
+                        "S068": {
+                            "name": "Appearance_Related_Repetitive_Behaviors",
+                            "categoty": "dysmorphic_symptoms",
+                            "description": "Repetitive behaviors or mental acts performed in response to appearance concerns.",
+                            "subtypes": {
+                                "Excessive Camouflaging": "Spending excessive time and effort to hide perceived flaws using makeup, clothes, hats, or sunglasses."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Bipolar I Disorder with Psychotic Features",
+                    "Bipolar II Disorder",
+                    "Delusional Disorder",
+                    "Body Dysmorphic Disorder"
+                ],
+                "answer_index": [
+                    3
+                ],
+                "index_types": [
+                    "Less likely option",
+                    "Less likely option",
+                    "Less likely option",
+                    "answer"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D010",
+                        "disease_name": "Bipolar I Disorder with Psychotic Features"
+                    },
+                    {
+                        "disease_code": "D009",
+                        "disease_name": "Bipolar II Disorder"
+                    },
+                    {
+                        "disease_code": "D004",
+                        "disease_name": "Delusional Disorder"
+                    },
+                    {
+                        "disease_code": "D017",
+                        "disease_name": "Body Dysmorphic Disorder"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 50\n- **Gender:** Female\n- **Occupation:** Human Resources Director\n- **Marital Status:** Married\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Body Dysmorphic Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. dysmorphic_symptoms Requirements:**\n- Facial Features (Preoccupation with the shape or size of the nose, eyes, or mouth, which appear normal to others.)\n- Excessive Camouflaging (Spending excessive time and effort to hide perceived flaws using makeup, clothes, hats, or sunglasses.)\n\n**Critical Diagnostic Criteria:**\n\n- Functional Impairment: True"
+    },
+    "D017_l016": {
+        "question": "A 46-year-old married female, employed as a matchmaker/couple manager, presents with a chronic pattern of appearance-related preoccupation, persisting for several years. She reports being intensely focused on perceived defects of her facial skin, including minimal blemishes, subtle irregularities in complexion, and faint scars that are not readily noticeable to others. \n\nThe patient spends considerable time examining these areas and engages in repetitive behaviors aimed at correcting or eliminating them, most notably frequent manual manipulation and picking of the skin. These behaviors have led to episodes of irritation and minor skin damage, which in turn reinforce her concerns and drive further scrutiny and attempts at “correction.”  \n\nHer preoccupation is described as difficult to control and disproportionate to any objective dermatologic findings. This has resulted in significant functional impairment, including avoidance of social situations in which she fears her skin will be scrutinized, increased time spent on grooming and camouflaging, and distraction from occupational responsibilities. There is no indication that these appearance concerns are better accounted for by a primary dermatologic condition or normal dissatisfaction with physical appearance.",
+        "options": "\n    A. Bipolar I Disorder\n    B. Body Dysmorphic Disorder\n    C. Acute Stress Disorder\n    D. Obsessive-Compulsive Disorder\n    ",
+        "answer": "B. Body Dysmorphic Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D017",
+                "disease_name": "Body Dysmorphic Disorder",
+                "sampled_features": {
+                    "disease_code": "D017",
+                    "disease_name": "Body Dysmorphic Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "functional_impairment_required": true
+                    },
+                    "sampled_symptom_groups": {
+                        "dysmorphic_symptoms": {
+                            "symptoms": [
+                                "S067",
+                                "S068"
+                            ],
+                            "name": "dysmorphic_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S067",
+                        "S068"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S067": {
+                            "name": "Preoccupation_with_Appearance",
+                            "categoty": "dysmorphic_symptoms",
+                            "description": "Preoccupation with one or more perceived defects or flaws in physical appearance that are not observable or appear slight to others.",
+                            "subtypes": {
+                                "Skin Defects": "Excessive preoccupation with practically invisible acne, scars, or complexion."
+                            }
+                        },
+                        "S068": {
+                            "name": "Appearance_Related_Repetitive_Behaviors",
+                            "categoty": "dysmorphic_symptoms",
+                            "description": "Repetitive behaviors or mental acts performed in response to appearance concerns.",
+                            "subtypes": {
+                                "Skin Picking": "Picking or manipulating the skin excessively to remove or 'fix' flaws."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Bipolar I Disorder",
+                    "Body Dysmorphic Disorder",
+                    "Acute Stress Disorder",
+                    "Obsessive-Compulsive Disorder"
+                ],
+                "answer_index": [
+                    1
+                ],
+                "index_types": [
+                    "Less likely option",
+                    "answer",
+                    "Less likely option",
+                    "Less likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D008",
+                        "disease_name": "Bipolar I Disorder"
+                    },
+                    {
+                        "disease_code": "D017",
+                        "disease_name": "Body Dysmorphic Disorder"
+                    },
+                    {
+                        "disease_code": "D019",
+                        "disease_name": "Acute Stress Disorder"
+                    },
+                    {
+                        "disease_code": "D016",
+                        "disease_name": "Obsessive-Compulsive Disorder"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 46\n- **Gender:** Female\n- **Occupation:** Matchmaker / Couple Manager\n- **Marital Status:** Married\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Body Dysmorphic Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. dysmorphic_symptoms Requirements:**\n- Skin Defects (Excessive preoccupation with practically invisible acne, scars, or complexion.)\n- Skin Picking (Picking or manipulating the skin excessively to remove or 'fix' flaws.)\n\n**Critical Diagnostic Criteria:**\n\n- Functional Impairment: True"
+    },
+    "D017_l017": {
+        "question": "A 34-year-old married male fund manager presents with a history of persistent appearance-related concerns involving his face for several years. He reports being intensely preoccupied with perceived defects in the shape and proportion of his nose and other facial features, despite reassurance from others that he appears normal. These concerns occupy a substantial portion of his waking hours and are difficult for him to control.\n\nHe engages in extensive concealment behaviors, spending prolonged periods attempting to hide or minimize the perceived facial flaws with grooming rituals, strategic clothing choices, and frequent use of accessories such as hats or glasses. These behaviors have become time-consuming and are a source of marked distress.\n\nThe preoccupation and associated behaviors have led to significant functional impairment, including difficulty concentrating at work, avoidance of social and professional interactions, and reluctance to attend events where he feels his face may be scrutinized. There is no evidence of an underlying medical or neurological condition accounting for these symptoms. The pattern and duration of symptoms are consistent and persistent, with impairment present for at least 6 months.",
+        "options": "\n    A. Bipolar I Disorder\n    B. Body Dysmorphic Disorder\n    C. Acute Stress Disorder\n    D. Obsessive-Compulsive Disorder\n    ",
+        "answer": "B. Body Dysmorphic Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D017",
+                "disease_name": "Body Dysmorphic Disorder",
+                "sampled_features": {
+                    "disease_code": "D017",
+                    "disease_name": "Body Dysmorphic Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "functional_impairment_required": true
+                    },
+                    "sampled_symptom_groups": {
+                        "dysmorphic_symptoms": {
+                            "symptoms": [
+                                "S067",
+                                "S068"
+                            ],
+                            "name": "dysmorphic_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S067",
+                        "S068"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S067": {
+                            "name": "Preoccupation_with_Appearance",
+                            "categoty": "dysmorphic_symptoms",
+                            "description": "Preoccupation with one or more perceived defects or flaws in physical appearance that are not observable or appear slight to others.",
+                            "subtypes": {
+                                "Facial Features": "Preoccupation with the shape or size of the nose, eyes, or mouth, which appear normal to others."
+                            }
+                        },
+                        "S068": {
+                            "name": "Appearance_Related_Repetitive_Behaviors",
+                            "categoty": "dysmorphic_symptoms",
+                            "description": "Repetitive behaviors or mental acts performed in response to appearance concerns.",
+                            "subtypes": {
+                                "Excessive Camouflaging": "Spending excessive time and effort to hide perceived flaws using makeup, clothes, hats, or sunglasses."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Bipolar I Disorder",
+                    "Body Dysmorphic Disorder",
+                    "Acute Stress Disorder",
+                    "Obsessive-Compulsive Disorder"
+                ],
+                "answer_index": [
+                    1
+                ],
+                "index_types": [
+                    "Less likely option",
+                    "answer",
+                    "Less likely option",
+                    "Less likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D008",
+                        "disease_name": "Bipolar I Disorder"
+                    },
+                    {
+                        "disease_code": "D017",
+                        "disease_name": "Body Dysmorphic Disorder"
+                    },
+                    {
+                        "disease_code": "D019",
+                        "disease_name": "Acute Stress Disorder"
+                    },
+                    {
+                        "disease_code": "D016",
+                        "disease_name": "Obsessive-Compulsive Disorder"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 34\n- **Gender:** Male\n- **Occupation:** Fund Manager\n- **Marital Status:** Married\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Body Dysmorphic Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. dysmorphic_symptoms Requirements:**\n- Facial Features (Preoccupation with the shape or size of the nose, eyes, or mouth, which appear normal to others.)\n- Excessive Camouflaging (Spending excessive time and effort to hide perceived flaws using makeup, clothes, hats, or sunglasses.)\n\n**Critical Diagnostic Criteria:**\n\n- Functional Impairment: True"
+    },
+    "D017_l018": {
+        "question": "A 27-year-old single male landscape gardener presents with a longstanding preoccupation with perceived physical imperfections involving specific body regions, particularly his hair, teeth, and chest. He reports spending extensive time scrutinizing these areas and comparing his appearance to others, with persistent beliefs that these features are unattractive or abnormal despite reassurance from others.\n\nOver an estimated duration of several years, he has repeatedly sought cosmetic and dermatologic interventions targeting these areas, including consultations for procedures aimed at correcting perceived flaws. He describes transient or minimal satisfaction following such interventions, with rapid recurrence or shifting of concerns to other features.\n\nThese appearance-related preoccupations occupy a substantial portion of his waking hours and are associated with significant distress. He avoids social and occupational situations where he fears his perceived defects might be noticed, leading to reduced participation in social activities and difficulty concentrating at work. Overall, the symptoms result in marked functional impairment in interpersonal, recreational, and vocational domains. No temporal association is noted between his occupational status or relationship status and the onset of his symptoms.",
+        "options": "\n    A. Bipolar I Disorder\n    B. Body Dysmorphic Disorder\n    C. Acute Stress Disorder\n    D. Obsessive-Compulsive Disorder\n    ",
+        "answer": "B. Body Dysmorphic Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D017",
+                "disease_name": "Body Dysmorphic Disorder",
+                "sampled_features": {
+                    "disease_code": "D017",
+                    "disease_name": "Body Dysmorphic Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "functional_impairment_required": true
+                    },
+                    "sampled_symptom_groups": {
+                        "dysmorphic_symptoms": {
+                            "symptoms": [
+                                "S067",
+                                "S068"
+                            ],
+                            "name": "dysmorphic_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S067",
+                        "S068"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S067": {
+                            "name": "Preoccupation_with_Appearance",
+                            "categoty": "dysmorphic_symptoms",
+                            "description": "Preoccupation with one or more perceived defects or flaws in physical appearance that are not observable or appear slight to others.",
+                            "subtypes": {
+                                "Specific Body Parts": "Obsession that specific parts like hair, teeth, or chest are ugly or abnormal."
+                            }
+                        },
+                        "S068": {
+                            "name": "Appearance_Related_Repetitive_Behaviors",
+                            "categoty": "dysmorphic_symptoms",
+                            "description": "Repetitive behaviors or mental acts performed in response to appearance concerns.",
+                            "subtypes": {
+                                "Seeking Cosmetic Procedures": "Repeatedly seeking or receiving plastic surgery or dermatological procedures."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Bipolar I Disorder",
+                    "Body Dysmorphic Disorder",
+                    "Acute Stress Disorder",
+                    "Obsessive-Compulsive Disorder"
+                ],
+                "answer_index": [
+                    1
+                ],
+                "index_types": [
+                    "Less likely option",
+                    "answer",
+                    "Less likely option",
+                    "Less likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D008",
+                        "disease_name": "Bipolar I Disorder"
+                    },
+                    {
+                        "disease_code": "D017",
+                        "disease_name": "Body Dysmorphic Disorder"
+                    },
+                    {
+                        "disease_code": "D019",
+                        "disease_name": "Acute Stress Disorder"
+                    },
+                    {
+                        "disease_code": "D016",
+                        "disease_name": "Obsessive-Compulsive Disorder"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 27\n- **Gender:** Male\n- **Occupation:** Landscape Gardener\n- **Marital Status:** Single\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Body Dysmorphic Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. dysmorphic_symptoms Requirements:**\n- Specific Body Parts (Obsession that specific parts like hair, teeth, or chest are ugly or abnormal.)\n- Seeking Cosmetic Procedures (Repeatedly seeking or receiving plastic surgery or dermatological procedures.)\n\n**Critical Diagnostic Criteria:**\n\n- Functional Impairment: True"
+    },
+    "D017_l019": {
+        "question": "A 29-year-old single female flight attendant presents with persistent preoccupation regarding perceived physical imperfections. For approximately 2 years, she has been intensely focused on minor and unobservable asymmetries of her face and body, which she perceives as highly noticeable and deforming. She spends prolonged periods scrutinizing these areas and comparing them to others.\n\nThe patient engages in extensive camouflaging behaviors, including heavy and time-consuming use of makeup, strategic clothing choices, and frequent use of accessories such as hats or large sunglasses to conceal perceived flaws. She reports difficulty leaving home or attending social engagements without these measures and often arrives late to work due to time spent preparing her appearance.\n\nThese concerns occupy a significant portion of her waking hours and are associated with marked distress. Occupational functioning is impaired, with increased absenteeism, avoidance of certain flight routes or roles that involve greater passenger interaction, and preoccupation with her appearance during flights. Social interactions are limited, as she avoids situations where she fears others might notice or judge her perceived defects.",
+        "options": "\n    A. Bipolar I Disorder\n    B. Body Dysmorphic Disorder\n    C. Acute Stress Disorder\n    D. Obsessive-Compulsive Disorder\n    ",
+        "answer": "B. Body Dysmorphic Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D017",
+                "disease_name": "Body Dysmorphic Disorder",
+                "sampled_features": {
+                    "disease_code": "D017",
+                    "disease_name": "Body Dysmorphic Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "functional_impairment_required": true
+                    },
+                    "sampled_symptom_groups": {
+                        "dysmorphic_symptoms": {
+                            "symptoms": [
+                                "S067",
+                                "S068"
+                            ],
+                            "name": "dysmorphic_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S067",
+                        "S068"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S067": {
+                            "name": "Preoccupation_with_Appearance",
+                            "categoty": "dysmorphic_symptoms",
+                            "description": "Preoccupation with one or more perceived defects or flaws in physical appearance that are not observable or appear slight to others.",
+                            "subtypes": {
+                                "Asymmetry": "Excessive obsession with the face or body not being perfectly symmetrical."
+                            }
+                        },
+                        "S068": {
+                            "name": "Appearance_Related_Repetitive_Behaviors",
+                            "categoty": "dysmorphic_symptoms",
+                            "description": "Repetitive behaviors or mental acts performed in response to appearance concerns.",
+                            "subtypes": {
+                                "Excessive Camouflaging": "Spending excessive time and effort to hide perceived flaws using makeup, clothes, hats, or sunglasses."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Bipolar I Disorder",
+                    "Body Dysmorphic Disorder",
+                    "Acute Stress Disorder",
+                    "Obsessive-Compulsive Disorder"
+                ],
+                "answer_index": [
+                    1
+                ],
+                "index_types": [
+                    "Less likely option",
+                    "answer",
+                    "Less likely option",
+                    "Less likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D008",
+                        "disease_name": "Bipolar I Disorder"
+                    },
+                    {
+                        "disease_code": "D017",
+                        "disease_name": "Body Dysmorphic Disorder"
+                    },
+                    {
+                        "disease_code": "D019",
+                        "disease_name": "Acute Stress Disorder"
+                    },
+                    {
+                        "disease_code": "D016",
+                        "disease_name": "Obsessive-Compulsive Disorder"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 29\n- **Gender:** Female\n- **Occupation:** Flight Attendant\n- **Marital Status:** Single\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Body Dysmorphic Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. dysmorphic_symptoms Requirements:**\n- Asymmetry (Excessive obsession with the face or body not being perfectly symmetrical.)\n- Excessive Camouflaging (Spending excessive time and effort to hide perceived flaws using makeup, clothes, hats, or sunglasses.)\n\n**Critical Diagnostic Criteria:**\n\n- Functional Impairment: True"
+    },
+    "D017_l020": {
+        "question": "A 37-year-old married female pharmacist presents with a history of body image concerns persisting for approximately 3 years. She reports a fixed preoccupation with the belief that her body is too small and insufficiently muscular despite reassurance from others and objective findings suggesting a normal physique. This concern occupies a significant portion of her waking hours and is experienced as distressing and intrusive.\n\nThe patient engages in repetitive appearance-related behaviors, including frequent mirror checking to scrutinize perceived deficits in muscularity. At other times, she avoids reflective surfaces and form-fitting clothing to prevent distress related to her body image. She denies a history of eating restriction, bingeing, or compensatory behaviors driven by weight or fat concerns; her focus is specifically on body size and muscular definition.\n\nThese symptoms have led to marked functional impairment, including distraction and reduced efficiency at work, avoidance of social and recreational activities, and increased time spent on appearance-related rituals. Insight into the disproportionate nature of her concerns is limited, though she acknowledges significant distress.",
+        "options": "\n    A. Bipolar I Disorder\n    B. Body Dysmorphic Disorder\n    C. Acute Stress Disorder\n    D. Obsessive-Compulsive Disorder\n    ",
+        "answer": "B. Body Dysmorphic Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D017",
+                "disease_name": "Body Dysmorphic Disorder",
+                "sampled_features": {
+                    "disease_code": "D017",
+                    "disease_name": "Body Dysmorphic Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "functional_impairment_required": true
+                    },
+                    "sampled_symptom_groups": {
+                        "dysmorphic_symptoms": {
+                            "symptoms": [
+                                "S067",
+                                "S068"
+                            ],
+                            "name": "dysmorphic_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S067",
+                        "S068"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S067": {
+                            "name": "Preoccupation_with_Appearance",
+                            "categoty": "dysmorphic_symptoms",
+                            "description": "Preoccupation with one or more perceived defects or flaws in physical appearance that are not observable or appear slight to others.",
+                            "subtypes": {
+                                "Muscle Dysmorphia": "The belief that one's body is too small or insufficiently muscular despite being normal or muscular."
+                            }
+                        },
+                        "S068": {
+                            "name": "Appearance_Related_Repetitive_Behaviors",
+                            "categoty": "dysmorphic_symptoms",
+                            "description": "Repetitive behaviors or mental acts performed in response to appearance concerns.",
+                            "subtypes": {
+                                "Mirror Checking or Avoidance": "Compulsively checking oneself in the mirror frequently or, conversely, avoiding mirrors strictly."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Bipolar I Disorder",
+                    "Body Dysmorphic Disorder",
+                    "Acute Stress Disorder",
+                    "Obsessive-Compulsive Disorder"
+                ],
+                "answer_index": [
+                    1
+                ],
+                "index_types": [
+                    "Less likely option",
+                    "answer",
+                    "Less likely option",
+                    "Less likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D008",
+                        "disease_name": "Bipolar I Disorder"
+                    },
+                    {
+                        "disease_code": "D017",
+                        "disease_name": "Body Dysmorphic Disorder"
+                    },
+                    {
+                        "disease_code": "D019",
+                        "disease_name": "Acute Stress Disorder"
+                    },
+                    {
+                        "disease_code": "D016",
+                        "disease_name": "Obsessive-Compulsive Disorder"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 37\n- **Gender:** Female\n- **Occupation:** Pharmacist\n- **Marital Status:** Married\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Body Dysmorphic Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. dysmorphic_symptoms Requirements:**\n- Muscle Dysmorphia (The belief that one's body is too small or insufficiently muscular despite being normal or muscular.)\n- Mirror Checking or Avoidance (Compulsively checking oneself in the mirror frequently or, conversely, avoiding mirrors strictly.)\n\n**Critical Diagnostic Criteria:**\n\n- Functional Impairment: True"
+    },
+    "D017_l021": {
+        "question": "A 50-year-old married male airline pilot presents with a history of appearance-related concerns of several years’ duration, with clinically significant worsening over the past 12–18 months. He is preoccupied with the belief that his body is undersized and inadequately muscular despite objective findings of a well-developed, muscular physique on examination. He spends extensive time scrutinizing his body, focusing on perceived lack of muscle bulk and definition, and engages in excessive comparison of his physique with others.\n\nThe patient frequently seeks reassurance from his spouse, family, and colleagues that his body does not look abnormal or “too small,” yet any reassurance provides only transient relief before doubts recur. These concerns occupy a substantial portion of his waking hours and are difficult for him to control.\n\nHis preoccupation leads to functional impairment, including distress at work related to concerns about being judged by coworkers, avoidance of social and recreational activities that involve body exposure (e.g., gyms, swimming), and disruption of family interactions due to time spent engaging in appearance-checking and related behaviors. There is no evidence that these concerns are better explained by an eating disorder or culturally normative focus on fitness.",
+        "options": "\n    A. Body Dysmorphic Disorder\n    B. Attention-Deficit/Hyperactivity Disorder (Predominantly Inattentive Presentation)\n    C. Bipolar II Disorder\n    D. Schizoaffective Disorder (Depressive Type)\n    ",
+        "answer": "A. Body Dysmorphic Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D017",
+                "disease_name": "Body Dysmorphic Disorder",
+                "sampled_features": {
+                    "disease_code": "D017",
+                    "disease_name": "Body Dysmorphic Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "functional_impairment_required": true
+                    },
+                    "sampled_symptom_groups": {
+                        "dysmorphic_symptoms": {
+                            "symptoms": [
+                                "S067",
+                                "S068"
+                            ],
+                            "name": "dysmorphic_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S067",
+                        "S068"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S067": {
+                            "name": "Preoccupation_with_Appearance",
+                            "categoty": "dysmorphic_symptoms",
+                            "description": "Preoccupation with one or more perceived defects or flaws in physical appearance that are not observable or appear slight to others.",
+                            "subtypes": {
+                                "Muscle Dysmorphia": "The belief that one's body is too small or insufficiently muscular despite being normal or muscular."
+                            }
+                        },
+                        "S068": {
+                            "name": "Appearance_Related_Repetitive_Behaviors",
+                            "categoty": "dysmorphic_symptoms",
+                            "description": "Repetitive behaviors or mental acts performed in response to appearance concerns.",
+                            "subtypes": {
+                                "Reassurance Seeking": "Repetitively asking others for confirmation that one's appearance is okay or not strange."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Body Dysmorphic Disorder",
+                    "Attention-Deficit/Hyperactivity Disorder (Predominantly Inattentive Presentation)",
+                    "Bipolar II Disorder",
+                    "Schizoaffective Disorder (Depressive Type)"
+                ],
+                "answer_index": [
+                    0
+                ],
+                "index_types": [
+                    "answer",
+                    "Less likely option",
+                    "Less likely option",
+                    "Less likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D017",
+                        "disease_name": "Body Dysmorphic Disorder"
+                    },
+                    {
+                        "disease_code": "D002",
+                        "disease_name": "Attention-Deficit/Hyperactivity Disorder (Predominantly Inattentive Presentation)"
+                    },
+                    {
+                        "disease_code": "D009",
+                        "disease_name": "Bipolar II Disorder"
+                    },
+                    {
+                        "disease_code": "D007",
+                        "disease_name": "Schizoaffective Disorder (Depressive Type)"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 50\n- **Gender:** Male\n- **Occupation:** Airline Pilot\n- **Marital Status:** Married\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Body Dysmorphic Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. dysmorphic_symptoms Requirements:**\n- Muscle Dysmorphia (The belief that one's body is too small or insufficiently muscular despite being normal or muscular.)\n- Reassurance Seeking (Repetitively asking others for confirmation that one's appearance is okay or not strange.)\n\n**Critical Diagnostic Criteria:**\n\n- Functional Impairment: True"
+    },
+    "D017_l022": {
+        "question": "A 32-year-old single male cloud architect presents with a several-year history of excessive preoccupation with perceived defects in his physical appearance, specifically involving his facial skin. He reports persistent concern about minimal or barely perceptible irregularities such as minor blemishes, subtle textural changes, and faint marks, which he interprets as highly noticeable and disfiguring.\n\nThe patient describes spending prolonged periods examining his face at close range in mirrors and reflective surfaces multiple times per day, scrutinizing his skin and comparing it to idealized standards. At other times, he attempts to avoid mirrors altogether due to distress when viewing his appearance. He frequently seeks reassurance about how his skin looks but reports that any reassurance is short-lived.\n\nThese concerns occupy a substantial portion of his waking hours and are associated with marked anxiety, shame, and social self-consciousness. He has begun to limit social interactions, avoids bright or close-contact settings, and reports decreased performance and concentration at work due to intrusive appearance-related thoughts and time spent on appearance-checking behaviors, indicating clinically significant functional impairment.",
+        "options": "\n    A. Body Dysmorphic Disorder\n    B. Attention-Deficit/Hyperactivity Disorder (Predominantly Inattentive Presentation)\n    C. Bipolar II Disorder\n    D. Schizoaffective Disorder (Depressive Type)\n    ",
+        "answer": "A. Body Dysmorphic Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D017",
+                "disease_name": "Body Dysmorphic Disorder",
+                "sampled_features": {
+                    "disease_code": "D017",
+                    "disease_name": "Body Dysmorphic Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "functional_impairment_required": true
+                    },
+                    "sampled_symptom_groups": {
+                        "dysmorphic_symptoms": {
+                            "symptoms": [
+                                "S067",
+                                "S068"
+                            ],
+                            "name": "dysmorphic_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S067",
+                        "S068"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S067": {
+                            "name": "Preoccupation_with_Appearance",
+                            "categoty": "dysmorphic_symptoms",
+                            "description": "Preoccupation with one or more perceived defects or flaws in physical appearance that are not observable or appear slight to others.",
+                            "subtypes": {
+                                "Skin Defects": "Excessive preoccupation with practically invisible acne, scars, or complexion."
+                            }
+                        },
+                        "S068": {
+                            "name": "Appearance_Related_Repetitive_Behaviors",
+                            "categoty": "dysmorphic_symptoms",
+                            "description": "Repetitive behaviors or mental acts performed in response to appearance concerns.",
+                            "subtypes": {
+                                "Mirror Checking or Avoidance": "Compulsively checking oneself in the mirror frequently or, conversely, avoiding mirrors strictly."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Body Dysmorphic Disorder",
+                    "Attention-Deficit/Hyperactivity Disorder (Predominantly Inattentive Presentation)",
+                    "Bipolar II Disorder",
+                    "Schizoaffective Disorder (Depressive Type)"
+                ],
+                "answer_index": [
+                    0
+                ],
+                "index_types": [
+                    "answer",
+                    "Less likely option",
+                    "Less likely option",
+                    "Less likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D017",
+                        "disease_name": "Body Dysmorphic Disorder"
+                    },
+                    {
+                        "disease_code": "D002",
+                        "disease_name": "Attention-Deficit/Hyperactivity Disorder (Predominantly Inattentive Presentation)"
+                    },
+                    {
+                        "disease_code": "D009",
+                        "disease_name": "Bipolar II Disorder"
+                    },
+                    {
+                        "disease_code": "D007",
+                        "disease_name": "Schizoaffective Disorder (Depressive Type)"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 32\n- **Gender:** Male\n- **Occupation:** Cloud Architect\n- **Marital Status:** Single\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Body Dysmorphic Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. dysmorphic_symptoms Requirements:**\n- Skin Defects (Excessive preoccupation with practically invisible acne, scars, or complexion.)\n- Mirror Checking or Avoidance (Compulsively checking oneself in the mirror frequently or, conversely, avoiding mirrors strictly.)\n\n**Critical Diagnostic Criteria:**\n\n- Functional Impairment: True"
+    },
+    "D017_l023": {
+        "question": "A 53-year-old married female museum docent presents with a chronic pattern of appearance-related preoccupation of unclear onset but persisting for several years. She reports excessive concern with perceived defects in her facial features, particularly the size and shape of her nose, as well as the appearance of her eyes and mouth, despite reassurance from others that these features appear typical. The patient spends considerable time scrutinizing her face and focusing on minor or unnoticeable variations.\n\nShe persistently compares her facial features and overall appearance with those of strangers and public figures, often concluding that she is markedly inferior in attractiveness. These comparisons occur frequently in public spaces and while viewing media, leading to heightened distress and self-consciousness.\n\nThe preoccupation and associated distress contribute to significant functional impairment. The patient reports difficulty concentrating on her duties as a museum docent due to intrusive appearance-related thoughts and engages in avoidance of certain social or work-related interactions when she feels particularly self-conscious. There is no evidence that these concerns are better accounted for by an eating disorder or another primary medical condition.",
+        "options": "\n    A. Body Dysmorphic Disorder\n    B. Attention-Deficit/Hyperactivity Disorder (Predominantly Inattentive Presentation)\n    C. Bipolar II Disorder\n    D. Schizoaffective Disorder (Depressive Type)\n    ",
+        "answer": "A. Body Dysmorphic Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D017",
+                "disease_name": "Body Dysmorphic Disorder",
+                "sampled_features": {
+                    "disease_code": "D017",
+                    "disease_name": "Body Dysmorphic Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "functional_impairment_required": true
+                    },
+                    "sampled_symptom_groups": {
+                        "dysmorphic_symptoms": {
+                            "symptoms": [
+                                "S067",
+                                "S068"
+                            ],
+                            "name": "dysmorphic_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S067",
+                        "S068"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S067": {
+                            "name": "Preoccupation_with_Appearance",
+                            "categoty": "dysmorphic_symptoms",
+                            "description": "Preoccupation with one or more perceived defects or flaws in physical appearance that are not observable or appear slight to others.",
+                            "subtypes": {
+                                "Facial Features": "Preoccupation with the shape or size of the nose, eyes, or mouth, which appear normal to others."
+                            }
+                        },
+                        "S068": {
+                            "name": "Appearance_Related_Repetitive_Behaviors",
+                            "categoty": "dysmorphic_symptoms",
+                            "description": "Repetitive behaviors or mental acts performed in response to appearance concerns.",
+                            "subtypes": {
+                                "Comparing": "Constantly comparing one's body parts with those of passersby or celebrities."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Body Dysmorphic Disorder",
+                    "Attention-Deficit/Hyperactivity Disorder (Predominantly Inattentive Presentation)",
+                    "Bipolar II Disorder",
+                    "Schizoaffective Disorder (Depressive Type)"
+                ],
+                "answer_index": [
+                    0
+                ],
+                "index_types": [
+                    "answer",
+                    "Less likely option",
+                    "Less likely option",
+                    "Less likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D017",
+                        "disease_name": "Body Dysmorphic Disorder"
+                    },
+                    {
+                        "disease_code": "D002",
+                        "disease_name": "Attention-Deficit/Hyperactivity Disorder (Predominantly Inattentive Presentation)"
+                    },
+                    {
+                        "disease_code": "D009",
+                        "disease_name": "Bipolar II Disorder"
+                    },
+                    {
+                        "disease_code": "D007",
+                        "disease_name": "Schizoaffective Disorder (Depressive Type)"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 53\n- **Gender:** Female\n- **Occupation:** Museum Docent\n- **Marital Status:** Married\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Body Dysmorphic Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. dysmorphic_symptoms Requirements:**\n- Facial Features (Preoccupation with the shape or size of the nose, eyes, or mouth, which appear normal to others.)\n- Comparing (Constantly comparing one's body parts with those of passersby or celebrities.)\n\n**Critical Diagnostic Criteria:**\n\n- Functional Impairment: True"
+    },
+    "D017_l024": {
+        "question": "A 74-year-old widowed retired female presents with longstanding preoccupation regarding her physical appearance, specifically focused on perceived insufficient muscularity and body size, despite objective observations of age-appropriate and proportionate musculature. She persistently reports feeling that her body appears too small or inadequately built and spends substantial time mentally comparing her physique to perceived ideals.\n\nThe patient frequently seeks reassurance from family members, friends, and medical providers, repeatedly asking whether her body looks abnormal, weak, or inadequate. Despite receiving consistent feedback that her appearance is within normal limits, her concern persists and leads to significant distress.\n\nThese appearance-related worries have been present for several months and are time-consuming on a daily basis. They have contributed to avoidance of social gatherings, reluctance to wear certain types of clothing, and diminished participation in previously enjoyed activities. There is associated impairment in daily functioning, with increased isolation and reduced quality of life. There is no evidence that these concerns are better accounted for by normal aging, cultural body image norms, or a primary eating disorder.",
+        "options": "\n    A. Body Dysmorphic Disorder\n    B. Attention-Deficit/Hyperactivity Disorder (Predominantly Inattentive Presentation)\n    C. Bipolar II Disorder\n    D. Schizoaffective Disorder (Depressive Type)\n    ",
+        "answer": "A. Body Dysmorphic Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D017",
+                "disease_name": "Body Dysmorphic Disorder",
+                "sampled_features": {
+                    "disease_code": "D017",
+                    "disease_name": "Body Dysmorphic Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "functional_impairment_required": true
+                    },
+                    "sampled_symptom_groups": {
+                        "dysmorphic_symptoms": {
+                            "symptoms": [
+                                "S067",
+                                "S068"
+                            ],
+                            "name": "dysmorphic_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S067",
+                        "S068"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S067": {
+                            "name": "Preoccupation_with_Appearance",
+                            "categoty": "dysmorphic_symptoms",
+                            "description": "Preoccupation with one or more perceived defects or flaws in physical appearance that are not observable or appear slight to others.",
+                            "subtypes": {
+                                "Muscle Dysmorphia": "The belief that one's body is too small or insufficiently muscular despite being normal or muscular."
+                            }
+                        },
+                        "S068": {
+                            "name": "Appearance_Related_Repetitive_Behaviors",
+                            "categoty": "dysmorphic_symptoms",
+                            "description": "Repetitive behaviors or mental acts performed in response to appearance concerns.",
+                            "subtypes": {
+                                "Reassurance Seeking": "Repetitively asking others for confirmation that one's appearance is okay or not strange."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Body Dysmorphic Disorder",
+                    "Attention-Deficit/Hyperactivity Disorder (Predominantly Inattentive Presentation)",
+                    "Bipolar II Disorder",
+                    "Schizoaffective Disorder (Depressive Type)"
+                ],
+                "answer_index": [
+                    0
+                ],
+                "index_types": [
+                    "answer",
+                    "Less likely option",
+                    "Less likely option",
+                    "Less likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D017",
+                        "disease_name": "Body Dysmorphic Disorder"
+                    },
+                    {
+                        "disease_code": "D002",
+                        "disease_name": "Attention-Deficit/Hyperactivity Disorder (Predominantly Inattentive Presentation)"
+                    },
+                    {
+                        "disease_code": "D009",
+                        "disease_name": "Bipolar II Disorder"
+                    },
+                    {
+                        "disease_code": "D007",
+                        "disease_name": "Schizoaffective Disorder (Depressive Type)"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 74\n- **Gender:** Female\n- **Occupation:** Retired\n- **Marital Status:** Widowed\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Body Dysmorphic Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. dysmorphic_symptoms Requirements:**\n- Muscle Dysmorphia (The belief that one's body is too small or insufficiently muscular despite being normal or muscular.)\n- Reassurance Seeking (Repetitively asking others for confirmation that one's appearance is okay or not strange.)\n\n**Critical Diagnostic Criteria:**\n\n- Functional Impairment: True"
+    },
+    "D017_l025": {
+        "question": "A 47-year-old single female, employed as a department store sales manager, presents with a history of body-focused preoccupations over the past several years. She reports persistent and intrusive concerns that her body frame is too small and inadequately muscular, despite reassurances from others and an appearance that is within normal limits on examination.\n\nThese beliefs occupy a significant portion of her waking hours and are associated with frequent mirror checking and comparison of her physique to others. She has repeatedly sought cosmetic and dermatologic interventions aimed at increasing perceived muscularity and altering body contours, including consultations for body contouring procedures and non-surgical aesthetic treatments, with minimal or no sustained satisfaction following interventions.\n\nHer preoccupations contribute to marked distress and functional impairment, including difficulty concentrating at work, avoidance of social situations in which her body might be visible, and modification of daily routines around appearance-related behaviors. She acknowledges that these concerns interfere with her occupational performance and social engagement but reports difficulty disengaging from the associated thoughts and behaviors.",
+        "options": "\n    A. Body Dysmorphic Disorder\n    B. Attention-Deficit/Hyperactivity Disorder (Predominantly Inattentive Presentation)\n    C. Bipolar II Disorder\n    D. Schizoaffective Disorder (Depressive Type)\n    ",
+        "answer": "A. Body Dysmorphic Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D017",
+                "disease_name": "Body Dysmorphic Disorder",
+                "sampled_features": {
+                    "disease_code": "D017",
+                    "disease_name": "Body Dysmorphic Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "functional_impairment_required": true
+                    },
+                    "sampled_symptom_groups": {
+                        "dysmorphic_symptoms": {
+                            "symptoms": [
+                                "S067",
+                                "S068"
+                            ],
+                            "name": "dysmorphic_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S067",
+                        "S068"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S067": {
+                            "name": "Preoccupation_with_Appearance",
+                            "categoty": "dysmorphic_symptoms",
+                            "description": "Preoccupation with one or more perceived defects or flaws in physical appearance that are not observable or appear slight to others.",
+                            "subtypes": {
+                                "Muscle Dysmorphia": "The belief that one's body is too small or insufficiently muscular despite being normal or muscular."
+                            }
+                        },
+                        "S068": {
+                            "name": "Appearance_Related_Repetitive_Behaviors",
+                            "categoty": "dysmorphic_symptoms",
+                            "description": "Repetitive behaviors or mental acts performed in response to appearance concerns.",
+                            "subtypes": {
+                                "Seeking Cosmetic Procedures": "Repeatedly seeking or receiving plastic surgery or dermatological procedures."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Body Dysmorphic Disorder",
+                    "Attention-Deficit/Hyperactivity Disorder (Predominantly Inattentive Presentation)",
+                    "Bipolar II Disorder",
+                    "Schizoaffective Disorder (Depressive Type)"
+                ],
+                "answer_index": [
+                    0
+                ],
+                "index_types": [
+                    "answer",
+                    "Less likely option",
+                    "Less likely option",
+                    "Less likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D017",
+                        "disease_name": "Body Dysmorphic Disorder"
+                    },
+                    {
+                        "disease_code": "D002",
+                        "disease_name": "Attention-Deficit/Hyperactivity Disorder (Predominantly Inattentive Presentation)"
+                    },
+                    {
+                        "disease_code": "D009",
+                        "disease_name": "Bipolar II Disorder"
+                    },
+                    {
+                        "disease_code": "D007",
+                        "disease_name": "Schizoaffective Disorder (Depressive Type)"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 47\n- **Gender:** Female\n- **Occupation:** Department Store Sales Manager\n- **Marital Status:** Single\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Body Dysmorphic Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. dysmorphic_symptoms Requirements:**\n- Muscle Dysmorphia (The belief that one's body is too small or insufficiently muscular despite being normal or muscular.)\n- Seeking Cosmetic Procedures (Repeatedly seeking or receiving plastic surgery or dermatological procedures.)\n\n**Critical Diagnostic Criteria:**\n\n- Functional Impairment: True"
+    }
+}

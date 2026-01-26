@@ -1,0 +1,2822 @@
+{
+    "D021_l001": {
+        "question": "A 31-year-old married female, who works as a wedding planner, presents with a several-month history of significant dietary restriction. The patient reports consuming an extremely limited daily caloric intake. She expresses a persistent desire for further weight loss and declines interventions aimed at weight restoration, despite her current underweight status. There is a noted preoccupation with body weight, characterized by compulsive self-weighing and intense anxiety regarding any perceived weight gain. The patient exhibits a distorted perception of her body, describing herself as larger than clinical observation indicates, particularly concerning specific body parts. She tends to minimize or dismiss concerns voiced by her physicians and family members regarding her health status.",
+        "options": "\n    A. Anorexia Nervosa\n    B. Acute Stress Disorder\n    C. Bipolar II Disorder\n    D. Bulimia Nervosa\n    ",
+        "answer": "A. Anorexia Nervosa",
+        "features": {
+            "question": {
+                "disease_code": "D021",
+                "disease_name": "Anorexia Nervosa",
+                "sampled_features": {
+                    "disease_code": "D021",
+                    "disease_name": "Anorexia Nervosa",
+                    "sampled_diagnostic_criteria": {},
+                    "sampled_symptom_groups": {
+                        "anorexia_nervosa": {
+                            "symptoms": [
+                                "S043",
+                                "S044",
+                                "S045",
+                                "S046",
+                                "S084"
+                            ],
+                            "name": "anorexia_nervosa"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S043",
+                        "S044",
+                        "S045",
+                        "S046",
+                        "S084"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S043": {
+                            "name": "Restrictive_Intake",
+                            "categoty": "anorexia_nervosa",
+                            "description": "Persistent restriction of energy intake relative to requirements, leading to significantly low body weight.",
+                            "subtypes": {
+                                "Strict Calorie Restriction": "Limiting daily caloric intake to an extremely low level."
+                            }
+                        },
+                        "S044": {
+                            "name": "Low_Weight",
+                            "categoty": "anorexia_nervosa",
+                            "description": "A body weight that is significantly below the minimum level of health for age, sex, developmental trajectory, and physical health.",
+                            "subtypes": {
+                                "Insistence on Low Weight": "Attempting to lose more weight or refusing to restore weight despite already being underweight."
+                            }
+                        },
+                        "S045": {
+                            "name": "Fear_of_Weight_Gain",
+                            "categoty": "body_image_cognition",
+                            "description": "Intense fear of gaining weight or of becoming fat, even though at a significantly low weight.",
+                            "subtypes": {
+                                "Obsession with Weight Gain": "Compulsively checking the scale and becoming extremely anxious about even the slightest increase."
+                            }
+                        },
+                        "S046": {
+                            "name": "Body_Image_Weight_Shape_Disturbance",
+                            "categoty": "body_image_cognition",
+                            "description": "Undue influence of body weight or shape on self-evaluation.",
+                            "subtypes": {
+                                "Distorted Body Image": "Perceiving one's body as much fatter than it actually is or perceiving specific parts as excessively large when looking in the mirror."
+                            }
+                        },
+                        "S084": {
+                            "name": "Low_Weight_Severity_Non_Recognition",
+                            "categoty": "body_image_cognition",
+                            "description": "Persistent lack of recognition of the seriousness of the current low body weight.",
+                            "subtypes": {
+                                "Dismissal of Concerns": "Exaggerating or rejecting the concerns of doctors or family as unnecessary."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Anorexia Nervosa",
+                    "Acute Stress Disorder",
+                    "Bipolar II Disorder",
+                    "Bulimia Nervosa"
+                ],
+                "answer_index": [
+                    0
+                ],
+                "index_types": [
+                    "answer",
+                    "Less likely option",
+                    "Less likely option",
+                    "Moderately likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D021",
+                        "disease_name": "Anorexia Nervosa"
+                    },
+                    {
+                        "disease_code": "D019",
+                        "disease_name": "Acute Stress Disorder"
+                    },
+                    {
+                        "disease_code": "D009",
+                        "disease_name": "Bipolar II Disorder"
+                    },
+                    {
+                        "disease_code": "D022",
+                        "disease_name": "Bulimia Nervosa",
+                        "shared_symptoms": [
+                            "S045",
+                            "S046"
+                        ]
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 31\n- **Gender:** Female\n- **Occupation:** Wedding Planner\n- **Marital Status:** Married\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Anorexia Nervosa\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. anorexia_nervosa Requirements:**\n- Strict Calorie Restriction (Limiting daily caloric intake to an extremely low level.)\n- Insistence on Low Weight (Attempting to lose more weight or refusing to restore weight despite already being underweight.)\n- Obsession with Weight Gain (Compulsively checking the scale and becoming extremely anxious about even the slightest increase.)\n- Distorted Body Image (Perceiving one's body as much fatter than it actually is or perceiving specific parts as excessively large when looking in the mirror.)\n- Dismissal of Concerns (Exaggerating or rejecting the concerns of doctors or family as unnecessary.)\n\n**Critical Diagnostic Criteria:**"
+    },
+    "D021_l002": {
+        "question": "A 33-year-old married male logistics manager presents with a 10-month history of significantly restricted oral intake and continuous weight loss. The patient reports consuming extremely small quantities of food, often limited to one or two bites per meal. He exhibits an intense preoccupation with weight, compulsively monitoring his weight on a scale and experiencing significant anxiety over any perceived increase. The patient demonstrates a distorted body image, perceiving himself as significantly larger than his actual physical state, and specifically identifying certain body parts as excessively large. Despite his emaciated appearance and declining health, he denies or minimizes the potential medical risks associated with his underweight status.",
+        "options": "\n    A. Anorexia Nervosa\n    B. Acute Stress Disorder\n    C. Bipolar II Disorder\n    D. Bulimia Nervosa\n    ",
+        "answer": "A. Anorexia Nervosa",
+        "features": {
+            "question": {
+                "disease_code": "D021",
+                "disease_name": "Anorexia Nervosa",
+                "sampled_features": {
+                    "disease_code": "D021",
+                    "disease_name": "Anorexia Nervosa",
+                    "sampled_diagnostic_criteria": {},
+                    "sampled_symptom_groups": {
+                        "anorexia_nervosa": {
+                            "symptoms": [
+                                "S043",
+                                "S044",
+                                "S045",
+                                "S046",
+                                "S084"
+                            ],
+                            "name": "anorexia_nervosa"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S043",
+                        "S044",
+                        "S045",
+                        "S046",
+                        "S084"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S043": {
+                            "name": "Restrictive_Intake",
+                            "categoty": "anorexia_nervosa",
+                            "description": "Persistent restriction of energy intake relative to requirements, leading to significantly low body weight.",
+                            "subtypes": {
+                                "Eating Very Small Amounts": "Eating only one or two bites a day or extremely small portions per meal."
+                            }
+                        },
+                        "S044": {
+                            "name": "Low_Weight",
+                            "categoty": "anorexia_nervosa",
+                            "description": "A body weight that is significantly below the minimum level of health for age, sex, developmental trajectory, and physical health.",
+                            "subtypes": {
+                                "Continuous Weight Loss": "A state where weight continues to decrease due to intentional restriction of intake."
+                            }
+                        },
+                        "S045": {
+                            "name": "Fear_of_Weight_Gain",
+                            "categoty": "body_image_cognition",
+                            "description": "Intense fear of gaining weight or of becoming fat, even though at a significantly low weight.",
+                            "subtypes": {
+                                "Obsession with Weight Gain": "Compulsively checking the scale and becoming extremely anxious about even the slightest increase."
+                            }
+                        },
+                        "S046": {
+                            "name": "Body_Image_Weight_Shape_Disturbance",
+                            "categoty": "body_image_cognition",
+                            "description": "Undue influence of body weight or shape on self-evaluation.",
+                            "subtypes": {
+                                "Distorted Body Image": "Perceiving one's body as much fatter than it actually is or perceiving specific parts as excessively large when looking in the mirror."
+                            }
+                        },
+                        "S084": {
+                            "name": "Low_Weight_Severity_Non_Recognition",
+                            "categoty": "body_image_cognition",
+                            "description": "Persistent lack of recognition of the seriousness of the current low body weight.",
+                            "subtypes": {
+                                "Denial of Medical Risk": "Not admitting or dismissing the health risks caused by being underweight."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Anorexia Nervosa",
+                    "Acute Stress Disorder",
+                    "Bipolar II Disorder",
+                    "Bulimia Nervosa"
+                ],
+                "answer_index": [
+                    0
+                ],
+                "index_types": [
+                    "answer",
+                    "Less likely option",
+                    "Less likely option",
+                    "Moderately likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D021",
+                        "disease_name": "Anorexia Nervosa"
+                    },
+                    {
+                        "disease_code": "D019",
+                        "disease_name": "Acute Stress Disorder"
+                    },
+                    {
+                        "disease_code": "D009",
+                        "disease_name": "Bipolar II Disorder"
+                    },
+                    {
+                        "disease_code": "D022",
+                        "disease_name": "Bulimia Nervosa",
+                        "shared_symptoms": [
+                            "S045",
+                            "S046"
+                        ]
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 33\n- **Gender:** Male\n- **Occupation:** Logistics Manager\n- **Marital Status:** Married\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Anorexia Nervosa\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. anorexia_nervosa Requirements:**\n- Eating Very Small Amounts (Eating only one or two bites a day or extremely small portions per meal.)\n- Continuous Weight Loss (A state where weight continues to decrease due to intentional restriction of intake.)\n- Obsession with Weight Gain (Compulsively checking the scale and becoming extremely anxious about even the slightest increase.)\n- Distorted Body Image (Perceiving one's body as much fatter than it actually is or perceiving specific parts as excessively large when looking in the mirror.)\n- Denial of Medical Risk (Not admitting or dismissing the health risks caused by being underweight.)\n\n**Critical Diagnostic Criteria:**"
+    },
+    "D021_l003": {
+        "question": "A 53-year-old married female museum docent presents with a clinical picture characterized by significant caloric restriction and continuous weight loss for over 18 months. She expresses an intense fear of weight gain, which appears to be a central preoccupation. Her self-worth is markedly influenced by her body shape and weight. Despite experiencing physical manifestations such as dizziness and amenorrhea attributable to her low weight, she shows a notable disregard for these symptoms. The patient's presentation is consistent with a severe disturbance in eating behavior and body image.",
+        "options": "\n    A. Anorexia Nervosa\n    B. Acute Stress Disorder\n    C. Bipolar II Disorder\n    D. Bulimia Nervosa\n    ",
+        "answer": "A. Anorexia Nervosa",
+        "features": {
+            "question": {
+                "disease_code": "D021",
+                "disease_name": "Anorexia Nervosa",
+                "sampled_features": {
+                    "disease_code": "D021",
+                    "disease_name": "Anorexia Nervosa",
+                    "sampled_diagnostic_criteria": {},
+                    "sampled_symptom_groups": {
+                        "anorexia_nervosa": {
+                            "symptoms": [
+                                "S043",
+                                "S044",
+                                "S045",
+                                "S046",
+                                "S084"
+                            ],
+                            "name": "anorexia_nervosa"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S043",
+                        "S044",
+                        "S045",
+                        "S046",
+                        "S084"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S043": {
+                            "name": "Restrictive_Intake",
+                            "categoty": "anorexia_nervosa",
+                            "description": "Persistent restriction of energy intake relative to requirements, leading to significantly low body weight.",
+                            "subtypes": {
+                                "Strict Calorie Restriction": "Limiting daily caloric intake to an extremely low level."
+                            }
+                        },
+                        "S044": {
+                            "name": "Low_Weight",
+                            "categoty": "anorexia_nervosa",
+                            "description": "A body weight that is significantly below the minimum level of health for age, sex, developmental trajectory, and physical health.",
+                            "subtypes": {
+                                "Continuous Weight Loss": "A state where weight continues to decrease due to intentional restriction of intake."
+                            }
+                        },
+                        "S045": {
+                            "name": "Fear_of_Weight_Gain",
+                            "categoty": "body_image_cognition",
+                            "description": "Intense fear of gaining weight or of becoming fat, even though at a significantly low weight.",
+                            "subtypes": {
+                                "Fear of Weight Gain": "Extreme fear and loathing of gaining weight or becoming fat."
+                            }
+                        },
+                        "S046": {
+                            "name": "Body_Image_Weight_Shape_Disturbance",
+                            "categoty": "body_image_cognition",
+                            "description": "Undue influence of body weight or shape on self-evaluation.",
+                            "subtypes": {
+                                "Self-Worth Dependent on Weight": "Judging whether one is a good or successful person solely based on weight or body shape."
+                            }
+                        },
+                        "S084": {
+                            "name": "Low_Weight_Severity_Non_Recognition",
+                            "categoty": "body_image_cognition",
+                            "description": "Persistent lack of recognition of the seriousness of the current low body weight.",
+                            "subtypes": {
+                                "Disregard of Symptoms": "Not taking physical symptoms caused by low weight (dizziness, hair loss, amenorrhea) seriously."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Anorexia Nervosa",
+                    "Acute Stress Disorder",
+                    "Bipolar II Disorder",
+                    "Bulimia Nervosa"
+                ],
+                "answer_index": [
+                    0
+                ],
+                "index_types": [
+                    "answer",
+                    "Less likely option",
+                    "Less likely option",
+                    "Moderately likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D021",
+                        "disease_name": "Anorexia Nervosa"
+                    },
+                    {
+                        "disease_code": "D019",
+                        "disease_name": "Acute Stress Disorder"
+                    },
+                    {
+                        "disease_code": "D009",
+                        "disease_name": "Bipolar II Disorder"
+                    },
+                    {
+                        "disease_code": "D022",
+                        "disease_name": "Bulimia Nervosa",
+                        "shared_symptoms": [
+                            "S045",
+                            "S046"
+                        ]
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 53\n- **Gender:** Female\n- **Occupation:** Museum Docent\n- **Marital Status:** Married\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Anorexia Nervosa\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. anorexia_nervosa Requirements:**\n- Strict Calorie Restriction (Limiting daily caloric intake to an extremely low level.)\n- Continuous Weight Loss (A state where weight continues to decrease due to intentional restriction of intake.)\n- Fear of Weight Gain (Extreme fear and loathing of gaining weight or becoming fat.)\n- Self-Worth Dependent on Weight (Judging whether one is a good or successful person solely based on weight or body shape.)\n- Disregard of Symptoms (Not taking physical symptoms caused by low weight (dizziness, hair loss, amenorrhea) seriously.)\n\n**Critical Diagnostic Criteria:**"
+    },
+    "D021_l004": {
+        "question": "A 29-year-old single female nurse presented with a history of significantly restricted dietary intake, reportedly consuming only minimal quantities of food daily for approximately six months. She exhibits an intense preoccupation with maintaining a low body weight, actively resisting any attempts at weight restoration despite being clinically underweight. She reports compulsive daily weight monitoring, accompanied by considerable distress over any perceived weight increase. The patient demonstrates a distorted perception of her body, describing herself as significantly larger than objective observation suggests, and frequently focuses on specific body parts as being excessively large. She acknowledges experiencing physical symptoms such as dizziness and hair loss but minimizes their significance, attributing them to factors other than her nutritional status.",
+        "options": "\n    A. Anorexia Nervosa\n    B. Acute Stress Disorder\n    C. Bipolar II Disorder\n    D. Bulimia Nervosa\n    ",
+        "answer": "A. Anorexia Nervosa",
+        "features": {
+            "question": {
+                "disease_code": "D021",
+                "disease_name": "Anorexia Nervosa",
+                "sampled_features": {
+                    "disease_code": "D021",
+                    "disease_name": "Anorexia Nervosa",
+                    "sampled_diagnostic_criteria": {},
+                    "sampled_symptom_groups": {
+                        "anorexia_nervosa": {
+                            "symptoms": [
+                                "S043",
+                                "S044",
+                                "S045",
+                                "S046",
+                                "S084"
+                            ],
+                            "name": "anorexia_nervosa"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S043",
+                        "S044",
+                        "S045",
+                        "S046",
+                        "S084"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S043": {
+                            "name": "Restrictive_Intake",
+                            "categoty": "anorexia_nervosa",
+                            "description": "Persistent restriction of energy intake relative to requirements, leading to significantly low body weight.",
+                            "subtypes": {
+                                "Eating Very Small Amounts": "Eating only one or two bites a day or extremely small portions per meal."
+                            }
+                        },
+                        "S044": {
+                            "name": "Low_Weight",
+                            "categoty": "anorexia_nervosa",
+                            "description": "A body weight that is significantly below the minimum level of health for age, sex, developmental trajectory, and physical health.",
+                            "subtypes": {
+                                "Insistence on Low Weight": "Attempting to lose more weight or refusing to restore weight despite already being underweight."
+                            }
+                        },
+                        "S045": {
+                            "name": "Fear_of_Weight_Gain",
+                            "categoty": "body_image_cognition",
+                            "description": "Intense fear of gaining weight or of becoming fat, even though at a significantly low weight.",
+                            "subtypes": {
+                                "Obsession with Weight Gain": "Compulsively checking the scale and becoming extremely anxious about even the slightest increase."
+                            }
+                        },
+                        "S046": {
+                            "name": "Body_Image_Weight_Shape_Disturbance",
+                            "categoty": "body_image_cognition",
+                            "description": "Undue influence of body weight or shape on self-evaluation.",
+                            "subtypes": {
+                                "Distorted Body Image": "Perceiving one's body as much fatter than it actually is or perceiving specific parts as excessively large when looking in the mirror."
+                            }
+                        },
+                        "S084": {
+                            "name": "Low_Weight_Severity_Non_Recognition",
+                            "categoty": "body_image_cognition",
+                            "description": "Persistent lack of recognition of the seriousness of the current low body weight.",
+                            "subtypes": {
+                                "Disregard of Symptoms": "Not taking physical symptoms caused by low weight (dizziness, hair loss, amenorrhea) seriously."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Anorexia Nervosa",
+                    "Acute Stress Disorder",
+                    "Bipolar II Disorder",
+                    "Bulimia Nervosa"
+                ],
+                "answer_index": [
+                    0
+                ],
+                "index_types": [
+                    "answer",
+                    "Less likely option",
+                    "Less likely option",
+                    "Moderately likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D021",
+                        "disease_name": "Anorexia Nervosa"
+                    },
+                    {
+                        "disease_code": "D019",
+                        "disease_name": "Acute Stress Disorder"
+                    },
+                    {
+                        "disease_code": "D009",
+                        "disease_name": "Bipolar II Disorder"
+                    },
+                    {
+                        "disease_code": "D022",
+                        "disease_name": "Bulimia Nervosa",
+                        "shared_symptoms": [
+                            "S045",
+                            "S046"
+                        ]
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 29\n- **Gender:** Female\n- **Occupation:** Nurse\n- **Marital Status:** Single\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Anorexia Nervosa\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. anorexia_nervosa Requirements:**\n- Eating Very Small Amounts (Eating only one or two bites a day or extremely small portions per meal.)\n- Insistence on Low Weight (Attempting to lose more weight or refusing to restore weight despite already being underweight.)\n- Obsession with Weight Gain (Compulsively checking the scale and becoming extremely anxious about even the slightest increase.)\n- Distorted Body Image (Perceiving one's body as much fatter than it actually is or perceiving specific parts as excessively large when looking in the mirror.)\n- Disregard of Symptoms (Not taking physical symptoms caused by low weight (dizziness, hair loss, amenorrhea) seriously.)\n\n**Critical Diagnostic Criteria:**"
+    },
+    "D021_l005": {
+        "question": "A 39-year-old single female pharmacist presents with a several-month history of significant dietary restriction, characterized by an extremely low daily caloric intake. The patient exhibits an intense preoccupation with maintaining a low body weight, actively resisting any increase in her current weight despite being medically underweight. She reports an overwhelming fear of weight gain and becoming \"fat.\" Her body image is notably distorted, as she perceives herself as much larger than her objective appearance, particularly focusing on specific body parts. Despite clear medical evidence of the health risks associated with her low weight, the patient denies or minimizes these concerns.",
+        "options": "\n    A. Anorexia Nervosa\n    B. Acute Stress Disorder\n    C. Bipolar II Disorder\n    D. Bulimia Nervosa\n    ",
+        "answer": "A. Anorexia Nervosa",
+        "features": {
+            "question": {
+                "disease_code": "D021",
+                "disease_name": "Anorexia Nervosa",
+                "sampled_features": {
+                    "disease_code": "D021",
+                    "disease_name": "Anorexia Nervosa",
+                    "sampled_diagnostic_criteria": {},
+                    "sampled_symptom_groups": {
+                        "anorexia_nervosa": {
+                            "symptoms": [
+                                "S043",
+                                "S044",
+                                "S045",
+                                "S046",
+                                "S084"
+                            ],
+                            "name": "anorexia_nervosa"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S043",
+                        "S044",
+                        "S045",
+                        "S046",
+                        "S084"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S043": {
+                            "name": "Restrictive_Intake",
+                            "categoty": "anorexia_nervosa",
+                            "description": "Persistent restriction of energy intake relative to requirements, leading to significantly low body weight.",
+                            "subtypes": {
+                                "Strict Calorie Restriction": "Limiting daily caloric intake to an extremely low level."
+                            }
+                        },
+                        "S044": {
+                            "name": "Low_Weight",
+                            "categoty": "anorexia_nervosa",
+                            "description": "A body weight that is significantly below the minimum level of health for age, sex, developmental trajectory, and physical health.",
+                            "subtypes": {
+                                "Insistence on Low Weight": "Attempting to lose more weight or refusing to restore weight despite already being underweight."
+                            }
+                        },
+                        "S045": {
+                            "name": "Fear_of_Weight_Gain",
+                            "categoty": "body_image_cognition",
+                            "description": "Intense fear of gaining weight or of becoming fat, even though at a significantly low weight.",
+                            "subtypes": {
+                                "Fear of Weight Gain": "Extreme fear and loathing of gaining weight or becoming fat."
+                            }
+                        },
+                        "S046": {
+                            "name": "Body_Image_Weight_Shape_Disturbance",
+                            "categoty": "body_image_cognition",
+                            "description": "Undue influence of body weight or shape on self-evaluation.",
+                            "subtypes": {
+                                "Distorted Body Image": "Perceiving one's body as much fatter than it actually is or perceiving specific parts as excessively large when looking in the mirror."
+                            }
+                        },
+                        "S084": {
+                            "name": "Low_Weight_Severity_Non_Recognition",
+                            "categoty": "body_image_cognition",
+                            "description": "Persistent lack of recognition of the seriousness of the current low body weight.",
+                            "subtypes": {
+                                "Denial of Medical Risk": "Not admitting or dismissing the health risks caused by being underweight."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Anorexia Nervosa",
+                    "Acute Stress Disorder",
+                    "Bipolar II Disorder",
+                    "Bulimia Nervosa"
+                ],
+                "answer_index": [
+                    0
+                ],
+                "index_types": [
+                    "answer",
+                    "Less likely option",
+                    "Less likely option",
+                    "Moderately likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D021",
+                        "disease_name": "Anorexia Nervosa"
+                    },
+                    {
+                        "disease_code": "D019",
+                        "disease_name": "Acute Stress Disorder"
+                    },
+                    {
+                        "disease_code": "D009",
+                        "disease_name": "Bipolar II Disorder"
+                    },
+                    {
+                        "disease_code": "D022",
+                        "disease_name": "Bulimia Nervosa",
+                        "shared_symptoms": [
+                            "S045",
+                            "S046"
+                        ]
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 39\n- **Gender:** Female\n- **Occupation:** Pharmacist\n- **Marital Status:** Single\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Anorexia Nervosa\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. anorexia_nervosa Requirements:**\n- Strict Calorie Restriction (Limiting daily caloric intake to an extremely low level.)\n- Insistence on Low Weight (Attempting to lose more weight or refusing to restore weight despite already being underweight.)\n- Fear of Weight Gain (Extreme fear and loathing of gaining weight or becoming fat.)\n- Distorted Body Image (Perceiving one's body as much fatter than it actually is or perceiving specific parts as excessively large when looking in the mirror.)\n- Denial of Medical Risk (Not admitting or dismissing the health risks caused by being underweight.)\n\n**Critical Diagnostic Criteria:**"
+    },
+    "D021_l006": {
+        "question": "A 28-year-old single male police patrol officer presented with a history of significant behavioral changes surrounding eating and body image spanning the past eight months. The patient consistently omits meals, reporting intentional avoidance of breakfast, lunch, or dinner. Over this period, he has experienced continuous and self-induced weight loss through strict dietary restriction. He endorses an intense phobia of gaining weight or becoming obese, which significantly impacts his daily functioning. Furthermore, his self-esteem and perception of personal success are overtly contingent upon his current weight and perceived body shape.",
+        "options": "\n    A. Posttraumatic Stress Disorder\n    B. Binge-Eating Disorder\n    C. Anorexia Nervosa\n    D. Bulimia Nervosa\n    ",
+        "answer": "C. Anorexia Nervosa",
+        "features": {
+            "question": {
+                "disease_code": "D021",
+                "disease_name": "Anorexia Nervosa",
+                "sampled_features": {
+                    "disease_code": "D021",
+                    "disease_name": "Anorexia Nervosa",
+                    "sampled_diagnostic_criteria": {},
+                    "sampled_symptom_groups": {
+                        "anorexia_nervosa": {
+                            "symptoms": [
+                                "S043",
+                                "S044",
+                                "S045",
+                                "S046"
+                            ],
+                            "name": "anorexia_nervosa"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S043",
+                        "S044",
+                        "S045",
+                        "S046"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S043": {
+                            "name": "Restrictive_Intake",
+                            "categoty": "anorexia_nervosa",
+                            "description": "Persistent restriction of energy intake relative to requirements, leading to significantly low body weight.",
+                            "subtypes": {
+                                "Skipping Meals": "Intentionally skipping breakfast, lunch, or dinner."
+                            }
+                        },
+                        "S044": {
+                            "name": "Low_Weight",
+                            "categoty": "anorexia_nervosa",
+                            "description": "A body weight that is significantly below the minimum level of health for age, sex, developmental trajectory, and physical health.",
+                            "subtypes": {
+                                "Continuous Weight Loss": "A state where weight continues to decrease due to intentional restriction of intake."
+                            }
+                        },
+                        "S045": {
+                            "name": "Fear_of_Weight_Gain",
+                            "categoty": "body_image_cognition",
+                            "description": "Intense fear of gaining weight or of becoming fat, even though at a significantly low weight.",
+                            "subtypes": {
+                                "Fear of Weight Gain": "Extreme fear and loathing of gaining weight or becoming fat."
+                            }
+                        },
+                        "S046": {
+                            "name": "Body_Image_Weight_Shape_Disturbance",
+                            "categoty": "body_image_cognition",
+                            "description": "Undue influence of body weight or shape on self-evaluation.",
+                            "subtypes": {
+                                "Self-Worth Dependent on Weight": "Judging whether one is a good or successful person solely based on weight or body shape."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Posttraumatic Stress Disorder",
+                    "Binge-Eating Disorder",
+                    "Anorexia Nervosa",
+                    "Bulimia Nervosa"
+                ],
+                "answer_index": [
+                    2
+                ],
+                "index_types": [
+                    "Less likely option",
+                    "Less likely option",
+                    "answer",
+                    "Moderately likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D018",
+                        "disease_name": "Posttraumatic Stress Disorder"
+                    },
+                    {
+                        "disease_code": "D023",
+                        "disease_name": "Binge-Eating Disorder"
+                    },
+                    {
+                        "disease_code": "D021",
+                        "disease_name": "Anorexia Nervosa"
+                    },
+                    {
+                        "disease_code": "D022",
+                        "disease_name": "Bulimia Nervosa",
+                        "shared_symptoms": [
+                            "S045",
+                            "S046"
+                        ]
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 28\n- **Gender:** Male\n- **Occupation:** Police Patrol Officer\n- **Marital Status:** Single\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Anorexia Nervosa\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. anorexia_nervosa Requirements:**\n- Skipping Meals (Intentionally skipping breakfast, lunch, or dinner.)\n- Continuous Weight Loss (A state where weight continues to decrease due to intentional restriction of intake.)\n- Fear of Weight Gain (Extreme fear and loathing of gaining weight or becoming fat.)\n- Self-Worth Dependent on Weight (Judging whether one is a good or successful person solely based on weight or body shape.)\n\n**Critical Diagnostic Criteria:**"
+    },
+    "D021_l007": {
+        "question": "A 25-year-old single female graduate student presents with a one-year history of restrictive eating behaviors and body image disturbance. The patient reports intentionally omitting meals, particularly breakfast and lunch, for the past year. She expresses an intense preoccupation with achieving a lower body weight, despite her current underweight status. This is accompanied by a marked fear of consuming certain foods, based on the belief that they will contribute to immediate weight gain. The patient consistently describes perceiving her body as significantly larger than it is, specifically noting concerns about her thighs and abdomen when observing herself in the mirror.",
+        "options": "\n    A. Posttraumatic Stress Disorder\n    B. Binge-Eating Disorder\n    C. Anorexia Nervosa\n    D. Bulimia Nervosa\n    ",
+        "answer": "C. Anorexia Nervosa",
+        "features": {
+            "question": {
+                "disease_code": "D021",
+                "disease_name": "Anorexia Nervosa",
+                "sampled_features": {
+                    "disease_code": "D021",
+                    "disease_name": "Anorexia Nervosa",
+                    "sampled_diagnostic_criteria": {},
+                    "sampled_symptom_groups": {
+                        "anorexia_nervosa": {
+                            "symptoms": [
+                                "S043",
+                                "S044",
+                                "S045",
+                                "S046"
+                            ],
+                            "name": "anorexia_nervosa"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S043",
+                        "S044",
+                        "S045",
+                        "S046"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S043": {
+                            "name": "Restrictive_Intake",
+                            "categoty": "anorexia_nervosa",
+                            "description": "Persistent restriction of energy intake relative to requirements, leading to significantly low body weight.",
+                            "subtypes": {
+                                "Skipping Meals": "Intentionally skipping breakfast, lunch, or dinner."
+                            }
+                        },
+                        "S044": {
+                            "name": "Low_Weight",
+                            "categoty": "anorexia_nervosa",
+                            "description": "A body weight that is significantly below the minimum level of health for age, sex, developmental trajectory, and physical health.",
+                            "subtypes": {
+                                "Insistence on Low Weight": "Attempting to lose more weight or refusing to restore weight despite already being underweight."
+                            }
+                        },
+                        "S045": {
+                            "name": "Fear_of_Weight_Gain",
+                            "categoty": "body_image_cognition",
+                            "description": "Intense fear of gaining weight or of becoming fat, even though at a significantly low weight.",
+                            "subtypes": {
+                                "Fear of Specific Foods": "Fear that eating high-calorie foods will immediately lead to weight gain."
+                            }
+                        },
+                        "S046": {
+                            "name": "Body_Image_Weight_Shape_Disturbance",
+                            "categoty": "body_image_cognition",
+                            "description": "Undue influence of body weight or shape on self-evaluation.",
+                            "subtypes": {
+                                "Distorted Body Image": "Perceiving one's body as much fatter than it actually is or perceiving specific parts as excessively large when looking in the mirror."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Posttraumatic Stress Disorder",
+                    "Binge-Eating Disorder",
+                    "Anorexia Nervosa",
+                    "Bulimia Nervosa"
+                ],
+                "answer_index": [
+                    2
+                ],
+                "index_types": [
+                    "Less likely option",
+                    "Less likely option",
+                    "answer",
+                    "Moderately likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D018",
+                        "disease_name": "Posttraumatic Stress Disorder"
+                    },
+                    {
+                        "disease_code": "D023",
+                        "disease_name": "Binge-Eating Disorder"
+                    },
+                    {
+                        "disease_code": "D021",
+                        "disease_name": "Anorexia Nervosa"
+                    },
+                    {
+                        "disease_code": "D022",
+                        "disease_name": "Bulimia Nervosa",
+                        "shared_symptoms": [
+                            "S045",
+                            "S046"
+                        ]
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 25\n- **Gender:** Female\n- **Occupation:** Graduate Student\n- **Marital Status:** Single\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Anorexia Nervosa\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. anorexia_nervosa Requirements:**\n- Skipping Meals (Intentionally skipping breakfast, lunch, or dinner.)\n- Insistence on Low Weight (Attempting to lose more weight or refusing to restore weight despite already being underweight.)\n- Fear of Specific Foods (Fear that eating high-calorie foods will immediately lead to weight gain.)\n- Distorted Body Image (Perceiving one's body as much fatter than it actually is or perceiving specific parts as excessively large when looking in the mirror.)\n\n**Critical Diagnostic Criteria:**"
+    },
+    "D021_l008": {
+        "question": "A 51-year-old married male, employed as a postman, presents with a several-month history of intentional dietary restriction and preoccupation with his body weight. The patient reports a pattern of skipping meals, specifically breakfast, lunch, or dinner, leading to continuous weight loss over the designated period. He expresses significant apprehension regarding consumption of specific foods, fearing immediate weight gain from higher-calorie items. His self-worth appears inextricably linked to his weight and body shape, frequently evaluating his personal success and value based on these metrics.",
+        "options": "\n    A. Posttraumatic Stress Disorder\n    B. Binge-Eating Disorder\n    C. Anorexia Nervosa\n    D. Bulimia Nervosa\n    ",
+        "answer": "C. Anorexia Nervosa",
+        "features": {
+            "question": {
+                "disease_code": "D021",
+                "disease_name": "Anorexia Nervosa",
+                "sampled_features": {
+                    "disease_code": "D021",
+                    "disease_name": "Anorexia Nervosa",
+                    "sampled_diagnostic_criteria": {},
+                    "sampled_symptom_groups": {
+                        "anorexia_nervosa": {
+                            "symptoms": [
+                                "S043",
+                                "S044",
+                                "S045",
+                                "S046"
+                            ],
+                            "name": "anorexia_nervosa"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S043",
+                        "S044",
+                        "S045",
+                        "S046"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S043": {
+                            "name": "Restrictive_Intake",
+                            "categoty": "anorexia_nervosa",
+                            "description": "Persistent restriction of energy intake relative to requirements, leading to significantly low body weight.",
+                            "subtypes": {
+                                "Skipping Meals": "Intentionally skipping breakfast, lunch, or dinner."
+                            }
+                        },
+                        "S044": {
+                            "name": "Low_Weight",
+                            "categoty": "anorexia_nervosa",
+                            "description": "A body weight that is significantly below the minimum level of health for age, sex, developmental trajectory, and physical health.",
+                            "subtypes": {
+                                "Continuous Weight Loss": "A state where weight continues to decrease due to intentional restriction of intake."
+                            }
+                        },
+                        "S045": {
+                            "name": "Fear_of_Weight_Gain",
+                            "categoty": "body_image_cognition",
+                            "description": "Intense fear of gaining weight or of becoming fat, even though at a significantly low weight.",
+                            "subtypes": {
+                                "Fear of Specific Foods": "Fear that eating high-calorie foods will immediately lead to weight gain."
+                            }
+                        },
+                        "S046": {
+                            "name": "Body_Image_Weight_Shape_Disturbance",
+                            "categoty": "body_image_cognition",
+                            "description": "Undue influence of body weight or shape on self-evaluation.",
+                            "subtypes": {
+                                "Self-Worth Dependent on Weight": "Judging whether one is a good or successful person solely based on weight or body shape."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Posttraumatic Stress Disorder",
+                    "Binge-Eating Disorder",
+                    "Anorexia Nervosa",
+                    "Bulimia Nervosa"
+                ],
+                "answer_index": [
+                    2
+                ],
+                "index_types": [
+                    "Less likely option",
+                    "Less likely option",
+                    "answer",
+                    "Moderately likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D018",
+                        "disease_name": "Posttraumatic Stress Disorder"
+                    },
+                    {
+                        "disease_code": "D023",
+                        "disease_name": "Binge-Eating Disorder"
+                    },
+                    {
+                        "disease_code": "D021",
+                        "disease_name": "Anorexia Nervosa"
+                    },
+                    {
+                        "disease_code": "D022",
+                        "disease_name": "Bulimia Nervosa",
+                        "shared_symptoms": [
+                            "S045",
+                            "S046"
+                        ]
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 51\n- **Gender:** Male\n- **Occupation:** Postman\n- **Marital Status:** Married\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Anorexia Nervosa\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. anorexia_nervosa Requirements:**\n- Skipping Meals (Intentionally skipping breakfast, lunch, or dinner.)\n- Continuous Weight Loss (A state where weight continues to decrease due to intentional restriction of intake.)\n- Fear of Specific Foods (Fear that eating high-calorie foods will immediately lead to weight gain.)\n- Self-Worth Dependent on Weight (Judging whether one is a good or successful person solely based on weight or body shape.)\n\n**Critical Diagnostic Criteria:**"
+    },
+    "D021_l009": {
+        "question": "A 27-year-old single male presented with a history of intentional restriction of dietary intake over the past ten months. He reports consuming extremely small portions of food, often limited to one or two bites per meal, and expresses significant apprehension regarding high-calorie foods due to an intense fear of associated weight gain. The patient has experienced continuous and significant weight loss. His self-worth and perception of success are noted to be predominantly contingent upon his body shape and weight.",
+        "options": "\n    A. Posttraumatic Stress Disorder\n    B. Binge-Eating Disorder\n    C. Anorexia Nervosa\n    D. Bulimia Nervosa\n    ",
+        "answer": "C. Anorexia Nervosa",
+        "features": {
+            "question": {
+                "disease_code": "D021",
+                "disease_name": "Anorexia Nervosa",
+                "sampled_features": {
+                    "disease_code": "D021",
+                    "disease_name": "Anorexia Nervosa",
+                    "sampled_diagnostic_criteria": {},
+                    "sampled_symptom_groups": {
+                        "anorexia_nervosa": {
+                            "symptoms": [
+                                "S043",
+                                "S044",
+                                "S045",
+                                "S046"
+                            ],
+                            "name": "anorexia_nervosa"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S043",
+                        "S044",
+                        "S045",
+                        "S046"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S043": {
+                            "name": "Restrictive_Intake",
+                            "categoty": "anorexia_nervosa",
+                            "description": "Persistent restriction of energy intake relative to requirements, leading to significantly low body weight.",
+                            "subtypes": {
+                                "Eating Very Small Amounts": "Eating only one or two bites a day or extremely small portions per meal."
+                            }
+                        },
+                        "S044": {
+                            "name": "Low_Weight",
+                            "categoty": "anorexia_nervosa",
+                            "description": "A body weight that is significantly below the minimum level of health for age, sex, developmental trajectory, and physical health.",
+                            "subtypes": {
+                                "Continuous Weight Loss": "A state where weight continues to decrease due to intentional restriction of intake."
+                            }
+                        },
+                        "S045": {
+                            "name": "Fear_of_Weight_Gain",
+                            "categoty": "body_image_cognition",
+                            "description": "Intense fear of gaining weight or of becoming fat, even though at a significantly low weight.",
+                            "subtypes": {
+                                "Fear of Specific Foods": "Fear that eating high-calorie foods will immediately lead to weight gain."
+                            }
+                        },
+                        "S046": {
+                            "name": "Body_Image_Weight_Shape_Disturbance",
+                            "categoty": "body_image_cognition",
+                            "description": "Undue influence of body weight or shape on self-evaluation.",
+                            "subtypes": {
+                                "Self-Worth Dependent on Weight": "Judging whether one is a good or successful person solely based on weight or body shape."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Posttraumatic Stress Disorder",
+                    "Binge-Eating Disorder",
+                    "Anorexia Nervosa",
+                    "Bulimia Nervosa"
+                ],
+                "answer_index": [
+                    2
+                ],
+                "index_types": [
+                    "Less likely option",
+                    "Less likely option",
+                    "answer",
+                    "Moderately likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D018",
+                        "disease_name": "Posttraumatic Stress Disorder"
+                    },
+                    {
+                        "disease_code": "D023",
+                        "disease_name": "Binge-Eating Disorder"
+                    },
+                    {
+                        "disease_code": "D021",
+                        "disease_name": "Anorexia Nervosa"
+                    },
+                    {
+                        "disease_code": "D022",
+                        "disease_name": "Bulimia Nervosa",
+                        "shared_symptoms": [
+                            "S045",
+                            "S046"
+                        ]
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 27\n- **Gender:** Male\n- **Occupation:** Landscape Gardener\n- **Marital Status:** Single\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Anorexia Nervosa\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. anorexia_nervosa Requirements:**\n- Eating Very Small Amounts (Eating only one or two bites a day or extremely small portions per meal.)\n- Continuous Weight Loss (A state where weight continues to decrease due to intentional restriction of intake.)\n- Fear of Specific Foods (Fear that eating high-calorie foods will immediately lead to weight gain.)\n- Self-Worth Dependent on Weight (Judging whether one is a good or successful person solely based on weight or body shape.)\n\n**Critical Diagnostic Criteria:**"
+    },
+    "D021_l010": {
+        "question": "A 47-year-old married female, who works as an insurance claims adjuster, presents with a history of restrictive eating behaviors and body image concerns spanning approximately 18 months. She reports strict caloric restriction, maintaining an extremely low daily intake. The patient expresses an intense insistence on achieving further weight loss and has resisted attempts to restore her weight, despite currently being underweight. She exhibits an obsessive preoccupation with weight gain, characterized by compulsive scale checking and significant anxiety in response to minimal weight fluctuations. Furthermore, she describes a distorted body image, perceiving herself as significantly larger than her actual size.",
+        "options": "\n    A. Posttraumatic Stress Disorder\n    B. Binge-Eating Disorder\n    C. Anorexia Nervosa\n    D. Bulimia Nervosa\n    ",
+        "answer": "C. Anorexia Nervosa",
+        "features": {
+            "question": {
+                "disease_code": "D021",
+                "disease_name": "Anorexia Nervosa",
+                "sampled_features": {
+                    "disease_code": "D021",
+                    "disease_name": "Anorexia Nervosa",
+                    "sampled_diagnostic_criteria": {},
+                    "sampled_symptom_groups": {
+                        "anorexia_nervosa": {
+                            "symptoms": [
+                                "S043",
+                                "S044",
+                                "S045",
+                                "S046"
+                            ],
+                            "name": "anorexia_nervosa"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S043",
+                        "S044",
+                        "S045",
+                        "S046"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S043": {
+                            "name": "Restrictive_Intake",
+                            "categoty": "anorexia_nervosa",
+                            "description": "Persistent restriction of energy intake relative to requirements, leading to significantly low body weight.",
+                            "subtypes": {
+                                "Strict Calorie Restriction": "Limiting daily caloric intake to an extremely low level."
+                            }
+                        },
+                        "S044": {
+                            "name": "Low_Weight",
+                            "categoty": "anorexia_nervosa",
+                            "description": "A body weight that is significantly below the minimum level of health for age, sex, developmental trajectory, and physical health.",
+                            "subtypes": {
+                                "Insistence on Low Weight": "Attempting to lose more weight or refusing to restore weight despite already being underweight."
+                            }
+                        },
+                        "S045": {
+                            "name": "Fear_of_Weight_Gain",
+                            "categoty": "body_image_cognition",
+                            "description": "Intense fear of gaining weight or of becoming fat, even though at a significantly low weight.",
+                            "subtypes": {
+                                "Obsession with Weight Gain": "Compulsively checking the scale and becoming extremely anxious about even the slightest increase."
+                            }
+                        },
+                        "S046": {
+                            "name": "Body_Image_Weight_Shape_Disturbance",
+                            "categoty": "body_image_cognition",
+                            "description": "Undue influence of body weight or shape on self-evaluation.",
+                            "subtypes": {
+                                "Distorted Body Image": "Perceiving one's body as much fatter than it actually is or perceiving specific parts as excessively large when looking in the mirror."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Posttraumatic Stress Disorder",
+                    "Binge-Eating Disorder",
+                    "Anorexia Nervosa",
+                    "Bulimia Nervosa"
+                ],
+                "answer_index": [
+                    2
+                ],
+                "index_types": [
+                    "Less likely option",
+                    "Less likely option",
+                    "answer",
+                    "Moderately likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D018",
+                        "disease_name": "Posttraumatic Stress Disorder"
+                    },
+                    {
+                        "disease_code": "D023",
+                        "disease_name": "Binge-Eating Disorder"
+                    },
+                    {
+                        "disease_code": "D021",
+                        "disease_name": "Anorexia Nervosa"
+                    },
+                    {
+                        "disease_code": "D022",
+                        "disease_name": "Bulimia Nervosa",
+                        "shared_symptoms": [
+                            "S045",
+                            "S046"
+                        ]
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 47\n- **Gender:** Female\n- **Occupation:** Insurance Claims Adjuster\n- **Marital Status:** Married\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Anorexia Nervosa\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. anorexia_nervosa Requirements:**\n- Strict Calorie Restriction (Limiting daily caloric intake to an extremely low level.)\n- Insistence on Low Weight (Attempting to lose more weight or refusing to restore weight despite already being underweight.)\n- Obsession with Weight Gain (Compulsively checking the scale and becoming extremely anxious about even the slightest increase.)\n- Distorted Body Image (Perceiving one's body as much fatter than it actually is or perceiving specific parts as excessively large when looking in the mirror.)\n\n**Critical Diagnostic Criteria:**"
+    },
+    "D021_l011": {
+        "question": "A 32-year-old single male high school math teacher presents with a six-month history of restrictive eating behaviors. He reports intentionally omitting meals, including breakfast, lunch, and dinner, leading to continuous weight loss. The patient exhibits an intense phobia of gaining weight or becoming obese. Despite objective evidence of a low body mass index, he consistently minimizes or outright denies the associated medical risks of his underweight state.",
+        "options": "\n    A. Specific Phobia\n    B. Bulimia Nervosa\n    C. Schizophrenia\n    D. Anorexia Nervosa\n    ",
+        "answer": "D. Anorexia Nervosa",
+        "features": {
+            "question": {
+                "disease_code": "D021",
+                "disease_name": "Anorexia Nervosa",
+                "sampled_features": {
+                    "disease_code": "D021",
+                    "disease_name": "Anorexia Nervosa",
+                    "sampled_diagnostic_criteria": {},
+                    "sampled_symptom_groups": {
+                        "anorexia_nervosa": {
+                            "symptoms": [
+                                "S043",
+                                "S044",
+                                "S045",
+                                "S084"
+                            ],
+                            "name": "anorexia_nervosa"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S043",
+                        "S044",
+                        "S045",
+                        "S084"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S043": {
+                            "name": "Restrictive_Intake",
+                            "categoty": "anorexia_nervosa",
+                            "description": "Persistent restriction of energy intake relative to requirements, leading to significantly low body weight.",
+                            "subtypes": {
+                                "Skipping Meals": "Intentionally skipping breakfast, lunch, or dinner."
+                            }
+                        },
+                        "S044": {
+                            "name": "Low_Weight",
+                            "categoty": "anorexia_nervosa",
+                            "description": "A body weight that is significantly below the minimum level of health for age, sex, developmental trajectory, and physical health.",
+                            "subtypes": {
+                                "Continuous Weight Loss": "A state where weight continues to decrease due to intentional restriction of intake."
+                            }
+                        },
+                        "S045": {
+                            "name": "Fear_of_Weight_Gain",
+                            "categoty": "body_image_cognition",
+                            "description": "Intense fear of gaining weight or of becoming fat, even though at a significantly low weight.",
+                            "subtypes": {
+                                "Fear of Weight Gain": "Extreme fear and loathing of gaining weight or becoming fat."
+                            }
+                        },
+                        "S084": {
+                            "name": "Low_Weight_Severity_Non_Recognition",
+                            "categoty": "body_image_cognition",
+                            "description": "Persistent lack of recognition of the seriousness of the current low body weight.",
+                            "subtypes": {
+                                "Denial of Medical Risk": "Not admitting or dismissing the health risks caused by being underweight."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Specific Phobia",
+                    "Bulimia Nervosa",
+                    "Schizophrenia",
+                    "Anorexia Nervosa"
+                ],
+                "answer_index": [
+                    3
+                ],
+                "index_types": [
+                    "Less likely option",
+                    "Moderately likely option",
+                    "Less likely option",
+                    "answer"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D012",
+                        "disease_name": "Specific Phobia"
+                    },
+                    {
+                        "disease_code": "D022",
+                        "disease_name": "Bulimia Nervosa",
+                        "shared_symptoms": [
+                            "S045",
+                            "S046"
+                        ]
+                    },
+                    {
+                        "disease_code": "D005",
+                        "disease_name": "Schizophrenia"
+                    },
+                    {
+                        "disease_code": "D021",
+                        "disease_name": "Anorexia Nervosa"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 32\n- **Gender:** Male\n- **Occupation:** High School Math Teacher\n- **Marital Status:** Single\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Anorexia Nervosa\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. anorexia_nervosa Requirements:**\n- Skipping Meals (Intentionally skipping breakfast, lunch, or dinner.)\n- Continuous Weight Loss (A state where weight continues to decrease due to intentional restriction of intake.)\n- Fear of Weight Gain (Extreme fear and loathing of gaining weight or becoming fat.)\n- Denial of Medical Risk (Not admitting or dismissing the health risks caused by being underweight.)\n\n**Critical Diagnostic Criteria:**"
+    },
+    "D021_l012": {
+        "question": "A 65-year-old married male, employed as a building janitor, presents with a several-month history of significant dietary changes. He endorses a self-imposed, extremely low caloric intake and reports continuous weight loss. The patient expresses an intense fear of consuming specific foods, particularly those perceived as high-calorie, believing they will result in immediate weight gain. Despite his markedly low body weight, he consistently denies or minimizes any associated medical risks. He does not acknowledge the severity of his emaciated state.",
+        "options": "\n    A. Specific Phobia\n    B. Bulimia Nervosa\n    C. Schizophrenia\n    D. Anorexia Nervosa\n    ",
+        "answer": "D. Anorexia Nervosa",
+        "features": {
+            "question": {
+                "disease_code": "D021",
+                "disease_name": "Anorexia Nervosa",
+                "sampled_features": {
+                    "disease_code": "D021",
+                    "disease_name": "Anorexia Nervosa",
+                    "sampled_diagnostic_criteria": {},
+                    "sampled_symptom_groups": {
+                        "anorexia_nervosa": {
+                            "symptoms": [
+                                "S043",
+                                "S044",
+                                "S045",
+                                "S084"
+                            ],
+                            "name": "anorexia_nervosa"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S043",
+                        "S044",
+                        "S045",
+                        "S084"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S043": {
+                            "name": "Restrictive_Intake",
+                            "categoty": "anorexia_nervosa",
+                            "description": "Persistent restriction of energy intake relative to requirements, leading to significantly low body weight.",
+                            "subtypes": {
+                                "Strict Calorie Restriction": "Limiting daily caloric intake to an extremely low level."
+                            }
+                        },
+                        "S044": {
+                            "name": "Low_Weight",
+                            "categoty": "anorexia_nervosa",
+                            "description": "A body weight that is significantly below the minimum level of health for age, sex, developmental trajectory, and physical health.",
+                            "subtypes": {
+                                "Continuous Weight Loss": "A state where weight continues to decrease due to intentional restriction of intake."
+                            }
+                        },
+                        "S045": {
+                            "name": "Fear_of_Weight_Gain",
+                            "categoty": "body_image_cognition",
+                            "description": "Intense fear of gaining weight or of becoming fat, even though at a significantly low weight.",
+                            "subtypes": {
+                                "Fear of Specific Foods": "Fear that eating high-calorie foods will immediately lead to weight gain."
+                            }
+                        },
+                        "S084": {
+                            "name": "Low_Weight_Severity_Non_Recognition",
+                            "categoty": "body_image_cognition",
+                            "description": "Persistent lack of recognition of the seriousness of the current low body weight.",
+                            "subtypes": {
+                                "Denial of Medical Risk": "Not admitting or dismissing the health risks caused by being underweight."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Specific Phobia",
+                    "Bulimia Nervosa",
+                    "Schizophrenia",
+                    "Anorexia Nervosa"
+                ],
+                "answer_index": [
+                    3
+                ],
+                "index_types": [
+                    "Less likely option",
+                    "Moderately likely option",
+                    "Less likely option",
+                    "answer"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D012",
+                        "disease_name": "Specific Phobia"
+                    },
+                    {
+                        "disease_code": "D022",
+                        "disease_name": "Bulimia Nervosa",
+                        "shared_symptoms": [
+                            "S045",
+                            "S046"
+                        ]
+                    },
+                    {
+                        "disease_code": "D005",
+                        "disease_name": "Schizophrenia"
+                    },
+                    {
+                        "disease_code": "D021",
+                        "disease_name": "Anorexia Nervosa"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 65\n- **Gender:** Male\n- **Occupation:** Building Janitor\n- **Marital Status:** Married\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Anorexia Nervosa\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. anorexia_nervosa Requirements:**\n- Strict Calorie Restriction (Limiting daily caloric intake to an extremely low level.)\n- Continuous Weight Loss (A state where weight continues to decrease due to intentional restriction of intake.)\n- Fear of Specific Foods (Fear that eating high-calorie foods will immediately lead to weight gain.)\n- Denial of Medical Risk (Not admitting or dismissing the health risks caused by being underweight.)\n\n**Critical Diagnostic Criteria:**"
+    },
+    "D021_l013": {
+        "question": "A 32-year-old single male cloud architect presents with a several-month history of restrictive eating behaviors. He reports intentionally skipping meals, including breakfast, lunch, and dinner, leading to continuous weight loss over the past six months. The patient expresses an intense and persistent fear of gaining weight or becoming \"fat.\" When confronted by family or healthcare professionals regarding his declining weight and eating habits, he tends to minimize the severity of their concerns, often dismissing them as unwarranted. Clinical observations indicate significant undernourishment and a persistent preoccupation with body size and shape.",
+        "options": "\n    A. Specific Phobia\n    B. Bulimia Nervosa\n    C. Schizophrenia\n    D. Anorexia Nervosa\n    ",
+        "answer": "D. Anorexia Nervosa",
+        "features": {
+            "question": {
+                "disease_code": "D021",
+                "disease_name": "Anorexia Nervosa",
+                "sampled_features": {
+                    "disease_code": "D021",
+                    "disease_name": "Anorexia Nervosa",
+                    "sampled_diagnostic_criteria": {},
+                    "sampled_symptom_groups": {
+                        "anorexia_nervosa": {
+                            "symptoms": [
+                                "S043",
+                                "S044",
+                                "S045",
+                                "S084"
+                            ],
+                            "name": "anorexia_nervosa"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S043",
+                        "S044",
+                        "S045",
+                        "S084"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S043": {
+                            "name": "Restrictive_Intake",
+                            "categoty": "anorexia_nervosa",
+                            "description": "Persistent restriction of energy intake relative to requirements, leading to significantly low body weight.",
+                            "subtypes": {
+                                "Skipping Meals": "Intentionally skipping breakfast, lunch, or dinner."
+                            }
+                        },
+                        "S044": {
+                            "name": "Low_Weight",
+                            "categoty": "anorexia_nervosa",
+                            "description": "A body weight that is significantly below the minimum level of health for age, sex, developmental trajectory, and physical health.",
+                            "subtypes": {
+                                "Continuous Weight Loss": "A state where weight continues to decrease due to intentional restriction of intake."
+                            }
+                        },
+                        "S045": {
+                            "name": "Fear_of_Weight_Gain",
+                            "categoty": "body_image_cognition",
+                            "description": "Intense fear of gaining weight or of becoming fat, even though at a significantly low weight.",
+                            "subtypes": {
+                                "Fear of Weight Gain": "Extreme fear and loathing of gaining weight or becoming fat."
+                            }
+                        },
+                        "S084": {
+                            "name": "Low_Weight_Severity_Non_Recognition",
+                            "categoty": "body_image_cognition",
+                            "description": "Persistent lack of recognition of the seriousness of the current low body weight.",
+                            "subtypes": {
+                                "Dismissal of Concerns": "Exaggerating or rejecting the concerns of doctors or family as unnecessary."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Specific Phobia",
+                    "Bulimia Nervosa",
+                    "Schizophrenia",
+                    "Anorexia Nervosa"
+                ],
+                "answer_index": [
+                    3
+                ],
+                "index_types": [
+                    "Less likely option",
+                    "Moderately likely option",
+                    "Less likely option",
+                    "answer"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D012",
+                        "disease_name": "Specific Phobia"
+                    },
+                    {
+                        "disease_code": "D022",
+                        "disease_name": "Bulimia Nervosa",
+                        "shared_symptoms": [
+                            "S045",
+                            "S046"
+                        ]
+                    },
+                    {
+                        "disease_code": "D005",
+                        "disease_name": "Schizophrenia"
+                    },
+                    {
+                        "disease_code": "D021",
+                        "disease_name": "Anorexia Nervosa"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 32\n- **Gender:** Male\n- **Occupation:** Cloud Architect\n- **Marital Status:** Single\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Anorexia Nervosa\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. anorexia_nervosa Requirements:**\n- Skipping Meals (Intentionally skipping breakfast, lunch, or dinner.)\n- Continuous Weight Loss (A state where weight continues to decrease due to intentional restriction of intake.)\n- Fear of Weight Gain (Extreme fear and loathing of gaining weight or becoming fat.)\n- Dismissal of Concerns (Exaggerating or rejecting the concerns of doctors or family as unnecessary.)\n\n**Critical Diagnostic Criteria:**"
+    },
+    "D021_l014": {
+        "question": "A 39-year-old divorced male, employed as a film director, presents with a several-month history of restrictive eating behaviors. The patient reports intentionally skipping meals, specifically breakfast and lunch. He endorses continuous weight loss, which he attributes to intentional dietary restriction. The patient expresses significant anxiety regarding specific foods, particularly those perceived as high-calorie, fearing immediate weight gain upon their consumption. Notably, the patient disregards physical symptoms associated with his low weight, such as dizziness. The patient denies experiencing hair loss.",
+        "options": "\n    A. Specific Phobia\n    B. Bulimia Nervosa\n    C. Schizophrenia\n    D. Anorexia Nervosa\n    ",
+        "answer": "D. Anorexia Nervosa",
+        "features": {
+            "question": {
+                "disease_code": "D021",
+                "disease_name": "Anorexia Nervosa",
+                "sampled_features": {
+                    "disease_code": "D021",
+                    "disease_name": "Anorexia Nervosa",
+                    "sampled_diagnostic_criteria": {},
+                    "sampled_symptom_groups": {
+                        "anorexia_nervosa": {
+                            "symptoms": [
+                                "S043",
+                                "S044",
+                                "S045",
+                                "S084"
+                            ],
+                            "name": "anorexia_nervosa"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S043",
+                        "S044",
+                        "S045",
+                        "S084"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S043": {
+                            "name": "Restrictive_Intake",
+                            "categoty": "anorexia_nervosa",
+                            "description": "Persistent restriction of energy intake relative to requirements, leading to significantly low body weight.",
+                            "subtypes": {
+                                "Skipping Meals": "Intentionally skipping breakfast, lunch, or dinner."
+                            }
+                        },
+                        "S044": {
+                            "name": "Low_Weight",
+                            "categoty": "anorexia_nervosa",
+                            "description": "A body weight that is significantly below the minimum level of health for age, sex, developmental trajectory, and physical health.",
+                            "subtypes": {
+                                "Continuous Weight Loss": "A state where weight continues to decrease due to intentional restriction of intake."
+                            }
+                        },
+                        "S045": {
+                            "name": "Fear_of_Weight_Gain",
+                            "categoty": "body_image_cognition",
+                            "description": "Intense fear of gaining weight or of becoming fat, even though at a significantly low weight.",
+                            "subtypes": {
+                                "Fear of Specific Foods": "Fear that eating high-calorie foods will immediately lead to weight gain."
+                            }
+                        },
+                        "S084": {
+                            "name": "Low_Weight_Severity_Non_Recognition",
+                            "categoty": "body_image_cognition",
+                            "description": "Persistent lack of recognition of the seriousness of the current low body weight.",
+                            "subtypes": {
+                                "Disregard of Symptoms": "Not taking physical symptoms caused by low weight (dizziness, hair loss, amenorrhea) seriously."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Specific Phobia",
+                    "Bulimia Nervosa",
+                    "Schizophrenia",
+                    "Anorexia Nervosa"
+                ],
+                "answer_index": [
+                    3
+                ],
+                "index_types": [
+                    "Less likely option",
+                    "Moderately likely option",
+                    "Less likely option",
+                    "answer"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D012",
+                        "disease_name": "Specific Phobia"
+                    },
+                    {
+                        "disease_code": "D022",
+                        "disease_name": "Bulimia Nervosa",
+                        "shared_symptoms": [
+                            "S045",
+                            "S046"
+                        ]
+                    },
+                    {
+                        "disease_code": "D005",
+                        "disease_name": "Schizophrenia"
+                    },
+                    {
+                        "disease_code": "D021",
+                        "disease_name": "Anorexia Nervosa"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 39\n- **Gender:** Male\n- **Occupation:** Film Director\n- **Marital Status:** Divorced\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Anorexia Nervosa\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. anorexia_nervosa Requirements:**\n- Skipping Meals (Intentionally skipping breakfast, lunch, or dinner.)\n- Continuous Weight Loss (A state where weight continues to decrease due to intentional restriction of intake.)\n- Fear of Specific Foods (Fear that eating high-calorie foods will immediately lead to weight gain.)\n- Disregard of Symptoms (Not taking physical symptoms caused by low weight (dizziness, hair loss, amenorrhea) seriously.)\n\n**Critical Diagnostic Criteria:**"
+    },
+    "D021_l015": {
+        "question": "A 41-year-old married female, who owns a restaurant, presents with a several-month history of significantly restricted oral intake, characterized by consuming only minimal portions at meals. This has led to continuous and notable weight loss. The patient reports an intense preoccupation with her body weight, frequently monitoring it and expressing extreme distress over any perceived increment. She tends to minimize concerns raised by family members and medical professionals regarding her nutritional status and declining weight. The onset of these symptoms is not temporally related to her marital status or profession.",
+        "options": "\n    A. Specific Phobia\n    B. Bulimia Nervosa\n    C. Schizophrenia\n    D. Anorexia Nervosa\n    ",
+        "answer": "D. Anorexia Nervosa",
+        "features": {
+            "question": {
+                "disease_code": "D021",
+                "disease_name": "Anorexia Nervosa",
+                "sampled_features": {
+                    "disease_code": "D021",
+                    "disease_name": "Anorexia Nervosa",
+                    "sampled_diagnostic_criteria": {},
+                    "sampled_symptom_groups": {
+                        "anorexia_nervosa": {
+                            "symptoms": [
+                                "S043",
+                                "S044",
+                                "S045",
+                                "S084"
+                            ],
+                            "name": "anorexia_nervosa"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S043",
+                        "S044",
+                        "S045",
+                        "S084"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S043": {
+                            "name": "Restrictive_Intake",
+                            "categoty": "anorexia_nervosa",
+                            "description": "Persistent restriction of energy intake relative to requirements, leading to significantly low body weight.",
+                            "subtypes": {
+                                "Eating Very Small Amounts": "Eating only one or two bites a day or extremely small portions per meal."
+                            }
+                        },
+                        "S044": {
+                            "name": "Low_Weight",
+                            "categoty": "anorexia_nervosa",
+                            "description": "A body weight that is significantly below the minimum level of health for age, sex, developmental trajectory, and physical health.",
+                            "subtypes": {
+                                "Continuous Weight Loss": "A state where weight continues to decrease due to intentional restriction of intake."
+                            }
+                        },
+                        "S045": {
+                            "name": "Fear_of_Weight_Gain",
+                            "categoty": "body_image_cognition",
+                            "description": "Intense fear of gaining weight or of becoming fat, even though at a significantly low weight.",
+                            "subtypes": {
+                                "Obsession with Weight Gain": "Compulsively checking the scale and becoming extremely anxious about even the slightest increase."
+                            }
+                        },
+                        "S084": {
+                            "name": "Low_Weight_Severity_Non_Recognition",
+                            "categoty": "body_image_cognition",
+                            "description": "Persistent lack of recognition of the seriousness of the current low body weight.",
+                            "subtypes": {
+                                "Dismissal of Concerns": "Exaggerating or rejecting the concerns of doctors or family as unnecessary."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Specific Phobia",
+                    "Bulimia Nervosa",
+                    "Schizophrenia",
+                    "Anorexia Nervosa"
+                ],
+                "answer_index": [
+                    3
+                ],
+                "index_types": [
+                    "Less likely option",
+                    "Moderately likely option",
+                    "Less likely option",
+                    "answer"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D012",
+                        "disease_name": "Specific Phobia"
+                    },
+                    {
+                        "disease_code": "D022",
+                        "disease_name": "Bulimia Nervosa",
+                        "shared_symptoms": [
+                            "S045",
+                            "S046"
+                        ]
+                    },
+                    {
+                        "disease_code": "D005",
+                        "disease_name": "Schizophrenia"
+                    },
+                    {
+                        "disease_code": "D021",
+                        "disease_name": "Anorexia Nervosa"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 41\n- **Gender:** Female\n- **Occupation:** Restaurant Owner\n- **Marital Status:** Married\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Anorexia Nervosa\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. anorexia_nervosa Requirements:**\n- Eating Very Small Amounts (Eating only one or two bites a day or extremely small portions per meal.)\n- Continuous Weight Loss (A state where weight continues to decrease due to intentional restriction of intake.)\n- Obsession with Weight Gain (Compulsively checking the scale and becoming extremely anxious about even the slightest increase.)\n- Dismissal of Concerns (Exaggerating or rejecting the concerns of doctors or family as unnecessary.)\n\n**Critical Diagnostic Criteria:**"
+    },
+    "D021_l016": {
+        "question": "A 50-year-old married male airline pilot presents with a several-month history of significant changes in eating patterns and body image concerns. He reports a strict avoidance of specific food groups, including carbohydrates and fats, leading to an overall reduction in caloric intake. The patient expresses an intense preoccupation with weight loss, despite being objectively underweight, and exhibits significant anxiety regarding any perceived weight gain, frequently monitoring his weight. He describes a distorted perception of his body, viewing himself as larger than he is, particularly noting specific body parts as excessively large. The patient tends to minimize or disregard the physical consequences of his low weight, such as dizziness and hair loss.",
+        "options": "\n    A. Attention-Deficit/Hyperactivity Disorder (Predominantly Hyperactive/Impulsive Presentation)\n    B. Bulimia Nervosa\n    C. Anorexia Nervosa\n    D. Schizophrenia\n    ",
+        "answer": "C. Anorexia Nervosa",
+        "features": {
+            "question": {
+                "disease_code": "D021",
+                "disease_name": "Anorexia Nervosa",
+                "sampled_features": {
+                    "disease_code": "D021",
+                    "disease_name": "Anorexia Nervosa",
+                    "sampled_diagnostic_criteria": {},
+                    "sampled_symptom_groups": {
+                        "anorexia_nervosa": {
+                            "symptoms": [
+                                "S043",
+                                "S044",
+                                "S045",
+                                "S046",
+                                "S084"
+                            ],
+                            "name": "anorexia_nervosa"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S043",
+                        "S044",
+                        "S045",
+                        "S046",
+                        "S084"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S043": {
+                            "name": "Restrictive_Intake",
+                            "categoty": "anorexia_nervosa",
+                            "description": "Persistent restriction of energy intake relative to requirements, leading to significantly low body weight.",
+                            "subtypes": {
+                                "Exclusion of Specific Food Groups": "Strictly avoiding specific food groups like carbohydrates or fats to prevent nutritional imbalance."
+                            }
+                        },
+                        "S044": {
+                            "name": "Low_Weight",
+                            "categoty": "anorexia_nervosa",
+                            "description": "A body weight that is significantly below the minimum level of health for age, sex, developmental trajectory, and physical health.",
+                            "subtypes": {
+                                "Insistence on Low Weight": "Attempting to lose more weight or refusing to restore weight despite already being underweight."
+                            }
+                        },
+                        "S045": {
+                            "name": "Fear_of_Weight_Gain",
+                            "categoty": "body_image_cognition",
+                            "description": "Intense fear of gaining weight or of becoming fat, even though at a significantly low weight.",
+                            "subtypes": {
+                                "Obsession with Weight Gain": "Compulsively checking the scale and becoming extremely anxious about even the slightest increase."
+                            }
+                        },
+                        "S046": {
+                            "name": "Body_Image_Weight_Shape_Disturbance",
+                            "categoty": "body_image_cognition",
+                            "description": "Undue influence of body weight or shape on self-evaluation.",
+                            "subtypes": {
+                                "Distorted Body Image": "Perceiving one's body as much fatter than it actually is or perceiving specific parts as excessively large when looking in the mirror."
+                            }
+                        },
+                        "S084": {
+                            "name": "Low_Weight_Severity_Non_Recognition",
+                            "categoty": "body_image_cognition",
+                            "description": "Persistent lack of recognition of the seriousness of the current low body weight.",
+                            "subtypes": {
+                                "Disregard of Symptoms": "Not taking physical symptoms caused by low weight (dizziness, hair loss, amenorrhea) seriously."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Attention-Deficit/Hyperactivity Disorder (Predominantly Hyperactive/Impulsive Presentation)",
+                    "Bulimia Nervosa",
+                    "Anorexia Nervosa",
+                    "Schizophrenia"
+                ],
+                "answer_index": [
+                    2
+                ],
+                "index_types": [
+                    "Less likely option",
+                    "Moderately likely option",
+                    "answer",
+                    "Less likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D003",
+                        "disease_name": "Attention-Deficit/Hyperactivity Disorder (Predominantly Hyperactive/Impulsive Presentation)"
+                    },
+                    {
+                        "disease_code": "D022",
+                        "disease_name": "Bulimia Nervosa",
+                        "shared_symptoms": [
+                            "S045",
+                            "S046"
+                        ]
+                    },
+                    {
+                        "disease_code": "D021",
+                        "disease_name": "Anorexia Nervosa"
+                    },
+                    {
+                        "disease_code": "D005",
+                        "disease_name": "Schizophrenia"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 50\n- **Gender:** Male\n- **Occupation:** Airline Pilot\n- **Marital Status:** Married\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Anorexia Nervosa\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. anorexia_nervosa Requirements:**\n- Exclusion of Specific Food Groups (Strictly avoiding specific food groups like carbohydrates or fats to prevent nutritional imbalance.)\n- Insistence on Low Weight (Attempting to lose more weight or refusing to restore weight despite already being underweight.)\n- Obsession with Weight Gain (Compulsively checking the scale and becoming extremely anxious about even the slightest increase.)\n- Distorted Body Image (Perceiving one's body as much fatter than it actually is or perceiving specific parts as excessively large when looking in the mirror.)\n- Disregard of Symptoms (Not taking physical symptoms caused by low weight (dizziness, hair loss, amenorrhea) seriously.)\n\n**Critical Diagnostic Criteria:**"
+    },
+    "D021_l017": {
+        "question": "A 35-year-old married male plumber presents with a clinical picture characterized by significant dietary restrictions and body image preoccupation, reportedly ongoing for the past 18 months. He rigorously avoids specific food groups, including carbohydrates and fats, despite evidence of nutritional imbalance. The patient exhibits a persistent insistence on further weight loss, demonstrating a refusal to restore weight, even in an underweight state. He expresses an intense fear that consuming higher-calorie foods will result in immediate weight gain. His self-worth appears inextricably linked to his weight and body shape. Furthermore, the patient demonstrates a pervasive denial or dismissal of the established medical risks associated with his underweight status.",
+        "options": "\n    A. Attention-Deficit/Hyperactivity Disorder (Predominantly Hyperactive/Impulsive Presentation)\n    B. Bulimia Nervosa\n    C. Anorexia Nervosa\n    D. Schizophrenia\n    ",
+        "answer": "C. Anorexia Nervosa",
+        "features": {
+            "question": {
+                "disease_code": "D021",
+                "disease_name": "Anorexia Nervosa",
+                "sampled_features": {
+                    "disease_code": "D021",
+                    "disease_name": "Anorexia Nervosa",
+                    "sampled_diagnostic_criteria": {},
+                    "sampled_symptom_groups": {
+                        "anorexia_nervosa": {
+                            "symptoms": [
+                                "S043",
+                                "S044",
+                                "S045",
+                                "S046",
+                                "S084"
+                            ],
+                            "name": "anorexia_nervosa"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S043",
+                        "S044",
+                        "S045",
+                        "S046",
+                        "S084"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S043": {
+                            "name": "Restrictive_Intake",
+                            "categoty": "anorexia_nervosa",
+                            "description": "Persistent restriction of energy intake relative to requirements, leading to significantly low body weight.",
+                            "subtypes": {
+                                "Exclusion of Specific Food Groups": "Strictly avoiding specific food groups like carbohydrates or fats to prevent nutritional imbalance."
+                            }
+                        },
+                        "S044": {
+                            "name": "Low_Weight",
+                            "categoty": "anorexia_nervosa",
+                            "description": "A body weight that is significantly below the minimum level of health for age, sex, developmental trajectory, and physical health.",
+                            "subtypes": {
+                                "Insistence on Low Weight": "Attempting to lose more weight or refusing to restore weight despite already being underweight."
+                            }
+                        },
+                        "S045": {
+                            "name": "Fear_of_Weight_Gain",
+                            "categoty": "body_image_cognition",
+                            "description": "Intense fear of gaining weight or of becoming fat, even though at a significantly low weight.",
+                            "subtypes": {
+                                "Fear of Specific Foods": "Fear that eating high-calorie foods will immediately lead to weight gain."
+                            }
+                        },
+                        "S046": {
+                            "name": "Body_Image_Weight_Shape_Disturbance",
+                            "categoty": "body_image_cognition",
+                            "description": "Undue influence of body weight or shape on self-evaluation.",
+                            "subtypes": {
+                                "Self-Worth Dependent on Weight": "Judging whether one is a good or successful person solely based on weight or body shape."
+                            }
+                        },
+                        "S084": {
+                            "name": "Low_Weight_Severity_Non_Recognition",
+                            "categoty": "body_image_cognition",
+                            "description": "Persistent lack of recognition of the seriousness of the current low body weight.",
+                            "subtypes": {
+                                "Denial of Medical Risk": "Not admitting or dismissing the health risks caused by being underweight."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Attention-Deficit/Hyperactivity Disorder (Predominantly Hyperactive/Impulsive Presentation)",
+                    "Bulimia Nervosa",
+                    "Anorexia Nervosa",
+                    "Schizophrenia"
+                ],
+                "answer_index": [
+                    2
+                ],
+                "index_types": [
+                    "Less likely option",
+                    "Moderately likely option",
+                    "answer",
+                    "Less likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D003",
+                        "disease_name": "Attention-Deficit/Hyperactivity Disorder (Predominantly Hyperactive/Impulsive Presentation)"
+                    },
+                    {
+                        "disease_code": "D022",
+                        "disease_name": "Bulimia Nervosa",
+                        "shared_symptoms": [
+                            "S045",
+                            "S046"
+                        ]
+                    },
+                    {
+                        "disease_code": "D021",
+                        "disease_name": "Anorexia Nervosa"
+                    },
+                    {
+                        "disease_code": "D005",
+                        "disease_name": "Schizophrenia"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 35\n- **Gender:** Male\n- **Occupation:** Plumber\n- **Marital Status:** Married\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Anorexia Nervosa\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. anorexia_nervosa Requirements:**\n- Exclusion of Specific Food Groups (Strictly avoiding specific food groups like carbohydrates or fats to prevent nutritional imbalance.)\n- Insistence on Low Weight (Attempting to lose more weight or refusing to restore weight despite already being underweight.)\n- Fear of Specific Foods (Fear that eating high-calorie foods will immediately lead to weight gain.)\n- Self-Worth Dependent on Weight (Judging whether one is a good or successful person solely based on weight or body shape.)\n- Denial of Medical Risk (Not admitting or dismissing the health risks caused by being underweight.)\n\n**Critical Diagnostic Criteria:**"
+    },
+    "D021_l018": {
+        "question": "A 55-year-old widowed female, employed as a housekeeper presented for psychiatric evaluation. Her husband passed away six years prior, and the patient reports the onset of her current symptoms approximately one year ago. The patient exhibits self-imposed dietary restrictions, limiting daily caloric intake to a significantly low level. She articulates a persistent desire for further weight loss despite being markedly underweight. There is a notable preoccupation with body weight, manifesting as compulsive daily weight checks and significant distress in response to perceived weight gain. The patient's self-esteem appears intrinsically linked to her body shape and weight. Despite clear evidence of malnourishment and medical complications, she expresses a strong denial regarding the health risks associated with her underweight status. These symptoms have been present consistently for the past year.",
+        "options": "\n    A. Attention-Deficit/Hyperactivity Disorder (Predominantly Hyperactive/Impulsive Presentation)\n    B. Bulimia Nervosa\n    C. Anorexia Nervosa\n    D. Schizophrenia\n    ",
+        "answer": "C. Anorexia Nervosa",
+        "features": {
+            "question": {
+                "disease_code": "D021",
+                "disease_name": "Anorexia Nervosa",
+                "sampled_features": {
+                    "disease_code": "D021",
+                    "disease_name": "Anorexia Nervosa",
+                    "sampled_diagnostic_criteria": {},
+                    "sampled_symptom_groups": {
+                        "anorexia_nervosa": {
+                            "symptoms": [
+                                "S043",
+                                "S044",
+                                "S045",
+                                "S046",
+                                "S084"
+                            ],
+                            "name": "anorexia_nervosa"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S043",
+                        "S044",
+                        "S045",
+                        "S046",
+                        "S084"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S043": {
+                            "name": "Restrictive_Intake",
+                            "categoty": "anorexia_nervosa",
+                            "description": "Persistent restriction of energy intake relative to requirements, leading to significantly low body weight.",
+                            "subtypes": {
+                                "Strict Calorie Restriction": "Limiting daily caloric intake to an extremely low level."
+                            }
+                        },
+                        "S044": {
+                            "name": "Low_Weight",
+                            "categoty": "anorexia_nervosa",
+                            "description": "A body weight that is significantly below the minimum level of health for age, sex, developmental trajectory, and physical health.",
+                            "subtypes": {
+                                "Insistence on Low Weight": "Attempting to lose more weight or refusing to restore weight despite already being underweight."
+                            }
+                        },
+                        "S045": {
+                            "name": "Fear_of_Weight_Gain",
+                            "categoty": "body_image_cognition",
+                            "description": "Intense fear of gaining weight or of becoming fat, even though at a significantly low weight.",
+                            "subtypes": {
+                                "Obsession with Weight Gain": "Compulsively checking the scale and becoming extremely anxious about even the slightest increase."
+                            }
+                        },
+                        "S046": {
+                            "name": "Body_Image_Weight_Shape_Disturbance",
+                            "categoty": "body_image_cognition",
+                            "description": "Undue influence of body weight or shape on self-evaluation.",
+                            "subtypes": {
+                                "Self-Worth Dependent on Weight": "Judging whether one is a good or successful person solely based on weight or body shape."
+                            }
+                        },
+                        "S084": {
+                            "name": "Low_Weight_Severity_Non_Recognition",
+                            "categoty": "body_image_cognition",
+                            "description": "Persistent lack of recognition of the seriousness of the current low body weight.",
+                            "subtypes": {
+                                "Denial of Medical Risk": "Not admitting or dismissing the health risks caused by being underweight."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Attention-Deficit/Hyperactivity Disorder (Predominantly Hyperactive/Impulsive Presentation)",
+                    "Bulimia Nervosa",
+                    "Anorexia Nervosa",
+                    "Schizophrenia"
+                ],
+                "answer_index": [
+                    2
+                ],
+                "index_types": [
+                    "Less likely option",
+                    "Moderately likely option",
+                    "answer",
+                    "Less likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D003",
+                        "disease_name": "Attention-Deficit/Hyperactivity Disorder (Predominantly Hyperactive/Impulsive Presentation)"
+                    },
+                    {
+                        "disease_code": "D022",
+                        "disease_name": "Bulimia Nervosa",
+                        "shared_symptoms": [
+                            "S045",
+                            "S046"
+                        ]
+                    },
+                    {
+                        "disease_code": "D021",
+                        "disease_name": "Anorexia Nervosa"
+                    },
+                    {
+                        "disease_code": "D005",
+                        "disease_name": "Schizophrenia"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 55\n- **Gender:** Female\n- **Occupation:** Housekeeper\n- **Marital Status:** Widowed\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Anorexia Nervosa\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. anorexia_nervosa Requirements:**\n- Strict Calorie Restriction (Limiting daily caloric intake to an extremely low level.)\n- Insistence on Low Weight (Attempting to lose more weight or refusing to restore weight despite already being underweight.)\n- Obsession with Weight Gain (Compulsively checking the scale and becoming extremely anxious about even the slightest increase.)\n- Self-Worth Dependent on Weight (Judging whether one is a good or successful person solely based on weight or body shape.)\n- Denial of Medical Risk (Not admitting or dismissing the health risks caused by being underweight.)\n\n**Critical Diagnostic Criteria:**"
+    },
+    "D021_l019": {
+        "question": "A 34-year-old married male firefighter presents with a six-month history of restrictive eating behaviors. He reports intentionally skipping meals, including breakfast and dinner, and expresses a persistent desire for further weight loss despite his current underweight status. The patient describes an intense phobia of gaining weight or becoming obese, which significantly impacts his daily functioning. His self-worth is predominantly linked to his body weight and shape. He tends to minimize or dismiss concerns voiced by family members and medical professionals regarding his nutritional intake and physical condition. The patient denies any recent or significant life stressors that would account for the initiation of these symptoms.",
+        "options": "\n    A. Attention-Deficit/Hyperactivity Disorder (Predominantly Hyperactive/Impulsive Presentation)\n    B. Bulimia Nervosa\n    C. Anorexia Nervosa\n    D. Schizophrenia\n    ",
+        "answer": "C. Anorexia Nervosa",
+        "features": {
+            "question": {
+                "disease_code": "D021",
+                "disease_name": "Anorexia Nervosa",
+                "sampled_features": {
+                    "disease_code": "D021",
+                    "disease_name": "Anorexia Nervosa",
+                    "sampled_diagnostic_criteria": {},
+                    "sampled_symptom_groups": {
+                        "anorexia_nervosa": {
+                            "symptoms": [
+                                "S043",
+                                "S044",
+                                "S045",
+                                "S046",
+                                "S084"
+                            ],
+                            "name": "anorexia_nervosa"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S043",
+                        "S044",
+                        "S045",
+                        "S046",
+                        "S084"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S043": {
+                            "name": "Restrictive_Intake",
+                            "categoty": "anorexia_nervosa",
+                            "description": "Persistent restriction of energy intake relative to requirements, leading to significantly low body weight.",
+                            "subtypes": {
+                                "Skipping Meals": "Intentionally skipping breakfast, lunch, or dinner."
+                            }
+                        },
+                        "S044": {
+                            "name": "Low_Weight",
+                            "categoty": "anorexia_nervosa",
+                            "description": "A body weight that is significantly below the minimum level of health for age, sex, developmental trajectory, and physical health.",
+                            "subtypes": {
+                                "Insistence on Low Weight": "Attempting to lose more weight or refusing to restore weight despite already being underweight."
+                            }
+                        },
+                        "S045": {
+                            "name": "Fear_of_Weight_Gain",
+                            "categoty": "body_image_cognition",
+                            "description": "Intense fear of gaining weight or of becoming fat, even though at a significantly low weight.",
+                            "subtypes": {
+                                "Fear of Weight Gain": "Extreme fear and loathing of gaining weight or becoming fat."
+                            }
+                        },
+                        "S046": {
+                            "name": "Body_Image_Weight_Shape_Disturbance",
+                            "categoty": "body_image_cognition",
+                            "description": "Undue influence of body weight or shape on self-evaluation.",
+                            "subtypes": {
+                                "Self-Worth Dependent on Weight": "Judging whether one is a good or successful person solely based on weight or body shape."
+                            }
+                        },
+                        "S084": {
+                            "name": "Low_Weight_Severity_Non_Recognition",
+                            "categoty": "body_image_cognition",
+                            "description": "Persistent lack of recognition of the seriousness of the current low body weight.",
+                            "subtypes": {
+                                "Dismissal of Concerns": "Exaggerating or rejecting the concerns of doctors or family as unnecessary."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Attention-Deficit/Hyperactivity Disorder (Predominantly Hyperactive/Impulsive Presentation)",
+                    "Bulimia Nervosa",
+                    "Anorexia Nervosa",
+                    "Schizophrenia"
+                ],
+                "answer_index": [
+                    2
+                ],
+                "index_types": [
+                    "Less likely option",
+                    "Moderately likely option",
+                    "answer",
+                    "Less likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D003",
+                        "disease_name": "Attention-Deficit/Hyperactivity Disorder (Predominantly Hyperactive/Impulsive Presentation)"
+                    },
+                    {
+                        "disease_code": "D022",
+                        "disease_name": "Bulimia Nervosa",
+                        "shared_symptoms": [
+                            "S045",
+                            "S046"
+                        ]
+                    },
+                    {
+                        "disease_code": "D021",
+                        "disease_name": "Anorexia Nervosa"
+                    },
+                    {
+                        "disease_code": "D005",
+                        "disease_name": "Schizophrenia"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 34\n- **Gender:** Male\n- **Occupation:** Firefighter (Rescue Team)\n- **Marital Status:** Married\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Anorexia Nervosa\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. anorexia_nervosa Requirements:**\n- Skipping Meals (Intentionally skipping breakfast, lunch, or dinner.)\n- Insistence on Low Weight (Attempting to lose more weight or refusing to restore weight despite already being underweight.)\n- Fear of Weight Gain (Extreme fear and loathing of gaining weight or becoming fat.)\n- Self-Worth Dependent on Weight (Judging whether one is a good or successful person solely based on weight or body shape.)\n- Dismissal of Concerns (Exaggerating or rejecting the concerns of doctors or family as unnecessary.)\n\n**Critical Diagnostic Criteria:**"
+    },
+    "D021_l020": {
+        "question": "A 47-year-old single female social worker presents with a multi-month history of restrictive eating behaviors and body image disturbance. The patient reports a persistent avoidance of specific food groups, including carbohydrates and fats, despite a body mass index (BMI) indicative of underweight status. She expresses intense fear regarding potential weight gain and demonstrates a pervasive dissatisfaction with her body, perceiving herself as significantly larger than she objectively appears. The patient has consistently resisted efforts by family and medical professionals to address her weight and dietary restrictions. The duration of concerns is approximately seven months.",
+        "options": "\n    A. Attention-Deficit/Hyperactivity Disorder (Predominantly Hyperactive/Impulsive Presentation)\n    B. Bulimia Nervosa\n    C. Anorexia Nervosa\n    D. Schizophrenia\n    ",
+        "answer": "C. Anorexia Nervosa",
+        "features": {
+            "question": {
+                "disease_code": "D021",
+                "disease_name": "Anorexia Nervosa",
+                "sampled_features": {
+                    "disease_code": "D021",
+                    "disease_name": "Anorexia Nervosa",
+                    "sampled_diagnostic_criteria": {},
+                    "sampled_symptom_groups": {
+                        "anorexia_nervosa": {
+                            "symptoms": [
+                                "S043",
+                                "S044",
+                                "S045",
+                                "S046",
+                                "S084"
+                            ],
+                            "name": "anorexia_nervosa"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S043",
+                        "S044",
+                        "S045",
+                        "S046",
+                        "S084"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S043": {
+                            "name": "Restrictive_Intake",
+                            "categoty": "anorexia_nervosa",
+                            "description": "Persistent restriction of energy intake relative to requirements, leading to significantly low body weight.",
+                            "subtypes": {
+                                "Exclusion of Specific Food Groups": "Strictly avoiding specific food groups like carbohydrates or fats to prevent nutritional imbalance."
+                            }
+                        },
+                        "S044": {
+                            "name": "Low_Weight",
+                            "categoty": "anorexia_nervosa",
+                            "description": "A body weight that is significantly below the minimum level of health for age, sex, developmental trajectory, and physical health.",
+                            "subtypes": {
+                                "Insistence on Low Weight": "Attempting to lose more weight or refusing to restore weight despite already being underweight."
+                            }
+                        },
+                        "S045": {
+                            "name": "Fear_of_Weight_Gain",
+                            "categoty": "body_image_cognition",
+                            "description": "Intense fear of gaining weight or of becoming fat, even though at a significantly low weight.",
+                            "subtypes": {
+                                "Fear of Weight Gain": "Extreme fear and loathing of gaining weight or becoming fat."
+                            }
+                        },
+                        "S046": {
+                            "name": "Body_Image_Weight_Shape_Disturbance",
+                            "categoty": "body_image_cognition",
+                            "description": "Undue influence of body weight or shape on self-evaluation.",
+                            "subtypes": {
+                                "Distorted Body Image": "Perceiving one's body as much fatter than it actually is or perceiving specific parts as excessively large when looking in the mirror."
+                            }
+                        },
+                        "S084": {
+                            "name": "Low_Weight_Severity_Non_Recognition",
+                            "categoty": "body_image_cognition",
+                            "description": "Persistent lack of recognition of the seriousness of the current low body weight.",
+                            "subtypes": {
+                                "Dismissal of Concerns": "Exaggerating or rejecting the concerns of doctors or family as unnecessary."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Attention-Deficit/Hyperactivity Disorder (Predominantly Hyperactive/Impulsive Presentation)",
+                    "Bulimia Nervosa",
+                    "Anorexia Nervosa",
+                    "Schizophrenia"
+                ],
+                "answer_index": [
+                    2
+                ],
+                "index_types": [
+                    "Less likely option",
+                    "Moderately likely option",
+                    "answer",
+                    "Less likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D003",
+                        "disease_name": "Attention-Deficit/Hyperactivity Disorder (Predominantly Hyperactive/Impulsive Presentation)"
+                    },
+                    {
+                        "disease_code": "D022",
+                        "disease_name": "Bulimia Nervosa",
+                        "shared_symptoms": [
+                            "S045",
+                            "S046"
+                        ]
+                    },
+                    {
+                        "disease_code": "D021",
+                        "disease_name": "Anorexia Nervosa"
+                    },
+                    {
+                        "disease_code": "D005",
+                        "disease_name": "Schizophrenia"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 47\n- **Gender:** Female\n- **Occupation:** Social Worker\n- **Marital Status:** Single\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Anorexia Nervosa\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. anorexia_nervosa Requirements:**\n- Exclusion of Specific Food Groups (Strictly avoiding specific food groups like carbohydrates or fats to prevent nutritional imbalance.)\n- Insistence on Low Weight (Attempting to lose more weight or refusing to restore weight despite already being underweight.)\n- Fear of Weight Gain (Extreme fear and loathing of gaining weight or becoming fat.)\n- Distorted Body Image (Perceiving one's body as much fatter than it actually is or perceiving specific parts as excessively large when looking in the mirror.)\n- Dismissal of Concerns (Exaggerating or rejecting the concerns of doctors or family as unnecessary.)\n\n**Critical Diagnostic Criteria:**"
+    },
+    "D021_l021": {
+        "question": "A 48-year-old married male, employed as a Waste Management Officer, presents with symptoms consistent with a significant eating disturbance, evolving over the past eight months. The patient consistently consumes exceptionally small quantities of food, frequently limiting intake to only one or two bites or minimal portions per meal. There is a persistent drive to achieve a lower body weight and a refusal to maintain a healthy weight, despite being clinically underweight. He reports an intense apprehension regarding the consumption of higher-calorie foods, believing such intake directly results in immediate weight gain. His self-esteem is notably intertwined with his physical appearance, particularly his body weight and shape. The patient tends to dismiss or minimize concerns expressed by both family members and medical professionals regarding his nutritional status and low body weight.",
+        "options": "\n    A. Bipolar I Disorder\n    B. Anorexia Nervosa\n    C. Bulimia Nervosa\n    D. Major Depressive Disorder with Psychotic Features\n    ",
+        "answer": "B. Anorexia Nervosa",
+        "features": {
+            "question": {
+                "disease_code": "D021",
+                "disease_name": "Anorexia Nervosa",
+                "sampled_features": {
+                    "disease_code": "D021",
+                    "disease_name": "Anorexia Nervosa",
+                    "sampled_diagnostic_criteria": {},
+                    "sampled_symptom_groups": {
+                        "anorexia_nervosa": {
+                            "symptoms": [
+                                "S043",
+                                "S044",
+                                "S045",
+                                "S046",
+                                "S084"
+                            ],
+                            "name": "anorexia_nervosa"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S043",
+                        "S044",
+                        "S045",
+                        "S046",
+                        "S084"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S043": {
+                            "name": "Restrictive_Intake",
+                            "categoty": "anorexia_nervosa",
+                            "description": "Persistent restriction of energy intake relative to requirements, leading to significantly low body weight.",
+                            "subtypes": {
+                                "Eating Very Small Amounts": "Eating only one or two bites a day or extremely small portions per meal."
+                            }
+                        },
+                        "S044": {
+                            "name": "Low_Weight",
+                            "categoty": "anorexia_nervosa",
+                            "description": "A body weight that is significantly below the minimum level of health for age, sex, developmental trajectory, and physical health.",
+                            "subtypes": {
+                                "Insistence on Low Weight": "Attempting to lose more weight or refusing to restore weight despite already being underweight."
+                            }
+                        },
+                        "S045": {
+                            "name": "Fear_of_Weight_Gain",
+                            "categoty": "body_image_cognition",
+                            "description": "Intense fear of gaining weight or of becoming fat, even though at a significantly low weight.",
+                            "subtypes": {
+                                "Fear of Specific Foods": "Fear that eating high-calorie foods will immediately lead to weight gain."
+                            }
+                        },
+                        "S046": {
+                            "name": "Body_Image_Weight_Shape_Disturbance",
+                            "categoty": "body_image_cognition",
+                            "description": "Undue influence of body weight or shape on self-evaluation.",
+                            "subtypes": {
+                                "Self-Worth Dependent on Weight": "Judging whether one is a good or successful person solely based on weight or body shape."
+                            }
+                        },
+                        "S084": {
+                            "name": "Low_Weight_Severity_Non_Recognition",
+                            "categoty": "body_image_cognition",
+                            "description": "Persistent lack of recognition of the seriousness of the current low body weight.",
+                            "subtypes": {
+                                "Dismissal of Concerns": "Exaggerating or rejecting the concerns of doctors or family as unnecessary."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Bipolar I Disorder",
+                    "Anorexia Nervosa",
+                    "Bulimia Nervosa",
+                    "Major Depressive Disorder with Psychotic Features"
+                ],
+                "answer_index": [
+                    1
+                ],
+                "index_types": [
+                    "Less likely option",
+                    "answer",
+                    "Moderately likely option",
+                    "Less likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D008",
+                        "disease_name": "Bipolar I Disorder"
+                    },
+                    {
+                        "disease_code": "D021",
+                        "disease_name": "Anorexia Nervosa"
+                    },
+                    {
+                        "disease_code": "D022",
+                        "disease_name": "Bulimia Nervosa",
+                        "shared_symptoms": [
+                            "S045"
+                        ]
+                    },
+                    {
+                        "disease_code": "D015",
+                        "disease_name": "Major Depressive Disorder with Psychotic Features"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 48\n- **Gender:** Male\n- **Occupation:** Waste Management Officer\n- **Marital Status:** Married\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Anorexia Nervosa\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. anorexia_nervosa Requirements:**\n- Eating Very Small Amounts (Eating only one or two bites a day or extremely small portions per meal.)\n- Insistence on Low Weight (Attempting to lose more weight or refusing to restore weight despite already being underweight.)\n- Fear of Specific Foods (Fear that eating high-calorie foods will immediately lead to weight gain.)\n- Self-Worth Dependent on Weight (Judging whether one is a good or successful person solely based on weight or body shape.)\n- Dismissal of Concerns (Exaggerating or rejecting the concerns of doctors or family as unnecessary.)\n\n**Critical Diagnostic Criteria:**"
+    },
+    "D021_l022": {
+        "question": "A 47-year-old widowed male, employed as a Legacy System Maintainer, presents with a constellation of symptoms observed over the past 18 months. The patient exhibits significant restriction of caloric intake, describing an intentional and pervasive limitation of daily food consumption. Despite objective evidence of being underweight, he expresses an intense drive to lose additional weight and resists efforts towards weight restoration. This is coupled with a profound fear of gaining weight or becoming corpulent. The patient reports a distorted perception of his body, viewing himself as considerably larger than his actual physical form, and identifying specific body parts as excessively large. He demonstrates a notable disregard for physical symptoms associated with his low weight, such as episodic dizziness and hair thinning, minimizing their clinical significance.",
+        "options": "\n    A. Bipolar I Disorder\n    B. Anorexia Nervosa\n    C. Bulimia Nervosa\n    D. Major Depressive Disorder with Psychotic Features\n    ",
+        "answer": "B. Anorexia Nervosa",
+        "features": {
+            "question": {
+                "disease_code": "D021",
+                "disease_name": "Anorexia Nervosa",
+                "sampled_features": {
+                    "disease_code": "D021",
+                    "disease_name": "Anorexia Nervosa",
+                    "sampled_diagnostic_criteria": {},
+                    "sampled_symptom_groups": {
+                        "anorexia_nervosa": {
+                            "symptoms": [
+                                "S043",
+                                "S044",
+                                "S045",
+                                "S046",
+                                "S084"
+                            ],
+                            "name": "anorexia_nervosa"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S043",
+                        "S044",
+                        "S045",
+                        "S046",
+                        "S084"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S043": {
+                            "name": "Restrictive_Intake",
+                            "categoty": "anorexia_nervosa",
+                            "description": "Persistent restriction of energy intake relative to requirements, leading to significantly low body weight.",
+                            "subtypes": {
+                                "Strict Calorie Restriction": "Limiting daily caloric intake to an extremely low level."
+                            }
+                        },
+                        "S044": {
+                            "name": "Low_Weight",
+                            "categoty": "anorexia_nervosa",
+                            "description": "A body weight that is significantly below the minimum level of health for age, sex, developmental trajectory, and physical health.",
+                            "subtypes": {
+                                "Insistence on Low Weight": "Attempting to lose more weight or refusing to restore weight despite already being underweight."
+                            }
+                        },
+                        "S045": {
+                            "name": "Fear_of_Weight_Gain",
+                            "categoty": "body_image_cognition",
+                            "description": "Intense fear of gaining weight or of becoming fat, even though at a significantly low weight.",
+                            "subtypes": {
+                                "Fear of Weight Gain": "Extreme fear and loathing of gaining weight or becoming fat."
+                            }
+                        },
+                        "S046": {
+                            "name": "Body_Image_Weight_Shape_Disturbance",
+                            "categoty": "body_image_cognition",
+                            "description": "Undue influence of body weight or shape on self-evaluation.",
+                            "subtypes": {
+                                "Distorted Body Image": "Perceiving one's body as much fatter than it actually is or perceiving specific parts as excessively large when looking in the mirror."
+                            }
+                        },
+                        "S084": {
+                            "name": "Low_Weight_Severity_Non_Recognition",
+                            "categoty": "body_image_cognition",
+                            "description": "Persistent lack of recognition of the seriousness of the current low body weight.",
+                            "subtypes": {
+                                "Disregard of Symptoms": "Not taking physical symptoms caused by low weight (dizziness, hair loss, amenorrhea) seriously."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Bipolar I Disorder",
+                    "Anorexia Nervosa",
+                    "Bulimia Nervosa",
+                    "Major Depressive Disorder with Psychotic Features"
+                ],
+                "answer_index": [
+                    1
+                ],
+                "index_types": [
+                    "Less likely option",
+                    "answer",
+                    "Moderately likely option",
+                    "Less likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D008",
+                        "disease_name": "Bipolar I Disorder"
+                    },
+                    {
+                        "disease_code": "D021",
+                        "disease_name": "Anorexia Nervosa"
+                    },
+                    {
+                        "disease_code": "D022",
+                        "disease_name": "Bulimia Nervosa",
+                        "shared_symptoms": [
+                            "S045"
+                        ]
+                    },
+                    {
+                        "disease_code": "D015",
+                        "disease_name": "Major Depressive Disorder with Psychotic Features"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 47\n- **Gender:** Male\n- **Occupation:** Legacy System Maintainer (COBOL)\n- **Marital Status:** Widowed\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Anorexia Nervosa\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. anorexia_nervosa Requirements:**\n- Strict Calorie Restriction (Limiting daily caloric intake to an extremely low level.)\n- Insistence on Low Weight (Attempting to lose more weight or refusing to restore weight despite already being underweight.)\n- Fear of Weight Gain (Extreme fear and loathing of gaining weight or becoming fat.)\n- Distorted Body Image (Perceiving one's body as much fatter than it actually is or perceiving specific parts as excessively large when looking in the mirror.)\n- Disregard of Symptoms (Not taking physical symptoms caused by low weight (dizziness, hair loss, amenorrhea) seriously.)\n\n**Critical Diagnostic Criteria:**"
+    },
+    "D021_l023": {
+        "question": "A 30-year-old single male fitness trainer presents with a history of significant dietary restriction and an intense preoccupation with his body. For approximately six months, he has exhibited rigid avoidance of specific food groups, including carbohydrates and fats. Despite being underweight, the patient expresses a persistent desire for further weight loss and actively resists efforts to restore weight. He articulates a strong fear that consumption of high-calorie foods will result in immediate weight gain. His self-worth appears inextricably linked to his weight and body shape. Furthermore, he minimizes the significance of physical symptoms such as dizziness and hair loss, which are likely sequelae of his low weight.",
+        "options": "\n    A. Bipolar I Disorder\n    B. Anorexia Nervosa\n    C. Bulimia Nervosa\n    D. Major Depressive Disorder with Psychotic Features\n    ",
+        "answer": "B. Anorexia Nervosa",
+        "features": {
+            "question": {
+                "disease_code": "D021",
+                "disease_name": "Anorexia Nervosa",
+                "sampled_features": {
+                    "disease_code": "D021",
+                    "disease_name": "Anorexia Nervosa",
+                    "sampled_diagnostic_criteria": {},
+                    "sampled_symptom_groups": {
+                        "anorexia_nervosa": {
+                            "symptoms": [
+                                "S043",
+                                "S044",
+                                "S045",
+                                "S046",
+                                "S084"
+                            ],
+                            "name": "anorexia_nervosa"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S043",
+                        "S044",
+                        "S045",
+                        "S046",
+                        "S084"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S043": {
+                            "name": "Restrictive_Intake",
+                            "categoty": "anorexia_nervosa",
+                            "description": "Persistent restriction of energy intake relative to requirements, leading to significantly low body weight.",
+                            "subtypes": {
+                                "Exclusion of Specific Food Groups": "Strictly avoiding specific food groups like carbohydrates or fats to prevent nutritional imbalance."
+                            }
+                        },
+                        "S044": {
+                            "name": "Low_Weight",
+                            "categoty": "anorexia_nervosa",
+                            "description": "A body weight that is significantly below the minimum level of health for age, sex, developmental trajectory, and physical health.",
+                            "subtypes": {
+                                "Insistence on Low Weight": "Attempting to lose more weight or refusing to restore weight despite already being underweight."
+                            }
+                        },
+                        "S045": {
+                            "name": "Fear_of_Weight_Gain",
+                            "categoty": "body_image_cognition",
+                            "description": "Intense fear of gaining weight or of becoming fat, even though at a significantly low weight.",
+                            "subtypes": {
+                                "Fear of Specific Foods": "Fear that eating high-calorie foods will immediately lead to weight gain."
+                            }
+                        },
+                        "S046": {
+                            "name": "Body_Image_Weight_Shape_Disturbance",
+                            "categoty": "body_image_cognition",
+                            "description": "Undue influence of body weight or shape on self-evaluation.",
+                            "subtypes": {
+                                "Self-Worth Dependent on Weight": "Judging whether one is a good or successful person solely based on weight or body shape."
+                            }
+                        },
+                        "S084": {
+                            "name": "Low_Weight_Severity_Non_Recognition",
+                            "categoty": "body_image_cognition",
+                            "description": "Persistent lack of recognition of the seriousness of the current low body weight.",
+                            "subtypes": {
+                                "Disregard of Symptoms": "Not taking physical symptoms caused by low weight (dizziness, hair loss, amenorrhea) seriously."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Bipolar I Disorder",
+                    "Anorexia Nervosa",
+                    "Bulimia Nervosa",
+                    "Major Depressive Disorder with Psychotic Features"
+                ],
+                "answer_index": [
+                    1
+                ],
+                "index_types": [
+                    "Less likely option",
+                    "answer",
+                    "Moderately likely option",
+                    "Less likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D008",
+                        "disease_name": "Bipolar I Disorder"
+                    },
+                    {
+                        "disease_code": "D021",
+                        "disease_name": "Anorexia Nervosa"
+                    },
+                    {
+                        "disease_code": "D022",
+                        "disease_name": "Bulimia Nervosa",
+                        "shared_symptoms": [
+                            "S045"
+                        ]
+                    },
+                    {
+                        "disease_code": "D015",
+                        "disease_name": "Major Depressive Disorder with Psychotic Features"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 30\n- **Gender:** Male\n- **Occupation:** Fitness Trainer\n- **Marital Status:** Single\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Anorexia Nervosa\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. anorexia_nervosa Requirements:**\n- Exclusion of Specific Food Groups (Strictly avoiding specific food groups like carbohydrates or fats to prevent nutritional imbalance.)\n- Insistence on Low Weight (Attempting to lose more weight or refusing to restore weight despite already being underweight.)\n- Fear of Specific Foods (Fear that eating high-calorie foods will immediately lead to weight gain.)\n- Self-Worth Dependent on Weight (Judging whether one is a good or successful person solely based on weight or body shape.)\n- Disregard of Symptoms (Not taking physical symptoms caused by low weight (dizziness, hair loss, amenorrhea) seriously.)\n\n**Critical Diagnostic Criteria:**"
+    },
+    "D021_l024": {
+        "question": "A 40-year-old divorced male taxi driver presents with a several-month history of significant dietary restriction. His eating patterns are characterized by the strict exclusion of specific food groups, including carbohydrates and fats. He expresses an intense fear that consuming high-calorie foods will immediately result in weight gain. Despite his current underweight status, he remains insistent on further weight loss and has resisted efforts to restore his weight. The patient's self-worth appears strongly tied to his body shape and weight, influencing his overall self-perception. He tends to dismiss concerns raised by family members and physicians regarding his eating habits and physical health, often perceiving them as unwarranted or exaggerated.",
+        "options": "\n    A. Bipolar I Disorder\n    B. Anorexia Nervosa\n    C. Bulimia Nervosa\n    D. Major Depressive Disorder with Psychotic Features\n    ",
+        "answer": "B. Anorexia Nervosa",
+        "features": {
+            "question": {
+                "disease_code": "D021",
+                "disease_name": "Anorexia Nervosa",
+                "sampled_features": {
+                    "disease_code": "D021",
+                    "disease_name": "Anorexia Nervosa",
+                    "sampled_diagnostic_criteria": {},
+                    "sampled_symptom_groups": {
+                        "anorexia_nervosa": {
+                            "symptoms": [
+                                "S043",
+                                "S044",
+                                "S045",
+                                "S046",
+                                "S084"
+                            ],
+                            "name": "anorexia_nervosa"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S043",
+                        "S044",
+                        "S045",
+                        "S046",
+                        "S084"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S043": {
+                            "name": "Restrictive_Intake",
+                            "categoty": "anorexia_nervosa",
+                            "description": "Persistent restriction of energy intake relative to requirements, leading to significantly low body weight.",
+                            "subtypes": {
+                                "Exclusion of Specific Food Groups": "Strictly avoiding specific food groups like carbohydrates or fats to prevent nutritional imbalance."
+                            }
+                        },
+                        "S044": {
+                            "name": "Low_Weight",
+                            "categoty": "anorexia_nervosa",
+                            "description": "A body weight that is significantly below the minimum level of health for age, sex, developmental trajectory, and physical health.",
+                            "subtypes": {
+                                "Insistence on Low Weight": "Attempting to lose more weight or refusing to restore weight despite already being underweight."
+                            }
+                        },
+                        "S045": {
+                            "name": "Fear_of_Weight_Gain",
+                            "categoty": "body_image_cognition",
+                            "description": "Intense fear of gaining weight or of becoming fat, even though at a significantly low weight.",
+                            "subtypes": {
+                                "Fear of Specific Foods": "Fear that eating high-calorie foods will immediately lead to weight gain."
+                            }
+                        },
+                        "S046": {
+                            "name": "Body_Image_Weight_Shape_Disturbance",
+                            "categoty": "body_image_cognition",
+                            "description": "Undue influence of body weight or shape on self-evaluation.",
+                            "subtypes": {
+                                "Self-Worth Dependent on Weight": "Judging whether one is a good or successful person solely based on weight or body shape."
+                            }
+                        },
+                        "S084": {
+                            "name": "Low_Weight_Severity_Non_Recognition",
+                            "categoty": "body_image_cognition",
+                            "description": "Persistent lack of recognition of the seriousness of the current low body weight.",
+                            "subtypes": {
+                                "Dismissal of Concerns": "Exaggerating or rejecting the concerns of doctors or family as unnecessary."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Bipolar I Disorder",
+                    "Anorexia Nervosa",
+                    "Bulimia Nervosa",
+                    "Major Depressive Disorder with Psychotic Features"
+                ],
+                "answer_index": [
+                    1
+                ],
+                "index_types": [
+                    "Less likely option",
+                    "answer",
+                    "Moderately likely option",
+                    "Less likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D008",
+                        "disease_name": "Bipolar I Disorder"
+                    },
+                    {
+                        "disease_code": "D021",
+                        "disease_name": "Anorexia Nervosa"
+                    },
+                    {
+                        "disease_code": "D022",
+                        "disease_name": "Bulimia Nervosa",
+                        "shared_symptoms": [
+                            "S045"
+                        ]
+                    },
+                    {
+                        "disease_code": "D015",
+                        "disease_name": "Major Depressive Disorder with Psychotic Features"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 40\n- **Gender:** Male\n- **Occupation:** Taxi Driver\n- **Marital Status:** Divorced\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Anorexia Nervosa\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. anorexia_nervosa Requirements:**\n- Exclusion of Specific Food Groups (Strictly avoiding specific food groups like carbohydrates or fats to prevent nutritional imbalance.)\n- Insistence on Low Weight (Attempting to lose more weight or refusing to restore weight despite already being underweight.)\n- Fear of Specific Foods (Fear that eating high-calorie foods will immediately lead to weight gain.)\n- Self-Worth Dependent on Weight (Judging whether one is a good or successful person solely based on weight or body shape.)\n- Dismissal of Concerns (Exaggerating or rejecting the concerns of doctors or family as unnecessary.)\n\n**Critical Diagnostic Criteria:**"
+    },
+    "D021_l025": {
+        "question": "A 32-year-old single male cloud architect presents with a several-month history of intentional dietary restriction. The patient reports strict avoidance of specific food groups, including carbohydrates and fats, leading to continuous weight loss over the past six months. He exhibits an intense preoccupation with weight gain, characterized by compulsive self-weighing and significant anxiety regarding minor fluctuations. His self-esteem is notably contingent upon his current weight and perceived body shape. Despite clear evidence of being underweight, the patient denies or minimizes the potential medical complications associated with his current physical state.",
+        "options": "\n    A. Bipolar I Disorder\n    B. Anorexia Nervosa\n    C. Bulimia Nervosa\n    D. Major Depressive Disorder with Psychotic Features\n    ",
+        "answer": "B. Anorexia Nervosa",
+        "features": {
+            "question": {
+                "disease_code": "D021",
+                "disease_name": "Anorexia Nervosa",
+                "sampled_features": {
+                    "disease_code": "D021",
+                    "disease_name": "Anorexia Nervosa",
+                    "sampled_diagnostic_criteria": {},
+                    "sampled_symptom_groups": {
+                        "anorexia_nervosa": {
+                            "symptoms": [
+                                "S043",
+                                "S044",
+                                "S045",
+                                "S046",
+                                "S084"
+                            ],
+                            "name": "anorexia_nervosa"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S043",
+                        "S044",
+                        "S045",
+                        "S046",
+                        "S084"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S043": {
+                            "name": "Restrictive_Intake",
+                            "categoty": "anorexia_nervosa",
+                            "description": "Persistent restriction of energy intake relative to requirements, leading to significantly low body weight.",
+                            "subtypes": {
+                                "Exclusion of Specific Food Groups": "Strictly avoiding specific food groups like carbohydrates or fats to prevent nutritional imbalance."
+                            }
+                        },
+                        "S044": {
+                            "name": "Low_Weight",
+                            "categoty": "anorexia_nervosa",
+                            "description": "A body weight that is significantly below the minimum level of health for age, sex, developmental trajectory, and physical health.",
+                            "subtypes": {
+                                "Continuous Weight Loss": "A state where weight continues to decrease due to intentional restriction of intake."
+                            }
+                        },
+                        "S045": {
+                            "name": "Fear_of_Weight_Gain",
+                            "categoty": "body_image_cognition",
+                            "description": "Intense fear of gaining weight or of becoming fat, even though at a significantly low weight.",
+                            "subtypes": {
+                                "Obsession with Weight Gain": "Compulsively checking the scale and becoming extremely anxious about even the slightest increase."
+                            }
+                        },
+                        "S046": {
+                            "name": "Body_Image_Weight_Shape_Disturbance",
+                            "categoty": "body_image_cognition",
+                            "description": "Undue influence of body weight or shape on self-evaluation.",
+                            "subtypes": {
+                                "Self-Worth Dependent on Weight": "Judging whether one is a good or successful person solely based on weight or body shape."
+                            }
+                        },
+                        "S084": {
+                            "name": "Low_Weight_Severity_Non_Recognition",
+                            "categoty": "body_image_cognition",
+                            "description": "Persistent lack of recognition of the seriousness of the current low body weight.",
+                            "subtypes": {
+                                "Denial of Medical Risk": "Not admitting or dismissing the health risks caused by being underweight."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Bipolar I Disorder",
+                    "Anorexia Nervosa",
+                    "Bulimia Nervosa",
+                    "Major Depressive Disorder with Psychotic Features"
+                ],
+                "answer_index": [
+                    1
+                ],
+                "index_types": [
+                    "Less likely option",
+                    "answer",
+                    "Moderately likely option",
+                    "Less likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D008",
+                        "disease_name": "Bipolar I Disorder"
+                    },
+                    {
+                        "disease_code": "D021",
+                        "disease_name": "Anorexia Nervosa"
+                    },
+                    {
+                        "disease_code": "D022",
+                        "disease_name": "Bulimia Nervosa",
+                        "shared_symptoms": [
+                            "S045"
+                        ]
+                    },
+                    {
+                        "disease_code": "D015",
+                        "disease_name": "Major Depressive Disorder with Psychotic Features"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 32\n- **Gender:** Male\n- **Occupation:** Cloud Architect\n- **Marital Status:** Single\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Anorexia Nervosa\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. anorexia_nervosa Requirements:**\n- Exclusion of Specific Food Groups (Strictly avoiding specific food groups like carbohydrates or fats to prevent nutritional imbalance.)\n- Continuous Weight Loss (A state where weight continues to decrease due to intentional restriction of intake.)\n- Obsession with Weight Gain (Compulsively checking the scale and becoming extremely anxious about even the slightest increase.)\n- Self-Worth Dependent on Weight (Judging whether one is a good or successful person solely based on weight or body shape.)\n- Denial of Medical Risk (Not admitting or dismissing the health risks caused by being underweight.)\n\n**Critical Diagnostic Criteria:**"
+    }
+}

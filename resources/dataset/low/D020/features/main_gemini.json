@@ -1,0 +1,2077 @@
+{
+    "D020_l001": {
+        "question": "A 63-year-old female, widowed and self-employed as a bakery owner, presents with a one-month history of behavioral disturbances. The patient’s spouse passed away five years prior, and her widowhood is long-standing and not temporally related to the current symptom onset. Her presentation is characterized by a notable change in conduct, including a disregard for established rules and an engaging in reckless driving behaviors. These symptoms developed within three months of an identified psychosocial stressor and have resulted in significant functional impairment. The clinical picture is consistent with a reactive condition, and the symptoms are not attributable to another mental disorder or an exacerbation of a pre-existing mental disorder.",
+        "options": "\n    A. Persistent Depressive Disorder\n    B. Adjustment Disorder\n    C. Schizophrenia\n    D. Schizoaffective Disorder (Depressive Type)\n    ",
+        "answer": "B. Adjustment Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D020",
+                "disease_name": "Adjustment Disorder",
+                "sampled_features": {
+                    "disease_code": "D020",
+                    "disease_name": "Adjustment Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "additional_requirements": [
+                            "Symptoms must develop within 3 months of the onset of the stressor",
+                            "Within 6 months of the termination of the stressor or its consequences"
+                        ],
+                        "functional_impairment_required": true,
+                        "psychosocial_stressor_required": {
+                            "required": true
+                        },
+                        "duration": "1 month"
+                    },
+                    "sampled_symptom_groups": {
+                        "adjustment_symptoms": {
+                            "symptoms": [
+                                "S081"
+                            ],
+                            "name": "adjustment_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S081"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S081": {
+                            "name": "Stress_Related_Maladaptive_Response",
+                            "categoty": "adjustment_symptoms",
+                            "description": "Emotional or behavioral symptoms appearing in response to an identifiable stressor.",
+                            "subtypes": {
+                                "With Disturbance of Conduct": "Symptoms mainly involve violation of rules, truancy, vandalism, reckless driving, or fighting."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Persistent Depressive Disorder",
+                    "Adjustment Disorder",
+                    "Schizophrenia",
+                    "Schizoaffective Disorder (Depressive Type)"
+                ],
+                "answer_index": [
+                    1
+                ],
+                "index_types": [
+                    "Less likely option",
+                    "answer",
+                    "Less likely option",
+                    "Less likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D014",
+                        "disease_name": "Persistent Depressive Disorder"
+                    },
+                    {
+                        "disease_code": "D020",
+                        "disease_name": "Adjustment Disorder"
+                    },
+                    {
+                        "disease_code": "D005",
+                        "disease_name": "Schizophrenia"
+                    },
+                    {
+                        "disease_code": "D007",
+                        "disease_name": "Schizoaffective Disorder (Depressive Type)"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 63\n- **Gender:** Female\n- **Occupation:** Bakery Owner\n- **Marital Status:** Widowed\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Adjustment Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. adjustment_symptoms Requirements:**\n- With Disturbance of Conduct (Symptoms mainly involve violation of rules, truancy, vandalism, reckless driving, or fighting.)\n\n**Critical Diagnostic Criteria:**\n\n- Duration: 1 month\n\n- Functional Impairment: True\n\n- Psychosocial Stressor: {'required': True}\n\n- Additional Requirements:\n\n1) Symptoms must develop within 3 months of the onset of the stressor\n\n2) Within 6 months of the termination of the stressor or its consequences"
+    },
+    "D020_l002": {
+        "question": "A 34-year-old married female bioinformatics scientist presents with a one-month history of emotional distress and functional impairment. Symptoms emerged following a psychosocial stressor and include prominent nervousness, excessive worry, and a pervasive sense of jitteriness. The patient reports difficulty concentrating on work tasks and engaging in her usual social activities, indicating significant functional decline. She does not report symptoms suggestive of psychosis or mania, and there is no evidence of a pre-existing mental health condition that would account for the current presentation. The symptoms developed within three months of the identified stressor and have not exceeded six months since its termination.",
+        "options": "\n    A. Persistent Depressive Disorder\n    B. Adjustment Disorder\n    C. Schizophrenia\n    D. Schizoaffective Disorder (Depressive Type)\n    ",
+        "answer": "B. Adjustment Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D020",
+                "disease_name": "Adjustment Disorder",
+                "sampled_features": {
+                    "disease_code": "D020",
+                    "disease_name": "Adjustment Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "additional_requirements": [
+                            "Symptoms must develop within 3 months of the onset of the stressor",
+                            "Within 6 months of the termination of the stressor or its consequences"
+                        ],
+                        "functional_impairment_required": true,
+                        "psychosocial_stressor_required": {
+                            "required": true
+                        },
+                        "duration": "1 month"
+                    },
+                    "sampled_symptom_groups": {
+                        "adjustment_symptoms": {
+                            "symptoms": [
+                                "S081"
+                            ],
+                            "name": "adjustment_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S081"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S081": {
+                            "name": "Stress_Related_Maladaptive_Response",
+                            "categoty": "adjustment_symptoms",
+                            "description": "Emotional or behavioral symptoms appearing in response to an identifiable stressor.",
+                            "subtypes": {
+                                "With Anxiety": "Symptoms mainly include nervousness, worry, jitteriness, or separation anxiety."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Persistent Depressive Disorder",
+                    "Adjustment Disorder",
+                    "Schizophrenia",
+                    "Schizoaffective Disorder (Depressive Type)"
+                ],
+                "answer_index": [
+                    1
+                ],
+                "index_types": [
+                    "Less likely option",
+                    "answer",
+                    "Less likely option",
+                    "Less likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D014",
+                        "disease_name": "Persistent Depressive Disorder"
+                    },
+                    {
+                        "disease_code": "D020",
+                        "disease_name": "Adjustment Disorder"
+                    },
+                    {
+                        "disease_code": "D005",
+                        "disease_name": "Schizophrenia"
+                    },
+                    {
+                        "disease_code": "D007",
+                        "disease_name": "Schizoaffective Disorder (Depressive Type)"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 34\n- **Gender:** Female\n- **Occupation:** Bioinformatics Scientist\n- **Marital Status:** Married\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Adjustment Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. adjustment_symptoms Requirements:**\n- With Anxiety (Symptoms mainly include nervousness, worry, jitteriness, or separation anxiety.)\n\n**Critical Diagnostic Criteria:**\n\n- Duration: 1 month\n\n- Functional Impairment: True\n\n- Psychosocial Stressor: {'required': True}\n\n- Additional Requirements:\n\n1) Symptoms must develop within 3 months of the onset of the stressor\n\n2) Within 6 months of the termination of the stressor or its consequences"
+    },
+    "D020_l003": {
+        "question": "A 32-year-old married female wedding planner presents with a one-month history of emotional and behavioral changes following a significant psychosocial stressor. She reports increased irritability, leading to frequent arguments with her spouse and coworkers. The patient has engaged in reckless driving behaviors, including speeding and running red lights, and has received two traffic citations in the past three weeks. She also describes difficulty concentrating at work, resulting in missed deadlines and a decline in her professional performance, indicating functional impairment. These symptoms emerged approximately two months after the onset of the identified stressor.",
+        "options": "\n    A. Persistent Depressive Disorder\n    B. Adjustment Disorder\n    C. Schizophrenia\n    D. Schizoaffective Disorder (Depressive Type)\n    ",
+        "answer": "B. Adjustment Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D020",
+                "disease_name": "Adjustment Disorder",
+                "sampled_features": {
+                    "disease_code": "D020",
+                    "disease_name": "Adjustment Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "additional_requirements": [
+                            "Symptoms must develop within 3 months of the onset of the stressor",
+                            "Within 6 months of the termination of the stressor or its consequences"
+                        ],
+                        "functional_impairment_required": true,
+                        "psychosocial_stressor_required": {
+                            "required": true
+                        },
+                        "duration": "1 month"
+                    },
+                    "sampled_symptom_groups": {
+                        "adjustment_symptoms": {
+                            "symptoms": [
+                                "S081"
+                            ],
+                            "name": "adjustment_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S081"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S081": {
+                            "name": "Stress_Related_Maladaptive_Response",
+                            "categoty": "adjustment_symptoms",
+                            "description": "Emotional or behavioral symptoms appearing in response to an identifiable stressor.",
+                            "subtypes": {
+                                "With Disturbance of Conduct": "Symptoms mainly involve violation of rules, truancy, vandalism, reckless driving, or fighting."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Persistent Depressive Disorder",
+                    "Adjustment Disorder",
+                    "Schizophrenia",
+                    "Schizoaffective Disorder (Depressive Type)"
+                ],
+                "answer_index": [
+                    1
+                ],
+                "index_types": [
+                    "Less likely option",
+                    "answer",
+                    "Less likely option",
+                    "Less likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D014",
+                        "disease_name": "Persistent Depressive Disorder"
+                    },
+                    {
+                        "disease_code": "D020",
+                        "disease_name": "Adjustment Disorder"
+                    },
+                    {
+                        "disease_code": "D005",
+                        "disease_name": "Schizophrenia"
+                    },
+                    {
+                        "disease_code": "D007",
+                        "disease_name": "Schizoaffective Disorder (Depressive Type)"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 32\n- **Gender:** Female\n- **Occupation:** Wedding Planner\n- **Marital Status:** Married\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Adjustment Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. adjustment_symptoms Requirements:**\n- With Disturbance of Conduct (Symptoms mainly involve violation of rules, truancy, vandalism, reckless driving, or fighting.)\n\n**Critical Diagnostic Criteria:**\n\n- Duration: 1 month\n\n- Functional Impairment: True\n\n- Psychosocial Stressor: {'required': True}\n\n- Additional Requirements:\n\n1) Symptoms must develop within 3 months of the onset of the stressor\n\n2) Within 6 months of the termination of the stressor or its consequences"
+    },
+    "D020_l004": {
+        "question": "A 39-year-old male film director, divorced for several years, presents with a one-month history of developing maladaptive behavioral and emotional responses following a significant psychosocial stressor that occurred within the past three months. The patient exhibits a pattern of social withdrawal, decreased engagement in previously enjoyed activities, and an increase in somatic complaints, including generalized fatigue and muscle tension. These symptoms are not attributable to a pre-existing mental disorder or another medical condition and represent a significant change from his usual functioning, resulting in marked impairment in his occupational and social spheres. The symptoms are not better explained by normal bereavement.",
+        "options": "\n    A. Persistent Depressive Disorder\n    B. Adjustment Disorder\n    C. Schizophrenia\n    D. Schizoaffective Disorder (Depressive Type)\n    ",
+        "answer": "B. Adjustment Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D020",
+                "disease_name": "Adjustment Disorder",
+                "sampled_features": {
+                    "disease_code": "D020",
+                    "disease_name": "Adjustment Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "additional_requirements": [
+                            "Symptoms must develop within 3 months of the onset of the stressor",
+                            "Within 6 months of the termination of the stressor or its consequences"
+                        ],
+                        "functional_impairment_required": true,
+                        "psychosocial_stressor_required": {
+                            "required": true
+                        },
+                        "duration": "1 month"
+                    },
+                    "sampled_symptom_groups": {
+                        "adjustment_symptoms": {
+                            "symptoms": [
+                                "S081"
+                            ],
+                            "name": "adjustment_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S081"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S081": {
+                            "name": "Stress_Related_Maladaptive_Response",
+                            "categoty": "adjustment_symptoms",
+                            "description": "Emotional or behavioral symptoms appearing in response to an identifiable stressor.",
+                            "subtypes": {
+                                "Unspecified": "Maladaptive reactions not classified into the above types (e.g., physical complaints, social withdrawal)."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Persistent Depressive Disorder",
+                    "Adjustment Disorder",
+                    "Schizophrenia",
+                    "Schizoaffective Disorder (Depressive Type)"
+                ],
+                "answer_index": [
+                    1
+                ],
+                "index_types": [
+                    "Less likely option",
+                    "answer",
+                    "Less likely option",
+                    "Less likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D014",
+                        "disease_name": "Persistent Depressive Disorder"
+                    },
+                    {
+                        "disease_code": "D020",
+                        "disease_name": "Adjustment Disorder"
+                    },
+                    {
+                        "disease_code": "D005",
+                        "disease_name": "Schizophrenia"
+                    },
+                    {
+                        "disease_code": "D007",
+                        "disease_name": "Schizoaffective Disorder (Depressive Type)"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 39\n- **Gender:** Male\n- **Occupation:** Film Director\n- **Marital Status:** Divorced\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Adjustment Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. adjustment_symptoms Requirements:**\n- Unspecified (Maladaptive reactions not classified into the above types (e.g., physical complaints, social withdrawal).)\n\n**Critical Diagnostic Criteria:**\n\n- Duration: 1 month\n\n- Functional Impairment: True\n\n- Psychosocial Stressor: {'required': True}\n\n- Additional Requirements:\n\n1) Symptoms must develop within 3 months of the onset of the stressor\n\n2) Within 6 months of the termination of the stressor or its consequences"
+    },
+    "D020_l005": {
+        "question": "A 59-year-old married male farmer presents with a one-month history of emotional distress following a significant psychosocial stressor that occurred four months prior. He reports predominantly low mood, tearfulness, and pervasive feelings of hopelessness. These symptoms developed within three months of the stressor's onset and have endured for one month. The patient experiences significant functional impairment, impacting his daily activities and relationships. There is no evidence of a pre-existing medical condition or mental disorder that would better account for his symptomatology. The patient's presentation is consistent with a reaction to an identifiable stressor, with symptoms not persisting beyond six months of the stressor or its consequences.",
+        "options": "\n    A. Persistent Depressive Disorder\n    B. Adjustment Disorder\n    C. Schizophrenia\n    D. Schizoaffective Disorder (Depressive Type)\n    ",
+        "answer": "B. Adjustment Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D020",
+                "disease_name": "Adjustment Disorder",
+                "sampled_features": {
+                    "disease_code": "D020",
+                    "disease_name": "Adjustment Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "additional_requirements": [
+                            "Symptoms must develop within 3 months of the onset of the stressor",
+                            "Within 6 months of the termination of the stressor or its consequences"
+                        ],
+                        "functional_impairment_required": true,
+                        "psychosocial_stressor_required": {
+                            "required": true
+                        },
+                        "duration": "1 month"
+                    },
+                    "sampled_symptom_groups": {
+                        "adjustment_symptoms": {
+                            "symptoms": [
+                                "S081"
+                            ],
+                            "name": "adjustment_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S081"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S081": {
+                            "name": "Stress_Related_Maladaptive_Response",
+                            "categoty": "adjustment_symptoms",
+                            "description": "Emotional or behavioral symptoms appearing in response to an identifiable stressor.",
+                            "subtypes": {
+                                "With Depressed Mood": "Symptoms mainly include low mood, tearfulness, or feelings of hopelessness."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Persistent Depressive Disorder",
+                    "Adjustment Disorder",
+                    "Schizophrenia",
+                    "Schizoaffective Disorder (Depressive Type)"
+                ],
+                "answer_index": [
+                    1
+                ],
+                "index_types": [
+                    "Less likely option",
+                    "answer",
+                    "Less likely option",
+                    "Less likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D014",
+                        "disease_name": "Persistent Depressive Disorder"
+                    },
+                    {
+                        "disease_code": "D020",
+                        "disease_name": "Adjustment Disorder"
+                    },
+                    {
+                        "disease_code": "D005",
+                        "disease_name": "Schizophrenia"
+                    },
+                    {
+                        "disease_code": "D007",
+                        "disease_name": "Schizoaffective Disorder (Depressive Type)"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 59\n- **Gender:** Male\n- **Occupation:** Farmer\n- **Marital Status:** Married\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Adjustment Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. adjustment_symptoms Requirements:**\n- With Depressed Mood (Symptoms mainly include low mood, tearfulness, or feelings of hopelessness.)\n\n**Critical Diagnostic Criteria:**\n\n- Duration: 1 month\n\n- Functional Impairment: True\n\n- Psychosocial Stressor: {'required': True}\n\n- Additional Requirements:\n\n1) Symptoms must develop within 3 months of the onset of the stressor\n\n2) Within 6 months of the termination of the stressor or its consequences"
+    },
+    "D020_l006": {
+        "question": "A 47-year-old single female, a department store sales manager, presents with a 2-month history of emotional and behavioral symptoms. The patient reports a pervasive feeling of sadness, accompanied by tearfulness and anhedonia, particularly regarding previously enjoyed activities. Concurrently, she experiences heightened anxiety, characterized by persistent worry, restlessness, and difficulty concentrating. These symptoms developed after a significant psychosocial stressor and have led to a noticeable impairment in her social and occupational functioning. The patient denies any past psychiatric history.",
+        "options": "\n    A. Attention-Deficit/Hyperactivity Disorder (Predominantly Inattentive Presentation)\n    B. Generalized Anxiety Disorder\n    C. Schizoaffective Disorder (Bipolar Type)\n    D. Adjustment Disorder\n    ",
+        "answer": "D. Adjustment Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D020",
+                "disease_name": "Adjustment Disorder",
+                "sampled_features": {
+                    "disease_code": "D020",
+                    "disease_name": "Adjustment Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "additional_requirements": [
+                            "Symptoms must develop within 3 months of the onset of the stressor",
+                            "Within 6 months of the termination of the stressor or its consequences"
+                        ],
+                        "functional_impairment_required": true,
+                        "psychosocial_stressor_required": {
+                            "required": true
+                        },
+                        "duration": "2 months"
+                    },
+                    "sampled_symptom_groups": {
+                        "adjustment_symptoms": {
+                            "symptoms": [
+                                "S081"
+                            ],
+                            "name": "adjustment_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S081"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S081": {
+                            "name": "Stress_Related_Maladaptive_Response",
+                            "categoty": "adjustment_symptoms",
+                            "description": "Emotional or behavioral symptoms appearing in response to an identifiable stressor.",
+                            "subtypes": {
+                                "With Mixed Anxiety and Depressed Mood": "A combination of depression and anxiety symptoms appears."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Attention-Deficit/Hyperactivity Disorder (Predominantly Inattentive Presentation)",
+                    "Generalized Anxiety Disorder",
+                    "Schizoaffective Disorder (Bipolar Type)",
+                    "Adjustment Disorder"
+                ],
+                "answer_index": [
+                    3
+                ],
+                "index_types": [
+                    "Less likely option",
+                    "Less likely option",
+                    "Less likely option",
+                    "answer"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D002",
+                        "disease_name": "Attention-Deficit/Hyperactivity Disorder (Predominantly Inattentive Presentation)"
+                    },
+                    {
+                        "disease_code": "D011",
+                        "disease_name": "Generalized Anxiety Disorder"
+                    },
+                    {
+                        "disease_code": "D006",
+                        "disease_name": "Schizoaffective Disorder (Bipolar Type)"
+                    },
+                    {
+                        "disease_code": "D020",
+                        "disease_name": "Adjustment Disorder"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 47\n- **Gender:** Female\n- **Occupation:** Department Store Sales Manager\n- **Marital Status:** Single\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Adjustment Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. adjustment_symptoms Requirements:**\n- With Mixed Anxiety and Depressed Mood (A combination of depression and anxiety symptoms appears.)\n\n**Critical Diagnostic Criteria:**\n\n- Duration: 2 months\n\n- Functional Impairment: True\n\n- Psychosocial Stressor: {'required': True}\n\n- Additional Requirements:\n\n1) Symptoms must develop within 3 months of the onset of the stressor\n\n2) Within 6 months of the termination of the stressor or its consequences"
+    },
+    "D020_l007": {
+        "question": "A 25-year-old single male, employed as a convenience store night clerk, presents with a duration of two months of emotional and behavioral symptoms following an identifiable psychosocial stressor. The patient reports experiencing significant nervousness and excessive worry since the onset of the stressor. These symptoms are accompanied by a pervasive sense of jitteriness. The clinical picture indicates a notable decline in social and occupational functioning attributed to these symptoms. The emergence of these difficulties occurred within three months of the precipitating stressor.",
+        "options": "\n    A. Attention-Deficit/Hyperactivity Disorder (Predominantly Inattentive Presentation)\n    B. Generalized Anxiety Disorder\n    C. Schizoaffective Disorder (Bipolar Type)\n    D. Adjustment Disorder\n    ",
+        "answer": "D. Adjustment Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D020",
+                "disease_name": "Adjustment Disorder",
+                "sampled_features": {
+                    "disease_code": "D020",
+                    "disease_name": "Adjustment Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "additional_requirements": [
+                            "Symptoms must develop within 3 months of the onset of the stressor",
+                            "Within 6 months of the termination of the stressor or its consequences"
+                        ],
+                        "functional_impairment_required": true,
+                        "psychosocial_stressor_required": {
+                            "required": true
+                        },
+                        "duration": "2 months"
+                    },
+                    "sampled_symptom_groups": {
+                        "adjustment_symptoms": {
+                            "symptoms": [
+                                "S081"
+                            ],
+                            "name": "adjustment_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S081"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S081": {
+                            "name": "Stress_Related_Maladaptive_Response",
+                            "categoty": "adjustment_symptoms",
+                            "description": "Emotional or behavioral symptoms appearing in response to an identifiable stressor.",
+                            "subtypes": {
+                                "With Anxiety": "Symptoms mainly include nervousness, worry, jitteriness, or separation anxiety."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Attention-Deficit/Hyperactivity Disorder (Predominantly Inattentive Presentation)",
+                    "Generalized Anxiety Disorder",
+                    "Schizoaffective Disorder (Bipolar Type)",
+                    "Adjustment Disorder"
+                ],
+                "answer_index": [
+                    3
+                ],
+                "index_types": [
+                    "Less likely option",
+                    "Less likely option",
+                    "Less likely option",
+                    "answer"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D002",
+                        "disease_name": "Attention-Deficit/Hyperactivity Disorder (Predominantly Inattentive Presentation)"
+                    },
+                    {
+                        "disease_code": "D011",
+                        "disease_name": "Generalized Anxiety Disorder"
+                    },
+                    {
+                        "disease_code": "D006",
+                        "disease_name": "Schizoaffective Disorder (Bipolar Type)"
+                    },
+                    {
+                        "disease_code": "D020",
+                        "disease_name": "Adjustment Disorder"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 25\n- **Gender:** Male\n- **Occupation:** Convenience Store Night Clerk\n- **Marital Status:** Single\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Adjustment Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. adjustment_symptoms Requirements:**\n- With Anxiety (Symptoms mainly include nervousness, worry, jitteriness, or separation anxiety.)\n\n**Critical Diagnostic Criteria:**\n\n- Duration: 2 months\n\n- Functional Impairment: True\n\n- Psychosocial Stressor: {'required': True}\n\n- Additional Requirements:\n\n1) Symptoms must develop within 3 months of the onset of the stressor\n\n2) Within 6 months of the termination of the stressor or its consequences"
+    },
+    "D020_l008": {
+        "question": "A 27-year-old single female architectural designer presents with a two-month history of emotional and behavioral disturbances. She reports significant distress following a recent stressful event, which occurred approximately one month prior to symptom onset. Her presentation includes notable changes in conduct, such as increased truancy from work and engagement in reckless driving behaviors. These behavioral alterations are observed to be out of proportion to the severity of the stressor and are causing significant impairment in her social and occupational functioning. Her symptoms developed within three months of the identified psychosocial stressor.\n",
+        "options": "\n    A. Attention-Deficit/Hyperactivity Disorder (Predominantly Inattentive Presentation)\n    B. Generalized Anxiety Disorder\n    C. Schizoaffective Disorder (Bipolar Type)\n    D. Adjustment Disorder\n    ",
+        "answer": "D. Adjustment Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D020",
+                "disease_name": "Adjustment Disorder",
+                "sampled_features": {
+                    "disease_code": "D020",
+                    "disease_name": "Adjustment Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "additional_requirements": [
+                            "Symptoms must develop within 3 months of the onset of the stressor",
+                            "Within 6 months of the termination of the stressor or its consequences"
+                        ],
+                        "functional_impairment_required": true,
+                        "psychosocial_stressor_required": {
+                            "required": true
+                        },
+                        "duration": "2 months"
+                    },
+                    "sampled_symptom_groups": {
+                        "adjustment_symptoms": {
+                            "symptoms": [
+                                "S081"
+                            ],
+                            "name": "adjustment_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S081"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S081": {
+                            "name": "Stress_Related_Maladaptive_Response",
+                            "categoty": "adjustment_symptoms",
+                            "description": "Emotional or behavioral symptoms appearing in response to an identifiable stressor.",
+                            "subtypes": {
+                                "With Disturbance of Conduct": "Symptoms mainly involve violation of rules, truancy, vandalism, reckless driving, or fighting."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Attention-Deficit/Hyperactivity Disorder (Predominantly Inattentive Presentation)",
+                    "Generalized Anxiety Disorder",
+                    "Schizoaffective Disorder (Bipolar Type)",
+                    "Adjustment Disorder"
+                ],
+                "answer_index": [
+                    3
+                ],
+                "index_types": [
+                    "Less likely option",
+                    "Less likely option",
+                    "Less likely option",
+                    "answer"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D002",
+                        "disease_name": "Attention-Deficit/Hyperactivity Disorder (Predominantly Inattentive Presentation)"
+                    },
+                    {
+                        "disease_code": "D011",
+                        "disease_name": "Generalized Anxiety Disorder"
+                    },
+                    {
+                        "disease_code": "D006",
+                        "disease_name": "Schizoaffective Disorder (Bipolar Type)"
+                    },
+                    {
+                        "disease_code": "D020",
+                        "disease_name": "Adjustment Disorder"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 27\n- **Gender:** Female\n- **Occupation:** Architectural Designer\n- **Marital Status:** Single\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Adjustment Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. adjustment_symptoms Requirements:**\n- With Disturbance of Conduct (Symptoms mainly involve violation of rules, truancy, vandalism, reckless driving, or fighting.)\n\n**Critical Diagnostic Criteria:**\n\n- Duration: 2 months\n\n- Functional Impairment: True\n\n- Psychosocial Stressor: {'required': True}\n\n- Additional Requirements:\n\n1) Symptoms must develop within 3 months of the onset of the stressor\n\n2) Within 6 months of the termination of the stressor or its consequences"
+    },
+    "D020_l009": {
+        "question": "A 24-year-old single male, employed as a security analyst, presents with a 2-month history of emotional and behavioral disturbances. He reports experiencing symptoms of depressed mood, including anhedonia and feelings of hopelessness, alongside heightened anxiety, characterized by nervousness and persistent worry. Concurrently, he has engaged in increased irritability and sporadic outbursts of anger. These difficulties emerged approximately one month following a significant psychosocial stressor related to his professional responsibilities. The patient reports notable functional impairment across occupational and social domains, attributing a decline in work performance and withdrawal from social activities to his current emotional state. His symptoms are not attributable to another mental disorder and do not represent expected bereavement.",
+        "options": "\n    A. Attention-Deficit/Hyperactivity Disorder (Predominantly Inattentive Presentation)\n    B. Generalized Anxiety Disorder\n    C. Schizoaffective Disorder (Bipolar Type)\n    D. Adjustment Disorder\n    ",
+        "answer": "D. Adjustment Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D020",
+                "disease_name": "Adjustment Disorder",
+                "sampled_features": {
+                    "disease_code": "D020",
+                    "disease_name": "Adjustment Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "additional_requirements": [
+                            "Symptoms must develop within 3 months of the onset of the stressor",
+                            "Within 6 months of the termination of the stressor or its consequences"
+                        ],
+                        "functional_impairment_required": true,
+                        "psychosocial_stressor_required": {
+                            "required": true
+                        },
+                        "duration": "2 months"
+                    },
+                    "sampled_symptom_groups": {
+                        "adjustment_symptoms": {
+                            "symptoms": [
+                                "S081"
+                            ],
+                            "name": "adjustment_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S081"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S081": {
+                            "name": "Stress_Related_Maladaptive_Response",
+                            "categoty": "adjustment_symptoms",
+                            "description": "Emotional or behavioral symptoms appearing in response to an identifiable stressor.",
+                            "subtypes": {
+                                "With Mixed Disturbance of Emotions and Conduct": "Both emotional symptoms (depression, anxiety) and behavioral problems appear together."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Attention-Deficit/Hyperactivity Disorder (Predominantly Inattentive Presentation)",
+                    "Generalized Anxiety Disorder",
+                    "Schizoaffective Disorder (Bipolar Type)",
+                    "Adjustment Disorder"
+                ],
+                "answer_index": [
+                    3
+                ],
+                "index_types": [
+                    "Less likely option",
+                    "Less likely option",
+                    "Less likely option",
+                    "answer"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D002",
+                        "disease_name": "Attention-Deficit/Hyperactivity Disorder (Predominantly Inattentive Presentation)"
+                    },
+                    {
+                        "disease_code": "D011",
+                        "disease_name": "Generalized Anxiety Disorder"
+                    },
+                    {
+                        "disease_code": "D006",
+                        "disease_name": "Schizoaffective Disorder (Bipolar Type)"
+                    },
+                    {
+                        "disease_code": "D020",
+                        "disease_name": "Adjustment Disorder"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 24\n- **Gender:** Male\n- **Occupation:** White Hat Hacker (Security Analyst)\n- **Marital Status:** Single\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Adjustment Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. adjustment_symptoms Requirements:**\n- With Mixed Disturbance of Emotions and Conduct (Both emotional symptoms (depression, anxiety) and behavioral problems appear together.)\n\n**Critical Diagnostic Criteria:**\n\n- Duration: 2 months\n\n- Functional Impairment: True\n\n- Psychosocial Stressor: {'required': True}\n\n- Additional Requirements:\n\n1) Symptoms must develop within 3 months of the onset of the stressor\n\n2) Within 6 months of the termination of the stressor or its consequences"
+    },
+    "D020_l010": {
+        "question": "A 24-year-old single male, currently unemployed, presents with a two-month history of emotional and behavioral symptoms following significant psychosocial stressors. He exhibits maladaptive reactions characterized by social withdrawal and various somatic complaints including headaches and generalized fatigue. These symptoms developed within three months of the onset of the identified stressors. The patient reports significant functional impairment in his daily activities, impeding his efforts to seek employment and maintain social engagement. The duration of his symptoms further supports the clinical picture, and these manifestations have not persisted beyond six months since the termination of the stressor or its consequences.",
+        "options": "\n    A. Attention-Deficit/Hyperactivity Disorder (Predominantly Inattentive Presentation)\n    B. Generalized Anxiety Disorder\n    C. Schizoaffective Disorder (Bipolar Type)\n    D. Adjustment Disorder\n    ",
+        "answer": "D. Adjustment Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D020",
+                "disease_name": "Adjustment Disorder",
+                "sampled_features": {
+                    "disease_code": "D020",
+                    "disease_name": "Adjustment Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "additional_requirements": [
+                            "Symptoms must develop within 3 months of the onset of the stressor",
+                            "Within 6 months of the termination of the stressor or its consequences"
+                        ],
+                        "functional_impairment_required": true,
+                        "psychosocial_stressor_required": {
+                            "required": true
+                        },
+                        "duration": "2 months"
+                    },
+                    "sampled_symptom_groups": {
+                        "adjustment_symptoms": {
+                            "symptoms": [
+                                "S081"
+                            ],
+                            "name": "adjustment_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S081"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S081": {
+                            "name": "Stress_Related_Maladaptive_Response",
+                            "categoty": "adjustment_symptoms",
+                            "description": "Emotional or behavioral symptoms appearing in response to an identifiable stressor.",
+                            "subtypes": {
+                                "Unspecified": "Maladaptive reactions not classified into the above types (e.g., physical complaints, social withdrawal)."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Attention-Deficit/Hyperactivity Disorder (Predominantly Inattentive Presentation)",
+                    "Generalized Anxiety Disorder",
+                    "Schizoaffective Disorder (Bipolar Type)",
+                    "Adjustment Disorder"
+                ],
+                "answer_index": [
+                    3
+                ],
+                "index_types": [
+                    "Less likely option",
+                    "Less likely option",
+                    "Less likely option",
+                    "answer"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D002",
+                        "disease_name": "Attention-Deficit/Hyperactivity Disorder (Predominantly Inattentive Presentation)"
+                    },
+                    {
+                        "disease_code": "D011",
+                        "disease_name": "Generalized Anxiety Disorder"
+                    },
+                    {
+                        "disease_code": "D006",
+                        "disease_name": "Schizoaffective Disorder (Bipolar Type)"
+                    },
+                    {
+                        "disease_code": "D020",
+                        "disease_name": "Adjustment Disorder"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 24\n- **Gender:** Male\n- **Occupation:** Job Seeker / Unemployed\n- **Marital Status:** Single\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Adjustment Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. adjustment_symptoms Requirements:**\n- Unspecified (Maladaptive reactions not classified into the above types (e.g., physical complaints, social withdrawal).)\n\n**Critical Diagnostic Criteria:**\n\n- Duration: 2 months\n\n- Functional Impairment: True\n\n- Psychosocial Stressor: {'required': True}\n\n- Additional Requirements:\n\n1) Symptoms must develop within 3 months of the onset of the stressor\n\n2) Within 6 months of the termination of the stressor or its consequences"
+    },
+    "D020_l011": {
+        "question": "A 44-year-old female, a subway cleaner working the night shift, and widowed for two years, presents with a 4-month history of emotional distress. Her symptoms began approximately one month following the termination of a significant psychosocial stressor. She reports persistent low mood, frequent tearfulness, and feelings of hopelessness, which are observed to fluctuate in intensity. These symptoms have led to a noticeable impairment in her social and occupational functioning, affecting her ability to maintain her responsibilities and engage in previously enjoyed activities. The patient denies any past psychiatric history.",
+        "options": "\n    A. Major Depressive Disorder\n    B. Adjustment Disorder\n    C. Specific Phobia\n    D. Body Dysmorphic Disorder\n    ",
+        "answer": "B. Adjustment Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D020",
+                "disease_name": "Adjustment Disorder",
+                "sampled_features": {
+                    "disease_code": "D020",
+                    "disease_name": "Adjustment Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "additional_requirements": [
+                            "Symptoms must develop within 3 months of the onset of the stressor",
+                            "Within 6 months of the termination of the stressor or its consequences"
+                        ],
+                        "functional_impairment_required": true,
+                        "psychosocial_stressor_required": {
+                            "required": true
+                        },
+                        "duration": "4 months"
+                    },
+                    "sampled_symptom_groups": {
+                        "adjustment_symptoms": {
+                            "symptoms": [
+                                "S081"
+                            ],
+                            "name": "adjustment_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S081"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S081": {
+                            "name": "Stress_Related_Maladaptive_Response",
+                            "categoty": "adjustment_symptoms",
+                            "description": "Emotional or behavioral symptoms appearing in response to an identifiable stressor.",
+                            "subtypes": {
+                                "With Depressed Mood": "Symptoms mainly include low mood, tearfulness, or feelings of hopelessness."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Major Depressive Disorder",
+                    "Adjustment Disorder",
+                    "Specific Phobia",
+                    "Body Dysmorphic Disorder"
+                ],
+                "answer_index": [
+                    1
+                ],
+                "index_types": [
+                    "Less likely option",
+                    "answer",
+                    "Less likely option",
+                    "Less likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D013",
+                        "disease_name": "Major Depressive Disorder"
+                    },
+                    {
+                        "disease_code": "D020",
+                        "disease_name": "Adjustment Disorder"
+                    },
+                    {
+                        "disease_code": "D012",
+                        "disease_name": "Specific Phobia"
+                    },
+                    {
+                        "disease_code": "D017",
+                        "disease_name": "Body Dysmorphic Disorder"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 44\n- **Gender:** Female\n- **Occupation:** Subway Cleaner (Night Shift)\n- **Marital Status:** Widowed\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Adjustment Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. adjustment_symptoms Requirements:**\n- With Depressed Mood (Symptoms mainly include low mood, tearfulness, or feelings of hopelessness.)\n\n**Critical Diagnostic Criteria:**\n\n- Duration: 4 months\n\n- Functional Impairment: True\n\n- Psychosocial Stressor: {'required': True}\n\n- Additional Requirements:\n\n1) Symptoms must develop within 3 months of the onset of the stressor\n\n2) Within 6 months of the termination of the stressor or its consequences"
+    },
+    "D020_l012": {
+        "question": "A 45-year-old married male pastor presents with a 4-month history of emotional and behavioral symptoms following an identifiable psychosocial stressor. The patient reports experiencing prominent anxiety, characterized by pervasive nervousness, excessive worry, and a persistent sensation of jitteriness. These symptoms developed within 3 months of the stressor's onset and have resulted in significant functional impairment in both his professional and personal life. The patient denies any history of primary anxiety disorders or other psychiatric conditions that would better account for his current presentation. His symptoms are anticipated to resolve within 6 months of the termination of the stressor or its consequences.",
+        "options": "\n    A. Major Depressive Disorder\n    B. Adjustment Disorder\n    C. Specific Phobia\n    D. Body Dysmorphic Disorder\n    ",
+        "answer": "B. Adjustment Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D020",
+                "disease_name": "Adjustment Disorder",
+                "sampled_features": {
+                    "disease_code": "D020",
+                    "disease_name": "Adjustment Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "additional_requirements": [
+                            "Symptoms must develop within 3 months of the onset of the stressor",
+                            "Within 6 months of the termination of the stressor or its consequences"
+                        ],
+                        "functional_impairment_required": true,
+                        "psychosocial_stressor_required": {
+                            "required": true
+                        },
+                        "duration": "4 months"
+                    },
+                    "sampled_symptom_groups": {
+                        "adjustment_symptoms": {
+                            "symptoms": [
+                                "S081"
+                            ],
+                            "name": "adjustment_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S081"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S081": {
+                            "name": "Stress_Related_Maladaptive_Response",
+                            "categoty": "adjustment_symptoms",
+                            "description": "Emotional or behavioral symptoms appearing in response to an identifiable stressor.",
+                            "subtypes": {
+                                "With Anxiety": "Symptoms mainly include nervousness, worry, jitteriness, or separation anxiety."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Major Depressive Disorder",
+                    "Adjustment Disorder",
+                    "Specific Phobia",
+                    "Body Dysmorphic Disorder"
+                ],
+                "answer_index": [
+                    1
+                ],
+                "index_types": [
+                    "Less likely option",
+                    "answer",
+                    "Less likely option",
+                    "Less likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D013",
+                        "disease_name": "Major Depressive Disorder"
+                    },
+                    {
+                        "disease_code": "D020",
+                        "disease_name": "Adjustment Disorder"
+                    },
+                    {
+                        "disease_code": "D012",
+                        "disease_name": "Specific Phobia"
+                    },
+                    {
+                        "disease_code": "D017",
+                        "disease_name": "Body Dysmorphic Disorder"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 45\n- **Gender:** Male\n- **Occupation:** Pastor\n- **Marital Status:** Married\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Adjustment Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. adjustment_symptoms Requirements:**\n- With Anxiety (Symptoms mainly include nervousness, worry, jitteriness, or separation anxiety.)\n\n**Critical Diagnostic Criteria:**\n\n- Duration: 4 months\n\n- Functional Impairment: True\n\n- Psychosocial Stressor: {'required': True}\n\n- Additional Requirements:\n\n1) Symptoms must develop within 3 months of the onset of the stressor\n\n2) Within 6 months of the termination of the stressor or its consequences"
+    },
+    "D020_l013": {
+        "question": "A 67-year-old widowed female, employed as a volunteer worker, presents with a four-month history of significant behavioral changes. The patient's husband passed away two years prior, with current symptoms unrelated to that bereavement. She reports a notable deviation from her usual conduct, including instances of reckless driving and engagement in verbal altercations, which represent a marked change from her baseline demeanor. These behavioral disturbances are associated with notable functional impairment in her daily life. The onset of these symptoms followed a distinct psychosocial stressor that occurred within the past three months. While the identified stressor is ongoing, these behavioral changes developed within three months of its initiation and are anticipated to resolve within six months of its termination.",
+        "options": "\n    A. Major Depressive Disorder\n    B. Adjustment Disorder\n    C. Specific Phobia\n    D. Body Dysmorphic Disorder\n    ",
+        "answer": "B. Adjustment Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D020",
+                "disease_name": "Adjustment Disorder",
+                "sampled_features": {
+                    "disease_code": "D020",
+                    "disease_name": "Adjustment Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "additional_requirements": [
+                            "Symptoms must develop within 3 months of the onset of the stressor",
+                            "Within 6 months of the termination of the stressor or its consequences"
+                        ],
+                        "functional_impairment_required": true,
+                        "psychosocial_stressor_required": {
+                            "required": true
+                        },
+                        "duration": "4 months"
+                    },
+                    "sampled_symptom_groups": {
+                        "adjustment_symptoms": {
+                            "symptoms": [
+                                "S081"
+                            ],
+                            "name": "adjustment_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S081"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S081": {
+                            "name": "Stress_Related_Maladaptive_Response",
+                            "categoty": "adjustment_symptoms",
+                            "description": "Emotional or behavioral symptoms appearing in response to an identifiable stressor.",
+                            "subtypes": {
+                                "With Disturbance of Conduct": "Symptoms mainly involve violation of rules, truancy, vandalism, reckless driving, or fighting."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Major Depressive Disorder",
+                    "Adjustment Disorder",
+                    "Specific Phobia",
+                    "Body Dysmorphic Disorder"
+                ],
+                "answer_index": [
+                    1
+                ],
+                "index_types": [
+                    "Less likely option",
+                    "answer",
+                    "Less likely option",
+                    "Less likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D013",
+                        "disease_name": "Major Depressive Disorder"
+                    },
+                    {
+                        "disease_code": "D020",
+                        "disease_name": "Adjustment Disorder"
+                    },
+                    {
+                        "disease_code": "D012",
+                        "disease_name": "Specific Phobia"
+                    },
+                    {
+                        "disease_code": "D017",
+                        "disease_name": "Body Dysmorphic Disorder"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 67\n- **Gender:** Female\n- **Occupation:** Volunteer Worker\n- **Marital Status:** Widowed\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Adjustment Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. adjustment_symptoms Requirements:**\n- With Disturbance of Conduct (Symptoms mainly involve violation of rules, truancy, vandalism, reckless driving, or fighting.)\n\n**Critical Diagnostic Criteria:**\n\n- Duration: 4 months\n\n- Functional Impairment: True\n\n- Psychosocial Stressor: {'required': True}\n\n- Additional Requirements:\n\n1) Symptoms must develop within 3 months of the onset of the stressor\n\n2) Within 6 months of the termination of the stressor or its consequences"
+    },
+    "D020_l014": {
+        "question": "A 28-year-old single female nurse presents with a 4-month history of emotional distress following a significant psychosocial stressor that occurred approximately five months prior to symptom onset. The patient reports a pervasive low mood, tearfulness, and feelings of hopelessness. These symptoms are not attributable to bereavement, are in excess of a normal reaction to the stressor, and have resulted in significant functional impairment in her daily activities. The symptom presentation is directly linked in time to the identified stressor.",
+        "options": "\n    A. Major Depressive Disorder\n    B. Adjustment Disorder\n    C. Specific Phobia\n    D. Body Dysmorphic Disorder\n    ",
+        "answer": "B. Adjustment Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D020",
+                "disease_name": "Adjustment Disorder",
+                "sampled_features": {
+                    "disease_code": "D020",
+                    "disease_name": "Adjustment Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "additional_requirements": [
+                            "Symptoms must develop within 3 months of the onset of the stressor",
+                            "Within 6 months of the termination of the stressor or its consequences"
+                        ],
+                        "functional_impairment_required": true,
+                        "psychosocial_stressor_required": {
+                            "required": true
+                        },
+                        "duration": "4 months"
+                    },
+                    "sampled_symptom_groups": {
+                        "adjustment_symptoms": {
+                            "symptoms": [
+                                "S081"
+                            ],
+                            "name": "adjustment_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S081"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S081": {
+                            "name": "Stress_Related_Maladaptive_Response",
+                            "categoty": "adjustment_symptoms",
+                            "description": "Emotional or behavioral symptoms appearing in response to an identifiable stressor.",
+                            "subtypes": {
+                                "With Depressed Mood": "Symptoms mainly include low mood, tearfulness, or feelings of hopelessness."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Major Depressive Disorder",
+                    "Adjustment Disorder",
+                    "Specific Phobia",
+                    "Body Dysmorphic Disorder"
+                ],
+                "answer_index": [
+                    1
+                ],
+                "index_types": [
+                    "Less likely option",
+                    "answer",
+                    "Less likely option",
+                    "Less likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D013",
+                        "disease_name": "Major Depressive Disorder"
+                    },
+                    {
+                        "disease_code": "D020",
+                        "disease_name": "Adjustment Disorder"
+                    },
+                    {
+                        "disease_code": "D012",
+                        "disease_name": "Specific Phobia"
+                    },
+                    {
+                        "disease_code": "D017",
+                        "disease_name": "Body Dysmorphic Disorder"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 28\n- **Gender:** Female\n- **Occupation:** Nurse\n- **Marital Status:** Single\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Adjustment Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. adjustment_symptoms Requirements:**\n- With Depressed Mood (Symptoms mainly include low mood, tearfulness, or feelings of hopelessness.)\n\n**Critical Diagnostic Criteria:**\n\n- Duration: 4 months\n\n- Functional Impairment: True\n\n- Psychosocial Stressor: {'required': True}\n\n- Additional Requirements:\n\n1) Symptoms must develop within 3 months of the onset of the stressor\n\n2) Within 6 months of the termination of the stressor or its consequences"
+    },
+    "D020_l015": {
+        "question": "A 30-year-old single male fitness trainer presents with a 4-month history of emotional distress. The patient reports experiencing a pervasive low mood, tearfulness, and feelings of hopelessness, which developed within three months of significant psychosocial stressors. These symptoms are causing notable functional impairment in his daily life. There is no evidence of a pre-existing mental health condition that would account for the severity of his current presentation. The symptoms are not better explained by another mental disorder and do not represent normal bereavement.",
+        "options": "\n    A. Major Depressive Disorder\n    B. Adjustment Disorder\n    C. Specific Phobia\n    D. Body Dysmorphic Disorder\n    ",
+        "answer": "B. Adjustment Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D020",
+                "disease_name": "Adjustment Disorder",
+                "sampled_features": {
+                    "disease_code": "D020",
+                    "disease_name": "Adjustment Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "additional_requirements": [
+                            "Symptoms must develop within 3 months of the onset of the stressor",
+                            "Within 6 months of the termination of the stressor or its consequences"
+                        ],
+                        "functional_impairment_required": true,
+                        "psychosocial_stressor_required": {
+                            "required": true
+                        },
+                        "duration": "4 months"
+                    },
+                    "sampled_symptom_groups": {
+                        "adjustment_symptoms": {
+                            "symptoms": [
+                                "S081"
+                            ],
+                            "name": "adjustment_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S081"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S081": {
+                            "name": "Stress_Related_Maladaptive_Response",
+                            "categoty": "adjustment_symptoms",
+                            "description": "Emotional or behavioral symptoms appearing in response to an identifiable stressor.",
+                            "subtypes": {
+                                "With Depressed Mood": "Symptoms mainly include low mood, tearfulness, or feelings of hopelessness."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Major Depressive Disorder",
+                    "Adjustment Disorder",
+                    "Specific Phobia",
+                    "Body Dysmorphic Disorder"
+                ],
+                "answer_index": [
+                    1
+                ],
+                "index_types": [
+                    "Less likely option",
+                    "answer",
+                    "Less likely option",
+                    "Less likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D013",
+                        "disease_name": "Major Depressive Disorder"
+                    },
+                    {
+                        "disease_code": "D020",
+                        "disease_name": "Adjustment Disorder"
+                    },
+                    {
+                        "disease_code": "D012",
+                        "disease_name": "Specific Phobia"
+                    },
+                    {
+                        "disease_code": "D017",
+                        "disease_name": "Body Dysmorphic Disorder"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 30\n- **Gender:** Male\n- **Occupation:** Fitness Trainer\n- **Marital Status:** Single\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Adjustment Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. adjustment_symptoms Requirements:**\n- With Depressed Mood (Symptoms mainly include low mood, tearfulness, or feelings of hopelessness.)\n\n**Critical Diagnostic Criteria:**\n\n- Duration: 4 months\n\n- Functional Impairment: True\n\n- Psychosocial Stressor: {'required': True}\n\n- Additional Requirements:\n\n1) Symptoms must develop within 3 months of the onset of the stressor\n\n2) Within 6 months of the termination of the stressor or its consequences"
+    },
+    "D020_l016": {
+        "question": "A 37-year-old married female real estate agent presents with a one-month history of behavioral disturbances following a significant psychosocial stressor that occurred two months prior to symptom onset. The patient reports difficulties with impulse control, manifesting as increased arguments with her spouse, episodes of reckless driving, and a decline in professional responsibilities, including missing appointments. These behavioral changes represent a marked deviation from her previous functioning. The symptoms began approximately two months after the onset of the stressor and have persisted for one month, causing notable impairment in her social and occupational domains. Her presentation does not meet criteria for a more pervasive mental disorder.",
+        "options": "\n    A. Adjustment Disorder\n    B. Generalized Anxiety Disorder\n    C. Acute Stress Disorder\n    D. Bipolar I Disorder\n    ",
+        "answer": "A. Adjustment Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D020",
+                "disease_name": "Adjustment Disorder",
+                "sampled_features": {
+                    "disease_code": "D020",
+                    "disease_name": "Adjustment Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "additional_requirements": [
+                            "Symptoms must develop within 3 months of the onset of the stressor",
+                            "Within 6 months of the termination of the stressor or its consequences"
+                        ],
+                        "functional_impairment_required": true,
+                        "psychosocial_stressor_required": {
+                            "required": true
+                        },
+                        "duration": "1 month"
+                    },
+                    "sampled_symptom_groups": {
+                        "adjustment_symptoms": {
+                            "symptoms": [
+                                "S081"
+                            ],
+                            "name": "adjustment_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S081"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S081": {
+                            "name": "Stress_Related_Maladaptive_Response",
+                            "categoty": "adjustment_symptoms",
+                            "description": "Emotional or behavioral symptoms appearing in response to an identifiable stressor.",
+                            "subtypes": {
+                                "With Disturbance of Conduct": "Symptoms mainly involve violation of rules, truancy, vandalism, reckless driving, or fighting."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Adjustment Disorder",
+                    "Generalized Anxiety Disorder",
+                    "Acute Stress Disorder",
+                    "Bipolar I Disorder"
+                ],
+                "answer_index": [
+                    0
+                ],
+                "index_types": [
+                    "answer",
+                    "Less likely option",
+                    "Less likely option",
+                    "Less likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D020",
+                        "disease_name": "Adjustment Disorder"
+                    },
+                    {
+                        "disease_code": "D011",
+                        "disease_name": "Generalized Anxiety Disorder"
+                    },
+                    {
+                        "disease_code": "D019",
+                        "disease_name": "Acute Stress Disorder"
+                    },
+                    {
+                        "disease_code": "D008",
+                        "disease_name": "Bipolar I Disorder"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 37\n- **Gender:** Female\n- **Occupation:** Real Estate Agent\n- **Marital Status:** Married\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Adjustment Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. adjustment_symptoms Requirements:**\n- With Disturbance of Conduct (Symptoms mainly involve violation of rules, truancy, vandalism, reckless driving, or fighting.)\n\n**Critical Diagnostic Criteria:**\n\n- Duration: 1 month\n\n- Functional Impairment: True\n\n- Psychosocial Stressor: {'required': True}\n\n- Additional Requirements:\n\n1) Symptoms must develop within 3 months of the onset of the stressor\n\n2) Within 6 months of the termination of the stressor or its consequences"
+    },
+    "D020_l017": {
+        "question": "A 20-year-old single female K-Pop trainee presents with a one-month history of significant emotional and behavioral changes. She reports experiencing a depressed mood characterized by feelings of sadness and anhedonia, alongside pronounced anxiety, manifest as nervousness and apprehension. Additionally, the patient has exhibited behavioral difficulties, including decreased engagement in previously enjoyed activities and increased irritability. These symptoms developed within three months of exposure to a significant psychosocial stressor and have resulted in notable functional impairment across her daily life, particularly impacting her occupational performance. Her current presentation fulfills the criteria observed in presentations with mixed disturbance of emotions and conduct. The symptoms have persisted for one month and do not exceed six months since the termination of the stressor or its consequences.",
+        "options": "\n    A. Adjustment Disorder\n    B. Generalized Anxiety Disorder\n    C. Acute Stress Disorder\n    D. Bipolar I Disorder\n    ",
+        "answer": "A. Adjustment Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D020",
+                "disease_name": "Adjustment Disorder",
+                "sampled_features": {
+                    "disease_code": "D020",
+                    "disease_name": "Adjustment Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "additional_requirements": [
+                            "Symptoms must develop within 3 months of the onset of the stressor",
+                            "Within 6 months of the termination of the stressor or its consequences"
+                        ],
+                        "functional_impairment_required": true,
+                        "psychosocial_stressor_required": {
+                            "required": true
+                        },
+                        "duration": "1 month"
+                    },
+                    "sampled_symptom_groups": {
+                        "adjustment_symptoms": {
+                            "symptoms": [
+                                "S081"
+                            ],
+                            "name": "adjustment_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S081"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S081": {
+                            "name": "Stress_Related_Maladaptive_Response",
+                            "categoty": "adjustment_symptoms",
+                            "description": "Emotional or behavioral symptoms appearing in response to an identifiable stressor.",
+                            "subtypes": {
+                                "With Mixed Disturbance of Emotions and Conduct": "Both emotional symptoms (depression, anxiety) and behavioral problems appear together."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Adjustment Disorder",
+                    "Generalized Anxiety Disorder",
+                    "Acute Stress Disorder",
+                    "Bipolar I Disorder"
+                ],
+                "answer_index": [
+                    0
+                ],
+                "index_types": [
+                    "answer",
+                    "Less likely option",
+                    "Less likely option",
+                    "Less likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D020",
+                        "disease_name": "Adjustment Disorder"
+                    },
+                    {
+                        "disease_code": "D011",
+                        "disease_name": "Generalized Anxiety Disorder"
+                    },
+                    {
+                        "disease_code": "D019",
+                        "disease_name": "Acute Stress Disorder"
+                    },
+                    {
+                        "disease_code": "D008",
+                        "disease_name": "Bipolar I Disorder"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 20\n- **Gender:** Female\n- **Occupation:** K-Pop Trainee\n- **Marital Status:** Single\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Adjustment Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. adjustment_symptoms Requirements:**\n- With Mixed Disturbance of Emotions and Conduct (Both emotional symptoms (depression, anxiety) and behavioral problems appear together.)\n\n**Critical Diagnostic Criteria:**\n\n- Duration: 1 month\n\n- Functional Impairment: True\n\n- Psychosocial Stressor: {'required': True}\n\n- Additional Requirements:\n\n1) Symptoms must develop within 3 months of the onset of the stressor\n\n2) Within 6 months of the termination of the stressor or its consequences"
+    },
+    "D020_l018": {
+        "question": "A 53-year-old married female museum docent presents with a one-month history of emotional and behavioral alterations. She reports experiencing a notable increase in anxiety, characterized by persistent worry and restlessness, alongside a pervasive depressed mood, including feelings of sadness and anhedonia. Concurrently, she demonstrates changes in conduct, exhibiting increased irritability and difficulty adhering to her usual routines. These symptoms developed after a significant psychosocial stressor and have resulted in a clear functional impairment across multiple domains of her life. The clinical picture is consistent with a mixed disturbance of emotions and conduct, appearing within three months of the stressor's onset. The patient continues to experience the consequences of the stressor.",
+        "options": "\n    A. Adjustment Disorder\n    B. Generalized Anxiety Disorder\n    C. Acute Stress Disorder\n    D. Bipolar I Disorder\n    ",
+        "answer": "A. Adjustment Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D020",
+                "disease_name": "Adjustment Disorder",
+                "sampled_features": {
+                    "disease_code": "D020",
+                    "disease_name": "Adjustment Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "additional_requirements": [
+                            "Symptoms must develop within 3 months of the onset of the stressor",
+                            "Within 6 months of the termination of the stressor or its consequences"
+                        ],
+                        "functional_impairment_required": true,
+                        "psychosocial_stressor_required": {
+                            "required": true
+                        },
+                        "duration": "1 month"
+                    },
+                    "sampled_symptom_groups": {
+                        "adjustment_symptoms": {
+                            "symptoms": [
+                                "S081"
+                            ],
+                            "name": "adjustment_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S081"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S081": {
+                            "name": "Stress_Related_Maladaptive_Response",
+                            "categoty": "adjustment_symptoms",
+                            "description": "Emotional or behavioral symptoms appearing in response to an identifiable stressor.",
+                            "subtypes": {
+                                "With Mixed Disturbance of Emotions and Conduct": "Both emotional symptoms (depression, anxiety) and behavioral problems appear together."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Adjustment Disorder",
+                    "Generalized Anxiety Disorder",
+                    "Acute Stress Disorder",
+                    "Bipolar I Disorder"
+                ],
+                "answer_index": [
+                    0
+                ],
+                "index_types": [
+                    "answer",
+                    "Less likely option",
+                    "Less likely option",
+                    "Less likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D020",
+                        "disease_name": "Adjustment Disorder"
+                    },
+                    {
+                        "disease_code": "D011",
+                        "disease_name": "Generalized Anxiety Disorder"
+                    },
+                    {
+                        "disease_code": "D019",
+                        "disease_name": "Acute Stress Disorder"
+                    },
+                    {
+                        "disease_code": "D008",
+                        "disease_name": "Bipolar I Disorder"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 53\n- **Gender:** Female\n- **Occupation:** Museum Docent\n- **Marital Status:** Married\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Adjustment Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. adjustment_symptoms Requirements:**\n- With Mixed Disturbance of Emotions and Conduct (Both emotional symptoms (depression, anxiety) and behavioral problems appear together.)\n\n**Critical Diagnostic Criteria:**\n\n- Duration: 1 month\n\n- Functional Impairment: True\n\n- Psychosocial Stressor: {'required': True}\n\n- Additional Requirements:\n\n1) Symptoms must develop within 3 months of the onset of the stressor\n\n2) Within 6 months of the termination of the stressor or its consequences"
+    },
+    "D020_l019": {
+        "question": "A 27-year-old single male software engineer presents with a one-month history of emotional and behavioral symptoms following a recent psychosocial stressor. The patient reports experiencing a combination of depressed mood, characterized by anhedonia and feelings of hopelessness, alongside prominent anxiety symptoms, including persistent worry and difficulty concentrating. These symptoms developed within three months of the stressor's onset and have resulted in significant functional impairment, particularly in his professional responsibilities and social interactions. He denies any prior psychiatric history or substance use. The clinical picture is consistent with a reactive condition rather than an independent mental disorder, with the symptoms having manifested in direct response to an identifiable stressor.",
+        "options": "\n    A. Adjustment Disorder\n    B. Generalized Anxiety Disorder\n    C. Acute Stress Disorder\n    D. Bipolar I Disorder\n    ",
+        "answer": "A. Adjustment Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D020",
+                "disease_name": "Adjustment Disorder",
+                "sampled_features": {
+                    "disease_code": "D020",
+                    "disease_name": "Adjustment Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "additional_requirements": [
+                            "Symptoms must develop within 3 months of the onset of the stressor",
+                            "Within 6 months of the termination of the stressor or its consequences"
+                        ],
+                        "functional_impairment_required": true,
+                        "psychosocial_stressor_required": {
+                            "required": true
+                        },
+                        "duration": "1 month"
+                    },
+                    "sampled_symptom_groups": {
+                        "adjustment_symptoms": {
+                            "symptoms": [
+                                "S081"
+                            ],
+                            "name": "adjustment_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S081"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S081": {
+                            "name": "Stress_Related_Maladaptive_Response",
+                            "categoty": "adjustment_symptoms",
+                            "description": "Emotional or behavioral symptoms appearing in response to an identifiable stressor.",
+                            "subtypes": {
+                                "With Mixed Anxiety and Depressed Mood": "A combination of depression and anxiety symptoms appears."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Adjustment Disorder",
+                    "Generalized Anxiety Disorder",
+                    "Acute Stress Disorder",
+                    "Bipolar I Disorder"
+                ],
+                "answer_index": [
+                    0
+                ],
+                "index_types": [
+                    "answer",
+                    "Less likely option",
+                    "Less likely option",
+                    "Less likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D020",
+                        "disease_name": "Adjustment Disorder"
+                    },
+                    {
+                        "disease_code": "D011",
+                        "disease_name": "Generalized Anxiety Disorder"
+                    },
+                    {
+                        "disease_code": "D019",
+                        "disease_name": "Acute Stress Disorder"
+                    },
+                    {
+                        "disease_code": "D008",
+                        "disease_name": "Bipolar I Disorder"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 27\n- **Gender:** Male\n- **Occupation:** Software Engineer (Startup)\n- **Marital Status:** Single\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Adjustment Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. adjustment_symptoms Requirements:**\n- With Mixed Anxiety and Depressed Mood (A combination of depression and anxiety symptoms appears.)\n\n**Critical Diagnostic Criteria:**\n\n- Duration: 1 month\n\n- Functional Impairment: True\n\n- Psychosocial Stressor: {'required': True}\n\n- Additional Requirements:\n\n1) Symptoms must develop within 3 months of the onset of the stressor\n\n2) Within 6 months of the termination of the stressor or its consequences"
+    },
+    "D020_l020": {
+        "question": "A 27-year-old single female, employed as a junior graphic designer, presents with a one-month history of behavioral disturbances. The patient reports an increase in rule-breaking behaviors, including truancy from work and engagement in reckless driving. Additionally, she has been involved in several verbal altercations, indicating a disturbance of conduct. These symptoms developed within three months of a significant, identifiable psychosocial stressor. The patient reports significant functional impairment in both her professional and personal life, directly attributable to the behavioral changes. The clinical picture is consistent with a reaction to a recent stressor, with symptoms not extending beyond six months from the termination of the stressor or its consequences.",
+        "options": "\n    A. Adjustment Disorder\n    B. Generalized Anxiety Disorder\n    C. Acute Stress Disorder\n    D. Bipolar I Disorder\n    ",
+        "answer": "A. Adjustment Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D020",
+                "disease_name": "Adjustment Disorder",
+                "sampled_features": {
+                    "disease_code": "D020",
+                    "disease_name": "Adjustment Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "additional_requirements": [
+                            "Symptoms must develop within 3 months of the onset of the stressor",
+                            "Within 6 months of the termination of the stressor or its consequences"
+                        ],
+                        "functional_impairment_required": true,
+                        "psychosocial_stressor_required": {
+                            "required": true
+                        },
+                        "duration": "1 month"
+                    },
+                    "sampled_symptom_groups": {
+                        "adjustment_symptoms": {
+                            "symptoms": [
+                                "S081"
+                            ],
+                            "name": "adjustment_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S081"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S081": {
+                            "name": "Stress_Related_Maladaptive_Response",
+                            "categoty": "adjustment_symptoms",
+                            "description": "Emotional or behavioral symptoms appearing in response to an identifiable stressor.",
+                            "subtypes": {
+                                "With Disturbance of Conduct": "Symptoms mainly involve violation of rules, truancy, vandalism, reckless driving, or fighting."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Adjustment Disorder",
+                    "Generalized Anxiety Disorder",
+                    "Acute Stress Disorder",
+                    "Bipolar I Disorder"
+                ],
+                "answer_index": [
+                    0
+                ],
+                "index_types": [
+                    "answer",
+                    "Less likely option",
+                    "Less likely option",
+                    "Less likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D020",
+                        "disease_name": "Adjustment Disorder"
+                    },
+                    {
+                        "disease_code": "D011",
+                        "disease_name": "Generalized Anxiety Disorder"
+                    },
+                    {
+                        "disease_code": "D019",
+                        "disease_name": "Acute Stress Disorder"
+                    },
+                    {
+                        "disease_code": "D008",
+                        "disease_name": "Bipolar I Disorder"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 27\n- **Gender:** Female\n- **Occupation:** Junior Graphic Designer\n- **Marital Status:** Single\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Adjustment Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. adjustment_symptoms Requirements:**\n- With Disturbance of Conduct (Symptoms mainly involve violation of rules, truancy, vandalism, reckless driving, or fighting.)\n\n**Critical Diagnostic Criteria:**\n\n- Duration: 1 month\n\n- Functional Impairment: True\n\n- Psychosocial Stressor: {'required': True}\n\n- Additional Requirements:\n\n1) Symptoms must develop within 3 months of the onset of the stressor\n\n2) Within 6 months of the termination of the stressor or its consequences"
+    },
+    "D020_l021": {
+        "question": "A 23-year-old single male, currently a job seeker, presents with a five-month history of emotional and behavioral changes following a significant psychosocial stressor. The patient reports a persistent depressed mood, characterized by feelings of sadness and anhedonia, alongside notable anxiety symptoms, including nervousness and apprehension. Concurrently, he has exhibited behavioral disturbances, specifically increased irritability and occasional outbursts of anger. These symptoms emerged approximately two months after the onset of the identified stressor and have led to marked functional impairment in his social and occupational pursuits. The current presentation would be consistent with a diagnosis of an adjustment disorder, mixed disturbance of emotions and conduct.",
+        "options": "\n    A. Major Depressive Disorder\n    B. Persistent Depressive Disorder\n    C. Adjustment Disorder\n    D. Major Depressive Disorder with Psychotic Features\n    ",
+        "answer": "C. Adjustment Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D020",
+                "disease_name": "Adjustment Disorder",
+                "sampled_features": {
+                    "disease_code": "D020",
+                    "disease_name": "Adjustment Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "additional_requirements": [
+                            "Symptoms must develop within 3 months of the onset of the stressor",
+                            "Within 6 months of the termination of the stressor or its consequences"
+                        ],
+                        "functional_impairment_required": true,
+                        "psychosocial_stressor_required": {
+                            "required": true
+                        },
+                        "duration": "5 months"
+                    },
+                    "sampled_symptom_groups": {
+                        "adjustment_symptoms": {
+                            "symptoms": [
+                                "S081"
+                            ],
+                            "name": "adjustment_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S081"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S081": {
+                            "name": "Stress_Related_Maladaptive_Response",
+                            "categoty": "adjustment_symptoms",
+                            "description": "Emotional or behavioral symptoms appearing in response to an identifiable stressor.",
+                            "subtypes": {
+                                "With Mixed Disturbance of Emotions and Conduct": "Both emotional symptoms (depression, anxiety) and behavioral problems appear together."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Major Depressive Disorder",
+                    "Persistent Depressive Disorder",
+                    "Adjustment Disorder",
+                    "Major Depressive Disorder with Psychotic Features"
+                ],
+                "answer_index": [
+                    2
+                ],
+                "index_types": [
+                    "Less likely option",
+                    "Less likely option",
+                    "answer",
+                    "Less likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D013",
+                        "disease_name": "Major Depressive Disorder"
+                    },
+                    {
+                        "disease_code": "D014",
+                        "disease_name": "Persistent Depressive Disorder"
+                    },
+                    {
+                        "disease_code": "D020",
+                        "disease_name": "Adjustment Disorder"
+                    },
+                    {
+                        "disease_code": "D015",
+                        "disease_name": "Major Depressive Disorder with Psychotic Features"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 23\n- **Gender:** Male\n- **Occupation:** Job Seeker\n- **Marital Status:** Single\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Adjustment Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. adjustment_symptoms Requirements:**\n- With Mixed Disturbance of Emotions and Conduct (Both emotional symptoms (depression, anxiety) and behavioral problems appear together.)\n\n**Critical Diagnostic Criteria:**\n\n- Duration: 5 months\n\n- Functional Impairment: True\n\n- Psychosocial Stressor: {'required': True}\n\n- Additional Requirements:\n\n1) Symptoms must develop within 3 months of the onset of the stressor\n\n2) Within 6 months of the termination of the stressor or its consequences"
+    },
+    "D020_l022": {
+        "question": "A 49-year-old married male auctioneer presents with a 5-month history of behavioral disturbances. The patient developed symptoms approximately two months following a significant psychosocial stressor. He has exhibited a persistent pattern of rule violations, including instances of reckless driving and altercations, which represent a marked change from his previous functioning. These behavioral changes have led to significant functional impairment in his personal and professional life. The reported duration of symptoms is consistent with an acute reaction to the identified stressor.",
+        "options": "\n    A. Major Depressive Disorder\n    B. Persistent Depressive Disorder\n    C. Adjustment Disorder\n    D. Major Depressive Disorder with Psychotic Features\n    ",
+        "answer": "C. Adjustment Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D020",
+                "disease_name": "Adjustment Disorder",
+                "sampled_features": {
+                    "disease_code": "D020",
+                    "disease_name": "Adjustment Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "additional_requirements": [
+                            "Symptoms must develop within 3 months of the onset of the stressor",
+                            "Within 6 months of the termination of the stressor or its consequences"
+                        ],
+                        "functional_impairment_required": true,
+                        "psychosocial_stressor_required": {
+                            "required": true
+                        },
+                        "duration": "5 months"
+                    },
+                    "sampled_symptom_groups": {
+                        "adjustment_symptoms": {
+                            "symptoms": [
+                                "S081"
+                            ],
+                            "name": "adjustment_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S081"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S081": {
+                            "name": "Stress_Related_Maladaptive_Response",
+                            "categoty": "adjustment_symptoms",
+                            "description": "Emotional or behavioral symptoms appearing in response to an identifiable stressor.",
+                            "subtypes": {
+                                "With Disturbance of Conduct": "Symptoms mainly involve violation of rules, truancy, vandalism, reckless driving, or fighting."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Major Depressive Disorder",
+                    "Persistent Depressive Disorder",
+                    "Adjustment Disorder",
+                    "Major Depressive Disorder with Psychotic Features"
+                ],
+                "answer_index": [
+                    2
+                ],
+                "index_types": [
+                    "Less likely option",
+                    "Less likely option",
+                    "answer",
+                    "Less likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D013",
+                        "disease_name": "Major Depressive Disorder"
+                    },
+                    {
+                        "disease_code": "D014",
+                        "disease_name": "Persistent Depressive Disorder"
+                    },
+                    {
+                        "disease_code": "D020",
+                        "disease_name": "Adjustment Disorder"
+                    },
+                    {
+                        "disease_code": "D015",
+                        "disease_name": "Major Depressive Disorder with Psychotic Features"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 49\n- **Gender:** Male\n- **Occupation:** Auctioneer\n- **Marital Status:** Married\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Adjustment Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. adjustment_symptoms Requirements:**\n- With Disturbance of Conduct (Symptoms mainly involve violation of rules, truancy, vandalism, reckless driving, or fighting.)\n\n**Critical Diagnostic Criteria:**\n\n- Duration: 5 months\n\n- Functional Impairment: True\n\n- Psychosocial Stressor: {'required': True}\n\n- Additional Requirements:\n\n1) Symptoms must develop within 3 months of the onset of the stressor\n\n2) Within 6 months of the termination of the stressor or its consequences"
+    },
+    "D020_l023": {
+        "question": "A 35-year-old married female corporate lawyer presents with a five-month history of emotional and behavioral disturbances. She reports a noticeable decline in her mood, characterized by pervasive feelings of sadness and worry, alongside an increase in irritability. Concurrently, she describes engaging in uncharacteristic behaviors, including social withdrawal and occasional outbursts of anger. These symptoms developed approximately one month following a significant change in her professional responsibilities, which she perceives as a considerable stressor. The patient indicates that these changes have led to marked impairment in her social and occupational functioning, affecting her relationships with colleagues and her overall work performance. Her presentation does not meet criteria for a major depressive episode or an anxiety disorder.",
+        "options": "\n    A. Major Depressive Disorder\n    B. Persistent Depressive Disorder\n    C. Adjustment Disorder\n    D. Major Depressive Disorder with Psychotic Features\n    ",
+        "answer": "C. Adjustment Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D020",
+                "disease_name": "Adjustment Disorder",
+                "sampled_features": {
+                    "disease_code": "D020",
+                    "disease_name": "Adjustment Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "additional_requirements": [
+                            "Symptoms must develop within 3 months of the onset of the stressor",
+                            "Within 6 months of the termination of the stressor or its consequences"
+                        ],
+                        "functional_impairment_required": true,
+                        "psychosocial_stressor_required": {
+                            "required": true
+                        },
+                        "duration": "5 months"
+                    },
+                    "sampled_symptom_groups": {
+                        "adjustment_symptoms": {
+                            "symptoms": [
+                                "S081"
+                            ],
+                            "name": "adjustment_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S081"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S081": {
+                            "name": "Stress_Related_Maladaptive_Response",
+                            "categoty": "adjustment_symptoms",
+                            "description": "Emotional or behavioral symptoms appearing in response to an identifiable stressor.",
+                            "subtypes": {
+                                "With Mixed Disturbance of Emotions and Conduct": "Both emotional symptoms (depression, anxiety) and behavioral problems appear together."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Major Depressive Disorder",
+                    "Persistent Depressive Disorder",
+                    "Adjustment Disorder",
+                    "Major Depressive Disorder with Psychotic Features"
+                ],
+                "answer_index": [
+                    2
+                ],
+                "index_types": [
+                    "Less likely option",
+                    "Less likely option",
+                    "answer",
+                    "Less likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D013",
+                        "disease_name": "Major Depressive Disorder"
+                    },
+                    {
+                        "disease_code": "D014",
+                        "disease_name": "Persistent Depressive Disorder"
+                    },
+                    {
+                        "disease_code": "D020",
+                        "disease_name": "Adjustment Disorder"
+                    },
+                    {
+                        "disease_code": "D015",
+                        "disease_name": "Major Depressive Disorder with Psychotic Features"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 35\n- **Gender:** Female\n- **Occupation:** Corporate Lawyer\n- **Marital Status:** Married\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Adjustment Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. adjustment_symptoms Requirements:**\n- With Mixed Disturbance of Emotions and Conduct (Both emotional symptoms (depression, anxiety) and behavioral problems appear together.)\n\n**Critical Diagnostic Criteria:**\n\n- Duration: 5 months\n\n- Functional Impairment: True\n\n- Psychosocial Stressor: {'required': True}\n\n- Additional Requirements:\n\n1) Symptoms must develop within 3 months of the onset of the stressor\n\n2) Within 6 months of the termination of the stressor or its consequences"
+    },
+    "D020_l024": {
+        "question": "A 49-year-old single female, CEO of an interior design firm, presents with a five-month history of behavioral disturbance following significant psychosocial stressors that occurred six months prior to symptom onset. The patient reports engaging in reckless driving, which resulted in two traffic citations. She also describes increased interpersonal conflict, including multiple verbal altercations with colleagues and subordinates. These changes represent a distinct shift from her baseline functioning. The patient denies any recent substance use or significant changes in her mood, appetite, or sleep patterns. Her ability to maintain professional responsibilities at a high level reflects underlying functional impairment related to these behavioral changes.",
+        "options": "\n    A. Major Depressive Disorder\n    B. Persistent Depressive Disorder\n    C. Adjustment Disorder\n    D. Major Depressive Disorder with Psychotic Features\n    ",
+        "answer": "C. Adjustment Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D020",
+                "disease_name": "Adjustment Disorder",
+                "sampled_features": {
+                    "disease_code": "D020",
+                    "disease_name": "Adjustment Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "additional_requirements": [
+                            "Symptoms must develop within 3 months of the onset of the stressor",
+                            "Within 6 months of the termination of the stressor or its consequences"
+                        ],
+                        "functional_impairment_required": true,
+                        "psychosocial_stressor_required": {
+                            "required": true
+                        },
+                        "duration": "5 months"
+                    },
+                    "sampled_symptom_groups": {
+                        "adjustment_symptoms": {
+                            "symptoms": [
+                                "S081"
+                            ],
+                            "name": "adjustment_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S081"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S081": {
+                            "name": "Stress_Related_Maladaptive_Response",
+                            "categoty": "adjustment_symptoms",
+                            "description": "Emotional or behavioral symptoms appearing in response to an identifiable stressor.",
+                            "subtypes": {
+                                "With Disturbance of Conduct": "Symptoms mainly involve violation of rules, truancy, vandalism, reckless driving, or fighting."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Major Depressive Disorder",
+                    "Persistent Depressive Disorder",
+                    "Adjustment Disorder",
+                    "Major Depressive Disorder with Psychotic Features"
+                ],
+                "answer_index": [
+                    2
+                ],
+                "index_types": [
+                    "Less likely option",
+                    "Less likely option",
+                    "answer",
+                    "Less likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D013",
+                        "disease_name": "Major Depressive Disorder"
+                    },
+                    {
+                        "disease_code": "D014",
+                        "disease_name": "Persistent Depressive Disorder"
+                    },
+                    {
+                        "disease_code": "D020",
+                        "disease_name": "Adjustment Disorder"
+                    },
+                    {
+                        "disease_code": "D015",
+                        "disease_name": "Major Depressive Disorder with Psychotic Features"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 49\n- **Gender:** Female\n- **Occupation:** Interior Design Firm CEO\n- **Marital Status:** Single\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Adjustment Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. adjustment_symptoms Requirements:**\n- With Disturbance of Conduct (Symptoms mainly involve violation of rules, truancy, vandalism, reckless driving, or fighting.)\n\n**Critical Diagnostic Criteria:**\n\n- Duration: 5 months\n\n- Functional Impairment: True\n\n- Psychosocial Stressor: {'required': True}\n\n- Additional Requirements:\n\n1) Symptoms must develop within 3 months of the onset of the stressor\n\n2) Within 6 months of the termination of the stressor or its consequences"
+    },
+    "D020_l025": {
+        "question": "A 53-year-old married female, a jewelry designer by profession, presents with a five-month history of emotional and behavioral symptoms. The patient describes experiencing persistent low mood, anhedonia, and heightened anxiety. Concurrently, she reports exhibiting increased irritability, argumentative behavior, and difficulty controlling her temper. These symptoms emerged approximately two months following a significant psychosocial stressor and have resulted in noticeable functional impairment in her social and occupational spheres. The patient denies any past psychiatric history. Her divorced status, which occurred significantly prior to symptom onset, is not considered a precipitating factor for the current presentation.",
+        "options": "\n    A. Major Depressive Disorder\n    B. Persistent Depressive Disorder\n    C. Adjustment Disorder\n    D. Major Depressive Disorder with Psychotic Features\n    ",
+        "answer": "C. Adjustment Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D020",
+                "disease_name": "Adjustment Disorder",
+                "sampled_features": {
+                    "disease_code": "D020",
+                    "disease_name": "Adjustment Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "additional_requirements": [
+                            "Symptoms must develop within 3 months of the onset of the stressor",
+                            "Within 6 months of the termination of the stressor or its consequences"
+                        ],
+                        "functional_impairment_required": true,
+                        "psychosocial_stressor_required": {
+                            "required": true
+                        },
+                        "duration": "5 months"
+                    },
+                    "sampled_symptom_groups": {
+                        "adjustment_symptoms": {
+                            "symptoms": [
+                                "S081"
+                            ],
+                            "name": "adjustment_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S081"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S081": {
+                            "name": "Stress_Related_Maladaptive_Response",
+                            "categoty": "adjustment_symptoms",
+                            "description": "Emotional or behavioral symptoms appearing in response to an identifiable stressor.",
+                            "subtypes": {
+                                "With Mixed Disturbance of Emotions and Conduct": "Both emotional symptoms (depression, anxiety) and behavioral problems appear together."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Major Depressive Disorder",
+                    "Persistent Depressive Disorder",
+                    "Adjustment Disorder",
+                    "Major Depressive Disorder with Psychotic Features"
+                ],
+                "answer_index": [
+                    2
+                ],
+                "index_types": [
+                    "Less likely option",
+                    "Less likely option",
+                    "answer",
+                    "Less likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D013",
+                        "disease_name": "Major Depressive Disorder"
+                    },
+                    {
+                        "disease_code": "D014",
+                        "disease_name": "Persistent Depressive Disorder"
+                    },
+                    {
+                        "disease_code": "D020",
+                        "disease_name": "Adjustment Disorder"
+                    },
+                    {
+                        "disease_code": "D015",
+                        "disease_name": "Major Depressive Disorder with Psychotic Features"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 53\n- **Gender:** Female\n- **Occupation:** Jewelry Designer\n- **Marital Status:** Divorced\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Adjustment Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. adjustment_symptoms Requirements:**\n- With Mixed Disturbance of Emotions and Conduct (Both emotional symptoms (depression, anxiety) and behavioral problems appear together.)\n\n**Critical Diagnostic Criteria:**\n\n- Duration: 5 months\n\n- Functional Impairment: True\n\n- Psychosocial Stressor: {'required': True}\n\n- Additional Requirements:\n\n1) Symptoms must develop within 3 months of the onset of the stressor\n\n2) Within 6 months of the termination of the stressor or its consequences"
+    }
+}

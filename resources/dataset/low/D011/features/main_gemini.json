@@ -1,0 +1,3032 @@
+{
+    "D011_l001": {
+        "question": "A 68-year-old married retired male civil servant presents with a 9-month history of pervasive apprehension. The patient reports persistent difficulty controlling his worry, despite attempts at distraction. He describes significant intolerance of uncertainty, characterized by a preoccupation with hypothetical negative outcomes. Objectively, he exhibits generalized physical tension, and his attention is noted to be scattered, impairing his ability to sustain focus. Furthermore, he reports sleep disturbance secondary to recurrent and distressing nightmares. These symptoms have led to notable functional impairment in his daily life.",
+        "options": "\n    A. Major Depressive Disorder with Psychotic Features\n    B. Acute Stress Disorder\n    C. Specific Phobia\n    D. Generalized Anxiety Disorder\n    ",
+        "answer": "D. Generalized Anxiety Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D011",
+                "disease_name": "Generalized Anxiety Disorder",
+                "sampled_features": {
+                    "disease_code": "D011",
+                    "disease_name": "Generalized Anxiety Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "functional_impairment_required": true,
+                        "duration": "9 months"
+                    },
+                    "sampled_symptom_groups": {
+                        "anxiety_symptoms": {
+                            "symptoms": [
+                                "S057",
+                                "S056",
+                                "S058",
+                                "S059",
+                                "S027"
+                            ],
+                            "name": "anxiety_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S027",
+                        "S056",
+                        "S057",
+                        "S058",
+                        "S059"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S027": {
+                            "name": "Sleep_Disturbance",
+                            "categoty": "depressive_episode",
+                            "description": "A state where there is a significant change in the quantity or quality of sleep.",
+                            "subtypes": {
+                                "Nightmare Disorder": "Sleep disturbance caused by repeated and distressing dreams."
+                            }
+                        },
+                        "S056": {
+                            "name": "Excessive_Anxiety_Worry",
+                            "categoty": "anxiety_symptoms",
+                            "description": "Excessive anxiety and worry (expectant apprehension) occurring persistently about a number of events or activities.",
+                            "subtypes": {
+                                "Intolerance of Uncertainty": "Unable to tolerate future uncertainty, trapped in 'what if' questions."
+                            }
+                        },
+                        "S057": {
+                            "name": "Uncontrollable_Worry",
+                            "categoty": "anxiety_symptoms",
+                            "description": "The subjective experience of finding it difficult to stop or control the worry.",
+                            "subtypes": {
+                                "Failure to Control": "Unable to regulate worry despite efforts to stop or distract oneself."
+                            }
+                        },
+                        "S058": {
+                            "name": "Restlessness_Tension",
+                            "categoty": "anxiety_symptoms",
+                            "description": "Restlessness, or feeling keyed up or on edge.",
+                            "subtypes": {
+                                "Physical Tension": "The entire body feels stiff and tense, unable to relax."
+                            }
+                        },
+                        "S059": {
+                            "name": "Concentration_Difficulty",
+                            "categoty": "anxiety_symptoms",
+                            "description": "Difficulty concentrating or mind going blank.",
+                            "subtypes": {
+                                "Inability to Sustain Attention": "Attention is scattered due to anxiety, making it hard to focus on one thing for long."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Major Depressive Disorder with Psychotic Features",
+                    "Acute Stress Disorder",
+                    "Specific Phobia",
+                    "Generalized Anxiety Disorder"
+                ],
+                "answer_index": [
+                    3
+                ],
+                "index_types": [
+                    "Moderately likely option",
+                    "Moderately likely option",
+                    "must_contain_option",
+                    "answer"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D015",
+                        "disease_name": "Major Depressive Disorder with Psychotic Features",
+                        "shared_symptoms": [
+                            "S027"
+                        ]
+                    },
+                    {
+                        "disease_code": "D019",
+                        "disease_name": "Acute Stress Disorder",
+                        "shared_symptoms": [
+                            "S027"
+                        ]
+                    },
+                    {
+                        "disease_code": "D012",
+                        "disease_name": "Specific Phobia"
+                    },
+                    {
+                        "disease_code": "D011",
+                        "disease_name": "Generalized Anxiety Disorder"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 68\n- **Gender:** Male\n- **Occupation:** Retired Civil Servant\n- **Marital Status:** Married\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Generalized Anxiety Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. anxiety_symptoms Requirements:**\n- Failure to Control (Unable to regulate worry despite efforts to stop or distract oneself.)\n- Intolerance of Uncertainty (Unable to tolerate future uncertainty, trapped in 'what if' questions.)\n- Physical Tension (The entire body feels stiff and tense, unable to relax.)\n- Inability to Sustain Attention (Attention is scattered due to anxiety, making it hard to focus on one thing for long.)\n- Nightmare Disorder (Sleep disturbance caused by repeated and distressing dreams.)\n\n**Critical Diagnostic Criteria:**\n\n- Duration: 9 months\n\n- Functional Impairment: True"
+    },
+    "D011_l002": {
+        "question": "A 59-year-old single female head librarian presents with a nine-month history of pervasive anxiety. She reports significant difficulty controlling her worries, often becoming trapped in \"what if\" scenarios and exhibiting a marked intolerance of uncertainty. The patient describes feeling persistently \"keyed up\" and unable to relax, frequently experiencing an internal sense of restlessness. She also notes episodes where her mind \"goes blank,\" making concentration challenging. Her sleep is disturbed by initial insomnia, characterized by prolonged periods taken to fall asleep. These symptoms have led to notable functional impairment in her daily life.",
+        "options": "\n    A. Major Depressive Disorder with Psychotic Features\n    B. Acute Stress Disorder\n    C. Specific Phobia\n    D. Generalized Anxiety Disorder\n    ",
+        "answer": "D. Generalized Anxiety Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D011",
+                "disease_name": "Generalized Anxiety Disorder",
+                "sampled_features": {
+                    "disease_code": "D011",
+                    "disease_name": "Generalized Anxiety Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "functional_impairment_required": true,
+                        "duration": "9 months"
+                    },
+                    "sampled_symptom_groups": {
+                        "anxiety_symptoms": {
+                            "symptoms": [
+                                "S057",
+                                "S056",
+                                "S058",
+                                "S059",
+                                "S027"
+                            ],
+                            "name": "anxiety_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S027",
+                        "S056",
+                        "S057",
+                        "S058",
+                        "S059"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S027": {
+                            "name": "Sleep_Disturbance",
+                            "categoty": "depressive_episode",
+                            "description": "A state where there is a significant change in the quantity or quality of sleep.",
+                            "subtypes": {
+                                "Initial Insomnia": "Difficulty falling asleep and taking a long time to do so."
+                            }
+                        },
+                        "S056": {
+                            "name": "Excessive_Anxiety_Worry",
+                            "categoty": "anxiety_symptoms",
+                            "description": "Excessive anxiety and worry (expectant apprehension) occurring persistently about a number of events or activities.",
+                            "subtypes": {
+                                "Intolerance of Uncertainty": "Unable to tolerate future uncertainty, trapped in 'what if' questions."
+                            }
+                        },
+                        "S057": {
+                            "name": "Uncontrollable_Worry",
+                            "categoty": "anxiety_symptoms",
+                            "description": "The subjective experience of finding it difficult to stop or control the worry.",
+                            "subtypes": {
+                                "Failure to Control": "Unable to regulate worry despite efforts to stop or distract oneself."
+                            }
+                        },
+                        "S058": {
+                            "name": "Restlessness_Tension",
+                            "categoty": "anxiety_symptoms",
+                            "description": "Restlessness, or feeling keyed up or on edge.",
+                            "subtypes": {
+                                "Feeling Keyed Up": "Feeling anxious and wound up like a spring, unable to stay still."
+                            }
+                        },
+                        "S059": {
+                            "name": "Concentration_Difficulty",
+                            "categoty": "anxiety_symptoms",
+                            "description": "Difficulty concentrating or mind going blank.",
+                            "subtypes": {
+                                "Mind Going Blank": "Suddenly the mind goes empty or white, and no thoughts occur."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Major Depressive Disorder with Psychotic Features",
+                    "Acute Stress Disorder",
+                    "Specific Phobia",
+                    "Generalized Anxiety Disorder"
+                ],
+                "answer_index": [
+                    3
+                ],
+                "index_types": [
+                    "Moderately likely option",
+                    "Moderately likely option",
+                    "must_contain_option",
+                    "answer"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D015",
+                        "disease_name": "Major Depressive Disorder with Psychotic Features",
+                        "shared_symptoms": [
+                            "S027"
+                        ]
+                    },
+                    {
+                        "disease_code": "D019",
+                        "disease_name": "Acute Stress Disorder",
+                        "shared_symptoms": [
+                            "S027"
+                        ]
+                    },
+                    {
+                        "disease_code": "D012",
+                        "disease_name": "Specific Phobia"
+                    },
+                    {
+                        "disease_code": "D011",
+                        "disease_name": "Generalized Anxiety Disorder"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 59\n- **Gender:** Female\n- **Occupation:** Head Librarian\n- **Marital Status:** Single\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Generalized Anxiety Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. anxiety_symptoms Requirements:**\n- Failure to Control (Unable to regulate worry despite efforts to stop or distract oneself.)\n- Intolerance of Uncertainty (Unable to tolerate future uncertainty, trapped in 'what if' questions.)\n- Feeling Keyed Up (Feeling anxious and wound up like a spring, unable to stay still.)\n- Mind Going Blank (Suddenly the mind goes empty or white, and no thoughts occur.)\n- Initial Insomnia (Difficulty falling asleep and taking a long time to do so.)\n\n**Critical Diagnostic Criteria:**\n\n- Duration: 9 months\n\n- Functional Impairment: True"
+    },
+    "D011_l003": {
+        "question": "A 25-year-old single male paramedic presents with a 9-month history of pervasive anxiety. He reports experiencing chronic worry on most days, which he describes as difficult to control despite conscious efforts to redirect his thoughts. He endorsed a persistent feeling of being \"keyed up\" or on edge, accompanied by psychomotor agitation. The patient also noted episodes of his mind \"going blank\" during stressful situations. Additionally, he reported early morning awakenings, leading to unrefreshing sleep. These symptoms have resulted in significant functional impairment in his professional and social life.",
+        "options": "\n    A. Major Depressive Disorder with Psychotic Features\n    B. Acute Stress Disorder\n    C. Specific Phobia\n    D. Generalized Anxiety Disorder\n    ",
+        "answer": "D. Generalized Anxiety Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D011",
+                "disease_name": "Generalized Anxiety Disorder",
+                "sampled_features": {
+                    "disease_code": "D011",
+                    "disease_name": "Generalized Anxiety Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "functional_impairment_required": true,
+                        "duration": "9 months"
+                    },
+                    "sampled_symptom_groups": {
+                        "anxiety_symptoms": {
+                            "symptoms": [
+                                "S057",
+                                "S056",
+                                "S058",
+                                "S059",
+                                "S027"
+                            ],
+                            "name": "anxiety_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S027",
+                        "S056",
+                        "S057",
+                        "S058",
+                        "S059"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S027": {
+                            "name": "Sleep_Disturbance",
+                            "categoty": "depressive_episode",
+                            "description": "A state where there is a significant change in the quantity or quality of sleep.",
+                            "subtypes": {
+                                "Early Morning Awakening": "Waking up too early and being unable to fall back asleep."
+                            }
+                        },
+                        "S056": {
+                            "name": "Excessive_Anxiety_Worry",
+                            "categoty": "anxiety_symptoms",
+                            "description": "Excessive anxiety and worry (expectant apprehension) occurring persistently about a number of events or activities.",
+                            "subtypes": {
+                                "Chronic Worry": "Worry occurs more days than not for at least 6 months."
+                            }
+                        },
+                        "S057": {
+                            "name": "Uncontrollable_Worry",
+                            "categoty": "anxiety_symptoms",
+                            "description": "The subjective experience of finding it difficult to stop or control the worry.",
+                            "subtypes": {
+                                "Failure to Control": "Unable to regulate worry despite efforts to stop or distract oneself."
+                            }
+                        },
+                        "S058": {
+                            "name": "Restlessness_Tension",
+                            "categoty": "anxiety_symptoms",
+                            "description": "Restlessness, or feeling keyed up or on edge.",
+                            "subtypes": {
+                                "Feeling Keyed Up": "Feeling anxious and wound up like a spring, unable to stay still."
+                            }
+                        },
+                        "S059": {
+                            "name": "Concentration_Difficulty",
+                            "categoty": "anxiety_symptoms",
+                            "description": "Difficulty concentrating or mind going blank.",
+                            "subtypes": {
+                                "Mind Going Blank": "Suddenly the mind goes empty or white, and no thoughts occur."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Major Depressive Disorder with Psychotic Features",
+                    "Acute Stress Disorder",
+                    "Specific Phobia",
+                    "Generalized Anxiety Disorder"
+                ],
+                "answer_index": [
+                    3
+                ],
+                "index_types": [
+                    "Moderately likely option",
+                    "Moderately likely option",
+                    "must_contain_option",
+                    "answer"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D015",
+                        "disease_name": "Major Depressive Disorder with Psychotic Features",
+                        "shared_symptoms": [
+                            "S027"
+                        ]
+                    },
+                    {
+                        "disease_code": "D019",
+                        "disease_name": "Acute Stress Disorder",
+                        "shared_symptoms": [
+                            "S027"
+                        ]
+                    },
+                    {
+                        "disease_code": "D012",
+                        "disease_name": "Specific Phobia"
+                    },
+                    {
+                        "disease_code": "D011",
+                        "disease_name": "Generalized Anxiety Disorder"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 25\n- **Gender:** Male\n- **Occupation:** Paramedic\n- **Marital Status:** Single\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Generalized Anxiety Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. anxiety_symptoms Requirements:**\n- Failure to Control (Unable to regulate worry despite efforts to stop or distract oneself.)\n- Chronic Worry (Worry occurs more days than not for at least 6 months.)\n- Feeling Keyed Up (Feeling anxious and wound up like a spring, unable to stay still.)\n- Mind Going Blank (Suddenly the mind goes empty or white, and no thoughts occur.)\n- Early Morning Awakening (Waking up too early and being unable to fall back asleep.)\n\n**Critical Diagnostic Criteria:**\n\n- Duration: 9 months\n\n- Functional Impairment: True"
+    },
+    "D011_l004": {
+        "question": "A 43-year-old male, a long-haul truck driver and divorced for several years, presents with a nine-month history of pervasive anxiety. He reports frequent intrusive worry, which disrupts his concentration on daily tasks. He endorsed a tendency towards catastrophic thinking, anticipating disastrous outcomes from minor events. Objectively, the patient exhibits generalized physical tension and reports a subjective inability to achieve relaxation. His attention is notably scattered, impairing his ability to sustain focus. Sleep disturbance is characterized by middle insomnia, with frequent awakenings throughout the night and difficulty returning to sleep. These symptoms have resulted in significant functional impairment.",
+        "options": "\n    A. Major Depressive Disorder with Psychotic Features\n    B. Acute Stress Disorder\n    C. Specific Phobia\n    D. Generalized Anxiety Disorder\n    ",
+        "answer": "D. Generalized Anxiety Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D011",
+                "disease_name": "Generalized Anxiety Disorder",
+                "sampled_features": {
+                    "disease_code": "D011",
+                    "disease_name": "Generalized Anxiety Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "functional_impairment_required": true,
+                        "duration": "9 months"
+                    },
+                    "sampled_symptom_groups": {
+                        "anxiety_symptoms": {
+                            "symptoms": [
+                                "S057",
+                                "S056",
+                                "S058",
+                                "S059",
+                                "S027"
+                            ],
+                            "name": "anxiety_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S027",
+                        "S056",
+                        "S057",
+                        "S058",
+                        "S059"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S027": {
+                            "name": "Sleep_Disturbance",
+                            "categoty": "depressive_episode",
+                            "description": "A state where there is a significant change in the quantity or quality of sleep.",
+                            "subtypes": {
+                                "Middle Insomnia": "Waking up frequently during sleep or having difficulty falling back asleep."
+                            }
+                        },
+                        "S056": {
+                            "name": "Excessive_Anxiety_Worry",
+                            "categoty": "anxiety_symptoms",
+                            "description": "Excessive anxiety and worry (expectant apprehension) occurring persistently about a number of events or activities.",
+                            "subtypes": {
+                                "Catastrophizing": "Jumping to conclusions that minor mistakes or events will lead to irreversible disasters."
+                            }
+                        },
+                        "S057": {
+                            "name": "Uncontrollable_Worry",
+                            "categoty": "anxiety_symptoms",
+                            "description": "The subjective experience of finding it difficult to stop or control the worry.",
+                            "subtypes": {
+                                "Intrusive Worry": "Worries suddenly intrude into the mind and interfere with focus while doing other tasks."
+                            }
+                        },
+                        "S058": {
+                            "name": "Restlessness_Tension",
+                            "categoty": "anxiety_symptoms",
+                            "description": "Restlessness, or feeling keyed up or on edge.",
+                            "subtypes": {
+                                "Physical Tension": "The entire body feels stiff and tense, unable to relax."
+                            }
+                        },
+                        "S059": {
+                            "name": "Concentration_Difficulty",
+                            "categoty": "anxiety_symptoms",
+                            "description": "Difficulty concentrating or mind going blank.",
+                            "subtypes": {
+                                "Inability to Sustain Attention": "Attention is scattered due to anxiety, making it hard to focus on one thing for long."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Major Depressive Disorder with Psychotic Features",
+                    "Acute Stress Disorder",
+                    "Specific Phobia",
+                    "Generalized Anxiety Disorder"
+                ],
+                "answer_index": [
+                    3
+                ],
+                "index_types": [
+                    "Moderately likely option",
+                    "Moderately likely option",
+                    "must_contain_option",
+                    "answer"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D015",
+                        "disease_name": "Major Depressive Disorder with Psychotic Features",
+                        "shared_symptoms": [
+                            "S027"
+                        ]
+                    },
+                    {
+                        "disease_code": "D019",
+                        "disease_name": "Acute Stress Disorder",
+                        "shared_symptoms": [
+                            "S027"
+                        ]
+                    },
+                    {
+                        "disease_code": "D012",
+                        "disease_name": "Specific Phobia"
+                    },
+                    {
+                        "disease_code": "D011",
+                        "disease_name": "Generalized Anxiety Disorder"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 43\n- **Gender:** Male\n- **Occupation:** Long-haul Truck Driver\n- **Marital Status:** Divorced\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Generalized Anxiety Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. anxiety_symptoms Requirements:**\n- Intrusive Worry (Worries suddenly intrude into the mind and interfere with focus while doing other tasks.)\n- Catastrophizing (Jumping to conclusions that minor mistakes or events will lead to irreversible disasters.)\n- Physical Tension (The entire body feels stiff and tense, unable to relax.)\n- Inability to Sustain Attention (Attention is scattered due to anxiety, making it hard to focus on one thing for long.)\n- Middle Insomnia (Waking up frequently during sleep or having difficulty falling back asleep.)\n\n**Critical Diagnostic Criteria:**\n\n- Duration: 9 months\n\n- Functional Impairment: True"
+    },
+    "D011_l005": {
+        "question": "A 45-year-old married female bank branch manager presents with a 9-month history of pervasive apprehension. She reports an escalating pattern of worry, wherein one concern invariably leads to another, often culminating in catastrophic ideation. This chronic worry is present on most days and is accompanied by persistent physical tension and an inability to relax. She describes significant difficulty sustaining attention, finding her focus scattered due to overwhelming anxiety. Sleep disturbances are notable for middle insomnia, characterized by frequent awakenings and difficulty reinitiating sleep. The patient reports significant functional impairment as a direct result of these symptoms.",
+        "options": "\n    A. Major Depressive Disorder with Psychotic Features\n    B. Acute Stress Disorder\n    C. Specific Phobia\n    D. Generalized Anxiety Disorder\n    ",
+        "answer": "D. Generalized Anxiety Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D011",
+                "disease_name": "Generalized Anxiety Disorder",
+                "sampled_features": {
+                    "disease_code": "D011",
+                    "disease_name": "Generalized Anxiety Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "functional_impairment_required": true,
+                        "duration": "9 months"
+                    },
+                    "sampled_symptom_groups": {
+                        "anxiety_symptoms": {
+                            "symptoms": [
+                                "S057",
+                                "S056",
+                                "S058",
+                                "S059",
+                                "S027"
+                            ],
+                            "name": "anxiety_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S027",
+                        "S056",
+                        "S057",
+                        "S058",
+                        "S059"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S027": {
+                            "name": "Sleep_Disturbance",
+                            "categoty": "depressive_episode",
+                            "description": "A state where there is a significant change in the quantity or quality of sleep.",
+                            "subtypes": {
+                                "Middle Insomnia": "Waking up frequently during sleep or having difficulty falling back asleep."
+                            }
+                        },
+                        "S056": {
+                            "name": "Excessive_Anxiety_Worry",
+                            "categoty": "anxiety_symptoms",
+                            "description": "Excessive anxiety and worry (expectant apprehension) occurring persistently about a number of events or activities.",
+                            "subtypes": {
+                                "Chronic Worry": "Worry occurs more days than not for at least 6 months."
+                            }
+                        },
+                        "S057": {
+                            "name": "Uncontrollable_Worry",
+                            "categoty": "anxiety_symptoms",
+                            "description": "The subjective experience of finding it difficult to stop or control the worry.",
+                            "subtypes": {
+                                "Chaining of Worry": "One worry triggers another in a chain reaction, escalating to catastrophic thoughts."
+                            }
+                        },
+                        "S058": {
+                            "name": "Restlessness_Tension",
+                            "categoty": "anxiety_symptoms",
+                            "description": "Restlessness, or feeling keyed up or on edge.",
+                            "subtypes": {
+                                "Physical Tension": "The entire body feels stiff and tense, unable to relax."
+                            }
+                        },
+                        "S059": {
+                            "name": "Concentration_Difficulty",
+                            "categoty": "anxiety_symptoms",
+                            "description": "Difficulty concentrating or mind going blank.",
+                            "subtypes": {
+                                "Inability to Sustain Attention": "Attention is scattered due to anxiety, making it hard to focus on one thing for long."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Major Depressive Disorder with Psychotic Features",
+                    "Acute Stress Disorder",
+                    "Specific Phobia",
+                    "Generalized Anxiety Disorder"
+                ],
+                "answer_index": [
+                    3
+                ],
+                "index_types": [
+                    "Moderately likely option",
+                    "Moderately likely option",
+                    "must_contain_option",
+                    "answer"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D015",
+                        "disease_name": "Major Depressive Disorder with Psychotic Features",
+                        "shared_symptoms": [
+                            "S027"
+                        ]
+                    },
+                    {
+                        "disease_code": "D019",
+                        "disease_name": "Acute Stress Disorder",
+                        "shared_symptoms": [
+                            "S027"
+                        ]
+                    },
+                    {
+                        "disease_code": "D012",
+                        "disease_name": "Specific Phobia"
+                    },
+                    {
+                        "disease_code": "D011",
+                        "disease_name": "Generalized Anxiety Disorder"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 45\n- **Gender:** Female\n- **Occupation:** Bank Branch Manager\n- **Marital Status:** Married\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Generalized Anxiety Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. anxiety_symptoms Requirements:**\n- Chaining of Worry (One worry triggers another in a chain reaction, escalating to catastrophic thoughts.)\n- Chronic Worry (Worry occurs more days than not for at least 6 months.)\n- Physical Tension (The entire body feels stiff and tense, unable to relax.)\n- Inability to Sustain Attention (Attention is scattered due to anxiety, making it hard to focus on one thing for long.)\n- Middle Insomnia (Waking up frequently during sleep or having difficulty falling back asleep.)\n\n**Critical Diagnostic Criteria:**\n\n- Duration: 9 months\n\n- Functional Impairment: True"
+    },
+    "D011_l006": {
+        "question": "A 50-year-old married female, employed as a Human Resources Director, presents with a 7-month history of persistent and excessive worry. The patient reports experiencing chronic fatigue, even after adequate rest, and describes feelings of being constantly on edge, easily startled by minor stimuli. She notes significant jaw tension, often leading to pain and headaches. Despite efforts to control or reduce the worrying thoughts, she reports an inability to regulate them. These symptoms collectively cause clinically significant distress and functional impairment across various aspects of her daily life.",
+        "options": "\n    A. Persistent Depressive Disorder\n    B. Generalized Anxiety Disorder\n    C. Major Depressive Disorder with Psychotic Features\n    D. Attention-Deficit/Hyperactivity Disorder (Combined Presentation)\n    ",
+        "answer": "B. Generalized Anxiety Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D011",
+                "disease_name": "Generalized Anxiety Disorder",
+                "sampled_features": {
+                    "disease_code": "D011",
+                    "disease_name": "Generalized Anxiety Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "functional_impairment_required": true,
+                        "duration": "7 months"
+                    },
+                    "sampled_symptom_groups": {
+                        "anxiety_symptoms": {
+                            "symptoms": [
+                                "S029",
+                                "S056",
+                                "S058",
+                                "S061",
+                                "S057"
+                            ],
+                            "name": "anxiety_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S029",
+                        "S056",
+                        "S057",
+                        "S058",
+                        "S061"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S029": {
+                            "name": "Fatigue",
+                            "categoty": "depressive_episode",
+                            "description": "Persistent fatigue that is not relieved by rest and a marked lack of energy.",
+                            "subtypes": {
+                                "Chronic Fatigue": "Fatigue that persists for a long period even after adequate rest."
+                            }
+                        },
+                        "S056": {
+                            "name": "Excessive_Anxiety_Worry",
+                            "categoty": "anxiety_symptoms",
+                            "description": "Excessive anxiety and worry (expectant apprehension) occurring persistently about a number of events or activities.",
+                            "subtypes": {
+                                "Chronic Worry": "Worry occurs more days than not for at least 6 months."
+                            }
+                        },
+                        "S057": {
+                            "name": "Uncontrollable_Worry",
+                            "categoty": "anxiety_symptoms",
+                            "description": "The subjective experience of finding it difficult to stop or control the worry.",
+                            "subtypes": {
+                                "Failure to Control": "Unable to regulate worry despite efforts to stop or distract oneself."
+                            }
+                        },
+                        "S058": {
+                            "name": "Restlessness_Tension",
+                            "categoty": "anxiety_symptoms",
+                            "description": "Restlessness, or feeling keyed up or on edge.",
+                            "subtypes": {
+                                "Nervousness": "Nerves are on edge, being startled easily by minor sounds or stimuli."
+                            }
+                        },
+                        "S061": {
+                            "name": "Muscle_Tension",
+                            "categoty": "anxiety_symptoms",
+                            "description": "A state where muscles are continuously tense, stiff, and accompanied by discomfort.",
+                            "subtypes": {
+                                "Jaw Tension": "Clenching teeth or tension in the jaw causing jaw pain or headaches."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Persistent Depressive Disorder",
+                    "Generalized Anxiety Disorder",
+                    "Major Depressive Disorder with Psychotic Features",
+                    "Attention-Deficit/Hyperactivity Disorder (Combined Presentation)"
+                ],
+                "answer_index": [
+                    1
+                ],
+                "index_types": [
+                    "Moderately likely option",
+                    "answer",
+                    "Moderately likely option",
+                    "must_contain_option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D014",
+                        "disease_name": "Persistent Depressive Disorder",
+                        "shared_symptoms": [
+                            "S029"
+                        ]
+                    },
+                    {
+                        "disease_code": "D011",
+                        "disease_name": "Generalized Anxiety Disorder"
+                    },
+                    {
+                        "disease_code": "D015",
+                        "disease_name": "Major Depressive Disorder with Psychotic Features",
+                        "shared_symptoms": [
+                            "S029"
+                        ]
+                    },
+                    {
+                        "disease_code": "D001",
+                        "disease_name": "Attention-Deficit/Hyperactivity Disorder (Combined Presentation)"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 50\n- **Gender:** Female\n- **Occupation:** Human Resources Director\n- **Marital Status:** Married\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Generalized Anxiety Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. anxiety_symptoms Requirements:**\n- Chronic Fatigue (Fatigue that persists for a long period even after adequate rest.)\n- Chronic Worry (Worry occurs more days than not for at least 6 months.)\n- Nervousness (Nerves are on edge, being startled easily by minor sounds or stimuli.)\n- Jaw Tension (Clenching teeth or tension in the jaw causing jaw pain or headaches.)\n- Failure to Control (Unable to regulate worry despite efforts to stop or distract oneself.)\n\n**Critical Diagnostic Criteria:**\n\n- Duration: 7 months\n\n- Functional Impairment: True"
+    },
+    "D011_l007": {
+        "question": "A 51-year-old divorced female head nurse presents with a 7-month history of pervasive anxiety. The patient reports a persistent state of physical fatigue, experiencing bodily heaviness and easy tiring with minimal exertion. Concurrently, she describes significant physical tension, characterized by generalized bodily stiffness and an inability to relax, with prominent complaints of neck and shoulder tension manifesting as muscle knotting, stiffness, and associated pain or headaches. The patient experiences intrusive worry, wherein concerns spontaneously interfere with her concentration on other tasks. She further endorses a marked intolerance of uncertainty, becoming ensnared in hypothetical \"what if\" scenarios. This symptomatology has resulted in notable functional impairment.",
+        "options": "\n    A. Persistent Depressive Disorder\n    B. Generalized Anxiety Disorder\n    C. Major Depressive Disorder with Psychotic Features\n    D. Attention-Deficit/Hyperactivity Disorder (Combined Presentation)\n    ",
+        "answer": "B. Generalized Anxiety Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D011",
+                "disease_name": "Generalized Anxiety Disorder",
+                "sampled_features": {
+                    "disease_code": "D011",
+                    "disease_name": "Generalized Anxiety Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "functional_impairment_required": true,
+                        "duration": "7 months"
+                    },
+                    "sampled_symptom_groups": {
+                        "anxiety_symptoms": {
+                            "symptoms": [
+                                "S029",
+                                "S056",
+                                "S058",
+                                "S061",
+                                "S057"
+                            ],
+                            "name": "anxiety_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S029",
+                        "S056",
+                        "S057",
+                        "S058",
+                        "S061"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S029": {
+                            "name": "Fatigue",
+                            "categoty": "depressive_episode",
+                            "description": "Persistent fatigue that is not relieved by rest and a marked lack of energy.",
+                            "subtypes": {
+                                "Physical Fatigue": "A state of physical exhaustion where the body feels heavy and easily tires even from minor activities."
+                            }
+                        },
+                        "S056": {
+                            "name": "Excessive_Anxiety_Worry",
+                            "categoty": "anxiety_symptoms",
+                            "description": "Excessive anxiety and worry (expectant apprehension) occurring persistently about a number of events or activities.",
+                            "subtypes": {
+                                "Intolerance of Uncertainty": "Unable to tolerate future uncertainty, trapped in 'what if' questions."
+                            }
+                        },
+                        "S057": {
+                            "name": "Uncontrollable_Worry",
+                            "categoty": "anxiety_symptoms",
+                            "description": "The subjective experience of finding it difficult to stop or control the worry.",
+                            "subtypes": {
+                                "Intrusive Worry": "Worries suddenly intrude into the mind and interfere with focus while doing other tasks."
+                            }
+                        },
+                        "S058": {
+                            "name": "Restlessness_Tension",
+                            "categoty": "anxiety_symptoms",
+                            "description": "Restlessness, or feeling keyed up or on edge.",
+                            "subtypes": {
+                                "Physical Tension": "The entire body feels stiff and tense, unable to relax."
+                            }
+                        },
+                        "S061": {
+                            "name": "Muscle_Tension",
+                            "categoty": "anxiety_symptoms",
+                            "description": "A state where muscles are continuously tense, stiff, and accompanied by discomfort.",
+                            "subtypes": {
+                                "Neck and Shoulder Tension": "Muscles in the shoulders and back of the neck are knotted and stiff, causing pain or headaches."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Persistent Depressive Disorder",
+                    "Generalized Anxiety Disorder",
+                    "Major Depressive Disorder with Psychotic Features",
+                    "Attention-Deficit/Hyperactivity Disorder (Combined Presentation)"
+                ],
+                "answer_index": [
+                    1
+                ],
+                "index_types": [
+                    "Moderately likely option",
+                    "answer",
+                    "Moderately likely option",
+                    "must_contain_option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D014",
+                        "disease_name": "Persistent Depressive Disorder",
+                        "shared_symptoms": [
+                            "S029"
+                        ]
+                    },
+                    {
+                        "disease_code": "D011",
+                        "disease_name": "Generalized Anxiety Disorder"
+                    },
+                    {
+                        "disease_code": "D015",
+                        "disease_name": "Major Depressive Disorder with Psychotic Features",
+                        "shared_symptoms": [
+                            "S029"
+                        ]
+                    },
+                    {
+                        "disease_code": "D001",
+                        "disease_name": "Attention-Deficit/Hyperactivity Disorder (Combined Presentation)"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 51\n- **Gender:** Female\n- **Occupation:** Head Nurse\n- **Marital Status:** Divorced\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Generalized Anxiety Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. anxiety_symptoms Requirements:**\n- Physical Fatigue (A state of physical exhaustion where the body feels heavy and easily tires even from minor activities.)\n- Intolerance of Uncertainty (Unable to tolerate future uncertainty, trapped in 'what if' questions.)\n- Physical Tension (The entire body feels stiff and tense, unable to relax.)\n- Neck and Shoulder Tension (Muscles in the shoulders and back of the neck are knotted and stiff, causing pain or headaches.)\n- Intrusive Worry (Worries suddenly intrude into the mind and interfere with focus while doing other tasks.)\n\n**Critical Diagnostic Criteria:**\n\n- Duration: 7 months\n\n- Functional Impairment: True"
+    },
+    "D011_l008": {
+        "question": "A 19-year-old single male, a university freshman, presents with a 7-month history of pervasive anxious symptoms. He reports experiencing persistent physical fatigue, noting his body feels heavy and becomes easily tired even with minimal exertion. He demonstrates a marked intolerance of uncertainty, characterized by a preoccupation with \"what if\" scenarios and an inability to tolerate unknown future outcomes. The patient describes a chronic state of nervousness, reporting being easily startled by minor stimuli. Musculoskeletal examination reveals chronic stiffness, with muscles remaining in a constant state of tension. He also endorses a \"chaining of worry,\" wherein one worry rapidly escalates into catastrophic thoughts. These symptoms have resulted in significant functional impairment in his academic and social life.",
+        "options": "\n    A. Persistent Depressive Disorder\n    B. Generalized Anxiety Disorder\n    C. Major Depressive Disorder with Psychotic Features\n    D. Attention-Deficit/Hyperactivity Disorder (Combined Presentation)\n    ",
+        "answer": "B. Generalized Anxiety Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D011",
+                "disease_name": "Generalized Anxiety Disorder",
+                "sampled_features": {
+                    "disease_code": "D011",
+                    "disease_name": "Generalized Anxiety Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "functional_impairment_required": true,
+                        "duration": "7 months"
+                    },
+                    "sampled_symptom_groups": {
+                        "anxiety_symptoms": {
+                            "symptoms": [
+                                "S029",
+                                "S056",
+                                "S058",
+                                "S061",
+                                "S057"
+                            ],
+                            "name": "anxiety_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S029",
+                        "S056",
+                        "S057",
+                        "S058",
+                        "S061"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S029": {
+                            "name": "Fatigue",
+                            "categoty": "depressive_episode",
+                            "description": "Persistent fatigue that is not relieved by rest and a marked lack of energy.",
+                            "subtypes": {
+                                "Physical Fatigue": "A state of physical exhaustion where the body feels heavy and easily tires even from minor activities."
+                            }
+                        },
+                        "S056": {
+                            "name": "Excessive_Anxiety_Worry",
+                            "categoty": "anxiety_symptoms",
+                            "description": "Excessive anxiety and worry (expectant apprehension) occurring persistently about a number of events or activities.",
+                            "subtypes": {
+                                "Intolerance of Uncertainty": "Unable to tolerate future uncertainty, trapped in 'what if' questions."
+                            }
+                        },
+                        "S057": {
+                            "name": "Uncontrollable_Worry",
+                            "categoty": "anxiety_symptoms",
+                            "description": "The subjective experience of finding it difficult to stop or control the worry.",
+                            "subtypes": {
+                                "Chaining of Worry": "One worry triggers another in a chain reaction, escalating to catastrophic thoughts."
+                            }
+                        },
+                        "S058": {
+                            "name": "Restlessness_Tension",
+                            "categoty": "anxiety_symptoms",
+                            "description": "Restlessness, or feeling keyed up or on edge.",
+                            "subtypes": {
+                                "Nervousness": "Nerves are on edge, being startled easily by minor sounds or stimuli."
+                            }
+                        },
+                        "S061": {
+                            "name": "Muscle_Tension",
+                            "categoty": "anxiety_symptoms",
+                            "description": "A state where muscles are continuously tense, stiff, and accompanied by discomfort.",
+                            "subtypes": {
+                                "Chronic Stiffness": "Muscles remain in a constant state of tension and do not relax."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Persistent Depressive Disorder",
+                    "Generalized Anxiety Disorder",
+                    "Major Depressive Disorder with Psychotic Features",
+                    "Attention-Deficit/Hyperactivity Disorder (Combined Presentation)"
+                ],
+                "answer_index": [
+                    1
+                ],
+                "index_types": [
+                    "Moderately likely option",
+                    "answer",
+                    "Moderately likely option",
+                    "must_contain_option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D014",
+                        "disease_name": "Persistent Depressive Disorder",
+                        "shared_symptoms": [
+                            "S029"
+                        ]
+                    },
+                    {
+                        "disease_code": "D011",
+                        "disease_name": "Generalized Anxiety Disorder"
+                    },
+                    {
+                        "disease_code": "D015",
+                        "disease_name": "Major Depressive Disorder with Psychotic Features",
+                        "shared_symptoms": [
+                            "S029"
+                        ]
+                    },
+                    {
+                        "disease_code": "D001",
+                        "disease_name": "Attention-Deficit/Hyperactivity Disorder (Combined Presentation)"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 19\n- **Gender:** Male\n- **Occupation:** University Freshman\n- **Marital Status:** Single\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Generalized Anxiety Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. anxiety_symptoms Requirements:**\n- Physical Fatigue (A state of physical exhaustion where the body feels heavy and easily tires even from minor activities.)\n- Intolerance of Uncertainty (Unable to tolerate future uncertainty, trapped in 'what if' questions.)\n- Nervousness (Nerves are on edge, being startled easily by minor sounds or stimuli.)\n- Chronic Stiffness (Muscles remain in a constant state of tension and do not relax.)\n- Chaining of Worry (One worry triggers another in a chain reaction, escalating to catastrophic thoughts.)\n\n**Critical Diagnostic Criteria:**\n\n- Duration: 7 months\n\n- Functional Impairment: True"
+    },
+    "D011_l009": {
+        "question": "A 30-year-old single male, employed as an oil rig worker, presents with a 7-month history of persistent worry and associated somatic symptoms. He describes experiencing chronic apprehension and nervousness, characterized by an exaggerated startle response to minor stimuli. His worries often chain together, progressively escalating to catastrophic ideation. Concurrently, he reports significant physical fatigue, where his body feels heavy and easily tires with minimal exertion. He also notes chronic muscular stiffness, indicating a constant state of tension. These symptoms are present more days than not and have contributed to functional impairment.",
+        "options": "\n    A. Persistent Depressive Disorder\n    B. Generalized Anxiety Disorder\n    C. Major Depressive Disorder with Psychotic Features\n    D. Attention-Deficit/Hyperactivity Disorder (Combined Presentation)\n    ",
+        "answer": "B. Generalized Anxiety Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D011",
+                "disease_name": "Generalized Anxiety Disorder",
+                "sampled_features": {
+                    "disease_code": "D011",
+                    "disease_name": "Generalized Anxiety Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "functional_impairment_required": true,
+                        "duration": "7 months"
+                    },
+                    "sampled_symptom_groups": {
+                        "anxiety_symptoms": {
+                            "symptoms": [
+                                "S029",
+                                "S056",
+                                "S058",
+                                "S061",
+                                "S057"
+                            ],
+                            "name": "anxiety_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S029",
+                        "S056",
+                        "S057",
+                        "S058",
+                        "S061"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S029": {
+                            "name": "Fatigue",
+                            "categoty": "depressive_episode",
+                            "description": "Persistent fatigue that is not relieved by rest and a marked lack of energy.",
+                            "subtypes": {
+                                "Physical Fatigue": "A state of physical exhaustion where the body feels heavy and easily tires even from minor activities."
+                            }
+                        },
+                        "S056": {
+                            "name": "Excessive_Anxiety_Worry",
+                            "categoty": "anxiety_symptoms",
+                            "description": "Excessive anxiety and worry (expectant apprehension) occurring persistently about a number of events or activities.",
+                            "subtypes": {
+                                "Chronic Worry": "Worry occurs more days than not for at least 6 months."
+                            }
+                        },
+                        "S057": {
+                            "name": "Uncontrollable_Worry",
+                            "categoty": "anxiety_symptoms",
+                            "description": "The subjective experience of finding it difficult to stop or control the worry.",
+                            "subtypes": {
+                                "Chaining of Worry": "One worry triggers another in a chain reaction, escalating to catastrophic thoughts."
+                            }
+                        },
+                        "S058": {
+                            "name": "Restlessness_Tension",
+                            "categoty": "anxiety_symptoms",
+                            "description": "Restlessness, or feeling keyed up or on edge.",
+                            "subtypes": {
+                                "Nervousness": "Nerves are on edge, being startled easily by minor sounds or stimuli."
+                            }
+                        },
+                        "S061": {
+                            "name": "Muscle_Tension",
+                            "categoty": "anxiety_symptoms",
+                            "description": "A state where muscles are continuously tense, stiff, and accompanied by discomfort.",
+                            "subtypes": {
+                                "Chronic Stiffness": "Muscles remain in a constant state of tension and do not relax."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Persistent Depressive Disorder",
+                    "Generalized Anxiety Disorder",
+                    "Major Depressive Disorder with Psychotic Features",
+                    "Attention-Deficit/Hyperactivity Disorder (Combined Presentation)"
+                ],
+                "answer_index": [
+                    1
+                ],
+                "index_types": [
+                    "Moderately likely option",
+                    "answer",
+                    "Moderately likely option",
+                    "must_contain_option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D014",
+                        "disease_name": "Persistent Depressive Disorder",
+                        "shared_symptoms": [
+                            "S029"
+                        ]
+                    },
+                    {
+                        "disease_code": "D011",
+                        "disease_name": "Generalized Anxiety Disorder"
+                    },
+                    {
+                        "disease_code": "D015",
+                        "disease_name": "Major Depressive Disorder with Psychotic Features",
+                        "shared_symptoms": [
+                            "S029"
+                        ]
+                    },
+                    {
+                        "disease_code": "D001",
+                        "disease_name": "Attention-Deficit/Hyperactivity Disorder (Combined Presentation)"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 30\n- **Gender:** Male\n- **Occupation:** Oil Rig Worker\n- **Marital Status:** Single\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Generalized Anxiety Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. anxiety_symptoms Requirements:**\n- Physical Fatigue (A state of physical exhaustion where the body feels heavy and easily tires even from minor activities.)\n- Chronic Worry (Worry occurs more days than not for at least 6 months.)\n- Nervousness (Nerves are on edge, being startled easily by minor sounds or stimuli.)\n- Chronic Stiffness (Muscles remain in a constant state of tension and do not relax.)\n- Chaining of Worry (One worry triggers another in a chain reaction, escalating to catastrophic thoughts.)\n\n**Critical Diagnostic Criteria:**\n\n- Duration: 7 months\n\n- Functional Impairment: True"
+    },
+    "D011_l010": {
+        "question": "A 26-year-old single female, employed as a Game QA Tester, presents with a 7-month history of pervasive apprehension and associated somatic symptoms. She reports significant mental fatigue, particularly when engaged in tasks requiring concentration. The patient experiences marked intolerance of uncertainty, characterized by a preoccupation with hypothetical negative outcomes. She describes a persistent inability to relax, noting generalized muscular tension and aches throughout her body, including her back, arms, and legs, often accompanied by easy fatigability. Despite conscious attempts to mitigate her worries, she finds herself unable to control or redirect her anxious thoughts. These symptoms have resulted in notable functional impairment in both her professional and personal life.",
+        "options": "\n    A. Persistent Depressive Disorder\n    B. Generalized Anxiety Disorder\n    C. Major Depressive Disorder with Psychotic Features\n    D. Attention-Deficit/Hyperactivity Disorder (Combined Presentation)\n    ",
+        "answer": "B. Generalized Anxiety Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D011",
+                "disease_name": "Generalized Anxiety Disorder",
+                "sampled_features": {
+                    "disease_code": "D011",
+                    "disease_name": "Generalized Anxiety Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "functional_impairment_required": true,
+                        "duration": "7 months"
+                    },
+                    "sampled_symptom_groups": {
+                        "anxiety_symptoms": {
+                            "symptoms": [
+                                "S029",
+                                "S056",
+                                "S058",
+                                "S061",
+                                "S057"
+                            ],
+                            "name": "anxiety_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S029",
+                        "S056",
+                        "S057",
+                        "S058",
+                        "S061"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S029": {
+                            "name": "Fatigue",
+                            "categoty": "depressive_episode",
+                            "description": "Persistent fatigue that is not relieved by rest and a marked lack of energy.",
+                            "subtypes": {
+                                "Mental Fatigue": "A state where fatigue accumulates rapidly during the process of thinking or concentrating."
+                            }
+                        },
+                        "S056": {
+                            "name": "Excessive_Anxiety_Worry",
+                            "categoty": "anxiety_symptoms",
+                            "description": "Excessive anxiety and worry (expectant apprehension) occurring persistently about a number of events or activities.",
+                            "subtypes": {
+                                "Intolerance of Uncertainty": "Unable to tolerate future uncertainty, trapped in 'what if' questions."
+                            }
+                        },
+                        "S057": {
+                            "name": "Uncontrollable_Worry",
+                            "categoty": "anxiety_symptoms",
+                            "description": "The subjective experience of finding it difficult to stop or control the worry.",
+                            "subtypes": {
+                                "Failure to Control": "Unable to regulate worry despite efforts to stop or distract oneself."
+                            }
+                        },
+                        "S058": {
+                            "name": "Restlessness_Tension",
+                            "categoty": "anxiety_symptoms",
+                            "description": "Restlessness, or feeling keyed up or on edge.",
+                            "subtypes": {
+                                "Physical Tension": "The entire body feels stiff and tense, unable to relax."
+                            }
+                        },
+                        "S061": {
+                            "name": "Muscle_Tension",
+                            "categoty": "anxiety_symptoms",
+                            "description": "A state where muscles are continuously tense, stiff, and accompanied by discomfort.",
+                            "subtypes": {
+                                "Generalized Muscle Aches": "Muscles all over the body, including back, arms, and legs, are stiff, painful, and easily fatigued."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Persistent Depressive Disorder",
+                    "Generalized Anxiety Disorder",
+                    "Major Depressive Disorder with Psychotic Features",
+                    "Attention-Deficit/Hyperactivity Disorder (Combined Presentation)"
+                ],
+                "answer_index": [
+                    1
+                ],
+                "index_types": [
+                    "Moderately likely option",
+                    "answer",
+                    "Moderately likely option",
+                    "must_contain_option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D014",
+                        "disease_name": "Persistent Depressive Disorder",
+                        "shared_symptoms": [
+                            "S029"
+                        ]
+                    },
+                    {
+                        "disease_code": "D011",
+                        "disease_name": "Generalized Anxiety Disorder"
+                    },
+                    {
+                        "disease_code": "D015",
+                        "disease_name": "Major Depressive Disorder with Psychotic Features",
+                        "shared_symptoms": [
+                            "S029"
+                        ]
+                    },
+                    {
+                        "disease_code": "D001",
+                        "disease_name": "Attention-Deficit/Hyperactivity Disorder (Combined Presentation)"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 26\n- **Gender:** Female\n- **Occupation:** Game QA Tester\n- **Marital Status:** Single\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Generalized Anxiety Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. anxiety_symptoms Requirements:**\n- Mental Fatigue (A state where fatigue accumulates rapidly during the process of thinking or concentrating.)\n- Intolerance of Uncertainty (Unable to tolerate future uncertainty, trapped in 'what if' questions.)\n- Physical Tension (The entire body feels stiff and tense, unable to relax.)\n- Generalized Muscle Aches (Muscles all over the body, including back, arms, and legs, are stiff, painful, and easily fatigued.)\n- Failure to Control (Unable to regulate worry despite efforts to stop or distract oneself.)\n\n**Critical Diagnostic Criteria:**\n\n- Duration: 7 months\n\n- Functional Impairment: True"
+    },
+    "D011_l011": {
+        "question": "A 60-year-old widowed female, employed as a kitchen porter, presents with a 13-month history of pervasive anxiety. The patient reports generalized worry that is not confined to specific situations but spans various aspects of her life, including work, family, and finances. She describes a \"chaining\" phenomenon where one worry leads to another, often culminating in catastrophic ideation. The patient experiences significant muscular tension, reporting a persistent feeling of stiffness throughout her body, making relaxation difficult. She also endorses heightened irritability, leading to disproportionately sharp and aggressive reactions to minor stressors. Additionally, the patient reports early morning awakenings, consistently waking up several hours before her desired time and being unable to return to sleep. These symptoms have resulted in notable functional impairment.",
+        "options": "\n    A. Major Depressive Disorder with Psychotic Features\n    B. Specific Phobia\n    C. Generalized Anxiety Disorder\n    D. Attention-Deficit/Hyperactivity Disorder (Predominantly Hyperactive/Impulsive Presentation)\n    ",
+        "answer": "C. Generalized Anxiety Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D011",
+                "disease_name": "Generalized Anxiety Disorder",
+                "sampled_features": {
+                    "disease_code": "D011",
+                    "disease_name": "Generalized Anxiety Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "functional_impairment_required": true,
+                        "duration": "1 year and 1 months"
+                    },
+                    "sampled_symptom_groups": {
+                        "anxiety_symptoms": {
+                            "symptoms": [
+                                "S027",
+                                "S056",
+                                "S057",
+                                "S058",
+                                "S060"
+                            ],
+                            "name": "anxiety_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S027",
+                        "S056",
+                        "S057",
+                        "S058",
+                        "S060"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S027": {
+                            "name": "Sleep_Disturbance",
+                            "categoty": "depressive_episode",
+                            "description": "A state where there is a significant change in the quantity or quality of sleep.",
+                            "subtypes": {
+                                "Early Morning Awakening": "Waking up too early and being unable to fall back asleep."
+                            }
+                        },
+                        "S056": {
+                            "name": "Excessive_Anxiety_Worry",
+                            "categoty": "anxiety_symptoms",
+                            "description": "Excessive anxiety and worry (expectant apprehension) occurring persistently about a number of events or activities.",
+                            "subtypes": {
+                                "Generalized Worry": "Worry is not confined to specific topics but spreads to various domains like work, school, family, and finances."
+                            }
+                        },
+                        "S057": {
+                            "name": "Uncontrollable_Worry",
+                            "categoty": "anxiety_symptoms",
+                            "description": "The subjective experience of finding it difficult to stop or control the worry.",
+                            "subtypes": {
+                                "Chaining of Worry": "One worry triggers another in a chain reaction, escalating to catastrophic thoughts."
+                            }
+                        },
+                        "S058": {
+                            "name": "Restlessness_Tension",
+                            "categoty": "anxiety_symptoms",
+                            "description": "Restlessness, or feeling keyed up or on edge.",
+                            "subtypes": {
+                                "Physical Tension": "The entire body feels stiff and tense, unable to relax."
+                            }
+                        },
+                        "S060": {
+                            "name": "Irritability",
+                            "categoty": "anxiety_symptoms",
+                            "description": "A state of reacting sensitively or sharply to minor stimuli.",
+                            "subtypes": {
+                                "Snappiness": "Nerves are sharp, leading to sensitive and aggressive reactions to small matters."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Major Depressive Disorder with Psychotic Features",
+                    "Specific Phobia",
+                    "Generalized Anxiety Disorder",
+                    "Attention-Deficit/Hyperactivity Disorder (Predominantly Hyperactive/Impulsive Presentation)"
+                ],
+                "answer_index": [
+                    2
+                ],
+                "index_types": [
+                    "must_contain_option",
+                    "must_contain_option",
+                    "answer",
+                    "must_contain_option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D015",
+                        "disease_name": "Major Depressive Disorder with Psychotic Features"
+                    },
+                    {
+                        "disease_code": "D012",
+                        "disease_name": "Specific Phobia"
+                    },
+                    {
+                        "disease_code": "D011",
+                        "disease_name": "Generalized Anxiety Disorder"
+                    },
+                    {
+                        "disease_code": "D003",
+                        "disease_name": "Attention-Deficit/Hyperactivity Disorder (Predominantly Hyperactive/Impulsive Presentation)"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 60\n- **Gender:** Female\n- **Occupation:** Kitchen Porter (Dishwasher)\n- **Marital Status:** Widowed\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Generalized Anxiety Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. anxiety_symptoms Requirements:**\n- Early Morning Awakening (Waking up too early and being unable to fall back asleep.)\n- Generalized Worry (Worry is not confined to specific topics but spreads to various domains like work, school, family, and finances.)\n- Chaining of Worry (One worry triggers another in a chain reaction, escalating to catastrophic thoughts.)\n- Physical Tension (The entire body feels stiff and tense, unable to relax.)\n- Snappiness (Nerves are sharp, leading to sensitive and aggressive reactions to small matters.)\n\n**Critical Diagnostic Criteria:**\n\n- Duration: 1 year and 1 months\n\n- Functional Impairment: True"
+    },
+    "D011_l012": {
+        "question": "A 31-year-old single male, employed as a cryptocurrency trader, presents with a 13-month history of pervasive anxiety and associated symptoms. He reports experiencing chronic, intrusive worry that frequently disrupts his concentration on daily tasks. The patient describes a persistent sense of being \"keyed up\" and an inability to relax. He further reports a notable decrease in frustration tolerance, reacting with irritation to minor, everyday annoyances. Additionally, he endorses hypersomnia, characterized by prolonged sleep duration. These symptoms have resulted in significant functional impairment in his personal and professional life.",
+        "options": "\n    A. Major Depressive Disorder with Psychotic Features\n    B. Specific Phobia\n    C. Generalized Anxiety Disorder\n    D. Attention-Deficit/Hyperactivity Disorder (Predominantly Hyperactive/Impulsive Presentation)\n    ",
+        "answer": "C. Generalized Anxiety Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D011",
+                "disease_name": "Generalized Anxiety Disorder",
+                "sampled_features": {
+                    "disease_code": "D011",
+                    "disease_name": "Generalized Anxiety Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "functional_impairment_required": true,
+                        "duration": "1 year and 1 months"
+                    },
+                    "sampled_symptom_groups": {
+                        "anxiety_symptoms": {
+                            "symptoms": [
+                                "S027",
+                                "S056",
+                                "S057",
+                                "S058",
+                                "S060"
+                            ],
+                            "name": "anxiety_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S027",
+                        "S056",
+                        "S057",
+                        "S058",
+                        "S060"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S027": {
+                            "name": "Sleep_Disturbance",
+                            "categoty": "depressive_episode",
+                            "description": "A state where there is a significant change in the quantity or quality of sleep.",
+                            "subtypes": {
+                                "Hypersomnia": "Sleeping for long periods at night or excessive sleep during the day."
+                            }
+                        },
+                        "S056": {
+                            "name": "Excessive_Anxiety_Worry",
+                            "categoty": "anxiety_symptoms",
+                            "description": "Excessive anxiety and worry (expectant apprehension) occurring persistently about a number of events or activities.",
+                            "subtypes": {
+                                "Chronic Worry": "Worry occurs more days than not for at least 6 months."
+                            }
+                        },
+                        "S057": {
+                            "name": "Uncontrollable_Worry",
+                            "categoty": "anxiety_symptoms",
+                            "description": "The subjective experience of finding it difficult to stop or control the worry.",
+                            "subtypes": {
+                                "Intrusive Worry": "Worries suddenly intrude into the mind and interfere with focus while doing other tasks."
+                            }
+                        },
+                        "S058": {
+                            "name": "Restlessness_Tension",
+                            "categoty": "anxiety_symptoms",
+                            "description": "Restlessness, or feeling keyed up or on edge.",
+                            "subtypes": {
+                                "Feeling Keyed Up": "Feeling anxious and wound up like a spring, unable to stay still."
+                            }
+                        },
+                        "S060": {
+                            "name": "Irritability",
+                            "categoty": "anxiety_symptoms",
+                            "description": "A state of reacting sensitively or sharply to minor stimuli.",
+                            "subtypes": {
+                                "Low Frustration Tolerance": "Getting annoyed immediately at trivial stimuli that would normally be ignored."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Major Depressive Disorder with Psychotic Features",
+                    "Specific Phobia",
+                    "Generalized Anxiety Disorder",
+                    "Attention-Deficit/Hyperactivity Disorder (Predominantly Hyperactive/Impulsive Presentation)"
+                ],
+                "answer_index": [
+                    2
+                ],
+                "index_types": [
+                    "must_contain_option",
+                    "must_contain_option",
+                    "answer",
+                    "must_contain_option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D015",
+                        "disease_name": "Major Depressive Disorder with Psychotic Features"
+                    },
+                    {
+                        "disease_code": "D012",
+                        "disease_name": "Specific Phobia"
+                    },
+                    {
+                        "disease_code": "D011",
+                        "disease_name": "Generalized Anxiety Disorder"
+                    },
+                    {
+                        "disease_code": "D003",
+                        "disease_name": "Attention-Deficit/Hyperactivity Disorder (Predominantly Hyperactive/Impulsive Presentation)"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 31\n- **Gender:** Male\n- **Occupation:** Cryptocurrency Trader\n- **Marital Status:** Single\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Generalized Anxiety Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. anxiety_symptoms Requirements:**\n- Hypersomnia (Sleeping for long periods at night or excessive sleep during the day.)\n- Chronic Worry (Worry occurs more days than not for at least 6 months.)\n- Intrusive Worry (Worries suddenly intrude into the mind and interfere with focus while doing other tasks.)\n- Feeling Keyed Up (Feeling anxious and wound up like a spring, unable to stay still.)\n- Low Frustration Tolerance (Getting annoyed immediately at trivial stimuli that would normally be ignored.)\n\n**Critical Diagnostic Criteria:**\n\n- Duration: 1 year and 1 months\n\n- Functional Impairment: True"
+    },
+    "D011_l013": {
+        "question": "A 28-year-old single female, employed as a Forensic Science Technician, presents with a 13-month history of generalized and intrusive worry. This pervasive anxiety is not confined to specific areas but extends across multiple domains of her life, including work, finances, and personal relationships. She reports significant difficulty with middle insomnia, characterized by frequent nocturnal awakenings and challenges returning to sleep. Concurrent physical symptoms include persistent muscle tension throughout her body, which she describes as an inability to relax. The patient also notes a markedly reduced capacity for patience, leading to heightened frustration with minor inconveniences. These symptoms have resulted in notable functional impairment across occupational and social spheres.",
+        "options": "\n    A. Major Depressive Disorder with Psychotic Features\n    B. Specific Phobia\n    C. Generalized Anxiety Disorder\n    D. Attention-Deficit/Hyperactivity Disorder (Predominantly Hyperactive/Impulsive Presentation)\n    ",
+        "answer": "C. Generalized Anxiety Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D011",
+                "disease_name": "Generalized Anxiety Disorder",
+                "sampled_features": {
+                    "disease_code": "D011",
+                    "disease_name": "Generalized Anxiety Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "functional_impairment_required": true,
+                        "duration": "1 year and 1 months"
+                    },
+                    "sampled_symptom_groups": {
+                        "anxiety_symptoms": {
+                            "symptoms": [
+                                "S027",
+                                "S056",
+                                "S057",
+                                "S058",
+                                "S060"
+                            ],
+                            "name": "anxiety_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S027",
+                        "S056",
+                        "S057",
+                        "S058",
+                        "S060"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S027": {
+                            "name": "Sleep_Disturbance",
+                            "categoty": "depressive_episode",
+                            "description": "A state where there is a significant change in the quantity or quality of sleep.",
+                            "subtypes": {
+                                "Middle Insomnia": "Waking up frequently during sleep or having difficulty falling back asleep."
+                            }
+                        },
+                        "S056": {
+                            "name": "Excessive_Anxiety_Worry",
+                            "categoty": "anxiety_symptoms",
+                            "description": "Excessive anxiety and worry (expectant apprehension) occurring persistently about a number of events or activities.",
+                            "subtypes": {
+                                "Generalized Worry": "Worry is not confined to specific topics but spreads to various domains like work, school, family, and finances."
+                            }
+                        },
+                        "S057": {
+                            "name": "Uncontrollable_Worry",
+                            "categoty": "anxiety_symptoms",
+                            "description": "The subjective experience of finding it difficult to stop or control the worry.",
+                            "subtypes": {
+                                "Intrusive Worry": "Worries suddenly intrude into the mind and interfere with focus while doing other tasks."
+                            }
+                        },
+                        "S058": {
+                            "name": "Restlessness_Tension",
+                            "categoty": "anxiety_symptoms",
+                            "description": "Restlessness, or feeling keyed up or on edge.",
+                            "subtypes": {
+                                "Physical Tension": "The entire body feels stiff and tense, unable to relax."
+                            }
+                        },
+                        "S060": {
+                            "name": "Irritability",
+                            "categoty": "anxiety_symptoms",
+                            "description": "A state of reacting sensitively or sharply to minor stimuli.",
+                            "subtypes": {
+                                "Exhausted Patience": "Patience is depleted, making it impossible to endure minor inconveniences or delays."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Major Depressive Disorder with Psychotic Features",
+                    "Specific Phobia",
+                    "Generalized Anxiety Disorder",
+                    "Attention-Deficit/Hyperactivity Disorder (Predominantly Hyperactive/Impulsive Presentation)"
+                ],
+                "answer_index": [
+                    2
+                ],
+                "index_types": [
+                    "must_contain_option",
+                    "must_contain_option",
+                    "answer",
+                    "must_contain_option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D015",
+                        "disease_name": "Major Depressive Disorder with Psychotic Features"
+                    },
+                    {
+                        "disease_code": "D012",
+                        "disease_name": "Specific Phobia"
+                    },
+                    {
+                        "disease_code": "D011",
+                        "disease_name": "Generalized Anxiety Disorder"
+                    },
+                    {
+                        "disease_code": "D003",
+                        "disease_name": "Attention-Deficit/Hyperactivity Disorder (Predominantly Hyperactive/Impulsive Presentation)"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 28\n- **Gender:** Female\n- **Occupation:** Forensic Science Technician\n- **Marital Status:** Single\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Generalized Anxiety Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. anxiety_symptoms Requirements:**\n- Middle Insomnia (Waking up frequently during sleep or having difficulty falling back asleep.)\n- Generalized Worry (Worry is not confined to specific topics but spreads to various domains like work, school, family, and finances.)\n- Intrusive Worry (Worries suddenly intrude into the mind and interfere with focus while doing other tasks.)\n- Physical Tension (The entire body feels stiff and tense, unable to relax.)\n- Exhausted Patience (Patience is depleted, making it impossible to endure minor inconveniences or delays.)\n\n**Critical Diagnostic Criteria:**\n\n- Duration: 1 year and 1 months\n\n- Functional Impairment: True"
+    },
+    "D011_l014": {
+        "question": "A nineteen-year-old single male, a university freshman, presents with a 13-month history of pervasive anxiety. He reports difficulty controlling a persistent state of worry, often catastrophizing minor events and anticipating disastrous outcomes. He describes significant physical tension throughout his body, contributing to an inability to relax and heightened irritability, leading to sharp, aggressive reactions to minor stimuli. The patient also experiences early morning awakenings, unable to return to sleep. These symptoms have resulted in notable functional impairment in his academic and social life.",
+        "options": "\n    A. Major Depressive Disorder with Psychotic Features\n    B. Specific Phobia\n    C. Generalized Anxiety Disorder\n    D. Attention-Deficit/Hyperactivity Disorder (Predominantly Hyperactive/Impulsive Presentation)\n    ",
+        "answer": "C. Generalized Anxiety Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D011",
+                "disease_name": "Generalized Anxiety Disorder",
+                "sampled_features": {
+                    "disease_code": "D011",
+                    "disease_name": "Generalized Anxiety Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "functional_impairment_required": true,
+                        "duration": "1 year and 1 months"
+                    },
+                    "sampled_symptom_groups": {
+                        "anxiety_symptoms": {
+                            "symptoms": [
+                                "S027",
+                                "S056",
+                                "S057",
+                                "S058",
+                                "S060"
+                            ],
+                            "name": "anxiety_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S027",
+                        "S056",
+                        "S057",
+                        "S058",
+                        "S060"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S027": {
+                            "name": "Sleep_Disturbance",
+                            "categoty": "depressive_episode",
+                            "description": "A state where there is a significant change in the quantity or quality of sleep.",
+                            "subtypes": {
+                                "Early Morning Awakening": "Waking up too early and being unable to fall back asleep."
+                            }
+                        },
+                        "S056": {
+                            "name": "Excessive_Anxiety_Worry",
+                            "categoty": "anxiety_symptoms",
+                            "description": "Excessive anxiety and worry (expectant apprehension) occurring persistently about a number of events or activities.",
+                            "subtypes": {
+                                "Catastrophizing": "Jumping to conclusions that minor mistakes or events will lead to irreversible disasters."
+                            }
+                        },
+                        "S057": {
+                            "name": "Uncontrollable_Worry",
+                            "categoty": "anxiety_symptoms",
+                            "description": "The subjective experience of finding it difficult to stop or control the worry.",
+                            "subtypes": {
+                                "Failure to Control": "Unable to regulate worry despite efforts to stop or distract oneself."
+                            }
+                        },
+                        "S058": {
+                            "name": "Restlessness_Tension",
+                            "categoty": "anxiety_symptoms",
+                            "description": "Restlessness, or feeling keyed up or on edge.",
+                            "subtypes": {
+                                "Physical Tension": "The entire body feels stiff and tense, unable to relax."
+                            }
+                        },
+                        "S060": {
+                            "name": "Irritability",
+                            "categoty": "anxiety_symptoms",
+                            "description": "A state of reacting sensitively or sharply to minor stimuli.",
+                            "subtypes": {
+                                "Snappiness": "Nerves are sharp, leading to sensitive and aggressive reactions to small matters."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Major Depressive Disorder with Psychotic Features",
+                    "Specific Phobia",
+                    "Generalized Anxiety Disorder",
+                    "Attention-Deficit/Hyperactivity Disorder (Predominantly Hyperactive/Impulsive Presentation)"
+                ],
+                "answer_index": [
+                    2
+                ],
+                "index_types": [
+                    "must_contain_option",
+                    "must_contain_option",
+                    "answer",
+                    "must_contain_option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D015",
+                        "disease_name": "Major Depressive Disorder with Psychotic Features"
+                    },
+                    {
+                        "disease_code": "D012",
+                        "disease_name": "Specific Phobia"
+                    },
+                    {
+                        "disease_code": "D011",
+                        "disease_name": "Generalized Anxiety Disorder"
+                    },
+                    {
+                        "disease_code": "D003",
+                        "disease_name": "Attention-Deficit/Hyperactivity Disorder (Predominantly Hyperactive/Impulsive Presentation)"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 19\n- **Gender:** Male\n- **Occupation:** University Freshman\n- **Marital Status:** Single\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Generalized Anxiety Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. anxiety_symptoms Requirements:**\n- Early Morning Awakening (Waking up too early and being unable to fall back asleep.)\n- Catastrophizing (Jumping to conclusions that minor mistakes or events will lead to irreversible disasters.)\n- Failure to Control (Unable to regulate worry despite efforts to stop or distract oneself.)\n- Physical Tension (The entire body feels stiff and tense, unable to relax.)\n- Snappiness (Nerves are sharp, leading to sensitive and aggressive reactions to small matters.)\n\n**Critical Diagnostic Criteria:**\n\n- Duration: 1 year and 1 months\n\n- Functional Impairment: True"
+    },
+    "D011_l015": {
+        "question": "A 32-year-old single female, employed as a 911 dispatcher, presents with a 13-month history of anxiety symptoms. The patient reports persistent and excessive worry occurring on most days, often characterized by a \"chaining\" phenomenon where one concern rapidly escalates to others. She describes feeling chronically on edge, easily startled by minor stimuli, and experiencing marked irritability and depleted patience, particularly with minor inconveniences. Despite adequate sleep duration, she reports non-restorative sleep, leaving her feeling unrefreshed. These symptoms have resulted in significant functional impairment in her daily life.",
+        "options": "\n    A. Major Depressive Disorder with Psychotic Features\n    B. Specific Phobia\n    C. Generalized Anxiety Disorder\n    D. Attention-Deficit/Hyperactivity Disorder (Predominantly Hyperactive/Impulsive Presentation)\n    ",
+        "answer": "C. Generalized Anxiety Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D011",
+                "disease_name": "Generalized Anxiety Disorder",
+                "sampled_features": {
+                    "disease_code": "D011",
+                    "disease_name": "Generalized Anxiety Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "functional_impairment_required": true,
+                        "duration": "1 year and 1 months"
+                    },
+                    "sampled_symptom_groups": {
+                        "anxiety_symptoms": {
+                            "symptoms": [
+                                "S027",
+                                "S056",
+                                "S057",
+                                "S058",
+                                "S060"
+                            ],
+                            "name": "anxiety_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S027",
+                        "S056",
+                        "S057",
+                        "S058",
+                        "S060"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S027": {
+                            "name": "Sleep_Disturbance",
+                            "categoty": "depressive_episode",
+                            "description": "A state where there is a significant change in the quantity or quality of sleep.",
+                            "subtypes": {
+                                "Non-Restorative Sleep": "Feeling unrefreshed despite having slept enough."
+                            }
+                        },
+                        "S056": {
+                            "name": "Excessive_Anxiety_Worry",
+                            "categoty": "anxiety_symptoms",
+                            "description": "Excessive anxiety and worry (expectant apprehension) occurring persistently about a number of events or activities.",
+                            "subtypes": {
+                                "Chronic Worry": "Worry occurs more days than not for at least 6 months."
+                            }
+                        },
+                        "S057": {
+                            "name": "Uncontrollable_Worry",
+                            "categoty": "anxiety_symptoms",
+                            "description": "The subjective experience of finding it difficult to stop or control the worry.",
+                            "subtypes": {
+                                "Chaining of Worry": "One worry triggers another in a chain reaction, escalating to catastrophic thoughts."
+                            }
+                        },
+                        "S058": {
+                            "name": "Restlessness_Tension",
+                            "categoty": "anxiety_symptoms",
+                            "description": "Restlessness, or feeling keyed up or on edge.",
+                            "subtypes": {
+                                "Nervousness": "Nerves are on edge, being startled easily by minor sounds or stimuli."
+                            }
+                        },
+                        "S060": {
+                            "name": "Irritability",
+                            "categoty": "anxiety_symptoms",
+                            "description": "A state of reacting sensitively or sharply to minor stimuli.",
+                            "subtypes": {
+                                "Exhausted Patience": "Patience is depleted, making it impossible to endure minor inconveniences or delays."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Major Depressive Disorder with Psychotic Features",
+                    "Specific Phobia",
+                    "Generalized Anxiety Disorder",
+                    "Attention-Deficit/Hyperactivity Disorder (Predominantly Hyperactive/Impulsive Presentation)"
+                ],
+                "answer_index": [
+                    2
+                ],
+                "index_types": [
+                    "must_contain_option",
+                    "must_contain_option",
+                    "answer",
+                    "must_contain_option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D015",
+                        "disease_name": "Major Depressive Disorder with Psychotic Features"
+                    },
+                    {
+                        "disease_code": "D012",
+                        "disease_name": "Specific Phobia"
+                    },
+                    {
+                        "disease_code": "D011",
+                        "disease_name": "Generalized Anxiety Disorder"
+                    },
+                    {
+                        "disease_code": "D003",
+                        "disease_name": "Attention-Deficit/Hyperactivity Disorder (Predominantly Hyperactive/Impulsive Presentation)"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 32\n- **Gender:** Female\n- **Occupation:** 911 Dispatcher\n- **Marital Status:** Single\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Generalized Anxiety Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. anxiety_symptoms Requirements:**\n- Non-Restorative Sleep (Feeling unrefreshed despite having slept enough.)\n- Chronic Worry (Worry occurs more days than not for at least 6 months.)\n- Chaining of Worry (One worry triggers another in a chain reaction, escalating to catastrophic thoughts.)\n- Nervousness (Nerves are on edge, being startled easily by minor sounds or stimuli.)\n- Exhausted Patience (Patience is depleted, making it impossible to endure minor inconveniences or delays.)\n\n**Critical Diagnostic Criteria:**\n\n- Duration: 1 year and 1 months\n\n- Functional Impairment: True"
+    },
+    "D011_l016": {
+        "question": "A 29-year-old married male fund manager presents with a 15-month history of pervasive apprehension. The patient reports frequent early morning awakenings, from which he is unable to return to sleep. He experiences significant mental fatigue, particularly with tasks requiring concentration. He describes persistent difficulty controlling his worried thoughts, despite conscious efforts to redirect them, leading to interference with his ability to focus on daily tasks. The patient exhibits a notable intolerance of uncertainty, characterized by a preoccupation with \"what if\" scenarios. This symptomatology has resulted in marked functional impairment in his occupational duties and personal life.",
+        "options": "\n    A. Posttraumatic Stress Disorder\n    B. Generalized Anxiety Disorder\n    C. Major Depressive Disorder\n    D. Major Depressive Disorder with Psychotic Features\n    ",
+        "answer": "B. Generalized Anxiety Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D011",
+                "disease_name": "Generalized Anxiety Disorder",
+                "sampled_features": {
+                    "disease_code": "D011",
+                    "disease_name": "Generalized Anxiety Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "functional_impairment_required": true,
+                        "duration": "1 year and 3 months"
+                    },
+                    "sampled_symptom_groups": {
+                        "anxiety_symptoms": {
+                            "symptoms": [
+                                "S027",
+                                "S029",
+                                "S057",
+                                "S059",
+                                "S056"
+                            ],
+                            "name": "anxiety_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S027",
+                        "S029",
+                        "S056",
+                        "S057",
+                        "S059"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S027": {
+                            "name": "Sleep_Disturbance",
+                            "categoty": "depressive_episode",
+                            "description": "A state where there is a significant change in the quantity or quality of sleep.",
+                            "subtypes": {
+                                "Early Morning Awakening": "Waking up too early and being unable to fall back asleep."
+                            }
+                        },
+                        "S029": {
+                            "name": "Fatigue",
+                            "categoty": "depressive_episode",
+                            "description": "Persistent fatigue that is not relieved by rest and a marked lack of energy.",
+                            "subtypes": {
+                                "Mental Fatigue": "A state where fatigue accumulates rapidly during the process of thinking or concentrating."
+                            }
+                        },
+                        "S056": {
+                            "name": "Excessive_Anxiety_Worry",
+                            "categoty": "anxiety_symptoms",
+                            "description": "Excessive anxiety and worry (expectant apprehension) occurring persistently about a number of events or activities.",
+                            "subtypes": {
+                                "Intolerance of Uncertainty": "Unable to tolerate future uncertainty, trapped in 'what if' questions."
+                            }
+                        },
+                        "S057": {
+                            "name": "Uncontrollable_Worry",
+                            "categoty": "anxiety_symptoms",
+                            "description": "The subjective experience of finding it difficult to stop or control the worry.",
+                            "subtypes": {
+                                "Failure to Control": "Unable to regulate worry despite efforts to stop or distract oneself."
+                            }
+                        },
+                        "S059": {
+                            "name": "Concentration_Difficulty",
+                            "categoty": "anxiety_symptoms",
+                            "description": "Difficulty concentrating or mind going blank.",
+                            "subtypes": {
+                                "Interference by Worry": "Unable to focus on the task at hand because worries keep surfacing."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Posttraumatic Stress Disorder",
+                    "Generalized Anxiety Disorder",
+                    "Major Depressive Disorder",
+                    "Major Depressive Disorder with Psychotic Features"
+                ],
+                "answer_index": [
+                    1
+                ],
+                "index_types": [
+                    "must_contain_option",
+                    "answer",
+                    "Moderately likely option",
+                    "Moderately likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D018",
+                        "disease_name": "Posttraumatic Stress Disorder"
+                    },
+                    {
+                        "disease_code": "D011",
+                        "disease_name": "Generalized Anxiety Disorder"
+                    },
+                    {
+                        "disease_code": "D013",
+                        "disease_name": "Major Depressive Disorder",
+                        "shared_symptoms": [
+                            "S029",
+                            "S027"
+                        ]
+                    },
+                    {
+                        "disease_code": "D015",
+                        "disease_name": "Major Depressive Disorder with Psychotic Features",
+                        "shared_symptoms": [
+                            "S029",
+                            "S027"
+                        ]
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 29\n- **Gender:** Male\n- **Occupation:** Fund Manager\n- **Marital Status:** Married\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Generalized Anxiety Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. anxiety_symptoms Requirements:**\n- Early Morning Awakening (Waking up too early and being unable to fall back asleep.)\n- Mental Fatigue (A state where fatigue accumulates rapidly during the process of thinking or concentrating.)\n- Failure to Control (Unable to regulate worry despite efforts to stop or distract oneself.)\n- Interference by Worry (Unable to focus on the task at hand because worries keep surfacing.)\n- Intolerance of Uncertainty (Unable to tolerate future uncertainty, trapped in 'what if' questions.)\n\n**Critical Diagnostic Criteria:**\n\n- Duration: 1 year and 3 months\n\n- Functional Impairment: True"
+    },
+    "D011_l017": {
+        "question": "A 28-year-old single female PhD researcher presents with a 15-month history of generalized anxiety. The patient reports initial insomnia, characterized by prolonged sleep latency. She experiences significant mental fatigue, noting rapid accumulation of exhaustion during tasks requiring concentration. Intrusive worries frequently interrupt her focus, leading to an inability to concentrate on assigned tasks. Her concerns are broad and pervasive, encompassing academic, professional, familial, and financial domains. These symptoms have resulted in notable functional impairment across multiple life areas.",
+        "options": "\n    A. Posttraumatic Stress Disorder\n    B. Generalized Anxiety Disorder\n    C. Major Depressive Disorder\n    D. Major Depressive Disorder with Psychotic Features\n    ",
+        "answer": "B. Generalized Anxiety Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D011",
+                "disease_name": "Generalized Anxiety Disorder",
+                "sampled_features": {
+                    "disease_code": "D011",
+                    "disease_name": "Generalized Anxiety Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "functional_impairment_required": true,
+                        "duration": "1 year and 3 months"
+                    },
+                    "sampled_symptom_groups": {
+                        "anxiety_symptoms": {
+                            "symptoms": [
+                                "S027",
+                                "S029",
+                                "S057",
+                                "S059",
+                                "S056"
+                            ],
+                            "name": "anxiety_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S027",
+                        "S029",
+                        "S056",
+                        "S057",
+                        "S059"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S027": {
+                            "name": "Sleep_Disturbance",
+                            "categoty": "depressive_episode",
+                            "description": "A state where there is a significant change in the quantity or quality of sleep.",
+                            "subtypes": {
+                                "Initial Insomnia": "Difficulty falling asleep and taking a long time to do so."
+                            }
+                        },
+                        "S029": {
+                            "name": "Fatigue",
+                            "categoty": "depressive_episode",
+                            "description": "Persistent fatigue that is not relieved by rest and a marked lack of energy.",
+                            "subtypes": {
+                                "Mental Fatigue": "A state where fatigue accumulates rapidly during the process of thinking or concentrating."
+                            }
+                        },
+                        "S056": {
+                            "name": "Excessive_Anxiety_Worry",
+                            "categoty": "anxiety_symptoms",
+                            "description": "Excessive anxiety and worry (expectant apprehension) occurring persistently about a number of events or activities.",
+                            "subtypes": {
+                                "Generalized Worry": "Worry is not confined to specific topics but spreads to various domains like work, school, family, and finances."
+                            }
+                        },
+                        "S057": {
+                            "name": "Uncontrollable_Worry",
+                            "categoty": "anxiety_symptoms",
+                            "description": "The subjective experience of finding it difficult to stop or control the worry.",
+                            "subtypes": {
+                                "Intrusive Worry": "Worries suddenly intrude into the mind and interfere with focus while doing other tasks."
+                            }
+                        },
+                        "S059": {
+                            "name": "Concentration_Difficulty",
+                            "categoty": "anxiety_symptoms",
+                            "description": "Difficulty concentrating or mind going blank.",
+                            "subtypes": {
+                                "Interference by Worry": "Unable to focus on the task at hand because worries keep surfacing."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Posttraumatic Stress Disorder",
+                    "Generalized Anxiety Disorder",
+                    "Major Depressive Disorder",
+                    "Major Depressive Disorder with Psychotic Features"
+                ],
+                "answer_index": [
+                    1
+                ],
+                "index_types": [
+                    "must_contain_option",
+                    "answer",
+                    "Moderately likely option",
+                    "Moderately likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D018",
+                        "disease_name": "Posttraumatic Stress Disorder"
+                    },
+                    {
+                        "disease_code": "D011",
+                        "disease_name": "Generalized Anxiety Disorder"
+                    },
+                    {
+                        "disease_code": "D013",
+                        "disease_name": "Major Depressive Disorder",
+                        "shared_symptoms": [
+                            "S029",
+                            "S027"
+                        ]
+                    },
+                    {
+                        "disease_code": "D015",
+                        "disease_name": "Major Depressive Disorder with Psychotic Features",
+                        "shared_symptoms": [
+                            "S029",
+                            "S027"
+                        ]
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 28\n- **Gender:** Female\n- **Occupation:** PhD Researcher\n- **Marital Status:** Single\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Generalized Anxiety Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. anxiety_symptoms Requirements:**\n- Initial Insomnia (Difficulty falling asleep and taking a long time to do so.)\n- Mental Fatigue (A state where fatigue accumulates rapidly during the process of thinking or concentrating.)\n- Intrusive Worry (Worries suddenly intrude into the mind and interfere with focus while doing other tasks.)\n- Interference by Worry (Unable to focus on the task at hand because worries keep surfacing.)\n- Generalized Worry (Worry is not confined to specific topics but spreads to various domains like work, school, family, and finances.)\n\n**Critical Diagnostic Criteria:**\n\n- Duration: 1 year and 3 months\n\n- Functional Impairment: True"
+    },
+    "D011_l018": {
+        "question": "A 68-year-old married retired civil servant presents with a 15-month history of pervasive apprehension. He experiences significant difficulty in sustaining concentration due to intrusive worrisome thoughts. These worries often follow a 'chaining' pattern, where one concern rapidly escalates into a catastrophic sequence of 'what if' scenarios. He reports a profound intolerance of uncertainty regarding future events. Physiologically, the patient describes persistent physical fatigue, noting his body feels heavy and becomes easily exhausted even with minimal exertion. He also reports early morning awakenings with an inability to return to sleep, contributing to his overall distress. These symptoms have led to notable functional impairment in his daily life.",
+        "options": "\n    A. Posttraumatic Stress Disorder\n    B. Generalized Anxiety Disorder\n    C. Major Depressive Disorder\n    D. Major Depressive Disorder with Psychotic Features\n    ",
+        "answer": "B. Generalized Anxiety Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D011",
+                "disease_name": "Generalized Anxiety Disorder",
+                "sampled_features": {
+                    "disease_code": "D011",
+                    "disease_name": "Generalized Anxiety Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "functional_impairment_required": true,
+                        "duration": "1 year and 3 months"
+                    },
+                    "sampled_symptom_groups": {
+                        "anxiety_symptoms": {
+                            "symptoms": [
+                                "S027",
+                                "S029",
+                                "S057",
+                                "S059",
+                                "S056"
+                            ],
+                            "name": "anxiety_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S027",
+                        "S029",
+                        "S056",
+                        "S057",
+                        "S059"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S027": {
+                            "name": "Sleep_Disturbance",
+                            "categoty": "depressive_episode",
+                            "description": "A state where there is a significant change in the quantity or quality of sleep.",
+                            "subtypes": {
+                                "Early Morning Awakening": "Waking up too early and being unable to fall back asleep."
+                            }
+                        },
+                        "S029": {
+                            "name": "Fatigue",
+                            "categoty": "depressive_episode",
+                            "description": "Persistent fatigue that is not relieved by rest and a marked lack of energy.",
+                            "subtypes": {
+                                "Physical Fatigue": "A state of physical exhaustion where the body feels heavy and easily tires even from minor activities."
+                            }
+                        },
+                        "S056": {
+                            "name": "Excessive_Anxiety_Worry",
+                            "categoty": "anxiety_symptoms",
+                            "description": "Excessive anxiety and worry (expectant apprehension) occurring persistently about a number of events or activities.",
+                            "subtypes": {
+                                "Intolerance of Uncertainty": "Unable to tolerate future uncertainty, trapped in 'what if' questions."
+                            }
+                        },
+                        "S057": {
+                            "name": "Uncontrollable_Worry",
+                            "categoty": "anxiety_symptoms",
+                            "description": "The subjective experience of finding it difficult to stop or control the worry.",
+                            "subtypes": {
+                                "Chaining of Worry": "One worry triggers another in a chain reaction, escalating to catastrophic thoughts."
+                            }
+                        },
+                        "S059": {
+                            "name": "Concentration_Difficulty",
+                            "categoty": "anxiety_symptoms",
+                            "description": "Difficulty concentrating or mind going blank.",
+                            "subtypes": {
+                                "Interference by Worry": "Unable to focus on the task at hand because worries keep surfacing."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Posttraumatic Stress Disorder",
+                    "Generalized Anxiety Disorder",
+                    "Major Depressive Disorder",
+                    "Major Depressive Disorder with Psychotic Features"
+                ],
+                "answer_index": [
+                    1
+                ],
+                "index_types": [
+                    "must_contain_option",
+                    "answer",
+                    "Moderately likely option",
+                    "Moderately likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D018",
+                        "disease_name": "Posttraumatic Stress Disorder"
+                    },
+                    {
+                        "disease_code": "D011",
+                        "disease_name": "Generalized Anxiety Disorder"
+                    },
+                    {
+                        "disease_code": "D013",
+                        "disease_name": "Major Depressive Disorder",
+                        "shared_symptoms": [
+                            "S029",
+                            "S027"
+                        ]
+                    },
+                    {
+                        "disease_code": "D015",
+                        "disease_name": "Major Depressive Disorder with Psychotic Features",
+                        "shared_symptoms": [
+                            "S029",
+                            "S027"
+                        ]
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 68\n- **Gender:** Male\n- **Occupation:** Retired Civil Servant\n- **Marital Status:** Married\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Generalized Anxiety Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. anxiety_symptoms Requirements:**\n- Early Morning Awakening (Waking up too early and being unable to fall back asleep.)\n- Physical Fatigue (A state of physical exhaustion where the body feels heavy and easily tires even from minor activities.)\n- Chaining of Worry (One worry triggers another in a chain reaction, escalating to catastrophic thoughts.)\n- Interference by Worry (Unable to focus on the task at hand because worries keep surfacing.)\n- Intolerance of Uncertainty (Unable to tolerate future uncertainty, trapped in 'what if' questions.)\n\n**Critical Diagnostic Criteria:**\n\n- Duration: 1 year and 3 months\n\n- Functional Impairment: True"
+    },
+    "D011_l019": {
+        "question": "A 37-year-old married female, a restaurant franchise owner, presents with a 15-month history of pervasive apprehension. She reports significant difficulty controlling her worries, despite attempts to redirect her thoughts. Her anxiety has manifested as an inability to tolerate uncertainty, frequently focusing on \"what if\" scenarios. She describes fragmented attention, making it challenging to sustain focus on tasks due to her preoccupation. Sleep initiation and maintenance are difficult due to recurrent and distressing nightmares. The patient also endorsed a notable loss of energy, impacting her daily activities and overall vitality. These symptoms have resulted in significant functional impairment across multiple areas of her life.",
+        "options": "\n    A. Posttraumatic Stress Disorder\n    B. Generalized Anxiety Disorder\n    C. Major Depressive Disorder\n    D. Major Depressive Disorder with Psychotic Features\n    ",
+        "answer": "B. Generalized Anxiety Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D011",
+                "disease_name": "Generalized Anxiety Disorder",
+                "sampled_features": {
+                    "disease_code": "D011",
+                    "disease_name": "Generalized Anxiety Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "functional_impairment_required": true,
+                        "duration": "1 year and 3 months"
+                    },
+                    "sampled_symptom_groups": {
+                        "anxiety_symptoms": {
+                            "symptoms": [
+                                "S027",
+                                "S029",
+                                "S057",
+                                "S059",
+                                "S056"
+                            ],
+                            "name": "anxiety_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S027",
+                        "S029",
+                        "S056",
+                        "S057",
+                        "S059"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S027": {
+                            "name": "Sleep_Disturbance",
+                            "categoty": "depressive_episode",
+                            "description": "A state where there is a significant change in the quantity or quality of sleep.",
+                            "subtypes": {
+                                "Nightmare Disorder": "Sleep disturbance caused by repeated and distressing dreams."
+                            }
+                        },
+                        "S029": {
+                            "name": "Fatigue",
+                            "categoty": "depressive_episode",
+                            "description": "Persistent fatigue that is not relieved by rest and a marked lack of energy.",
+                            "subtypes": {
+                                "Loss of Energy": "Difficulty performing daily activities due to a decline in energy and vitality."
+                            }
+                        },
+                        "S056": {
+                            "name": "Excessive_Anxiety_Worry",
+                            "categoty": "anxiety_symptoms",
+                            "description": "Excessive anxiety and worry (expectant apprehension) occurring persistently about a number of events or activities.",
+                            "subtypes": {
+                                "Intolerance of Uncertainty": "Unable to tolerate future uncertainty, trapped in 'what if' questions."
+                            }
+                        },
+                        "S057": {
+                            "name": "Uncontrollable_Worry",
+                            "categoty": "anxiety_symptoms",
+                            "description": "The subjective experience of finding it difficult to stop or control the worry.",
+                            "subtypes": {
+                                "Failure to Control": "Unable to regulate worry despite efforts to stop or distract oneself."
+                            }
+                        },
+                        "S059": {
+                            "name": "Concentration_Difficulty",
+                            "categoty": "anxiety_symptoms",
+                            "description": "Difficulty concentrating or mind going blank.",
+                            "subtypes": {
+                                "Inability to Sustain Attention": "Attention is scattered due to anxiety, making it hard to focus on one thing for long."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Posttraumatic Stress Disorder",
+                    "Generalized Anxiety Disorder",
+                    "Major Depressive Disorder",
+                    "Major Depressive Disorder with Psychotic Features"
+                ],
+                "answer_index": [
+                    1
+                ],
+                "index_types": [
+                    "must_contain_option",
+                    "answer",
+                    "Moderately likely option",
+                    "Moderately likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D018",
+                        "disease_name": "Posttraumatic Stress Disorder"
+                    },
+                    {
+                        "disease_code": "D011",
+                        "disease_name": "Generalized Anxiety Disorder"
+                    },
+                    {
+                        "disease_code": "D013",
+                        "disease_name": "Major Depressive Disorder",
+                        "shared_symptoms": [
+                            "S029",
+                            "S027"
+                        ]
+                    },
+                    {
+                        "disease_code": "D015",
+                        "disease_name": "Major Depressive Disorder with Psychotic Features",
+                        "shared_symptoms": [
+                            "S029",
+                            "S027"
+                        ]
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 37\n- **Gender:** Female\n- **Occupation:** Restaurant Franchise Owner\n- **Marital Status:** Married\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Generalized Anxiety Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. anxiety_symptoms Requirements:**\n- Nightmare Disorder (Sleep disturbance caused by repeated and distressing dreams.)\n- Loss of Energy (Difficulty performing daily activities due to a decline in energy and vitality.)\n- Failure to Control (Unable to regulate worry despite efforts to stop or distract oneself.)\n- Inability to Sustain Attention (Attention is scattered due to anxiety, making it hard to focus on one thing for long.)\n- Intolerance of Uncertainty (Unable to tolerate future uncertainty, trapped in 'what if' questions.)\n\n**Critical Diagnostic Criteria:**\n\n- Duration: 1 year and 3 months\n\n- Functional Impairment: True"
+    },
+    "D011_l020": {
+        "question": "A 32-year-old married male sales representative presents with a 1 year and 3 month history of escalating anxiety and associated symptoms. He reports pervasive and excessive worry that has been present for the majority of days throughout this period, which he describes as difficult to control despite conscious efforts.\n\nThe patient endorses significant difficulty initiating sleep, often experiencing prolonged sleep latency. He also notes persistent physical fatigue, characterizing his body as feeling heavy and easily exhausted by minimal exertion. Cognitive symptoms include an inability to sustain attention, with his focus frequently scattered due to intrusive anxious thoughts. These symptoms have resulted in notable functional impairment in his daily life.",
+        "options": "\n    A. Posttraumatic Stress Disorder\n    B. Generalized Anxiety Disorder\n    C. Major Depressive Disorder\n    D. Major Depressive Disorder with Psychotic Features\n    ",
+        "answer": "B. Generalized Anxiety Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D011",
+                "disease_name": "Generalized Anxiety Disorder",
+                "sampled_features": {
+                    "disease_code": "D011",
+                    "disease_name": "Generalized Anxiety Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "functional_impairment_required": true,
+                        "duration": "1 year and 3 months"
+                    },
+                    "sampled_symptom_groups": {
+                        "anxiety_symptoms": {
+                            "symptoms": [
+                                "S027",
+                                "S029",
+                                "S057",
+                                "S059",
+                                "S056"
+                            ],
+                            "name": "anxiety_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S027",
+                        "S029",
+                        "S056",
+                        "S057",
+                        "S059"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S027": {
+                            "name": "Sleep_Disturbance",
+                            "categoty": "depressive_episode",
+                            "description": "A state where there is a significant change in the quantity or quality of sleep.",
+                            "subtypes": {
+                                "Initial Insomnia": "Difficulty falling asleep and taking a long time to do so."
+                            }
+                        },
+                        "S029": {
+                            "name": "Fatigue",
+                            "categoty": "depressive_episode",
+                            "description": "Persistent fatigue that is not relieved by rest and a marked lack of energy.",
+                            "subtypes": {
+                                "Physical Fatigue": "A state of physical exhaustion where the body feels heavy and easily tires even from minor activities."
+                            }
+                        },
+                        "S056": {
+                            "name": "Excessive_Anxiety_Worry",
+                            "categoty": "anxiety_symptoms",
+                            "description": "Excessive anxiety and worry (expectant apprehension) occurring persistently about a number of events or activities.",
+                            "subtypes": {
+                                "Chronic Worry": "Worry occurs more days than not for at least 6 months."
+                            }
+                        },
+                        "S057": {
+                            "name": "Uncontrollable_Worry",
+                            "categoty": "anxiety_symptoms",
+                            "description": "The subjective experience of finding it difficult to stop or control the worry.",
+                            "subtypes": {
+                                "Failure to Control": "Unable to regulate worry despite efforts to stop or distract oneself."
+                            }
+                        },
+                        "S059": {
+                            "name": "Concentration_Difficulty",
+                            "categoty": "anxiety_symptoms",
+                            "description": "Difficulty concentrating or mind going blank.",
+                            "subtypes": {
+                                "Inability to Sustain Attention": "Attention is scattered due to anxiety, making it hard to focus on one thing for long."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Posttraumatic Stress Disorder",
+                    "Generalized Anxiety Disorder",
+                    "Major Depressive Disorder",
+                    "Major Depressive Disorder with Psychotic Features"
+                ],
+                "answer_index": [
+                    1
+                ],
+                "index_types": [
+                    "must_contain_option",
+                    "answer",
+                    "Moderately likely option",
+                    "Moderately likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D018",
+                        "disease_name": "Posttraumatic Stress Disorder"
+                    },
+                    {
+                        "disease_code": "D011",
+                        "disease_name": "Generalized Anxiety Disorder"
+                    },
+                    {
+                        "disease_code": "D013",
+                        "disease_name": "Major Depressive Disorder",
+                        "shared_symptoms": [
+                            "S029",
+                            "S027"
+                        ]
+                    },
+                    {
+                        "disease_code": "D015",
+                        "disease_name": "Major Depressive Disorder with Psychotic Features",
+                        "shared_symptoms": [
+                            "S029",
+                            "S027"
+                        ]
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 32\n- **Gender:** Male\n- **Occupation:** Sales Representative\n- **Marital Status:** Married\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Generalized Anxiety Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. anxiety_symptoms Requirements:**\n- Initial Insomnia (Difficulty falling asleep and taking a long time to do so.)\n- Physical Fatigue (A state of physical exhaustion where the body feels heavy and easily tires even from minor activities.)\n- Failure to Control (Unable to regulate worry despite efforts to stop or distract oneself.)\n- Inability to Sustain Attention (Attention is scattered due to anxiety, making it hard to focus on one thing for long.)\n- Chronic Worry (Worry occurs more days than not for at least 6 months.)\n\n**Critical Diagnostic Criteria:**\n\n- Duration: 1 year and 3 months\n\n- Functional Impairment: True"
+    },
+    "D011_l021": {
+        "question": "A 46-year-old single male, employed as a lighthouse keeper, presents with a duration of generalized anxiety symptoms spanning 1 year and 2 months. The patient experiences persistent and pervasive worry occurring on most days, which he reports being unable to control despite attempts to redirect his thoughts. This preoccupation has significantly impacted his cognitive functioning, leading to an inability to sustain attention. Somatic manifestations include chronic muscular stiffness and sleep disturbances characterized by recurrent distressing dreams. These symptoms have resulted in notable functional impairment.",
+        "options": "\n    A. Generalized Anxiety Disorder\n    B. Persistent Depressive Disorder\n    C. Posttraumatic Stress Disorder\n    D. Specific Phobia\n    ",
+        "answer": "A. Generalized Anxiety Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D011",
+                "disease_name": "Generalized Anxiety Disorder",
+                "sampled_features": {
+                    "disease_code": "D011",
+                    "disease_name": "Generalized Anxiety Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "functional_impairment_required": true,
+                        "duration": "1 year and 2 months"
+                    },
+                    "sampled_symptom_groups": {
+                        "anxiety_symptoms": {
+                            "symptoms": [
+                                "S027",
+                                "S056",
+                                "S057",
+                                "S059",
+                                "S061"
+                            ],
+                            "name": "anxiety_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S027",
+                        "S056",
+                        "S057",
+                        "S059",
+                        "S061"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S027": {
+                            "name": "Sleep_Disturbance",
+                            "categoty": "depressive_episode",
+                            "description": "A state where there is a significant change in the quantity or quality of sleep.",
+                            "subtypes": {
+                                "Nightmare Disorder": "Sleep disturbance caused by repeated and distressing dreams."
+                            }
+                        },
+                        "S056": {
+                            "name": "Excessive_Anxiety_Worry",
+                            "categoty": "anxiety_symptoms",
+                            "description": "Excessive anxiety and worry (expectant apprehension) occurring persistently about a number of events or activities.",
+                            "subtypes": {
+                                "Chronic Worry": "Worry occurs more days than not for at least 6 months."
+                            }
+                        },
+                        "S057": {
+                            "name": "Uncontrollable_Worry",
+                            "categoty": "anxiety_symptoms",
+                            "description": "The subjective experience of finding it difficult to stop or control the worry.",
+                            "subtypes": {
+                                "Failure to Control": "Unable to regulate worry despite efforts to stop or distract oneself."
+                            }
+                        },
+                        "S059": {
+                            "name": "Concentration_Difficulty",
+                            "categoty": "anxiety_symptoms",
+                            "description": "Difficulty concentrating or mind going blank.",
+                            "subtypes": {
+                                "Inability to Sustain Attention": "Attention is scattered due to anxiety, making it hard to focus on one thing for long."
+                            }
+                        },
+                        "S061": {
+                            "name": "Muscle_Tension",
+                            "categoty": "anxiety_symptoms",
+                            "description": "A state where muscles are continuously tense, stiff, and accompanied by discomfort.",
+                            "subtypes": {
+                                "Chronic Stiffness": "Muscles remain in a constant state of tension and do not relax."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Generalized Anxiety Disorder",
+                    "Persistent Depressive Disorder",
+                    "Posttraumatic Stress Disorder",
+                    "Specific Phobia"
+                ],
+                "answer_index": [
+                    0
+                ],
+                "index_types": [
+                    "answer",
+                    "Moderately likely option",
+                    "Moderately likely option",
+                    "must_contain_option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D011",
+                        "disease_name": "Generalized Anxiety Disorder"
+                    },
+                    {
+                        "disease_code": "D014",
+                        "disease_name": "Persistent Depressive Disorder",
+                        "shared_symptoms": [
+                            "S027"
+                        ]
+                    },
+                    {
+                        "disease_code": "D018",
+                        "disease_name": "Posttraumatic Stress Disorder",
+                        "shared_symptoms": [
+                            "S027"
+                        ]
+                    },
+                    {
+                        "disease_code": "D012",
+                        "disease_name": "Specific Phobia"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 46\n- **Gender:** Male\n- **Occupation:** Lighthouse Keeper / Remote Station\n- **Marital Status:** Single\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Generalized Anxiety Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. anxiety_symptoms Requirements:**\n- Nightmare Disorder (Sleep disturbance caused by repeated and distressing dreams.)\n- Chronic Worry (Worry occurs more days than not for at least 6 months.)\n- Failure to Control (Unable to regulate worry despite efforts to stop or distract oneself.)\n- Inability to Sustain Attention (Attention is scattered due to anxiety, making it hard to focus on one thing for long.)\n- Chronic Stiffness (Muscles remain in a constant state of tension and do not relax.)\n\n**Critical Diagnostic Criteria:**\n\n- Duration: 1 year and 2 months\n\n- Functional Impairment: True"
+    },
+    "D011_l022": {
+        "question": "A 32-year-old married male police officer presents with a 14-month history of generalized apprehension. He describes persistent, pervasive worry spanning multiple life domains, including professional responsibilities, family welfare, and financial stability. This worry is characterized by a \"chaining\" phenomenon, where initial concerns escalate into catastrophic ideation. The patient reports frequent episodes of his mind going blank, which he finds unsettling. Concurrently, he experiences nightly distressing dreams consistent with nightmare disorder and chronic jaw tension, occasionally leading to discomfort. The patient reports significant functional impairment attributable to these symptoms.",
+        "options": "\n    A. Generalized Anxiety Disorder\n    B. Persistent Depressive Disorder\n    C. Posttraumatic Stress Disorder\n    D. Specific Phobia\n    ",
+        "answer": "A. Generalized Anxiety Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D011",
+                "disease_name": "Generalized Anxiety Disorder",
+                "sampled_features": {
+                    "disease_code": "D011",
+                    "disease_name": "Generalized Anxiety Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "functional_impairment_required": true,
+                        "duration": "1 year and 2 months"
+                    },
+                    "sampled_symptom_groups": {
+                        "anxiety_symptoms": {
+                            "symptoms": [
+                                "S027",
+                                "S056",
+                                "S057",
+                                "S059",
+                                "S061"
+                            ],
+                            "name": "anxiety_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S027",
+                        "S056",
+                        "S057",
+                        "S059",
+                        "S061"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S027": {
+                            "name": "Sleep_Disturbance",
+                            "categoty": "depressive_episode",
+                            "description": "A state where there is a significant change in the quantity or quality of sleep.",
+                            "subtypes": {
+                                "Nightmare Disorder": "Sleep disturbance caused by repeated and distressing dreams."
+                            }
+                        },
+                        "S056": {
+                            "name": "Excessive_Anxiety_Worry",
+                            "categoty": "anxiety_symptoms",
+                            "description": "Excessive anxiety and worry (expectant apprehension) occurring persistently about a number of events or activities.",
+                            "subtypes": {
+                                "Generalized Worry": "Worry is not confined to specific topics but spreads to various domains like work, school, family, and finances."
+                            }
+                        },
+                        "S057": {
+                            "name": "Uncontrollable_Worry",
+                            "categoty": "anxiety_symptoms",
+                            "description": "The subjective experience of finding it difficult to stop or control the worry.",
+                            "subtypes": {
+                                "Chaining of Worry": "One worry triggers another in a chain reaction, escalating to catastrophic thoughts."
+                            }
+                        },
+                        "S059": {
+                            "name": "Concentration_Difficulty",
+                            "categoty": "anxiety_symptoms",
+                            "description": "Difficulty concentrating or mind going blank.",
+                            "subtypes": {
+                                "Mind Going Blank": "Suddenly the mind goes empty or white, and no thoughts occur."
+                            }
+                        },
+                        "S061": {
+                            "name": "Muscle_Tension",
+                            "categoty": "anxiety_symptoms",
+                            "description": "A state where muscles are continuously tense, stiff, and accompanied by discomfort.",
+                            "subtypes": {
+                                "Jaw Tension": "Clenching teeth or tension in the jaw causing jaw pain or headaches."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Generalized Anxiety Disorder",
+                    "Persistent Depressive Disorder",
+                    "Posttraumatic Stress Disorder",
+                    "Specific Phobia"
+                ],
+                "answer_index": [
+                    0
+                ],
+                "index_types": [
+                    "answer",
+                    "Moderately likely option",
+                    "Moderately likely option",
+                    "must_contain_option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D011",
+                        "disease_name": "Generalized Anxiety Disorder"
+                    },
+                    {
+                        "disease_code": "D014",
+                        "disease_name": "Persistent Depressive Disorder",
+                        "shared_symptoms": [
+                            "S027"
+                        ]
+                    },
+                    {
+                        "disease_code": "D018",
+                        "disease_name": "Posttraumatic Stress Disorder",
+                        "shared_symptoms": [
+                            "S027"
+                        ]
+                    },
+                    {
+                        "disease_code": "D012",
+                        "disease_name": "Specific Phobia"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 32\n- **Gender:** Male\n- **Occupation:** Police Officer\n- **Marital Status:** Married\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Generalized Anxiety Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. anxiety_symptoms Requirements:**\n- Nightmare Disorder (Sleep disturbance caused by repeated and distressing dreams.)\n- Generalized Worry (Worry is not confined to specific topics but spreads to various domains like work, school, family, and finances.)\n- Chaining of Worry (One worry triggers another in a chain reaction, escalating to catastrophic thoughts.)\n- Mind Going Blank (Suddenly the mind goes empty or white, and no thoughts occur.)\n- Jaw Tension (Clenching teeth or tension in the jaw causing jaw pain or headaches.)\n\n**Critical Diagnostic Criteria:**\n\n- Duration: 1 year and 2 months\n\n- Functional Impairment: True"
+    },
+    "D011_l023": {
+        "question": "A 47-year-old married male butcher presents with a 1-year and 2-month history of pervasive anxiety. The patient reports significant difficulty tolerating uncertainty, experiencing persistent \"what if\" questions regarding future events. He describes an inability to control his worry, despite conscious efforts to redirect his thoughts or engage in distracting activities. This has led to marked impairment in his ability to sustain attention, with his focus frequently scattering due to anxious ideation. Somatically, he reports chronic jaw tension, contributing to discomfort and occasional headaches. Additionally, the patient endorses middle insomnia, characterized by frequent awakenings throughout the night and difficulty returning to sleep. These symptoms have resulted in notable functional impairment across multiple domains of his life.",
+        "options": "\n    A. Generalized Anxiety Disorder\n    B. Persistent Depressive Disorder\n    C. Posttraumatic Stress Disorder\n    D. Specific Phobia\n    ",
+        "answer": "A. Generalized Anxiety Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D011",
+                "disease_name": "Generalized Anxiety Disorder",
+                "sampled_features": {
+                    "disease_code": "D011",
+                    "disease_name": "Generalized Anxiety Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "functional_impairment_required": true,
+                        "duration": "1 year and 2 months"
+                    },
+                    "sampled_symptom_groups": {
+                        "anxiety_symptoms": {
+                            "symptoms": [
+                                "S027",
+                                "S056",
+                                "S057",
+                                "S059",
+                                "S061"
+                            ],
+                            "name": "anxiety_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S027",
+                        "S056",
+                        "S057",
+                        "S059",
+                        "S061"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S027": {
+                            "name": "Sleep_Disturbance",
+                            "categoty": "depressive_episode",
+                            "description": "A state where there is a significant change in the quantity or quality of sleep.",
+                            "subtypes": {
+                                "Middle Insomnia": "Waking up frequently during sleep or having difficulty falling back asleep."
+                            }
+                        },
+                        "S056": {
+                            "name": "Excessive_Anxiety_Worry",
+                            "categoty": "anxiety_symptoms",
+                            "description": "Excessive anxiety and worry (expectant apprehension) occurring persistently about a number of events or activities.",
+                            "subtypes": {
+                                "Intolerance of Uncertainty": "Unable to tolerate future uncertainty, trapped in 'what if' questions."
+                            }
+                        },
+                        "S057": {
+                            "name": "Uncontrollable_Worry",
+                            "categoty": "anxiety_symptoms",
+                            "description": "The subjective experience of finding it difficult to stop or control the worry.",
+                            "subtypes": {
+                                "Failure to Control": "Unable to regulate worry despite efforts to stop or distract oneself."
+                            }
+                        },
+                        "S059": {
+                            "name": "Concentration_Difficulty",
+                            "categoty": "anxiety_symptoms",
+                            "description": "Difficulty concentrating or mind going blank.",
+                            "subtypes": {
+                                "Inability to Sustain Attention": "Attention is scattered due to anxiety, making it hard to focus on one thing for long."
+                            }
+                        },
+                        "S061": {
+                            "name": "Muscle_Tension",
+                            "categoty": "anxiety_symptoms",
+                            "description": "A state where muscles are continuously tense, stiff, and accompanied by discomfort.",
+                            "subtypes": {
+                                "Jaw Tension": "Clenching teeth or tension in the jaw causing jaw pain or headaches."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Generalized Anxiety Disorder",
+                    "Persistent Depressive Disorder",
+                    "Posttraumatic Stress Disorder",
+                    "Specific Phobia"
+                ],
+                "answer_index": [
+                    0
+                ],
+                "index_types": [
+                    "answer",
+                    "Moderately likely option",
+                    "Moderately likely option",
+                    "must_contain_option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D011",
+                        "disease_name": "Generalized Anxiety Disorder"
+                    },
+                    {
+                        "disease_code": "D014",
+                        "disease_name": "Persistent Depressive Disorder",
+                        "shared_symptoms": [
+                            "S027"
+                        ]
+                    },
+                    {
+                        "disease_code": "D018",
+                        "disease_name": "Posttraumatic Stress Disorder",
+                        "shared_symptoms": [
+                            "S027"
+                        ]
+                    },
+                    {
+                        "disease_code": "D012",
+                        "disease_name": "Specific Phobia"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 47\n- **Gender:** Male\n- **Occupation:** Butcher\n- **Marital Status:** Widowed\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Generalized Anxiety Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. anxiety_symptoms Requirements:**\n- Middle Insomnia (Waking up frequently during sleep or having difficulty falling back asleep.)\n- Intolerance of Uncertainty (Unable to tolerate future uncertainty, trapped in 'what if' questions.)\n- Failure to Control (Unable to regulate worry despite efforts to stop or distract oneself.)\n- Inability to Sustain Attention (Attention is scattered due to anxiety, making it hard to focus on one thing for long.)\n- Jaw Tension (Clenching teeth or tension in the jaw causing jaw pain or headaches.)\n\n**Critical Diagnostic Criteria:**\n\n- Duration: 1 year and 2 months\n\n- Functional Impairment: True"
+    },
+    "D011_l024": {
+        "question": "A 30-year-old single male automotive engineer presents with a 14-month history of pervasive anxiety and associated somatic symptoms. He reports chronic\nworry occurring more days than not, characterized by intrusive thoughts that disrupt concentration and interfere with daily tasks. The patient\nexperiences difficulty with sleep initiation, taking a prolonged time to fall asleep. Objective signs include prominent jaw tension, which\ncontributes to jaw pain and occasional headaches. The patient notes significant functional impairment across occupational and social domains\ndue to his persistent symptoms.",
+        "options": "\n    A. Generalized Anxiety Disorder\n    B. Persistent Depressive Disorder\n    C. Posttraumatic Stress Disorder\n    D. Specific Phobia\n    ",
+        "answer": "A. Generalized Anxiety Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D011",
+                "disease_name": "Generalized Anxiety Disorder",
+                "sampled_features": {
+                    "disease_code": "D011",
+                    "disease_name": "Generalized Anxiety Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "functional_impairment_required": true,
+                        "duration": "1 year and 2 months"
+                    },
+                    "sampled_symptom_groups": {
+                        "anxiety_symptoms": {
+                            "symptoms": [
+                                "S027",
+                                "S056",
+                                "S057",
+                                "S059",
+                                "S061"
+                            ],
+                            "name": "anxiety_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S027",
+                        "S056",
+                        "S057",
+                        "S059",
+                        "S061"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S027": {
+                            "name": "Sleep_Disturbance",
+                            "categoty": "depressive_episode",
+                            "description": "A state where there is a significant change in the quantity or quality of sleep.",
+                            "subtypes": {
+                                "Initial Insomnia": "Difficulty falling asleep and taking a long time to do so."
+                            }
+                        },
+                        "S056": {
+                            "name": "Excessive_Anxiety_Worry",
+                            "categoty": "anxiety_symptoms",
+                            "description": "Excessive anxiety and worry (expectant apprehension) occurring persistently about a number of events or activities.",
+                            "subtypes": {
+                                "Chronic Worry": "Worry occurs more days than not for at least 6 months."
+                            }
+                        },
+                        "S057": {
+                            "name": "Uncontrollable_Worry",
+                            "categoty": "anxiety_symptoms",
+                            "description": "The subjective experience of finding it difficult to stop or control the worry.",
+                            "subtypes": {
+                                "Intrusive Worry": "Worries suddenly intrude into the mind and interfere with focus while doing other tasks."
+                            }
+                        },
+                        "S059": {
+                            "name": "Concentration_Difficulty",
+                            "categoty": "anxiety_symptoms",
+                            "description": "Difficulty concentrating or mind going blank.",
+                            "subtypes": {
+                                "Inability to Sustain Attention": "Attention is scattered due to anxiety, making it hard to focus on one thing for long."
+                            }
+                        },
+                        "S061": {
+                            "name": "Muscle_Tension",
+                            "categoty": "anxiety_symptoms",
+                            "description": "A state where muscles are continuously tense, stiff, and accompanied by discomfort.",
+                            "subtypes": {
+                                "Jaw Tension": "Clenching teeth or tension in the jaw causing jaw pain or headaches."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Generalized Anxiety Disorder",
+                    "Persistent Depressive Disorder",
+                    "Posttraumatic Stress Disorder",
+                    "Specific Phobia"
+                ],
+                "answer_index": [
+                    0
+                ],
+                "index_types": [
+                    "answer",
+                    "Moderately likely option",
+                    "Moderately likely option",
+                    "must_contain_option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D011",
+                        "disease_name": "Generalized Anxiety Disorder"
+                    },
+                    {
+                        "disease_code": "D014",
+                        "disease_name": "Persistent Depressive Disorder",
+                        "shared_symptoms": [
+                            "S027"
+                        ]
+                    },
+                    {
+                        "disease_code": "D018",
+                        "disease_name": "Posttraumatic Stress Disorder",
+                        "shared_symptoms": [
+                            "S027"
+                        ]
+                    },
+                    {
+                        "disease_code": "D012",
+                        "disease_name": "Specific Phobia"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 30\n- **Gender:** Male\n- **Occupation:** Automotive Engineer\n- **Marital Status:** Single\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Generalized Anxiety Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. anxiety_symptoms Requirements:**\n- Initial Insomnia (Difficulty falling asleep and taking a long time to do so.)\n- Chronic Worry (Worry occurs more days than not for at least 6 months.)\n- Intrusive Worry (Worries suddenly intrude into the mind and interfere with focus while doing other tasks.)\n- Inability to Sustain Attention (Attention is scattered due to anxiety, making it hard to focus on one thing for long.)\n- Jaw Tension (Clenching teeth or tension in the jaw causing jaw pain or headaches.)\n\n**Critical Diagnostic Criteria:**\n\n- Duration: 1 year and 2 months\n\n- Functional Impairment: True"
+    },
+    "D011_l025": {
+        "question": "A 32-year-old single male cloud architect presents with a 14-month history of pervasive anxiety and related somatic symptoms. The patient reports significant difficulty with early morning awakenings, frequently unable to return to sleep. He experiences marked intolerance of uncertainty, characterized by a preoccupation with hypothetical \"what if\" scenarios. His concentration is significantly impaired by intrusive worries that disrupt his focus on tasks. The patient also endorsed generalized muscle aches, describing stiffness, pain, and easy fatigability throughout his back, arms, and legs. These symptoms have resulted in notable functional impairment across multiple domains of his life.",
+        "options": "\n    A. Generalized Anxiety Disorder\n    B. Persistent Depressive Disorder\n    C. Posttraumatic Stress Disorder\n    D. Specific Phobia\n    ",
+        "answer": "A. Generalized Anxiety Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D011",
+                "disease_name": "Generalized Anxiety Disorder",
+                "sampled_features": {
+                    "disease_code": "D011",
+                    "disease_name": "Generalized Anxiety Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "functional_impairment_required": true,
+                        "duration": "1 year and 2 months"
+                    },
+                    "sampled_symptom_groups": {
+                        "anxiety_symptoms": {
+                            "symptoms": [
+                                "S027",
+                                "S056",
+                                "S057",
+                                "S059",
+                                "S061"
+                            ],
+                            "name": "anxiety_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S027",
+                        "S056",
+                        "S057",
+                        "S059",
+                        "S061"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S027": {
+                            "name": "Sleep_Disturbance",
+                            "categoty": "depressive_episode",
+                            "description": "A state where there is a significant change in the quantity or quality of sleep.",
+                            "subtypes": {
+                                "Early Morning Awakening": "Waking up too early and being unable to fall back asleep."
+                            }
+                        },
+                        "S056": {
+                            "name": "Excessive_Anxiety_Worry",
+                            "categoty": "anxiety_symptoms",
+                            "description": "Excessive anxiety and worry (expectant apprehension) occurring persistently about a number of events or activities.",
+                            "subtypes": {
+                                "Intolerance of Uncertainty": "Unable to tolerate future uncertainty, trapped in 'what if' questions."
+                            }
+                        },
+                        "S057": {
+                            "name": "Uncontrollable_Worry",
+                            "categoty": "anxiety_symptoms",
+                            "description": "The subjective experience of finding it difficult to stop or control the worry.",
+                            "subtypes": {
+                                "Intrusive Worry": "Worries suddenly intrude into the mind and interfere with focus while doing other tasks."
+                            }
+                        },
+                        "S059": {
+                            "name": "Concentration_Difficulty",
+                            "categoty": "anxiety_symptoms",
+                            "description": "Difficulty concentrating or mind going blank.",
+                            "subtypes": {
+                                "Inability to Sustain Attention": "Attention is scattered due to anxiety, making it hard to focus on one thing for long."
+                            }
+                        },
+                        "S061": {
+                            "name": "Muscle_Tension",
+                            "categoty": "anxiety_symptoms",
+                            "description": "A state where muscles are continuously tense, stiff, and accompanied by discomfort.",
+                            "subtypes": {
+                                "Generalized Muscle Aches": "Muscles all over the body, including back, arms, and legs, are stiff, painful, and easily fatigued."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Generalized Anxiety Disorder",
+                    "Persistent Depressive Disorder",
+                    "Posttraumatic Stress Disorder",
+                    "Specific Phobia"
+                ],
+                "answer_index": [
+                    0
+                ],
+                "index_types": [
+                    "answer",
+                    "Moderately likely option",
+                    "Moderately likely option",
+                    "must_contain_option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D011",
+                        "disease_name": "Generalized Anxiety Disorder"
+                    },
+                    {
+                        "disease_code": "D014",
+                        "disease_name": "Persistent Depressive Disorder",
+                        "shared_symptoms": [
+                            "S027"
+                        ]
+                    },
+                    {
+                        "disease_code": "D018",
+                        "disease_name": "Posttraumatic Stress Disorder",
+                        "shared_symptoms": [
+                            "S027"
+                        ]
+                    },
+                    {
+                        "disease_code": "D012",
+                        "disease_name": "Specific Phobia"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 32\n- **Gender:** Male\n- **Occupation:** Cloud Architect\n- **Marital Status:** Single\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Generalized Anxiety Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. anxiety_symptoms Requirements:**\n- Early Morning Awakening (Waking up too early and being unable to fall back asleep.)\n- Intolerance of Uncertainty (Unable to tolerate future uncertainty, trapped in 'what if' questions.)\n- Intrusive Worry (Worries suddenly intrude into the mind and interfere with focus while doing other tasks.)\n- Inability to Sustain Attention (Attention is scattered due to anxiety, making it hard to focus on one thing for long.)\n- Generalized Muscle Aches (Muscles all over the body, including back, arms, and legs, are stiff, painful, and easily fatigued.)\n\n**Critical Diagnostic Criteria:**\n\n- Duration: 1 year and 2 months\n\n- Functional Impairment: True"
+    }
+}

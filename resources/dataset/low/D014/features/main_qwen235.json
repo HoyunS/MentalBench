@@ -1,0 +1,2997 @@
+{
+    "D014_l001": {
+        "question": "A 26-year-old single female who works as an emergency room nurse presents with a chronic depressive syndrome lasting approximately 2 years and 2 months. The patient reports a persistent low mood characterized by daily sadness and a constricted affect. She endorses ongoing physical fatigue, describing her body as consistently heavy and easily depleted, even with minimal exertion. This fatigue has contributed to reduced efficiency in both occupational and personal tasks. There is marked lack of self-assurance, with frequent self-doubt regarding clinical decisions at work and daily choices outside the workplace, despite adequate training and performance feedback. A pervasive cognitive style of chronic pessimism is noted, with automatic negative interpretations of events and difficulty recognizing potential positive outcomes.  \n\nSymptoms have been continuously present without remission exceeding two months at any point during the course. There is evidence of functional impairment, particularly in work performance and social engagement, though the patient maintains employment. No acute psychotic features, manic episodes, or recent substance use are reported. The clinical picture is consistent with a chronic, low-grade depressive disorder with early onset and sustained duration, significantly affecting quality of life and adaptive functioning. Psychosocial stressors are minimal, and a history of major life events—including her parents’ divorce five years ago—predates symptom onset by a considerable interval.",
+        "options": "\n    A. Schizoaffective Disorder (Bipolar Type)\n    B. Bipolar I Disorder\n    C. Schizoaffective Disorder (Depressive Type)\n    D. Persistent Depressive Disorder\n    ",
+        "answer": "D. Persistent Depressive Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D014",
+                "disease_name": "Persistent Depressive Disorder",
+                "sampled_features": {
+                    "disease_code": "D014",
+                    "disease_name": "Persistent Depressive Disorder",
+                    "sampled_diagnostic_criteria": {},
+                    "sampled_symptom_groups": {
+                        "dysthymic_symptoms": {
+                            "functional_impairment_required": true,
+                            "symptoms": [
+                                "S024",
+                                "S029",
+                                "S042",
+                                "S083"
+                            ],
+                            "duration": "2 years and 2 months",
+                            "name": "dysthymic_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S024",
+                        "S029",
+                        "S042",
+                        "S083"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S024": {
+                            "name": "Depressed_Mood",
+                            "categoty": "depressive_episode",
+                            "description": "A state where a sad, empty, or hopeless mood persists.",
+                            "subtypes": {
+                                "Sadness": "A state where a sad or gloomy mood is maintained continuously."
+                            }
+                        },
+                        "S029": {
+                            "name": "Fatigue",
+                            "categoty": "depressive_episode",
+                            "description": "Persistent fatigue that is not relieved by rest and a marked lack of energy.",
+                            "subtypes": {
+                                "Physical Fatigue": "A state of physical exhaustion where the body feels heavy and easily tires even from minor activities."
+                            }
+                        },
+                        "S042": {
+                            "name": "Low_Self_Esteem",
+                            "categoty": "depressive_episode",
+                            "description": "A persistent tendency to evaluate oneself as incompetent or worthless; chronically low self-evaluation.",
+                            "subtypes": {
+                                "Lack of Self-Assurance": "Continually feeling anxious and unsure about decisions or actions."
+                            }
+                        },
+                        "S083": {
+                            "name": "Hopelessness",
+                            "categoty": "depressive_episode",
+                            "description": "A feeling of despair or having no hope for the future.",
+                            "subtypes": {
+                                "Chronic Pessimism": "A persistent tendency to view everything negatively and fail to consider positive possibilities."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Schizoaffective Disorder (Bipolar Type)",
+                    "Bipolar I Disorder",
+                    "Schizoaffective Disorder (Depressive Type)",
+                    "Persistent Depressive Disorder"
+                ],
+                "answer_index": [
+                    3
+                ],
+                "index_types": [
+                    "Moderately likely option",
+                    "Moderately likely option",
+                    "Moderately likely option",
+                    "answer"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D006",
+                        "disease_name": "Schizoaffective Disorder (Bipolar Type)",
+                        "shared_symptoms": [
+                            "S029",
+                            "S024",
+                            "S026",
+                            "S031"
+                        ]
+                    },
+                    {
+                        "disease_code": "D008",
+                        "disease_name": "Bipolar I Disorder",
+                        "shared_symptoms": [
+                            "S029",
+                            "S024",
+                            "S026",
+                            "S031"
+                        ]
+                    },
+                    {
+                        "disease_code": "D007",
+                        "disease_name": "Schizoaffective Disorder (Depressive Type)",
+                        "shared_symptoms": [
+                            "S029",
+                            "S024",
+                            "S026",
+                            "S031"
+                        ]
+                    },
+                    {
+                        "disease_code": "D014",
+                        "disease_name": "Persistent Depressive Disorder"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 26\n- **Gender:** Female\n- **Occupation:** Emergency Room Nurse\n- **Marital Status:** Single\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Persistent Depressive Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. dysthymic_symptoms Requirements:**\n- Sadness (A state where a sad or gloomy mood is maintained continuously.)\n- Physical Fatigue (A state of physical exhaustion where the body feels heavy and easily tires even from minor activities.)\n- Lack of Self-Assurance (Continually feeling anxious and unsure about decisions or actions.)\n- Chronic Pessimism (A persistent tendency to view everything negatively and fail to consider positive possibilities.)\nDuration of dysthymic_symptoms: 2 years and 2 months\nFunctional Impairment Due to dysthymic_symptoms: True\n\n**Critical Diagnostic Criteria:**"
+    },
+    "D014_l002": {
+        "question": "A 58-year-old married female accountant presents with a chronic course of mood disturbance lasting approximately 2 years and 2 months, characterized by a persistently low mood and diminished emotional well-being. She reports a sustained pattern of negative thinking, with marked pessimism regarding her future, daily responsibilities, and personal achievements, often discounting potential positive outcomes. Concentration has become increasingly effortful, with mental fatigue emerging during routine cognitive tasks, including those related to her work. This cognitive fatigue has contributed to reduced efficiency in professional duties, resulting in mild to moderate functional impairment. The patient demonstrates a heightened tendency toward self-criticism, frequently ruminating on perceived inadequacies and minor past mistakes, which she reviews with excessive personal scrutiny. There is no history of manic or hypomanic episodes. Symptoms have been continuously present without a period of remission exceeding two months. The patient’s marital and occupational status have remained stable, with no significant psychosocial changes preceding symptom onset. The clinical picture is consistent with a chronic depressive condition marked by enduring affective, cognitive, and functional disturbances.",
+        "options": "\n    A. Schizoaffective Disorder (Bipolar Type)\n    B. Bipolar I Disorder\n    C. Schizoaffective Disorder (Depressive Type)\n    D. Persistent Depressive Disorder\n    ",
+        "answer": "D. Persistent Depressive Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D014",
+                "disease_name": "Persistent Depressive Disorder",
+                "sampled_features": {
+                    "disease_code": "D014",
+                    "disease_name": "Persistent Depressive Disorder",
+                    "sampled_diagnostic_criteria": {},
+                    "sampled_symptom_groups": {
+                        "dysthymic_symptoms": {
+                            "functional_impairment_required": true,
+                            "symptoms": [
+                                "S024",
+                                "S029",
+                                "S042",
+                                "S083"
+                            ],
+                            "duration": "2 years and 2 months",
+                            "name": "dysthymic_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S024",
+                        "S029",
+                        "S042",
+                        "S083"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S024": {
+                            "name": "Depressed_Mood",
+                            "categoty": "depressive_episode",
+                            "description": "A state where a sad, empty, or hopeless mood persists.",
+                            "subtypes": {
+                                "Depressed Mood": "A persistently sunken mood or feeling of depression."
+                            }
+                        },
+                        "S029": {
+                            "name": "Fatigue",
+                            "categoty": "depressive_episode",
+                            "description": "Persistent fatigue that is not relieved by rest and a marked lack of energy.",
+                            "subtypes": {
+                                "Mental Fatigue": "A state where fatigue accumulates rapidly during the process of thinking or concentrating."
+                            }
+                        },
+                        "S042": {
+                            "name": "Low_Self_Esteem",
+                            "categoty": "depressive_episode",
+                            "description": "A persistent tendency to evaluate oneself as incompetent or worthless; chronically low self-evaluation.",
+                            "subtypes": {
+                                "Self-Criticism": "Excessively and repeatedly blaming oneself for past minor failures or flaws."
+                            }
+                        },
+                        "S083": {
+                            "name": "Hopelessness",
+                            "categoty": "depressive_episode",
+                            "description": "A feeling of despair or having no hope for the future.",
+                            "subtypes": {
+                                "Chronic Pessimism": "A persistent tendency to view everything negatively and fail to consider positive possibilities."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Schizoaffective Disorder (Bipolar Type)",
+                    "Bipolar I Disorder",
+                    "Schizoaffective Disorder (Depressive Type)",
+                    "Persistent Depressive Disorder"
+                ],
+                "answer_index": [
+                    3
+                ],
+                "index_types": [
+                    "Moderately likely option",
+                    "Moderately likely option",
+                    "Moderately likely option",
+                    "answer"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D006",
+                        "disease_name": "Schizoaffective Disorder (Bipolar Type)",
+                        "shared_symptoms": [
+                            "S029",
+                            "S024",
+                            "S026",
+                            "S031"
+                        ]
+                    },
+                    {
+                        "disease_code": "D008",
+                        "disease_name": "Bipolar I Disorder",
+                        "shared_symptoms": [
+                            "S029",
+                            "S024",
+                            "S026",
+                            "S031"
+                        ]
+                    },
+                    {
+                        "disease_code": "D007",
+                        "disease_name": "Schizoaffective Disorder (Depressive Type)",
+                        "shared_symptoms": [
+                            "S029",
+                            "S024",
+                            "S026",
+                            "S031"
+                        ]
+                    },
+                    {
+                        "disease_code": "D014",
+                        "disease_name": "Persistent Depressive Disorder"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 58\n- **Gender:** Female\n- **Occupation:** Accountant\n- **Marital Status:** Married\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Persistent Depressive Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. dysthymic_symptoms Requirements:**\n- Depressed Mood (A persistently sunken mood or feeling of depression.)\n- Mental Fatigue (A state where fatigue accumulates rapidly during the process of thinking or concentrating.)\n- Self-Criticism (Excessively and repeatedly blaming oneself for past minor failures or flaws.)\n- Chronic Pessimism (A persistent tendency to view everything negatively and fail to consider positive possibilities.)\nDuration of dysthymic_symptoms: 2 years and 2 months\nFunctional Impairment Due to dysthymic_symptoms: True\n\n**Critical Diagnostic Criteria:**"
+    },
+    "D014_l003": {
+        "question": "A 34-year-old female, divorced, and employed as a Pilates instructor, presents with a chronic depressive syndrome persisting for 2 years and 2 months. The patient reports persistent low mood accompanied by frequent tearfulness, mental fatigue that interferes with sustained cognitive effort, and pervasive feelings of worthlessness. She demonstrates a consistent pattern of negative ideation, characterized by chronic pessimism and an inability to envision positive outcomes, which significantly impacts her overall functioning. These symptoms have been present for the majority of days over the past two years, with no symptom-free period exceeding two months. \n\nFunctional impairment is evident in both occupational and interpersonal domains, including reduced motivation, diminished enjoyment in previously rewarding activities, and difficulties maintaining consistent engagement in personal and professional responsibilities. There is no acute episode of severe mood elevation or psychosis. The patient’s divorce occurred five years prior to symptom onset, indicating a clear temporal separation between this life event and the beginning of her current affective disturbance. No recent medical illness, substance use, or neurological condition accounts for the clinical presentation. The symptom profile is consistent with a primary mood disorder characterized by chronicity and persistent affective disturbance.",
+        "options": "\n    A. Schizoaffective Disorder (Bipolar Type)\n    B. Bipolar I Disorder\n    C. Schizoaffective Disorder (Depressive Type)\n    D. Persistent Depressive Disorder\n    ",
+        "answer": "D. Persistent Depressive Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D014",
+                "disease_name": "Persistent Depressive Disorder",
+                "sampled_features": {
+                    "disease_code": "D014",
+                    "disease_name": "Persistent Depressive Disorder",
+                    "sampled_diagnostic_criteria": {},
+                    "sampled_symptom_groups": {
+                        "dysthymic_symptoms": {
+                            "functional_impairment_required": true,
+                            "symptoms": [
+                                "S024",
+                                "S029",
+                                "S042",
+                                "S083"
+                            ],
+                            "duration": "2 years and 2 months",
+                            "name": "dysthymic_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S024",
+                        "S029",
+                        "S042",
+                        "S083"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S024": {
+                            "name": "Depressed_Mood",
+                            "categoty": "depressive_episode",
+                            "description": "A state where a sad, empty, or hopeless mood persists.",
+                            "subtypes": {
+                                "Tearfulness": "A state of frequent crying or inability to hold back tears."
+                            }
+                        },
+                        "S029": {
+                            "name": "Fatigue",
+                            "categoty": "depressive_episode",
+                            "description": "Persistent fatigue that is not relieved by rest and a marked lack of energy.",
+                            "subtypes": {
+                                "Mental Fatigue": "A state where fatigue accumulates rapidly during the process of thinking or concentrating."
+                            }
+                        },
+                        "S042": {
+                            "name": "Low_Self_Esteem",
+                            "categoty": "depressive_episode",
+                            "description": "A persistent tendency to evaluate oneself as incompetent or worthless; chronically low self-evaluation.",
+                            "subtypes": {
+                                "Feelings of Worthlessness": "A persistent perception that one is useless or inferior to others."
+                            }
+                        },
+                        "S083": {
+                            "name": "Hopelessness",
+                            "categoty": "depressive_episode",
+                            "description": "A feeling of despair or having no hope for the future.",
+                            "subtypes": {
+                                "Chronic Pessimism": "A persistent tendency to view everything negatively and fail to consider positive possibilities."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Schizoaffective Disorder (Bipolar Type)",
+                    "Bipolar I Disorder",
+                    "Schizoaffective Disorder (Depressive Type)",
+                    "Persistent Depressive Disorder"
+                ],
+                "answer_index": [
+                    3
+                ],
+                "index_types": [
+                    "Moderately likely option",
+                    "Moderately likely option",
+                    "Moderately likely option",
+                    "answer"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D006",
+                        "disease_name": "Schizoaffective Disorder (Bipolar Type)",
+                        "shared_symptoms": [
+                            "S029",
+                            "S024",
+                            "S026",
+                            "S031"
+                        ]
+                    },
+                    {
+                        "disease_code": "D008",
+                        "disease_name": "Bipolar I Disorder",
+                        "shared_symptoms": [
+                            "S029",
+                            "S024",
+                            "S026",
+                            "S031"
+                        ]
+                    },
+                    {
+                        "disease_code": "D007",
+                        "disease_name": "Schizoaffective Disorder (Depressive Type)",
+                        "shared_symptoms": [
+                            "S029",
+                            "S024",
+                            "S026",
+                            "S031"
+                        ]
+                    },
+                    {
+                        "disease_code": "D014",
+                        "disease_name": "Persistent Depressive Disorder"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 34\n- **Gender:** Female\n- **Occupation:** Pilates Instructor\n- **Marital Status:** Divorced\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Persistent Depressive Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. dysthymic_symptoms Requirements:**\n- Tearfulness (A state of frequent crying or inability to hold back tears.)\n- Mental Fatigue (A state where fatigue accumulates rapidly during the process of thinking or concentrating.)\n- Feelings of Worthlessness (A persistent perception that one is useless or inferior to others.)\n- Chronic Pessimism (A persistent tendency to view everything negatively and fail to consider positive possibilities.)\nDuration of dysthymic_symptoms: 2 years and 2 months\nFunctional Impairment Due to dysthymic_symptoms: True\n\n**Critical Diagnostic Criteria:**"
+    },
+    "D014_l004": {
+        "question": "A 62-year-old male, married, working as a security guard, presents with a chronic course of depressed mood lasting approximately 2 years and 2 months. The patient reports a persistent low mood characterized by an ongoing sense of sadness and emotional heaviness, present on most days and persisting for the majority of the day. Associated symptoms include chronic fatigue, with sustained exhaustion despite sufficient sleep and rest, significantly reducing his energy for daily activities.\n\nHe demonstrates markedly reduced self-efficacy, expressing persistent doubts about his ability to manage routine tasks or make decisions, both at work and in personal life. This perception of inadequacy is accompanied by a pervasive sense of helpless resignation—described as a belief that efforts to improve his situation are futile and that his circumstances are unlikely to change regardless of action taken.\n\nThese symptoms have caused mild to moderate functional impairment, affecting occupational performance and engagement in social roles, though he remains employed. There is no reported history of manic or hypomanic episodes. The onset of symptoms occurred well after a stable marital and occupational period, with no acute psychosocial stressors temporally linked to symptom onset. No features of episodic major depression meeting full criteria have been observed during this period.",
+        "options": "\n    A. Schizoaffective Disorder (Bipolar Type)\n    B. Bipolar I Disorder\n    C. Schizoaffective Disorder (Depressive Type)\n    D. Persistent Depressive Disorder\n    ",
+        "answer": "D. Persistent Depressive Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D014",
+                "disease_name": "Persistent Depressive Disorder",
+                "sampled_features": {
+                    "disease_code": "D014",
+                    "disease_name": "Persistent Depressive Disorder",
+                    "sampled_diagnostic_criteria": {},
+                    "sampled_symptom_groups": {
+                        "dysthymic_symptoms": {
+                            "functional_impairment_required": true,
+                            "symptoms": [
+                                "S024",
+                                "S029",
+                                "S042",
+                                "S083"
+                            ],
+                            "duration": "2 years and 2 months",
+                            "name": "dysthymic_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S024",
+                        "S029",
+                        "S042",
+                        "S083"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S024": {
+                            "name": "Depressed_Mood",
+                            "categoty": "depressive_episode",
+                            "description": "A state where a sad, empty, or hopeless mood persists.",
+                            "subtypes": {
+                                "Depressed Mood": "A persistently sunken mood or feeling of depression."
+                            }
+                        },
+                        "S029": {
+                            "name": "Fatigue",
+                            "categoty": "depressive_episode",
+                            "description": "Persistent fatigue that is not relieved by rest and a marked lack of energy.",
+                            "subtypes": {
+                                "Chronic Fatigue": "Fatigue that persists for a long period even after adequate rest."
+                            }
+                        },
+                        "S042": {
+                            "name": "Low_Self_Esteem",
+                            "categoty": "depressive_episode",
+                            "description": "A persistent tendency to evaluate oneself as incompetent or worthless; chronically low self-evaluation.",
+                            "subtypes": {
+                                "Reduced Self-Efficacy": "Distrust in one's own ability to perform tasks or solve problems."
+                            }
+                        },
+                        "S083": {
+                            "name": "Hopelessness",
+                            "categoty": "depressive_episode",
+                            "description": "A feeling of despair or having no hope for the future.",
+                            "subtypes": {
+                                "Helpless Resignation": "A state of helplessness and resignation, believing that nothing will change despite effort."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Schizoaffective Disorder (Bipolar Type)",
+                    "Bipolar I Disorder",
+                    "Schizoaffective Disorder (Depressive Type)",
+                    "Persistent Depressive Disorder"
+                ],
+                "answer_index": [
+                    3
+                ],
+                "index_types": [
+                    "Moderately likely option",
+                    "Moderately likely option",
+                    "Moderately likely option",
+                    "answer"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D006",
+                        "disease_name": "Schizoaffective Disorder (Bipolar Type)",
+                        "shared_symptoms": [
+                            "S029",
+                            "S024",
+                            "S026",
+                            "S031"
+                        ]
+                    },
+                    {
+                        "disease_code": "D008",
+                        "disease_name": "Bipolar I Disorder",
+                        "shared_symptoms": [
+                            "S029",
+                            "S024",
+                            "S026",
+                            "S031"
+                        ]
+                    },
+                    {
+                        "disease_code": "D007",
+                        "disease_name": "Schizoaffective Disorder (Depressive Type)",
+                        "shared_symptoms": [
+                            "S029",
+                            "S024",
+                            "S026",
+                            "S031"
+                        ]
+                    },
+                    {
+                        "disease_code": "D014",
+                        "disease_name": "Persistent Depressive Disorder"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 62\n- **Gender:** Male\n- **Occupation:** Security Guard\n- **Marital Status:** Married\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Persistent Depressive Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. dysthymic_symptoms Requirements:**\n- Depressed Mood (A persistently sunken mood or feeling of depression.)\n- Chronic Fatigue (Fatigue that persists for a long period even after adequate rest.)\n- Reduced Self-Efficacy (Distrust in one's own ability to perform tasks or solve problems.)\n- Helpless Resignation (A state of helplessness and resignation, believing that nothing will change despite effort.)\nDuration of dysthymic_symptoms: 2 years and 2 months\nFunctional Impairment Due to dysthymic_symptoms: True\n\n**Critical Diagnostic Criteria:**"
+    },
+    "D014_l005": {
+        "question": "A 26-year-old single male, employed as a smartphone app developer, presents with a continuous depressive syndrome lasting for 2 years and 2 months. The patient reports persistent tearfulness, characterized by frequent crying episodes and difficulty modulating emotional expression. He endorses marked loss of energy, with consistent difficulty initiating and completing activities of daily living, including work-related tasks, despite adequate rest. A chronic sense of inferiority is evident in his self-appraisal, with recurrent beliefs of being less capable, accomplished, or worthy compared to peers. This self-perception is pervasive across social, occupational, and personal domains. He also demonstrates a pattern of helpless resignation, expressing a belief that effort will not lead to improvement or meaningful change, resulting in passive acceptance of his current state. These symptoms have been present more days than not over the past two years, with no symptom-free periods exceeding several weeks. There is clear evidence of functional impairment, particularly in occupational performance and social engagement. Importantly, the onset of symptoms occurred well after a change in marital status (single), which has been stable for several years and is not temporally associated with the emergence of mood disturbances. No manic or hypomanic episodes are reported.",
+        "options": "\n    A. Schizoaffective Disorder (Bipolar Type)\n    B. Bipolar I Disorder\n    C. Schizoaffective Disorder (Depressive Type)\n    D. Persistent Depressive Disorder\n    ",
+        "answer": "D. Persistent Depressive Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D014",
+                "disease_name": "Persistent Depressive Disorder",
+                "sampled_features": {
+                    "disease_code": "D014",
+                    "disease_name": "Persistent Depressive Disorder",
+                    "sampled_diagnostic_criteria": {},
+                    "sampled_symptom_groups": {
+                        "dysthymic_symptoms": {
+                            "functional_impairment_required": true,
+                            "symptoms": [
+                                "S024",
+                                "S029",
+                                "S042",
+                                "S083"
+                            ],
+                            "duration": "2 years and 2 months",
+                            "name": "dysthymic_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S024",
+                        "S029",
+                        "S042",
+                        "S083"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S024": {
+                            "name": "Depressed_Mood",
+                            "categoty": "depressive_episode",
+                            "description": "A state where a sad, empty, or hopeless mood persists.",
+                            "subtypes": {
+                                "Tearfulness": "A state of frequent crying or inability to hold back tears."
+                            }
+                        },
+                        "S029": {
+                            "name": "Fatigue",
+                            "categoty": "depressive_episode",
+                            "description": "Persistent fatigue that is not relieved by rest and a marked lack of energy.",
+                            "subtypes": {
+                                "Loss of Energy": "Difficulty performing daily activities due to a decline in energy and vitality."
+                            }
+                        },
+                        "S042": {
+                            "name": "Low_Self_Esteem",
+                            "categoty": "depressive_episode",
+                            "description": "A persistent tendency to evaluate oneself as incompetent or worthless; chronically low self-evaluation.",
+                            "subtypes": {
+                                "Chronic Sense of Inferiority": "Persistently evaluating oneself lower in comparison to others."
+                            }
+                        },
+                        "S083": {
+                            "name": "Hopelessness",
+                            "categoty": "depressive_episode",
+                            "description": "A feeling of despair or having no hope for the future.",
+                            "subtypes": {
+                                "Helpless Resignation": "A state of helplessness and resignation, believing that nothing will change despite effort."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Schizoaffective Disorder (Bipolar Type)",
+                    "Bipolar I Disorder",
+                    "Schizoaffective Disorder (Depressive Type)",
+                    "Persistent Depressive Disorder"
+                ],
+                "answer_index": [
+                    3
+                ],
+                "index_types": [
+                    "Moderately likely option",
+                    "Moderately likely option",
+                    "Moderately likely option",
+                    "answer"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D006",
+                        "disease_name": "Schizoaffective Disorder (Bipolar Type)",
+                        "shared_symptoms": [
+                            "S029",
+                            "S024",
+                            "S026",
+                            "S031"
+                        ]
+                    },
+                    {
+                        "disease_code": "D008",
+                        "disease_name": "Bipolar I Disorder",
+                        "shared_symptoms": [
+                            "S029",
+                            "S024",
+                            "S026",
+                            "S031"
+                        ]
+                    },
+                    {
+                        "disease_code": "D007",
+                        "disease_name": "Schizoaffective Disorder (Depressive Type)",
+                        "shared_symptoms": [
+                            "S029",
+                            "S024",
+                            "S026",
+                            "S031"
+                        ]
+                    },
+                    {
+                        "disease_code": "D014",
+                        "disease_name": "Persistent Depressive Disorder"
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 26\n- **Gender:** Male\n- **Occupation:** Smartphone App Developer\n- **Marital Status:** Single\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Persistent Depressive Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. dysthymic_symptoms Requirements:**\n- Tearfulness (A state of frequent crying or inability to hold back tears.)\n- Loss of Energy (Difficulty performing daily activities due to a decline in energy and vitality.)\n- Chronic Sense of Inferiority (Persistently evaluating oneself lower in comparison to others.)\n- Helpless Resignation (A state of helplessness and resignation, believing that nothing will change despite effort.)\nDuration of dysthymic_symptoms: 2 years and 2 months\nFunctional Impairment Due to dysthymic_symptoms: True\n\n**Critical Diagnostic Criteria:**"
+    },
+    "D014_l006": {
+        "question": "A 46-year-old married male, employed as a long-haul truck driver, presents with a chronic depressive syndrome persisting for approximately 2 years and 4 months. The patient reports a pervasive depressed mood characterized by persistent sadness and diminished interest in usual activities. Associated symptoms include notable physical fatigue, with subjective complaints of heaviness in the limbs and reduced stamina during routine tasks. He has experienced significant involuntary weight loss exceeding 5% of his baseline body weight within the past month, in the absence of intentional dietary changes or increased physical exertion. Sleep disturbance is present, primarily manifesting as middle insomnia, with frequent nocturnal awakenings and difficulty returning to sleep despite adequate opportunity. \n\nThese symptoms have been continuously present without a symptom-free interval exceeding two months. There is evidence of functional impairment, affecting occupational performance—including concentration during long drives—and engagement in social and familial roles. No history of manic or hypomanic episodes is reported. The patient’s marital status and occupational history have remained stable for over five years, well preceding the onset of mood symptoms. A thorough review of systems and medical workup revealed no general medical condition or substance use sufficient to account for the duration and pattern of symptoms. Findings are consistent with a chronic affective disturbance involving neurovegetative and mood-related domains.",
+        "options": "\n    A. Persistent Depressive Disorder\n    B. Schizoaffective Disorder (Bipolar Type)\n    C. Bipolar I Disorder\n    D. Schizoaffective Disorder (Depressive Type)\n    ",
+        "answer": "A. Persistent Depressive Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D014",
+                "disease_name": "Persistent Depressive Disorder",
+                "sampled_features": {
+                    "disease_code": "D014",
+                    "disease_name": "Persistent Depressive Disorder",
+                    "sampled_diagnostic_criteria": {},
+                    "sampled_symptom_groups": {
+                        "dysthymic_symptoms": {
+                            "functional_impairment_required": true,
+                            "symptoms": [
+                                "S024",
+                                "S026",
+                                "S027",
+                                "S029"
+                            ],
+                            "duration": "2 years and 4 months",
+                            "name": "dysthymic_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S024",
+                        "S026",
+                        "S027",
+                        "S029"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S024": {
+                            "name": "Depressed_Mood",
+                            "categoty": "depressive_episode",
+                            "description": "A state where a sad, empty, or hopeless mood persists.",
+                            "subtypes": {
+                                "Depressed Mood": "A persistently sunken mood or feeling of depression."
+                            }
+                        },
+                        "S026": {
+                            "name": "Weight_Appetite_Change",
+                            "categoty": "depressive_episode",
+                            "description": "Significant increase or decrease in appetite or weight.",
+                            "subtypes": {
+                                "Significant Weight Loss": "Weight loss of more than 5% in a month without dieting."
+                            }
+                        },
+                        "S027": {
+                            "name": "Sleep_Disturbance",
+                            "categoty": "depressive_episode",
+                            "description": "A state where there is a significant change in the quantity or quality of sleep.",
+                            "subtypes": {
+                                "Middle Insomnia": "Waking up frequently during sleep or having difficulty falling back asleep."
+                            }
+                        },
+                        "S029": {
+                            "name": "Fatigue",
+                            "categoty": "depressive_episode",
+                            "description": "Persistent fatigue that is not relieved by rest and a marked lack of energy.",
+                            "subtypes": {
+                                "Physical Fatigue": "A state of physical exhaustion where the body feels heavy and easily tires even from minor activities."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Persistent Depressive Disorder",
+                    "Schizoaffective Disorder (Bipolar Type)",
+                    "Bipolar I Disorder",
+                    "Schizoaffective Disorder (Depressive Type)"
+                ],
+                "answer_index": [
+                    0
+                ],
+                "index_types": [
+                    "answer",
+                    "Moderately likely option",
+                    "Moderately likely option",
+                    "Moderately likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D014",
+                        "disease_name": "Persistent Depressive Disorder"
+                    },
+                    {
+                        "disease_code": "D006",
+                        "disease_name": "Schizoaffective Disorder (Bipolar Type)",
+                        "shared_symptoms": [
+                            "S029",
+                            "S024",
+                            "S026",
+                            "S027"
+                        ]
+                    },
+                    {
+                        "disease_code": "D008",
+                        "disease_name": "Bipolar I Disorder",
+                        "shared_symptoms": [
+                            "S029",
+                            "S024",
+                            "S026",
+                            "S027"
+                        ]
+                    },
+                    {
+                        "disease_code": "D007",
+                        "disease_name": "Schizoaffective Disorder (Depressive Type)",
+                        "shared_symptoms": [
+                            "S029",
+                            "S024",
+                            "S026",
+                            "S027"
+                        ]
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 46\n- **Gender:** Male\n- **Occupation:** Truck Driver\n- **Marital Status:** Married\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Persistent Depressive Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. dysthymic_symptoms Requirements:**\n- Depressed Mood (A persistently sunken mood or feeling of depression.)\n- Significant Weight Loss (Weight loss of more than 5% in a month without dieting.)\n- Middle Insomnia (Waking up frequently during sleep or having difficulty falling back asleep.)\n- Physical Fatigue (A state of physical exhaustion where the body feels heavy and easily tires even from minor activities.)\nDuration of dysthymic_symptoms: 2 years and 4 months\nFunctional Impairment Due to dysthymic_symptoms: True\n\n**Critical Diagnostic Criteria:**"
+    },
+    "D014_l007": {
+        "question": "A 59-year-old male, married, and working as a farmer, presents with a 2-year and 4-month history of persistent low mood characterized by a chronically sad and gloomy affect. The symptoms have been continuously present without remission for more than two years. During this period, the patient reports a consistent increase in appetite occurring nearly every day, resulting in gradual weight gain. He also endorses chronic non-restorative sleep—despite adequate sleep duration, he consistently awakens feeling unrefreshed. A prominent sense of fatigue persists throughout the day, present most of the time and not alleviated by rest, contributing to reduced energy for daily activities. \n\nThese symptoms have led to clinically significant functional impairment, manifesting as decreased work efficiency, diminished motivation in farm-related responsibilities, and reduced participation in family and social interactions. The patient denies acute manic or hypomanic episodes, psychotic features, or a history of major depressive episodes meeting criteria for episodic major depression. There is no indication of substance use or general medical condition accounting for the symptom profile. The course has been chronic and insidious in onset, with symptoms stable in severity and persistence over time. There are no recent major life changes; marital and occupational circumstances have remained stable for several years prior to symptom onset.",
+        "options": "\n    A. Persistent Depressive Disorder\n    B. Schizoaffective Disorder (Bipolar Type)\n    C. Bipolar I Disorder\n    D. Schizoaffective Disorder (Depressive Type)\n    ",
+        "answer": "A. Persistent Depressive Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D014",
+                "disease_name": "Persistent Depressive Disorder",
+                "sampled_features": {
+                    "disease_code": "D014",
+                    "disease_name": "Persistent Depressive Disorder",
+                    "sampled_diagnostic_criteria": {},
+                    "sampled_symptom_groups": {
+                        "dysthymic_symptoms": {
+                            "functional_impairment_required": true,
+                            "symptoms": [
+                                "S024",
+                                "S026",
+                                "S027",
+                                "S029"
+                            ],
+                            "duration": "2 years and 4 months",
+                            "name": "dysthymic_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S024",
+                        "S026",
+                        "S027",
+                        "S029"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S024": {
+                            "name": "Depressed_Mood",
+                            "categoty": "depressive_episode",
+                            "description": "A state where a sad, empty, or hopeless mood persists.",
+                            "subtypes": {
+                                "Sadness": "A state where a sad or gloomy mood is maintained continuously."
+                            }
+                        },
+                        "S026": {
+                            "name": "Weight_Appetite_Change",
+                            "categoty": "depressive_episode",
+                            "description": "Significant increase or decrease in appetite or weight.",
+                            "subtypes": {
+                                "Increase in Appetite": "Increase in appetite occurring nearly every day."
+                            }
+                        },
+                        "S027": {
+                            "name": "Sleep_Disturbance",
+                            "categoty": "depressive_episode",
+                            "description": "A state where there is a significant change in the quantity or quality of sleep.",
+                            "subtypes": {
+                                "Non-Restorative Sleep": "Feeling unrefreshed despite having slept enough."
+                            }
+                        },
+                        "S029": {
+                            "name": "Fatigue",
+                            "categoty": "depressive_episode",
+                            "description": "Persistent fatigue that is not relieved by rest and a marked lack of energy.",
+                            "subtypes": {
+                                "Chronic Fatigue": "Fatigue that persists for a long period even after adequate rest."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Persistent Depressive Disorder",
+                    "Schizoaffective Disorder (Bipolar Type)",
+                    "Bipolar I Disorder",
+                    "Schizoaffective Disorder (Depressive Type)"
+                ],
+                "answer_index": [
+                    0
+                ],
+                "index_types": [
+                    "answer",
+                    "Moderately likely option",
+                    "Moderately likely option",
+                    "Moderately likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D014",
+                        "disease_name": "Persistent Depressive Disorder"
+                    },
+                    {
+                        "disease_code": "D006",
+                        "disease_name": "Schizoaffective Disorder (Bipolar Type)",
+                        "shared_symptoms": [
+                            "S029",
+                            "S024",
+                            "S026",
+                            "S027"
+                        ]
+                    },
+                    {
+                        "disease_code": "D008",
+                        "disease_name": "Bipolar I Disorder",
+                        "shared_symptoms": [
+                            "S029",
+                            "S024",
+                            "S026",
+                            "S027"
+                        ]
+                    },
+                    {
+                        "disease_code": "D007",
+                        "disease_name": "Schizoaffective Disorder (Depressive Type)",
+                        "shared_symptoms": [
+                            "S029",
+                            "S024",
+                            "S026",
+                            "S027"
+                        ]
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 59\n- **Gender:** Male\n- **Occupation:** Farmer\n- **Marital Status:** Married\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Persistent Depressive Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. dysthymic_symptoms Requirements:**\n- Sadness (A state where a sad or gloomy mood is maintained continuously.)\n- Increase in Appetite (Increase in appetite occurring nearly every day.)\n- Non-Restorative Sleep (Feeling unrefreshed despite having slept enough.)\n- Chronic Fatigue (Fatigue that persists for a long period even after adequate rest.)\nDuration of dysthymic_symptoms: 2 years and 4 months\nFunctional Impairment Due to dysthymic_symptoms: True\n\n**Critical Diagnostic Criteria:**"
+    },
+    "D014_l008": {
+        "question": "A 62-year-old married male working as a security guard presents with a 2-year and 4-month history of persistently depressed mood characterized by a pervasive sense of sadness and diminished interest in previously enjoyed activities. The patient reports chronic difficulty initiating sleep, with prolonged sleep latency despite adequate opportunity for rest. A marked decrease in energy has been observed, with the patient describing a notable decline in stamina and motivation, contributing to challenges in completing routine daily tasks and fulfilling occupational responsibilities. Concomitant with these symptoms is a weight gain exceeding 5% of baseline body weight within a one-month period, in the absence of intentional dietary changes or medical etiology. These symptoms have persisted with minimal remission and have resulted in clinically significant functional impairment in both occupational and psychosocial domains. The patient has been married for over 20 years, with marital and occupational circumstances stable well prior to symptom onset, indicating clear temporal separation between life circumstances and the emergence of mood disturbance. No acute stressors or recent psychosocial transitions are reported in proximity to the onset or exacerbation of symptoms. The clinical picture is consistent with a chronic depressive syndrome with sustained mood and vegetative symptoms, leading to ongoing psychosocial and occupational compromise.",
+        "options": "\n    A. Persistent Depressive Disorder\n    B. Schizoaffective Disorder (Bipolar Type)\n    C. Bipolar I Disorder\n    D. Schizoaffective Disorder (Depressive Type)\n    ",
+        "answer": "A. Persistent Depressive Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D014",
+                "disease_name": "Persistent Depressive Disorder",
+                "sampled_features": {
+                    "disease_code": "D014",
+                    "disease_name": "Persistent Depressive Disorder",
+                    "sampled_diagnostic_criteria": {},
+                    "sampled_symptom_groups": {
+                        "dysthymic_symptoms": {
+                            "functional_impairment_required": true,
+                            "symptoms": [
+                                "S024",
+                                "S026",
+                                "S027",
+                                "S029"
+                            ],
+                            "duration": "2 years and 4 months",
+                            "name": "dysthymic_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S024",
+                        "S026",
+                        "S027",
+                        "S029"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S024": {
+                            "name": "Depressed_Mood",
+                            "categoty": "depressive_episode",
+                            "description": "A state where a sad, empty, or hopeless mood persists.",
+                            "subtypes": {
+                                "Depressed Mood": "A persistently sunken mood or feeling of depression."
+                            }
+                        },
+                        "S026": {
+                            "name": "Weight_Appetite_Change",
+                            "categoty": "depressive_episode",
+                            "description": "Significant increase or decrease in appetite or weight.",
+                            "subtypes": {
+                                "Weight Gain": "Weight gain of more than 5% in a month."
+                            }
+                        },
+                        "S027": {
+                            "name": "Sleep_Disturbance",
+                            "categoty": "depressive_episode",
+                            "description": "A state where there is a significant change in the quantity or quality of sleep.",
+                            "subtypes": {
+                                "Initial Insomnia": "Difficulty falling asleep and taking a long time to do so."
+                            }
+                        },
+                        "S029": {
+                            "name": "Fatigue",
+                            "categoty": "depressive_episode",
+                            "description": "Persistent fatigue that is not relieved by rest and a marked lack of energy.",
+                            "subtypes": {
+                                "Loss of Energy": "Difficulty performing daily activities due to a decline in energy and vitality."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Persistent Depressive Disorder",
+                    "Schizoaffective Disorder (Bipolar Type)",
+                    "Bipolar I Disorder",
+                    "Schizoaffective Disorder (Depressive Type)"
+                ],
+                "answer_index": [
+                    0
+                ],
+                "index_types": [
+                    "answer",
+                    "Moderately likely option",
+                    "Moderately likely option",
+                    "Moderately likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D014",
+                        "disease_name": "Persistent Depressive Disorder"
+                    },
+                    {
+                        "disease_code": "D006",
+                        "disease_name": "Schizoaffective Disorder (Bipolar Type)",
+                        "shared_symptoms": [
+                            "S029",
+                            "S024",
+                            "S026",
+                            "S027"
+                        ]
+                    },
+                    {
+                        "disease_code": "D008",
+                        "disease_name": "Bipolar I Disorder",
+                        "shared_symptoms": [
+                            "S029",
+                            "S024",
+                            "S026",
+                            "S027"
+                        ]
+                    },
+                    {
+                        "disease_code": "D007",
+                        "disease_name": "Schizoaffective Disorder (Depressive Type)",
+                        "shared_symptoms": [
+                            "S029",
+                            "S024",
+                            "S026",
+                            "S027"
+                        ]
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 62\n- **Gender:** Male\n- **Occupation:** Security Guard\n- **Marital Status:** Married\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Persistent Depressive Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. dysthymic_symptoms Requirements:**\n- Depressed Mood (A persistently sunken mood or feeling of depression.)\n- Weight Gain (Weight gain of more than 5% in a month.)\n- Initial Insomnia (Difficulty falling asleep and taking a long time to do so.)\n- Loss of Energy (Difficulty performing daily activities due to a decline in energy and vitality.)\nDuration of dysthymic_symptoms: 2 years and 4 months\nFunctional Impairment Due to dysthymic_symptoms: True\n\n**Critical Diagnostic Criteria:**"
+    },
+    "D014_l009": {
+        "question": "A 19-year-old single male university freshman presents with a chronic depressive syndrome lasting approximately 2 years and 4 months, marked by persistent emotional blunting characterized by a prolonged sense of emotional numbness. He reports sustained fatigue that persists despite adequate sleep and rest, significantly contributing to functional impairment in academic and social domains. Over the past year, this has been accompanied by a weight gain exceeding 5% of baseline body weight, in the absence of intentional dietary changes. A consistent sleep disturbance has been documented, primarily involving early morning awakening with an inability to return to sleep, occurring nearly every day. These symptoms have led to reduced participation in coursework, diminished motivation, and withdrawal from peer interactions. The onset of symptoms predates current life circumstances, with no acute psychosocial stressor clearly temporally linked to symptom initiation. The clinical picture is one of chronic, low-grade mood disturbance with prominent vegetative symptoms and enduring functional limitations.",
+        "options": "\n    A. Persistent Depressive Disorder\n    B. Schizoaffective Disorder (Bipolar Type)\n    C. Bipolar I Disorder\n    D. Schizoaffective Disorder (Depressive Type)\n    ",
+        "answer": "A. Persistent Depressive Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D014",
+                "disease_name": "Persistent Depressive Disorder",
+                "sampled_features": {
+                    "disease_code": "D014",
+                    "disease_name": "Persistent Depressive Disorder",
+                    "sampled_diagnostic_criteria": {},
+                    "sampled_symptom_groups": {
+                        "dysthymic_symptoms": {
+                            "functional_impairment_required": true,
+                            "symptoms": [
+                                "S024",
+                                "S026",
+                                "S027",
+                                "S029"
+                            ],
+                            "duration": "2 years and 4 months",
+                            "name": "dysthymic_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S024",
+                        "S026",
+                        "S027",
+                        "S029"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S024": {
+                            "name": "Depressed_Mood",
+                            "categoty": "depressive_episode",
+                            "description": "A state where a sad, empty, or hopeless mood persists.",
+                            "subtypes": {
+                                "Emotional Numbness": "A state where emotions feel dulled or paralyzed."
+                            }
+                        },
+                        "S026": {
+                            "name": "Weight_Appetite_Change",
+                            "categoty": "depressive_episode",
+                            "description": "Significant increase or decrease in appetite or weight.",
+                            "subtypes": {
+                                "Weight Gain": "Weight gain of more than 5% in a month."
+                            }
+                        },
+                        "S027": {
+                            "name": "Sleep_Disturbance",
+                            "categoty": "depressive_episode",
+                            "description": "A state where there is a significant change in the quantity or quality of sleep.",
+                            "subtypes": {
+                                "Early Morning Awakening": "Waking up too early and being unable to fall back asleep."
+                            }
+                        },
+                        "S029": {
+                            "name": "Fatigue",
+                            "categoty": "depressive_episode",
+                            "description": "Persistent fatigue that is not relieved by rest and a marked lack of energy.",
+                            "subtypes": {
+                                "Chronic Fatigue": "Fatigue that persists for a long period even after adequate rest."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Persistent Depressive Disorder",
+                    "Schizoaffective Disorder (Bipolar Type)",
+                    "Bipolar I Disorder",
+                    "Schizoaffective Disorder (Depressive Type)"
+                ],
+                "answer_index": [
+                    0
+                ],
+                "index_types": [
+                    "answer",
+                    "Moderately likely option",
+                    "Moderately likely option",
+                    "Moderately likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D014",
+                        "disease_name": "Persistent Depressive Disorder"
+                    },
+                    {
+                        "disease_code": "D006",
+                        "disease_name": "Schizoaffective Disorder (Bipolar Type)",
+                        "shared_symptoms": [
+                            "S029",
+                            "S024",
+                            "S026",
+                            "S027"
+                        ]
+                    },
+                    {
+                        "disease_code": "D008",
+                        "disease_name": "Bipolar I Disorder",
+                        "shared_symptoms": [
+                            "S029",
+                            "S024",
+                            "S026",
+                            "S027"
+                        ]
+                    },
+                    {
+                        "disease_code": "D007",
+                        "disease_name": "Schizoaffective Disorder (Depressive Type)",
+                        "shared_symptoms": [
+                            "S029",
+                            "S024",
+                            "S026",
+                            "S027"
+                        ]
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 19\n- **Gender:** Male\n- **Occupation:** University Freshman\n- **Marital Status:** Single\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Persistent Depressive Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. dysthymic_symptoms Requirements:**\n- Emotional Numbness (A state where emotions feel dulled or paralyzed.)\n- Weight Gain (Weight gain of more than 5% in a month.)\n- Early Morning Awakening (Waking up too early and being unable to fall back asleep.)\n- Chronic Fatigue (Fatigue that persists for a long period even after adequate rest.)\nDuration of dysthymic_symptoms: 2 years and 4 months\nFunctional Impairment Due to dysthymic_symptoms: True\n\n**Critical Diagnostic Criteria:**"
+    },
+    "D014_l010": {
+        "question": "A 53-year-old widowed female working as a social worker presents with a chronic course of depressive symptoms persisting for approximately 2 years and 4 months. The patient reports a pervasive sense of inner emptiness and emotional numbness, with diminished capacity to experience affective engagement in daily life. She has experienced unintentional weight loss exceeding 5% of her body weight over the past month in the absence of intentional dietary changes or increased physical activity. Sleep disturbance is characterized by early morning awakening, with consistent termination of sleep several hours prior to the desired wake time and subsequent awakening-related insomnia. Concentration is markedly impaired, with rapid onset of mental fatigue during cognitive tasks, even with minimal intellectual demand. These symptoms are present more days than not and have led to clinically significant distress and functional impairment in occupational and social domains. The patient’s widowhood occurred over five years ago, well preceding symptom onset, and therefore is not temporally linked to the initiation of her current condition. There is no reported history of manic or hypomanic episodes. The symptom constellation has persisted with relative stability over the duration, without significant remission.",
+        "options": "\n    A. Persistent Depressive Disorder\n    B. Schizoaffective Disorder (Bipolar Type)\n    C. Bipolar I Disorder\n    D. Schizoaffective Disorder (Depressive Type)\n    ",
+        "answer": "A. Persistent Depressive Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D014",
+                "disease_name": "Persistent Depressive Disorder",
+                "sampled_features": {
+                    "disease_code": "D014",
+                    "disease_name": "Persistent Depressive Disorder",
+                    "sampled_diagnostic_criteria": {},
+                    "sampled_symptom_groups": {
+                        "dysthymic_symptoms": {
+                            "functional_impairment_required": true,
+                            "symptoms": [
+                                "S024",
+                                "S026",
+                                "S027",
+                                "S029"
+                            ],
+                            "duration": "2 years and 4 months",
+                            "name": "dysthymic_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S024",
+                        "S026",
+                        "S027",
+                        "S029"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S024": {
+                            "name": "Depressed_Mood",
+                            "categoty": "depressive_episode",
+                            "description": "A state where a sad, empty, or hopeless mood persists.",
+                            "subtypes": {
+                                "Emptiness": "A feeling of inner emptiness or a state of feeling no emotion."
+                            }
+                        },
+                        "S026": {
+                            "name": "Weight_Appetite_Change",
+                            "categoty": "depressive_episode",
+                            "description": "Significant increase or decrease in appetite or weight.",
+                            "subtypes": {
+                                "Significant Weight Loss": "Weight loss of more than 5% in a month without dieting."
+                            }
+                        },
+                        "S027": {
+                            "name": "Sleep_Disturbance",
+                            "categoty": "depressive_episode",
+                            "description": "A state where there is a significant change in the quantity or quality of sleep.",
+                            "subtypes": {
+                                "Early Morning Awakening": "Waking up too early and being unable to fall back asleep."
+                            }
+                        },
+                        "S029": {
+                            "name": "Fatigue",
+                            "categoty": "depressive_episode",
+                            "description": "Persistent fatigue that is not relieved by rest and a marked lack of energy.",
+                            "subtypes": {
+                                "Mental Fatigue": "A state where fatigue accumulates rapidly during the process of thinking or concentrating."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Persistent Depressive Disorder",
+                    "Schizoaffective Disorder (Bipolar Type)",
+                    "Bipolar I Disorder",
+                    "Schizoaffective Disorder (Depressive Type)"
+                ],
+                "answer_index": [
+                    0
+                ],
+                "index_types": [
+                    "answer",
+                    "Moderately likely option",
+                    "Moderately likely option",
+                    "Moderately likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D014",
+                        "disease_name": "Persistent Depressive Disorder"
+                    },
+                    {
+                        "disease_code": "D006",
+                        "disease_name": "Schizoaffective Disorder (Bipolar Type)",
+                        "shared_symptoms": [
+                            "S029",
+                            "S024",
+                            "S026",
+                            "S027"
+                        ]
+                    },
+                    {
+                        "disease_code": "D008",
+                        "disease_name": "Bipolar I Disorder",
+                        "shared_symptoms": [
+                            "S029",
+                            "S024",
+                            "S026",
+                            "S027"
+                        ]
+                    },
+                    {
+                        "disease_code": "D007",
+                        "disease_name": "Schizoaffective Disorder (Depressive Type)",
+                        "shared_symptoms": [
+                            "S029",
+                            "S024",
+                            "S026",
+                            "S027"
+                        ]
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 53\n- **Gender:** Female\n- **Occupation:** Social Worker\n- **Marital Status:** Widowed\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Persistent Depressive Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. dysthymic_symptoms Requirements:**\n- Emptiness (A feeling of inner emptiness or a state of feeling no emotion.)\n- Significant Weight Loss (Weight loss of more than 5% in a month without dieting.)\n- Early Morning Awakening (Waking up too early and being unable to fall back asleep.)\n- Mental Fatigue (A state where fatigue accumulates rapidly during the process of thinking or concentrating.)\nDuration of dysthymic_symptoms: 2 years and 4 months\nFunctional Impairment Due to dysthymic_symptoms: True\n\n**Critical Diagnostic Criteria:**"
+    },
+    "D014_l011": {
+        "question": "A 41-year-old married female and restaurant owner presents with a 3-year history of chronic mood disturbance characterized by persistent low mood, emotional blunting, and diminished capacity to experience emotional responsiveness, described as a pervasive sense of emotional numbness. She reports consistent early morning awakening, typically waking between 3:00 and 4:00 AM, with inability to return to sleep despite intact sleep initiation. Concurrently, she demonstrates marked difficulty with sustained attention, exhibiting reduced concentration that interferes with routine cognitive tasks, including following conversations, reading, and engaging in television viewing. A prominent feature of her presentation is a persistent belief in her own inadequacy, with recurrent cognitions centered on personal worthlessness and self-perceived inferiority relative to others. \n\nThese symptoms have been continuously present for the past three years, with no period of remission exceeding two months. They are associated with clinically significant functional impairment, affecting both occupational performance and interpersonal functioning. Notably, there is no temporal association between her current symptoms and her marital status or occupational role, both of which have remained stable well prior to symptom onset. No acute stressors or recent psychosocial changes correlate with the initiation or exacerbation of her symptoms.",
+        "options": "\n    A. Schizoaffective Disorder (Bipolar Type)\n    B. Persistent Depressive Disorder\n    C. Schizoaffective Disorder (Depressive Type)\n    D. Bipolar I Disorder\n    ",
+        "answer": "B. Persistent Depressive Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D014",
+                "disease_name": "Persistent Depressive Disorder",
+                "sampled_features": {
+                    "disease_code": "D014",
+                    "disease_name": "Persistent Depressive Disorder",
+                    "sampled_diagnostic_criteria": {},
+                    "sampled_symptom_groups": {
+                        "dysthymic_symptoms": {
+                            "functional_impairment_required": true,
+                            "symptoms": [
+                                "S024",
+                                "S027",
+                                "S031",
+                                "S042"
+                            ],
+                            "duration": "3 years",
+                            "name": "dysthymic_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S024",
+                        "S027",
+                        "S031",
+                        "S042"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S024": {
+                            "name": "Depressed_Mood",
+                            "categoty": "depressive_episode",
+                            "description": "A state where a sad, empty, or hopeless mood persists.",
+                            "subtypes": {
+                                "Emotional Numbness": "A state where emotions feel dulled or paralyzed."
+                            }
+                        },
+                        "S027": {
+                            "name": "Sleep_Disturbance",
+                            "categoty": "depressive_episode",
+                            "description": "A state where there is a significant change in the quantity or quality of sleep.",
+                            "subtypes": {
+                                "Early Morning Awakening": "Waking up too early and being unable to fall back asleep."
+                            }
+                        },
+                        "S031": {
+                            "name": "Diminished_Thinking",
+                            "categoty": "depressive_episode",
+                            "description": "Diminished ability to think or concentrate, or indecisiveness.",
+                            "subtypes": {
+                                "Reduced Concentration": "Unable to pay attention or maintain focus on specific activities like conversation, reading, or watching TV."
+                            }
+                        },
+                        "S042": {
+                            "name": "Low_Self_Esteem",
+                            "categoty": "depressive_episode",
+                            "description": "A persistent tendency to evaluate oneself as incompetent or worthless; chronically low self-evaluation.",
+                            "subtypes": {
+                                "Feelings of Worthlessness": "A persistent perception that one is useless or inferior to others."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Schizoaffective Disorder (Bipolar Type)",
+                    "Persistent Depressive Disorder",
+                    "Schizoaffective Disorder (Depressive Type)",
+                    "Bipolar I Disorder"
+                ],
+                "answer_index": [
+                    1
+                ],
+                "index_types": [
+                    "Moderately likely option",
+                    "answer",
+                    "Moderately likely option",
+                    "Moderately likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D006",
+                        "disease_name": "Schizoaffective Disorder (Bipolar Type)",
+                        "shared_symptoms": [
+                            "S031",
+                            "S024",
+                            "S027"
+                        ]
+                    },
+                    {
+                        "disease_code": "D014",
+                        "disease_name": "Persistent Depressive Disorder"
+                    },
+                    {
+                        "disease_code": "D007",
+                        "disease_name": "Schizoaffective Disorder (Depressive Type)",
+                        "shared_symptoms": [
+                            "S031",
+                            "S024",
+                            "S027"
+                        ]
+                    },
+                    {
+                        "disease_code": "D008",
+                        "disease_name": "Bipolar I Disorder",
+                        "shared_symptoms": [
+                            "S031",
+                            "S024",
+                            "S027"
+                        ]
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 41\n- **Gender:** Female\n- **Occupation:** Restaurant Owner\n- **Marital Status:** Married\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Persistent Depressive Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. dysthymic_symptoms Requirements:**\n- Emotional Numbness (A state where emotions feel dulled or paralyzed.)\n- Early Morning Awakening (Waking up too early and being unable to fall back asleep.)\n- Reduced Concentration (Unable to pay attention or maintain focus on specific activities like conversation, reading, or watching TV.)\n- Feelings of Worthlessness (A persistent perception that one is useless or inferior to others.)\nDuration of dysthymic_symptoms: 3 years\nFunctional Impairment Due to dysthymic_symptoms: True\n\n**Critical Diagnostic Criteria:**"
+    },
+    "D014_l012": {
+        "question": "A 32-year-old married female working as a pharmaceutical sales representative presents with a 3-year history of persistent low mood characterized by chronic feelings of inner emptiness and diminished emotional responsiveness. She reports early morning awakening, consistently waking approximately two hours earlier than desired and experiencing difficulty returning to sleep, despite maintaining adequate sleep hygiene. Over this period, she has demonstrated progressive difficulty maintaining focus during conversations, reading, and other cognitively demanding tasks, which she attributes to an inability to sustain attention. These cognitive deficits have affected her work performance, resulting in missed targets and reduced professional efficacy.\n\nThe patient exhibits marked self-critical rumination, frequently reflecting on perceived personal shortcomings and minor past mistakes, which she amplifies and holds against herself with excessive scrutiny. There is no history of manic or hypomanic episodes. Symptoms have been continuously present for the past three years without a depressive-free interval exceeding two months. The clinical course is associated with mild to moderate functional impairment in occupational and interpersonal domains. All symptoms are not attributable to substance use, medical condition, or another psychiatric disorder. The pattern of chronicity and symptomatology is consistent with a primary mood disorder of persistent duration.",
+        "options": "\n    A. Schizoaffective Disorder (Bipolar Type)\n    B. Persistent Depressive Disorder\n    C. Schizoaffective Disorder (Depressive Type)\n    D. Bipolar I Disorder\n    ",
+        "answer": "B. Persistent Depressive Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D014",
+                "disease_name": "Persistent Depressive Disorder",
+                "sampled_features": {
+                    "disease_code": "D014",
+                    "disease_name": "Persistent Depressive Disorder",
+                    "sampled_diagnostic_criteria": {},
+                    "sampled_symptom_groups": {
+                        "dysthymic_symptoms": {
+                            "functional_impairment_required": true,
+                            "symptoms": [
+                                "S024",
+                                "S027",
+                                "S031",
+                                "S042"
+                            ],
+                            "duration": "3 years",
+                            "name": "dysthymic_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S024",
+                        "S027",
+                        "S031",
+                        "S042"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S024": {
+                            "name": "Depressed_Mood",
+                            "categoty": "depressive_episode",
+                            "description": "A state where a sad, empty, or hopeless mood persists.",
+                            "subtypes": {
+                                "Emptiness": "A feeling of inner emptiness or a state of feeling no emotion."
+                            }
+                        },
+                        "S027": {
+                            "name": "Sleep_Disturbance",
+                            "categoty": "depressive_episode",
+                            "description": "A state where there is a significant change in the quantity or quality of sleep.",
+                            "subtypes": {
+                                "Early Morning Awakening": "Waking up too early and being unable to fall back asleep."
+                            }
+                        },
+                        "S031": {
+                            "name": "Diminished_Thinking",
+                            "categoty": "depressive_episode",
+                            "description": "Diminished ability to think or concentrate, or indecisiveness.",
+                            "subtypes": {
+                                "Reduced Concentration": "Unable to pay attention or maintain focus on specific activities like conversation, reading, or watching TV."
+                            }
+                        },
+                        "S042": {
+                            "name": "Low_Self_Esteem",
+                            "categoty": "depressive_episode",
+                            "description": "A persistent tendency to evaluate oneself as incompetent or worthless; chronically low self-evaluation.",
+                            "subtypes": {
+                                "Self-Criticism": "Excessively and repeatedly blaming oneself for past minor failures or flaws."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Schizoaffective Disorder (Bipolar Type)",
+                    "Persistent Depressive Disorder",
+                    "Schizoaffective Disorder (Depressive Type)",
+                    "Bipolar I Disorder"
+                ],
+                "answer_index": [
+                    1
+                ],
+                "index_types": [
+                    "Moderately likely option",
+                    "answer",
+                    "Moderately likely option",
+                    "Moderately likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D006",
+                        "disease_name": "Schizoaffective Disorder (Bipolar Type)",
+                        "shared_symptoms": [
+                            "S031",
+                            "S024",
+                            "S027"
+                        ]
+                    },
+                    {
+                        "disease_code": "D014",
+                        "disease_name": "Persistent Depressive Disorder"
+                    },
+                    {
+                        "disease_code": "D007",
+                        "disease_name": "Schizoaffective Disorder (Depressive Type)",
+                        "shared_symptoms": [
+                            "S031",
+                            "S024",
+                            "S027"
+                        ]
+                    },
+                    {
+                        "disease_code": "D008",
+                        "disease_name": "Bipolar I Disorder",
+                        "shared_symptoms": [
+                            "S031",
+                            "S024",
+                            "S027"
+                        ]
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 32\n- **Gender:** Female\n- **Occupation:** Pharmaceutical Sales Rep\n- **Marital Status:** Married\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Persistent Depressive Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. dysthymic_symptoms Requirements:**\n- Emptiness (A feeling of inner emptiness or a state of feeling no emotion.)\n- Early Morning Awakening (Waking up too early and being unable to fall back asleep.)\n- Reduced Concentration (Unable to pay attention or maintain focus on specific activities like conversation, reading, or watching TV.)\n- Self-Criticism (Excessively and repeatedly blaming oneself for past minor failures or flaws.)\nDuration of dysthymic_symptoms: 3 years\nFunctional Impairment Due to dysthymic_symptoms: True\n\n**Critical Diagnostic Criteria:**"
+    },
+    "D014_l013": {
+        "question": "A 44-year-old female, single, and working as a museum curator, presents with a 3-year history of chronic dysphoric mood characterized by persistent feelings of emptiness and emotional blunting. She reports sustained difficulty initiating sleep, with nighttime rest frequently delayed by ruminative cognitions despite adequate sleep hygiene. A marked degree of indecisiveness has been observed, significantly affecting routine choices such as daily attire and meal selection, often requiring external input to complete basic decisions. She endorses a pervasive sense of inadequacy, expressing recurrent beliefs that she is fundamentally deficient or inferior compared to others, though without delusional intensity.\n\nThese symptoms have been continuously present for the past three years with no symptom-free interval exceeding two months. There is associated functional impairment noted in both occupational and social domains, including reduced efficiency at work and avoidance of interpersonal commitments due to self-perceived incompetence. No acute manic, hypomanic, or major depressive episodes meeting full criteria have occurred during this period. The patient’s baseline level of functioning has remained stable albeit suboptimal, without recent major psychosocial stressors. Past medical and neurological evaluations are unremarkable, and there is no history of substance dependence. Symptoms are not attributable to another medical or psychiatric condition.",
+        "options": "\n    A. Schizoaffective Disorder (Bipolar Type)\n    B. Persistent Depressive Disorder\n    C. Schizoaffective Disorder (Depressive Type)\n    D. Bipolar I Disorder\n    ",
+        "answer": "B. Persistent Depressive Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D014",
+                "disease_name": "Persistent Depressive Disorder",
+                "sampled_features": {
+                    "disease_code": "D014",
+                    "disease_name": "Persistent Depressive Disorder",
+                    "sampled_diagnostic_criteria": {},
+                    "sampled_symptom_groups": {
+                        "dysthymic_symptoms": {
+                            "functional_impairment_required": true,
+                            "symptoms": [
+                                "S024",
+                                "S027",
+                                "S031",
+                                "S042"
+                            ],
+                            "duration": "3 years",
+                            "name": "dysthymic_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S024",
+                        "S027",
+                        "S031",
+                        "S042"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S024": {
+                            "name": "Depressed_Mood",
+                            "categoty": "depressive_episode",
+                            "description": "A state where a sad, empty, or hopeless mood persists.",
+                            "subtypes": {
+                                "Emotional Numbness": "A state where emotions feel dulled or paralyzed."
+                            }
+                        },
+                        "S027": {
+                            "name": "Sleep_Disturbance",
+                            "categoty": "depressive_episode",
+                            "description": "A state where there is a significant change in the quantity or quality of sleep.",
+                            "subtypes": {
+                                "Initial Insomnia": "Difficulty falling asleep and taking a long time to do so."
+                            }
+                        },
+                        "S031": {
+                            "name": "Diminished_Thinking",
+                            "categoty": "depressive_episode",
+                            "description": "Diminished ability to think or concentrate, or indecisiveness.",
+                            "subtypes": {
+                                "Indecisiveness": "Extreme difficulty making even minor daily choices (e.g., menu, clothes) and hesitating to make decisions."
+                            }
+                        },
+                        "S042": {
+                            "name": "Low_Self_Esteem",
+                            "categoty": "depressive_episode",
+                            "description": "A persistent tendency to evaluate oneself as incompetent or worthless; chronically low self-evaluation.",
+                            "subtypes": {
+                                "Feelings of Worthlessness": "A persistent perception that one is useless or inferior to others."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Schizoaffective Disorder (Bipolar Type)",
+                    "Persistent Depressive Disorder",
+                    "Schizoaffective Disorder (Depressive Type)",
+                    "Bipolar I Disorder"
+                ],
+                "answer_index": [
+                    1
+                ],
+                "index_types": [
+                    "Moderately likely option",
+                    "answer",
+                    "Moderately likely option",
+                    "Moderately likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D006",
+                        "disease_name": "Schizoaffective Disorder (Bipolar Type)",
+                        "shared_symptoms": [
+                            "S031",
+                            "S024",
+                            "S027"
+                        ]
+                    },
+                    {
+                        "disease_code": "D014",
+                        "disease_name": "Persistent Depressive Disorder"
+                    },
+                    {
+                        "disease_code": "D007",
+                        "disease_name": "Schizoaffective Disorder (Depressive Type)",
+                        "shared_symptoms": [
+                            "S031",
+                            "S024",
+                            "S027"
+                        ]
+                    },
+                    {
+                        "disease_code": "D008",
+                        "disease_name": "Bipolar I Disorder",
+                        "shared_symptoms": [
+                            "S031",
+                            "S024",
+                            "S027"
+                        ]
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 44\n- **Gender:** Female\n- **Occupation:** Museum Curator\n- **Marital Status:** Single\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Persistent Depressive Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. dysthymic_symptoms Requirements:**\n- Emotional Numbness (A state where emotions feel dulled or paralyzed.)\n- Initial Insomnia (Difficulty falling asleep and taking a long time to do so.)\n- Indecisiveness (Extreme difficulty making even minor daily choices (e.g., menu, clothes) and hesitating to make decisions.)\n- Feelings of Worthlessness (A persistent perception that one is useless or inferior to others.)\nDuration of dysthymic_symptoms: 3 years\nFunctional Impairment Due to dysthymic_symptoms: True\n\n**Critical Diagnostic Criteria:**"
+    },
+    "D014_l014": {
+        "question": "A 40-year-old male, divorced, and currently employed as a taxi driver, presents with a chronic course of mood disturbance lasting approximately three years. The patient reports a persistent low mood characterized by ongoing sadness and diminished emotional reactivity to positive events. He endorses daily feelings of heaviness and emotional fatigue, which have become familiar to him over time, noting that he can no longer recall extended periods of genuine cheerfulness.\n\nSleep is consistently non-restorative; despite adequate duration, the patient wakes feeling unrefreshed, frequently citing daytime exhaustion. Subjective cognitive concerns are present, particularly in regard to concentration and memory, such as difficulty recalling where items were placed or maintaining focus during routine tasks. These complaints are not corroborated by objective cognitive deficits but are consistent with lapses secondary to poor attention.\n\nThere is a marked reduction in self-efficacy, with the patient expressing persistent doubts about his ability to manage challenges, complete tasks efficiently, or make sound decisions, both in personal and occupational contexts. He reports a sense of resignation and diminished productivity, noting mild but persistent interference in occupational performance and interpersonal functioning.\n\nNotably, the patient’s divorce occurred six years ago, predating the onset of symptoms by approximately three years. No acute depressive episodes meeting full criteria for a major depressive episode have been documented during this interval. There is no evidence of manic or hypomanic symptoms.",
+        "options": "\n    A. Schizoaffective Disorder (Bipolar Type)\n    B. Persistent Depressive Disorder\n    C. Schizoaffective Disorder (Depressive Type)\n    D. Bipolar I Disorder\n    ",
+        "answer": "B. Persistent Depressive Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D014",
+                "disease_name": "Persistent Depressive Disorder",
+                "sampled_features": {
+                    "disease_code": "D014",
+                    "disease_name": "Persistent Depressive Disorder",
+                    "sampled_diagnostic_criteria": {},
+                    "sampled_symptom_groups": {
+                        "dysthymic_symptoms": {
+                            "functional_impairment_required": true,
+                            "symptoms": [
+                                "S024",
+                                "S027",
+                                "S031",
+                                "S042"
+                            ],
+                            "duration": "3 years",
+                            "name": "dysthymic_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S024",
+                        "S027",
+                        "S031",
+                        "S042"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S024": {
+                            "name": "Depressed_Mood",
+                            "categoty": "depressive_episode",
+                            "description": "A state where a sad, empty, or hopeless mood persists.",
+                            "subtypes": {
+                                "Sadness": "A state where a sad or gloomy mood is maintained continuously."
+                            }
+                        },
+                        "S027": {
+                            "name": "Sleep_Disturbance",
+                            "categoty": "depressive_episode",
+                            "description": "A state where there is a significant change in the quantity or quality of sleep.",
+                            "subtypes": {
+                                "Non-Restorative Sleep": "Feeling unrefreshed despite having slept enough."
+                            }
+                        },
+                        "S031": {
+                            "name": "Diminished_Thinking",
+                            "categoty": "depressive_episode",
+                            "description": "Diminished ability to think or concentrate, or indecisiveness.",
+                            "subtypes": {
+                                "Subjective Memory Complaints": "Complaining of memory decline, such as forgetting where things were placed, due to reduced focus."
+                            }
+                        },
+                        "S042": {
+                            "name": "Low_Self_Esteem",
+                            "categoty": "depressive_episode",
+                            "description": "A persistent tendency to evaluate oneself as incompetent or worthless; chronically low self-evaluation.",
+                            "subtypes": {
+                                "Reduced Self-Efficacy": "Distrust in one's own ability to perform tasks or solve problems."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Schizoaffective Disorder (Bipolar Type)",
+                    "Persistent Depressive Disorder",
+                    "Schizoaffective Disorder (Depressive Type)",
+                    "Bipolar I Disorder"
+                ],
+                "answer_index": [
+                    1
+                ],
+                "index_types": [
+                    "Moderately likely option",
+                    "answer",
+                    "Moderately likely option",
+                    "Moderately likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D006",
+                        "disease_name": "Schizoaffective Disorder (Bipolar Type)",
+                        "shared_symptoms": [
+                            "S031",
+                            "S024",
+                            "S027"
+                        ]
+                    },
+                    {
+                        "disease_code": "D014",
+                        "disease_name": "Persistent Depressive Disorder"
+                    },
+                    {
+                        "disease_code": "D007",
+                        "disease_name": "Schizoaffective Disorder (Depressive Type)",
+                        "shared_symptoms": [
+                            "S031",
+                            "S024",
+                            "S027"
+                        ]
+                    },
+                    {
+                        "disease_code": "D008",
+                        "disease_name": "Bipolar I Disorder",
+                        "shared_symptoms": [
+                            "S031",
+                            "S024",
+                            "S027"
+                        ]
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 40\n- **Gender:** Male\n- **Occupation:** Taxi Driver\n- **Marital Status:** Divorced\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Persistent Depressive Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. dysthymic_symptoms Requirements:**\n- Sadness (A state where a sad or gloomy mood is maintained continuously.)\n- Non-Restorative Sleep (Feeling unrefreshed despite having slept enough.)\n- Subjective Memory Complaints (Complaining of memory decline, such as forgetting where things were placed, due to reduced focus.)\n- Reduced Self-Efficacy (Distrust in one's own ability to perform tasks or solve problems.)\nDuration of dysthymic_symptoms: 3 years\nFunctional Impairment Due to dysthymic_symptoms: True\n\n**Critical Diagnostic Criteria:**"
+    },
+    "D014_l015": {
+        "question": "A 40-year-old married female, employed as a musical theater actress, presents with a 3-year duration of chronic mood disturbance characterized by persistent emotional numbness, in which she describes a marked reduction in affective responsiveness and a sense of emotional detachment. She reports non-restorative sleep, consistently waking unrefreshed despite adequate sleep duration. The patient endorses subjective difficulties with memory, particularly in recalling the location of objects and maintaining concentration during rehearsals and performances, which she attributes to diminished mental clarity. There is a notable decline in perceived competence, with expressed doubts about her ability to manage professional responsibilities and solve everyday problems, indicating reduced self-efficacy. These symptoms are present more days than not and have led to mild but consistent functional impairment, particularly in occupational performance and engagement in routine activities. There is no history of manic or hypomanic episodes. A review of systems reveals no acute mood episodes meeting criteria for major depressive episode during this period. The symptom onset predates any recent life changes; marital status and occupational role have remained stable for over five years, well prior to symptom onset. No acute stressors are identified as causative. The clinical picture is consistent with a chronic, low-grade depressive presentation.",
+        "options": "\n    A. Schizoaffective Disorder (Bipolar Type)\n    B. Persistent Depressive Disorder\n    C. Schizoaffective Disorder (Depressive Type)\n    D. Bipolar I Disorder\n    ",
+        "answer": "B. Persistent Depressive Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D014",
+                "disease_name": "Persistent Depressive Disorder",
+                "sampled_features": {
+                    "disease_code": "D014",
+                    "disease_name": "Persistent Depressive Disorder",
+                    "sampled_diagnostic_criteria": {},
+                    "sampled_symptom_groups": {
+                        "dysthymic_symptoms": {
+                            "functional_impairment_required": true,
+                            "symptoms": [
+                                "S024",
+                                "S027",
+                                "S031",
+                                "S042"
+                            ],
+                            "duration": "3 years",
+                            "name": "dysthymic_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S024",
+                        "S027",
+                        "S031",
+                        "S042"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S024": {
+                            "name": "Depressed_Mood",
+                            "categoty": "depressive_episode",
+                            "description": "A state where a sad, empty, or hopeless mood persists.",
+                            "subtypes": {
+                                "Emotional Numbness": "A state where emotions feel dulled or paralyzed."
+                            }
+                        },
+                        "S027": {
+                            "name": "Sleep_Disturbance",
+                            "categoty": "depressive_episode",
+                            "description": "A state where there is a significant change in the quantity or quality of sleep.",
+                            "subtypes": {
+                                "Non-Restorative Sleep": "Feeling unrefreshed despite having slept enough."
+                            }
+                        },
+                        "S031": {
+                            "name": "Diminished_Thinking",
+                            "categoty": "depressive_episode",
+                            "description": "Diminished ability to think or concentrate, or indecisiveness.",
+                            "subtypes": {
+                                "Subjective Memory Complaints": "Complaining of memory decline, such as forgetting where things were placed, due to reduced focus."
+                            }
+                        },
+                        "S042": {
+                            "name": "Low_Self_Esteem",
+                            "categoty": "depressive_episode",
+                            "description": "A persistent tendency to evaluate oneself as incompetent or worthless; chronically low self-evaluation.",
+                            "subtypes": {
+                                "Reduced Self-Efficacy": "Distrust in one's own ability to perform tasks or solve problems."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Schizoaffective Disorder (Bipolar Type)",
+                    "Persistent Depressive Disorder",
+                    "Schizoaffective Disorder (Depressive Type)",
+                    "Bipolar I Disorder"
+                ],
+                "answer_index": [
+                    1
+                ],
+                "index_types": [
+                    "Moderately likely option",
+                    "answer",
+                    "Moderately likely option",
+                    "Moderately likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D006",
+                        "disease_name": "Schizoaffective Disorder (Bipolar Type)",
+                        "shared_symptoms": [
+                            "S031",
+                            "S024",
+                            "S027"
+                        ]
+                    },
+                    {
+                        "disease_code": "D014",
+                        "disease_name": "Persistent Depressive Disorder"
+                    },
+                    {
+                        "disease_code": "D007",
+                        "disease_name": "Schizoaffective Disorder (Depressive Type)",
+                        "shared_symptoms": [
+                            "S031",
+                            "S024",
+                            "S027"
+                        ]
+                    },
+                    {
+                        "disease_code": "D008",
+                        "disease_name": "Bipolar I Disorder",
+                        "shared_symptoms": [
+                            "S031",
+                            "S024",
+                            "S027"
+                        ]
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 40\n- **Gender:** Female\n- **Occupation:** Musical Theater Actress\n- **Marital Status:** Married\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Persistent Depressive Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. dysthymic_symptoms Requirements:**\n- Emotional Numbness (A state where emotions feel dulled or paralyzed.)\n- Non-Restorative Sleep (Feeling unrefreshed despite having slept enough.)\n- Subjective Memory Complaints (Complaining of memory decline, such as forgetting where things were placed, due to reduced focus.)\n- Reduced Self-Efficacy (Distrust in one's own ability to perform tasks or solve problems.)\nDuration of dysthymic_symptoms: 3 years\nFunctional Impairment Due to dysthymic_symptoms: True\n\n**Critical Diagnostic Criteria:**"
+    },
+    "D014_l016": {
+        "question": "A 23-year-old single male working as a gig economy courier presents with a two-year and two-month history of persistent low mood characterized by a pervasive sense of inner emptiness and emotional numbness. He reports ongoing difficulties with cognitive clarity, describing his thinking as consistently clouded, foggy, and effortful, which interferes with concentration and task completion. Chronic fatigue is present, persisting despite reported adequate rest and sleep, and significantly contributing to reduced physical and mental stamina throughout the day. The patient demonstrates a deeply entrenched belief that his current emotional and life circumstances will not improve, reflecting a persistent negative outlook on the future.  \n\nThese symptoms have been present for the majority of days over the past two years, with no period of sustained remission exceeding two months. Functional impairment is evident in occupational performance, including decreased efficiency, motivation, and reliability in meeting work demands. There is no evidence of manic or hypomanic episodes. A review of systems is negative for acute psychotic features, and the symptoms are not better explained by another medical or psychiatric condition. The patient’s presentation is not temporally associated with any significant psychosocial events; prior life changes, including occupational and relationship status, predate symptom onset by several years.",
+        "options": "\n    A. Schizoaffective Disorder (Bipolar Type)\n    B. Schizoaffective Disorder (Depressive Type)\n    C. Persistent Depressive Disorder\n    D. Bipolar I Disorder\n    ",
+        "answer": "C. Persistent Depressive Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D014",
+                "disease_name": "Persistent Depressive Disorder",
+                "sampled_features": {
+                    "disease_code": "D014",
+                    "disease_name": "Persistent Depressive Disorder",
+                    "sampled_diagnostic_criteria": {},
+                    "sampled_symptom_groups": {
+                        "dysthymic_symptoms": {
+                            "functional_impairment_required": true,
+                            "symptoms": [
+                                "S024",
+                                "S031",
+                                "S029",
+                                "S083"
+                            ],
+                            "duration": "2 years and 2 months",
+                            "name": "dysthymic_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S024",
+                        "S029",
+                        "S031",
+                        "S083"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S024": {
+                            "name": "Depressed_Mood",
+                            "categoty": "depressive_episode",
+                            "description": "A state where a sad, empty, or hopeless mood persists.",
+                            "subtypes": {
+                                "Emptiness": "A feeling of inner emptiness or a state of feeling no emotion."
+                            }
+                        },
+                        "S029": {
+                            "name": "Fatigue",
+                            "categoty": "depressive_episode",
+                            "description": "Persistent fatigue that is not relieved by rest and a marked lack of energy.",
+                            "subtypes": {
+                                "Chronic Fatigue": "Fatigue that persists for a long period even after adequate rest."
+                            }
+                        },
+                        "S031": {
+                            "name": "Diminished_Thinking",
+                            "categoty": "depressive_episode",
+                            "description": "Diminished ability to think or concentrate, or indecisiveness.",
+                            "subtypes": {
+                                "Clouded Thinking": "Thinking feels foggy, dazed, or not clear."
+                            }
+                        },
+                        "S083": {
+                            "name": "Hopelessness",
+                            "categoty": "depressive_episode",
+                            "description": "A feeling of despair or having no hope for the future.",
+                            "subtypes": {
+                                "Belief in Impossibility of Improvement": "The belief that the current situation will absolutely not get better."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Schizoaffective Disorder (Bipolar Type)",
+                    "Schizoaffective Disorder (Depressive Type)",
+                    "Persistent Depressive Disorder",
+                    "Bipolar I Disorder"
+                ],
+                "answer_index": [
+                    2
+                ],
+                "index_types": [
+                    "Moderately likely option",
+                    "Moderately likely option",
+                    "answer",
+                    "Moderately likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D006",
+                        "disease_name": "Schizoaffective Disorder (Bipolar Type)",
+                        "shared_symptoms": [
+                            "S031",
+                            "S024"
+                        ]
+                    },
+                    {
+                        "disease_code": "D007",
+                        "disease_name": "Schizoaffective Disorder (Depressive Type)",
+                        "shared_symptoms": [
+                            "S031",
+                            "S024"
+                        ]
+                    },
+                    {
+                        "disease_code": "D014",
+                        "disease_name": "Persistent Depressive Disorder"
+                    },
+                    {
+                        "disease_code": "D008",
+                        "disease_name": "Bipolar I Disorder",
+                        "shared_symptoms": [
+                            "S031",
+                            "S024"
+                        ]
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 23\n- **Gender:** Male\n- **Occupation:** Gig Economy Courier (Rider)\n- **Marital Status:** Single\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Persistent Depressive Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. dysthymic_symptoms Requirements:**\n- Emptiness (A feeling of inner emptiness or a state of feeling no emotion.)\n- Clouded Thinking (Thinking feels foggy, dazed, or not clear.)\n- Chronic Fatigue (Fatigue that persists for a long period even after adequate rest.)\n- Belief in Impossibility of Improvement (The belief that the current situation will absolutely not get better.)\nDuration of dysthymic_symptoms: 2 years and 2 months\nFunctional Impairment Due to dysthymic_symptoms: True\n\n**Critical Diagnostic Criteria:**"
+    },
+    "D014_l017": {
+        "question": "A 48-year-old divorced female and employed travel agent presents with a chronic course of mood disturbance lasting approximately 2 years and 2 months. The patient reports a persistent low mood characterized by a sad and constricted affect, which has been consistently present for the majority of days throughout this period. She describes marked indecisiveness, noting significant difficulty with routine choices such as selecting meals or daily attire, contributing to impaired daily functioning. A prominent cognitive feature includes mental fatigue, with rapid onset of exhaustion during tasks requiring concentration or sustained mental effort. The patient also expresses a pervasive sense of future hopelessness, maintaining a firm belief that her circumstances will not improve despite absence of acute psychosocial stressors. These symptoms are associated with functional impairment in occupational and personal domains. Notably, the patient’s divorce occurred over five years prior to symptom onset, indicating temporal separation between this life event and the beginning of her mood disturbance. There is no evidence of episodic mania or hypomania. The clinical picture is consistent with a chronic, enduring depressive syndrome with early adult onset and continuous symptomatology.",
+        "options": "\n    A. Schizoaffective Disorder (Bipolar Type)\n    B. Schizoaffective Disorder (Depressive Type)\n    C. Persistent Depressive Disorder\n    D. Bipolar I Disorder\n    ",
+        "answer": "C. Persistent Depressive Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D014",
+                "disease_name": "Persistent Depressive Disorder",
+                "sampled_features": {
+                    "disease_code": "D014",
+                    "disease_name": "Persistent Depressive Disorder",
+                    "sampled_diagnostic_criteria": {},
+                    "sampled_symptom_groups": {
+                        "dysthymic_symptoms": {
+                            "functional_impairment_required": true,
+                            "symptoms": [
+                                "S024",
+                                "S031",
+                                "S029",
+                                "S083"
+                            ],
+                            "duration": "2 years and 2 months",
+                            "name": "dysthymic_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S024",
+                        "S029",
+                        "S031",
+                        "S083"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S024": {
+                            "name": "Depressed_Mood",
+                            "categoty": "depressive_episode",
+                            "description": "A state where a sad, empty, or hopeless mood persists.",
+                            "subtypes": {
+                                "Sadness": "A state where a sad or gloomy mood is maintained continuously."
+                            }
+                        },
+                        "S029": {
+                            "name": "Fatigue",
+                            "categoty": "depressive_episode",
+                            "description": "Persistent fatigue that is not relieved by rest and a marked lack of energy.",
+                            "subtypes": {
+                                "Mental Fatigue": "A state where fatigue accumulates rapidly during the process of thinking or concentrating."
+                            }
+                        },
+                        "S031": {
+                            "name": "Diminished_Thinking",
+                            "categoty": "depressive_episode",
+                            "description": "Diminished ability to think or concentrate, or indecisiveness.",
+                            "subtypes": {
+                                "Indecisiveness": "Extreme difficulty making even minor daily choices (e.g., menu, clothes) and hesitating to make decisions."
+                            }
+                        },
+                        "S083": {
+                            "name": "Hopelessness",
+                            "categoty": "depressive_episode",
+                            "description": "A feeling of despair or having no hope for the future.",
+                            "subtypes": {
+                                "Future Hopelessness": "The persistent conviction that the future holds no possibility of improvement."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Schizoaffective Disorder (Bipolar Type)",
+                    "Schizoaffective Disorder (Depressive Type)",
+                    "Persistent Depressive Disorder",
+                    "Bipolar I Disorder"
+                ],
+                "answer_index": [
+                    2
+                ],
+                "index_types": [
+                    "Moderately likely option",
+                    "Moderately likely option",
+                    "answer",
+                    "Moderately likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D006",
+                        "disease_name": "Schizoaffective Disorder (Bipolar Type)",
+                        "shared_symptoms": [
+                            "S031",
+                            "S024"
+                        ]
+                    },
+                    {
+                        "disease_code": "D007",
+                        "disease_name": "Schizoaffective Disorder (Depressive Type)",
+                        "shared_symptoms": [
+                            "S031",
+                            "S024"
+                        ]
+                    },
+                    {
+                        "disease_code": "D014",
+                        "disease_name": "Persistent Depressive Disorder"
+                    },
+                    {
+                        "disease_code": "D008",
+                        "disease_name": "Bipolar I Disorder",
+                        "shared_symptoms": [
+                            "S031",
+                            "S024"
+                        ]
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 48\n- **Gender:** Female\n- **Occupation:** Travel Agent\n- **Marital Status:** Divorced\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Persistent Depressive Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. dysthymic_symptoms Requirements:**\n- Sadness (A state where a sad or gloomy mood is maintained continuously.)\n- Indecisiveness (Extreme difficulty making even minor daily choices (e.g., menu, clothes) and hesitating to make decisions.)\n- Mental Fatigue (A state where fatigue accumulates rapidly during the process of thinking or concentrating.)\n- Future Hopelessness (The persistent conviction that the future holds no possibility of improvement.)\nDuration of dysthymic_symptoms: 2 years and 2 months\nFunctional Impairment Due to dysthymic_symptoms: True\n\n**Critical Diagnostic Criteria:**"
+    },
+    "D014_l018": {
+        "question": "A 38-year-old male, single, working as a tattoo artist, presents with a 2-year and 2-month history of persistently depressed mood characterized by low affect, anhedonia, and subjective reports of emotional flatness. He consistently describes thinking as clouded, with frequent difficulty concentrating, impaired mental clarity, and a sense of cognitive fogginess that interferes with task completion. The patient reports persistent physical fatigue, noting that even minor daily activities, such as showering or commuting to work, are associated with pronounced bodily heaviness and diminished stamina. He endorses a pervasive sense of helpless resignation, expressing the belief that personal efforts will not lead to improvement in his situation or emotional state, irrespective of action taken. These symptoms are present most days, occur throughout the majority of the day, and have demonstrated a chronic course with minimal fluctuation. There is marked functional impairment in occupational performance, including decreased productivity, increased time required to complete detailed artistic work, and reduced client interaction. No acute psychotic features, manic symptoms, or recent substance use are reported. The onset of mood disturbance is not temporally related to any recent psychosocial events; prior changes in marital or occupational status preceded symptom onset by several years.",
+        "options": "\n    A. Schizoaffective Disorder (Bipolar Type)\n    B. Schizoaffective Disorder (Depressive Type)\n    C. Persistent Depressive Disorder\n    D. Bipolar I Disorder\n    ",
+        "answer": "C. Persistent Depressive Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D014",
+                "disease_name": "Persistent Depressive Disorder",
+                "sampled_features": {
+                    "disease_code": "D014",
+                    "disease_name": "Persistent Depressive Disorder",
+                    "sampled_diagnostic_criteria": {},
+                    "sampled_symptom_groups": {
+                        "dysthymic_symptoms": {
+                            "functional_impairment_required": true,
+                            "symptoms": [
+                                "S024",
+                                "S031",
+                                "S029",
+                                "S083"
+                            ],
+                            "duration": "2 years and 2 months",
+                            "name": "dysthymic_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S024",
+                        "S029",
+                        "S031",
+                        "S083"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S024": {
+                            "name": "Depressed_Mood",
+                            "categoty": "depressive_episode",
+                            "description": "A state where a sad, empty, or hopeless mood persists.",
+                            "subtypes": {
+                                "Depressed Mood": "A persistently sunken mood or feeling of depression."
+                            }
+                        },
+                        "S029": {
+                            "name": "Fatigue",
+                            "categoty": "depressive_episode",
+                            "description": "Persistent fatigue that is not relieved by rest and a marked lack of energy.",
+                            "subtypes": {
+                                "Physical Fatigue": "A state of physical exhaustion where the body feels heavy and easily tires even from minor activities."
+                            }
+                        },
+                        "S031": {
+                            "name": "Diminished_Thinking",
+                            "categoty": "depressive_episode",
+                            "description": "Diminished ability to think or concentrate, or indecisiveness.",
+                            "subtypes": {
+                                "Clouded Thinking": "Thinking feels foggy, dazed, or not clear."
+                            }
+                        },
+                        "S083": {
+                            "name": "Hopelessness",
+                            "categoty": "depressive_episode",
+                            "description": "A feeling of despair or having no hope for the future.",
+                            "subtypes": {
+                                "Helpless Resignation": "A state of helplessness and resignation, believing that nothing will change despite effort."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Schizoaffective Disorder (Bipolar Type)",
+                    "Schizoaffective Disorder (Depressive Type)",
+                    "Persistent Depressive Disorder",
+                    "Bipolar I Disorder"
+                ],
+                "answer_index": [
+                    2
+                ],
+                "index_types": [
+                    "Moderately likely option",
+                    "Moderately likely option",
+                    "answer",
+                    "Moderately likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D006",
+                        "disease_name": "Schizoaffective Disorder (Bipolar Type)",
+                        "shared_symptoms": [
+                            "S031",
+                            "S024"
+                        ]
+                    },
+                    {
+                        "disease_code": "D007",
+                        "disease_name": "Schizoaffective Disorder (Depressive Type)",
+                        "shared_symptoms": [
+                            "S031",
+                            "S024"
+                        ]
+                    },
+                    {
+                        "disease_code": "D014",
+                        "disease_name": "Persistent Depressive Disorder"
+                    },
+                    {
+                        "disease_code": "D008",
+                        "disease_name": "Bipolar I Disorder",
+                        "shared_symptoms": [
+                            "S031",
+                            "S024"
+                        ]
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 38\n- **Gender:** Male\n- **Occupation:** Tattoo Artist\n- **Marital Status:** Single\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Persistent Depressive Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. dysthymic_symptoms Requirements:**\n- Depressed Mood (A persistently sunken mood or feeling of depression.)\n- Clouded Thinking (Thinking feels foggy, dazed, or not clear.)\n- Physical Fatigue (A state of physical exhaustion where the body feels heavy and easily tires even from minor activities.)\n- Helpless Resignation (A state of helplessness and resignation, believing that nothing will change despite effort.)\nDuration of dysthymic_symptoms: 2 years and 2 months\nFunctional Impairment Due to dysthymic_symptoms: True\n\n**Critical Diagnostic Criteria:**"
+    },
+    "D014_l019": {
+        "question": "A 53-year-old widowed female and social worker presents with a two-year and two-month history of persistent low mood accompanied by significant functional impairment. The patient reports chronic fatigue that persists despite adequate rest, with a subjective decline in energy that interferes with daily responsibilities. A prominent sense of emotional numbness is described, characterized by a pervasive dulling of affect and diminished capacity to experience pleasure or emotional responsiveness to interpersonal stimuli. She endorses feelings of future hopelessness, expressing a sustained belief that circumstances will not improve, with no anticipation of positive change. Concurrently, the patient notes subjective memory complaints, particularly in regard to forgetfulness related to misplacing objects or task completion, which she attributes to difficulty sustaining attention rather than objective cognitive decline. These symptoms have been present more days than not over the past two years, with no symptom-free periods exceeding several weeks. There is no indication of acute manic or hypomanic episodes. The patient’s marital status (widowed) occurred eight years prior to symptom onset, indicating a clear temporal separation from recent psychosocial loss. Overall, the clinical presentation is consistent with a chronic, unremitting depressive syndrome associated with impaired occupational and interpersonal functioning.",
+        "options": "\n    A. Schizoaffective Disorder (Bipolar Type)\n    B. Schizoaffective Disorder (Depressive Type)\n    C. Persistent Depressive Disorder\n    D. Bipolar I Disorder\n    ",
+        "answer": "C. Persistent Depressive Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D014",
+                "disease_name": "Persistent Depressive Disorder",
+                "sampled_features": {
+                    "disease_code": "D014",
+                    "disease_name": "Persistent Depressive Disorder",
+                    "sampled_diagnostic_criteria": {},
+                    "sampled_symptom_groups": {
+                        "dysthymic_symptoms": {
+                            "functional_impairment_required": true,
+                            "symptoms": [
+                                "S024",
+                                "S031",
+                                "S029",
+                                "S083"
+                            ],
+                            "duration": "2 years and 2 months",
+                            "name": "dysthymic_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S024",
+                        "S029",
+                        "S031",
+                        "S083"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S024": {
+                            "name": "Depressed_Mood",
+                            "categoty": "depressive_episode",
+                            "description": "A state where a sad, empty, or hopeless mood persists.",
+                            "subtypes": {
+                                "Emotional Numbness": "A state where emotions feel dulled or paralyzed."
+                            }
+                        },
+                        "S029": {
+                            "name": "Fatigue",
+                            "categoty": "depressive_episode",
+                            "description": "Persistent fatigue that is not relieved by rest and a marked lack of energy.",
+                            "subtypes": {
+                                "Chronic Fatigue": "Fatigue that persists for a long period even after adequate rest."
+                            }
+                        },
+                        "S031": {
+                            "name": "Diminished_Thinking",
+                            "categoty": "depressive_episode",
+                            "description": "Diminished ability to think or concentrate, or indecisiveness.",
+                            "subtypes": {
+                                "Subjective Memory Complaints": "Complaining of memory decline, such as forgetting where things were placed, due to reduced focus."
+                            }
+                        },
+                        "S083": {
+                            "name": "Hopelessness",
+                            "categoty": "depressive_episode",
+                            "description": "A feeling of despair or having no hope for the future.",
+                            "subtypes": {
+                                "Future Hopelessness": "The persistent conviction that the future holds no possibility of improvement."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Schizoaffective Disorder (Bipolar Type)",
+                    "Schizoaffective Disorder (Depressive Type)",
+                    "Persistent Depressive Disorder",
+                    "Bipolar I Disorder"
+                ],
+                "answer_index": [
+                    2
+                ],
+                "index_types": [
+                    "Moderately likely option",
+                    "Moderately likely option",
+                    "answer",
+                    "Moderately likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D006",
+                        "disease_name": "Schizoaffective Disorder (Bipolar Type)",
+                        "shared_symptoms": [
+                            "S031",
+                            "S024"
+                        ]
+                    },
+                    {
+                        "disease_code": "D007",
+                        "disease_name": "Schizoaffective Disorder (Depressive Type)",
+                        "shared_symptoms": [
+                            "S031",
+                            "S024"
+                        ]
+                    },
+                    {
+                        "disease_code": "D014",
+                        "disease_name": "Persistent Depressive Disorder"
+                    },
+                    {
+                        "disease_code": "D008",
+                        "disease_name": "Bipolar I Disorder",
+                        "shared_symptoms": [
+                            "S031",
+                            "S024"
+                        ]
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 53\n- **Gender:** Female\n- **Occupation:** Social Worker\n- **Marital Status:** Widowed\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Persistent Depressive Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. dysthymic_symptoms Requirements:**\n- Emotional Numbness (A state where emotions feel dulled or paralyzed.)\n- Subjective Memory Complaints (Complaining of memory decline, such as forgetting where things were placed, due to reduced focus.)\n- Chronic Fatigue (Fatigue that persists for a long period even after adequate rest.)\n- Future Hopelessness (The persistent conviction that the future holds no possibility of improvement.)\nDuration of dysthymic_symptoms: 2 years and 2 months\nFunctional Impairment Due to dysthymic_symptoms: True\n\n**Critical Diagnostic Criteria:**"
+    },
+    "D014_l020": {
+        "question": "A 31-year-old married female working as a wedding planner presents with a two-year, two-month history of persistently low mood characterized by ongoing sadness and emotional lability. She reports diminished ability to concentrate, manifesting as difficulty sustaining attention during conversations, reading, and watching television, which has interfered with both personal and occupational tasks. The patient describes a chronic sense of physical fatigue, noting that even minor daily activities result in subjective bodily heaviness and exhaustion. She expresses a pervasive cognitive pattern of helpless resignation, endorsing beliefs that efforts to improve her situation are futile and that no meaningful change is possible, regardless of action taken. These symptoms have been consistently present for the majority of days over the past two years, with no period of symptomatic remission exceeding two months. There is clear evidence of functional impairment, particularly in work performance and interpersonal engagement. The patient denies any discrete episodes of manic or hypomanic symptoms. Marital status and occupational role are stable; any prior life transitions, including marriage, occurred well before the onset of mood disturbance. No acute stressors are temporally linked to symptom initiation.",
+        "options": "\n    A. Schizoaffective Disorder (Bipolar Type)\n    B. Schizoaffective Disorder (Depressive Type)\n    C. Persistent Depressive Disorder\n    D. Bipolar I Disorder\n    ",
+        "answer": "C. Persistent Depressive Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D014",
+                "disease_name": "Persistent Depressive Disorder",
+                "sampled_features": {
+                    "disease_code": "D014",
+                    "disease_name": "Persistent Depressive Disorder",
+                    "sampled_diagnostic_criteria": {},
+                    "sampled_symptom_groups": {
+                        "dysthymic_symptoms": {
+                            "functional_impairment_required": true,
+                            "symptoms": [
+                                "S024",
+                                "S031",
+                                "S029",
+                                "S083"
+                            ],
+                            "duration": "2 years and 2 months",
+                            "name": "dysthymic_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S024",
+                        "S029",
+                        "S031",
+                        "S083"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S024": {
+                            "name": "Depressed_Mood",
+                            "categoty": "depressive_episode",
+                            "description": "A state where a sad, empty, or hopeless mood persists.",
+                            "subtypes": {
+                                "Sadness": "A state where a sad or gloomy mood is maintained continuously."
+                            }
+                        },
+                        "S029": {
+                            "name": "Fatigue",
+                            "categoty": "depressive_episode",
+                            "description": "Persistent fatigue that is not relieved by rest and a marked lack of energy.",
+                            "subtypes": {
+                                "Physical Fatigue": "A state of physical exhaustion where the body feels heavy and easily tires even from minor activities."
+                            }
+                        },
+                        "S031": {
+                            "name": "Diminished_Thinking",
+                            "categoty": "depressive_episode",
+                            "description": "Diminished ability to think or concentrate, or indecisiveness.",
+                            "subtypes": {
+                                "Reduced Concentration": "Unable to pay attention or maintain focus on specific activities like conversation, reading, or watching TV."
+                            }
+                        },
+                        "S083": {
+                            "name": "Hopelessness",
+                            "categoty": "depressive_episode",
+                            "description": "A feeling of despair or having no hope for the future.",
+                            "subtypes": {
+                                "Helpless Resignation": "A state of helplessness and resignation, believing that nothing will change despite effort."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Schizoaffective Disorder (Bipolar Type)",
+                    "Schizoaffective Disorder (Depressive Type)",
+                    "Persistent Depressive Disorder",
+                    "Bipolar I Disorder"
+                ],
+                "answer_index": [
+                    2
+                ],
+                "index_types": [
+                    "Moderately likely option",
+                    "Moderately likely option",
+                    "answer",
+                    "Moderately likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D006",
+                        "disease_name": "Schizoaffective Disorder (Bipolar Type)",
+                        "shared_symptoms": [
+                            "S031",
+                            "S024"
+                        ]
+                    },
+                    {
+                        "disease_code": "D007",
+                        "disease_name": "Schizoaffective Disorder (Depressive Type)",
+                        "shared_symptoms": [
+                            "S031",
+                            "S024"
+                        ]
+                    },
+                    {
+                        "disease_code": "D014",
+                        "disease_name": "Persistent Depressive Disorder"
+                    },
+                    {
+                        "disease_code": "D008",
+                        "disease_name": "Bipolar I Disorder",
+                        "shared_symptoms": [
+                            "S031",
+                            "S024"
+                        ]
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 31\n- **Gender:** Female\n- **Occupation:** Wedding Planner\n- **Marital Status:** Married\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Persistent Depressive Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. dysthymic_symptoms Requirements:**\n- Sadness (A state where a sad or gloomy mood is maintained continuously.)\n- Reduced Concentration (Unable to pay attention or maintain focus on specific activities like conversation, reading, or watching TV.)\n- Physical Fatigue (A state of physical exhaustion where the body feels heavy and easily tires even from minor activities.)\n- Helpless Resignation (A state of helplessness and resignation, believing that nothing will change despite effort.)\nDuration of dysthymic_symptoms: 2 years and 2 months\nFunctional Impairment Due to dysthymic_symptoms: True\n\n**Critical Diagnostic Criteria:**"
+    },
+    "D014_l021": {
+        "question": "A 28-year-old single male, currently working as a surgical resident, presents with a chronic course of low mood persisting for approximately 3 years and 3 months. The patient reports a pervasive sense of inner emptiness, describing periods of emotional numbness in which he feels disconnected from self and surroundings. He endorses marked mental fatigue, noting that cognitive tasks such as focusing during rounds or processing clinical information disproportionately drain his mental energy, even with adequate rest. Concentration difficulties are noted, particularly when engaging in complex decision-making, which have raised concerns about work performance despite sustained effort.\n\nThe patient articulates a persistent belief that his situation will not improve, expressing a sense of hopelessness regarding personal and professional future. He does not report discrete episodes of acute depression but acknowledges that his baseline mood has remained consistently low for years. This chronic symptomatology has led to measurable functional impairment, affecting both academic performance and interpersonal engagement, though he maintains minimal functionality required by his rigorous training program. There is no indication that recent life events, including his career status or marital situation, temporally coincide with symptom onset, which predates his residency by several years. Symptoms are continuous, without prolonged symptom-free intervals.",
+        "options": "\n    A. Schizoaffective Disorder (Bipolar Type)\n    B. Schizoaffective Disorder (Depressive Type)\n    C. Persistent Depressive Disorder\n    D. Bipolar I Disorder\n    ",
+        "answer": "C. Persistent Depressive Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D014",
+                "disease_name": "Persistent Depressive Disorder",
+                "sampled_features": {
+                    "disease_code": "D014",
+                    "disease_name": "Persistent Depressive Disorder",
+                    "sampled_diagnostic_criteria": {},
+                    "sampled_symptom_groups": {
+                        "dysthymic_symptoms": {
+                            "functional_impairment_required": true,
+                            "symptoms": [
+                                "S024",
+                                "S029",
+                                "S083"
+                            ],
+                            "duration": "3 years and 3 months",
+                            "name": "dysthymic_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S024",
+                        "S029",
+                        "S083"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S024": {
+                            "name": "Depressed_Mood",
+                            "categoty": "depressive_episode",
+                            "description": "A state where a sad, empty, or hopeless mood persists.",
+                            "subtypes": {
+                                "Emptiness": "A feeling of inner emptiness or a state of feeling no emotion."
+                            }
+                        },
+                        "S029": {
+                            "name": "Fatigue",
+                            "categoty": "depressive_episode",
+                            "description": "Persistent fatigue that is not relieved by rest and a marked lack of energy.",
+                            "subtypes": {
+                                "Mental Fatigue": "A state where fatigue accumulates rapidly during the process of thinking or concentrating."
+                            }
+                        },
+                        "S083": {
+                            "name": "Hopelessness",
+                            "categoty": "depressive_episode",
+                            "description": "A feeling of despair or having no hope for the future.",
+                            "subtypes": {
+                                "Future Hopelessness": "The persistent conviction that the future holds no possibility of improvement."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Schizoaffective Disorder (Bipolar Type)",
+                    "Schizoaffective Disorder (Depressive Type)",
+                    "Persistent Depressive Disorder",
+                    "Bipolar I Disorder"
+                ],
+                "answer_index": [
+                    2
+                ],
+                "index_types": [
+                    "Moderately likely option",
+                    "Moderately likely option",
+                    "answer",
+                    "Moderately likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D006",
+                        "disease_name": "Schizoaffective Disorder (Bipolar Type)",
+                        "shared_symptoms": [
+                            "S029",
+                            "S031",
+                            "S024",
+                            "S027",
+                            "S026"
+                        ]
+                    },
+                    {
+                        "disease_code": "D007",
+                        "disease_name": "Schizoaffective Disorder (Depressive Type)",
+                        "shared_symptoms": [
+                            "S029",
+                            "S031",
+                            "S024",
+                            "S027",
+                            "S026"
+                        ]
+                    },
+                    {
+                        "disease_code": "D014",
+                        "disease_name": "Persistent Depressive Disorder"
+                    },
+                    {
+                        "disease_code": "D008",
+                        "disease_name": "Bipolar I Disorder",
+                        "shared_symptoms": [
+                            "S029",
+                            "S031",
+                            "S024",
+                            "S027",
+                            "S026"
+                        ]
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 28\n- **Gender:** Male\n- **Occupation:** Medical Resident (Surgery)\n- **Marital Status:** Single\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Persistent Depressive Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. dysthymic_symptoms Requirements:**\n- Emptiness (A feeling of inner emptiness or a state of feeling no emotion.)\n- Mental Fatigue (A state where fatigue accumulates rapidly during the process of thinking or concentrating.)\n- Future Hopelessness (The persistent conviction that the future holds no possibility of improvement.)\nDuration of dysthymic_symptoms: 3 years and 3 months\nFunctional Impairment Due to dysthymic_symptoms: True\n\n**Critical Diagnostic Criteria:**"
+    },
+    "D014_l022": {
+        "question": "A 29-year-old single female who works as a flight attendant presents with a chronic depressive syndrome lasting approximately 3 years and 3 months. The patient reports persistent feelings of inner emptiness, describing a prolonged emotional numbness and lack of affective resonance. She endures a marked and persistent reduction in energy, noting significant fatigue that interferes with the completion of routine occupational and personal responsibilities. Despite continued functioning in her role, there is clear functional impairment, with reduced efficiency and diminished capacity for sustained engagement in daily activities. A prominent cognitive pattern involves a entrenched belief that her condition is unchangeable and that improvement is impossible, reflecting a pervasive sense of hopelessness. These symptoms have been consistently present for the majority of the day, more days than not, over the required duration. There is no indication of acute manic or hypomanic episodes. The clinical course is characterized by its chronicity and stability rather than episodic fluctuation. No recent psychosocial stressors are identified as precipitants, and prior life events (e.g., marital or occupational changes) occurred well before symptom onset and are not temporally linked to the initiation of the mood disturbance. The presentation is consistent with a chronic depressive condition of moderate severity.",
+        "options": "\n    A. Schizoaffective Disorder (Bipolar Type)\n    B. Schizoaffective Disorder (Depressive Type)\n    C. Persistent Depressive Disorder\n    D. Bipolar I Disorder\n    ",
+        "answer": "C. Persistent Depressive Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D014",
+                "disease_name": "Persistent Depressive Disorder",
+                "sampled_features": {
+                    "disease_code": "D014",
+                    "disease_name": "Persistent Depressive Disorder",
+                    "sampled_diagnostic_criteria": {},
+                    "sampled_symptom_groups": {
+                        "dysthymic_symptoms": {
+                            "functional_impairment_required": true,
+                            "symptoms": [
+                                "S024",
+                                "S029",
+                                "S083"
+                            ],
+                            "duration": "3 years and 3 months",
+                            "name": "dysthymic_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S024",
+                        "S029",
+                        "S083"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S024": {
+                            "name": "Depressed_Mood",
+                            "categoty": "depressive_episode",
+                            "description": "A state where a sad, empty, or hopeless mood persists.",
+                            "subtypes": {
+                                "Emptiness": "A feeling of inner emptiness or a state of feeling no emotion."
+                            }
+                        },
+                        "S029": {
+                            "name": "Fatigue",
+                            "categoty": "depressive_episode",
+                            "description": "Persistent fatigue that is not relieved by rest and a marked lack of energy.",
+                            "subtypes": {
+                                "Loss of Energy": "Difficulty performing daily activities due to a decline in energy and vitality."
+                            }
+                        },
+                        "S083": {
+                            "name": "Hopelessness",
+                            "categoty": "depressive_episode",
+                            "description": "A feeling of despair or having no hope for the future.",
+                            "subtypes": {
+                                "Belief in Impossibility of Improvement": "The belief that the current situation will absolutely not get better."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Schizoaffective Disorder (Bipolar Type)",
+                    "Schizoaffective Disorder (Depressive Type)",
+                    "Persistent Depressive Disorder",
+                    "Bipolar I Disorder"
+                ],
+                "answer_index": [
+                    2
+                ],
+                "index_types": [
+                    "Moderately likely option",
+                    "Moderately likely option",
+                    "answer",
+                    "Moderately likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D006",
+                        "disease_name": "Schizoaffective Disorder (Bipolar Type)",
+                        "shared_symptoms": [
+                            "S029",
+                            "S031",
+                            "S024",
+                            "S027",
+                            "S026"
+                        ]
+                    },
+                    {
+                        "disease_code": "D007",
+                        "disease_name": "Schizoaffective Disorder (Depressive Type)",
+                        "shared_symptoms": [
+                            "S029",
+                            "S031",
+                            "S024",
+                            "S027",
+                            "S026"
+                        ]
+                    },
+                    {
+                        "disease_code": "D014",
+                        "disease_name": "Persistent Depressive Disorder"
+                    },
+                    {
+                        "disease_code": "D008",
+                        "disease_name": "Bipolar I Disorder",
+                        "shared_symptoms": [
+                            "S029",
+                            "S031",
+                            "S024",
+                            "S027",
+                            "S026"
+                        ]
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 29\n- **Gender:** Female\n- **Occupation:** Flight Attendant\n- **Marital Status:** Single\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Persistent Depressive Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. dysthymic_symptoms Requirements:**\n- Emptiness (A feeling of inner emptiness or a state of feeling no emotion.)\n- Loss of Energy (Difficulty performing daily activities due to a decline in energy and vitality.)\n- Belief in Impossibility of Improvement (The belief that the current situation will absolutely not get better.)\nDuration of dysthymic_symptoms: 3 years and 3 months\nFunctional Impairment Due to dysthymic_symptoms: True\n\n**Critical Diagnostic Criteria:**"
+    },
+    "D014_l023": {
+        "question": "A 34-year-old divorced female who works as a Pilates instructor presents with mood symptoms beginning approximately three years and three months ago. The patient reports a persistent subjective sense of inner emptiness, describing an emotional flatness that has endured over time. She notes a marked loss of energy, endorsing significant fatigue that interferes with daily functioning despite adequate rest, and reports increased effort required to complete routine tasks. There is a consistent pattern of chronic pessimism, with a cognitive orientation toward negative outcomes and diminished expectations for personal or situational improvement, even in the absence of external stressors. These symptoms have been present for the majority of days over the past three years, with no symptom-free periods lasting more than two months.  \n\nThe patient’s occupational role remains intact, though she describes reduced professional satisfaction and diminished motivation for engagement in activities she once enjoyed. There is documented functional impairment in social and interpersonal domains, with withdrawal from previously maintained relationships and recreational pursuits. The divorce occurred five years prior to symptom onset and is not temporally linked to the initiation of mood disturbances. No manic, hypomanic, or major depressive episodes meeting full criteria have occurred during the course of the illness. The clinical presentation is characterized by the chronicity and persistence of symptoms rather than episodic severity.",
+        "options": "\n    A. Schizoaffective Disorder (Bipolar Type)\n    B. Schizoaffective Disorder (Depressive Type)\n    C. Persistent Depressive Disorder\n    D. Bipolar I Disorder\n    ",
+        "answer": "C. Persistent Depressive Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D014",
+                "disease_name": "Persistent Depressive Disorder",
+                "sampled_features": {
+                    "disease_code": "D014",
+                    "disease_name": "Persistent Depressive Disorder",
+                    "sampled_diagnostic_criteria": {},
+                    "sampled_symptom_groups": {
+                        "dysthymic_symptoms": {
+                            "functional_impairment_required": true,
+                            "symptoms": [
+                                "S024",
+                                "S029",
+                                "S083"
+                            ],
+                            "duration": "3 years and 3 months",
+                            "name": "dysthymic_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S024",
+                        "S029",
+                        "S083"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S024": {
+                            "name": "Depressed_Mood",
+                            "categoty": "depressive_episode",
+                            "description": "A state where a sad, empty, or hopeless mood persists.",
+                            "subtypes": {
+                                "Emptiness": "A feeling of inner emptiness or a state of feeling no emotion."
+                            }
+                        },
+                        "S029": {
+                            "name": "Fatigue",
+                            "categoty": "depressive_episode",
+                            "description": "Persistent fatigue that is not relieved by rest and a marked lack of energy.",
+                            "subtypes": {
+                                "Loss of Energy": "Difficulty performing daily activities due to a decline in energy and vitality."
+                            }
+                        },
+                        "S083": {
+                            "name": "Hopelessness",
+                            "categoty": "depressive_episode",
+                            "description": "A feeling of despair or having no hope for the future.",
+                            "subtypes": {
+                                "Chronic Pessimism": "A persistent tendency to view everything negatively and fail to consider positive possibilities."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Schizoaffective Disorder (Bipolar Type)",
+                    "Schizoaffective Disorder (Depressive Type)",
+                    "Persistent Depressive Disorder",
+                    "Bipolar I Disorder"
+                ],
+                "answer_index": [
+                    2
+                ],
+                "index_types": [
+                    "Moderately likely option",
+                    "Moderately likely option",
+                    "answer",
+                    "Moderately likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D006",
+                        "disease_name": "Schizoaffective Disorder (Bipolar Type)",
+                        "shared_symptoms": [
+                            "S029",
+                            "S031",
+                            "S024",
+                            "S027",
+                            "S026"
+                        ]
+                    },
+                    {
+                        "disease_code": "D007",
+                        "disease_name": "Schizoaffective Disorder (Depressive Type)",
+                        "shared_symptoms": [
+                            "S029",
+                            "S031",
+                            "S024",
+                            "S027",
+                            "S026"
+                        ]
+                    },
+                    {
+                        "disease_code": "D014",
+                        "disease_name": "Persistent Depressive Disorder"
+                    },
+                    {
+                        "disease_code": "D008",
+                        "disease_name": "Bipolar I Disorder",
+                        "shared_symptoms": [
+                            "S029",
+                            "S031",
+                            "S024",
+                            "S027",
+                            "S026"
+                        ]
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 34\n- **Gender:** Female\n- **Occupation:** Pilates Instructor\n- **Marital Status:** Divorced\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Persistent Depressive Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. dysthymic_symptoms Requirements:**\n- Emptiness (A feeling of inner emptiness or a state of feeling no emotion.)\n- Loss of Energy (Difficulty performing daily activities due to a decline in energy and vitality.)\n- Chronic Pessimism (A persistent tendency to view everything negatively and fail to consider positive possibilities.)\nDuration of dysthymic_symptoms: 3 years and 3 months\nFunctional Impairment Due to dysthymic_symptoms: True\n\n**Critical Diagnostic Criteria:**"
+    },
+    "D014_l024": {
+        "question": "A 62-year-old male, married, working as a security guard, presents with a chronic mood disturbance lasting approximately 3 years and 3 months. The patient reports persistent tearfulness, characterized by frequent episodes of crying without precipitating events and difficulty regulating emotional responses. He endorses a marked decrease in energy, describing persistent fatigue and diminished capacity to complete routine daily tasks, including responsibilities associated with his occupation. A prominent sense of helplessness and resignation is noted, with the patient expressing a consistent belief that personal efforts will not lead to improvement in his circumstances, regardless of action taken. These symptoms have been continuously present during the majority of days over the specified duration. \n\nFunctional assessment reveals mild to moderate impairment in occupational and social functioning, primarily due to reduced motivation, emotional lability, and diminished engagement in previously routine activities. There is no indication of acute manic or psychotic features. The patient's marital relationship remains stable, and there are no recent psychosocial stressors directly correlated with the onset of symptoms. The chronicity, pervasive nature, and functional impact of the mood disturbance are consistent with a primary mood disorder characterized by persistent, low-grade depressive symptoms.",
+        "options": "\n    A. Schizoaffective Disorder (Bipolar Type)\n    B. Schizoaffective Disorder (Depressive Type)\n    C. Persistent Depressive Disorder\n    D. Bipolar I Disorder\n    ",
+        "answer": "C. Persistent Depressive Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D014",
+                "disease_name": "Persistent Depressive Disorder",
+                "sampled_features": {
+                    "disease_code": "D014",
+                    "disease_name": "Persistent Depressive Disorder",
+                    "sampled_diagnostic_criteria": {},
+                    "sampled_symptom_groups": {
+                        "dysthymic_symptoms": {
+                            "functional_impairment_required": true,
+                            "symptoms": [
+                                "S024",
+                                "S029",
+                                "S083"
+                            ],
+                            "duration": "3 years and 3 months",
+                            "name": "dysthymic_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S024",
+                        "S029",
+                        "S083"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S024": {
+                            "name": "Depressed_Mood",
+                            "categoty": "depressive_episode",
+                            "description": "A state where a sad, empty, or hopeless mood persists.",
+                            "subtypes": {
+                                "Tearfulness": "A state of frequent crying or inability to hold back tears."
+                            }
+                        },
+                        "S029": {
+                            "name": "Fatigue",
+                            "categoty": "depressive_episode",
+                            "description": "Persistent fatigue that is not relieved by rest and a marked lack of energy.",
+                            "subtypes": {
+                                "Loss of Energy": "Difficulty performing daily activities due to a decline in energy and vitality."
+                            }
+                        },
+                        "S083": {
+                            "name": "Hopelessness",
+                            "categoty": "depressive_episode",
+                            "description": "A feeling of despair or having no hope for the future.",
+                            "subtypes": {
+                                "Helpless Resignation": "A state of helplessness and resignation, believing that nothing will change despite effort."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Schizoaffective Disorder (Bipolar Type)",
+                    "Schizoaffective Disorder (Depressive Type)",
+                    "Persistent Depressive Disorder",
+                    "Bipolar I Disorder"
+                ],
+                "answer_index": [
+                    2
+                ],
+                "index_types": [
+                    "Moderately likely option",
+                    "Moderately likely option",
+                    "answer",
+                    "Moderately likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D006",
+                        "disease_name": "Schizoaffective Disorder (Bipolar Type)",
+                        "shared_symptoms": [
+                            "S029",
+                            "S031",
+                            "S024",
+                            "S027",
+                            "S026"
+                        ]
+                    },
+                    {
+                        "disease_code": "D007",
+                        "disease_name": "Schizoaffective Disorder (Depressive Type)",
+                        "shared_symptoms": [
+                            "S029",
+                            "S031",
+                            "S024",
+                            "S027",
+                            "S026"
+                        ]
+                    },
+                    {
+                        "disease_code": "D014",
+                        "disease_name": "Persistent Depressive Disorder"
+                    },
+                    {
+                        "disease_code": "D008",
+                        "disease_name": "Bipolar I Disorder",
+                        "shared_symptoms": [
+                            "S029",
+                            "S031",
+                            "S024",
+                            "S027",
+                            "S026"
+                        ]
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 62\n- **Gender:** Male\n- **Occupation:** Security Guard\n- **Marital Status:** Married\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Persistent Depressive Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. dysthymic_symptoms Requirements:**\n- Tearfulness (A state of frequent crying or inability to hold back tears.)\n- Loss of Energy (Difficulty performing daily activities due to a decline in energy and vitality.)\n- Helpless Resignation (A state of helplessness and resignation, believing that nothing will change despite effort.)\nDuration of dysthymic_symptoms: 3 years and 3 months\nFunctional Impairment Due to dysthymic_symptoms: True\n\n**Critical Diagnostic Criteria:**"
+    },
+    "D014_l025": {
+        "question": "A 31-year-old single male who works as a cryptocurrency trader presents with a continuous pattern of low mood characterized by persistent sadness, physical fatigue, and a sense of helpless resignation that has been present for the past three years and three months. The patient reports a chronic subjective experience of emotional heaviness, with diminished motivation and energy, noting that even minor daily tasks require significant effort. He describes feeling physically drained throughout the day despite adequate rest, and endorses a pervasive belief that personal effort will not lead to meaningful improvement or change in his circumstances.\n\nThese symptoms have persisted for the majority of days over the past three years, with no period of sustained remission exceeding two months. There is no history of manic or hypomanic episodes. The clinical picture is associated with mild to moderate functional impairment, particularly in occupational performance and social engagement, though the patient has maintained employment.\n\nNo recent psychosocial stressors are reported. The patient’s single marital status and occupation are longstanding and temporally remote from symptom onset, with no indication that these factors precipitated the mood disturbance. A thorough review of systems reveals no medical conditions or substance use that account for the duration or nature of the presentation.",
+        "options": "\n    A. Schizoaffective Disorder (Bipolar Type)\n    B. Schizoaffective Disorder (Depressive Type)\n    C. Persistent Depressive Disorder\n    D. Bipolar I Disorder\n    ",
+        "answer": "C. Persistent Depressive Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D014",
+                "disease_name": "Persistent Depressive Disorder",
+                "sampled_features": {
+                    "disease_code": "D014",
+                    "disease_name": "Persistent Depressive Disorder",
+                    "sampled_diagnostic_criteria": {},
+                    "sampled_symptom_groups": {
+                        "dysthymic_symptoms": {
+                            "functional_impairment_required": true,
+                            "symptoms": [
+                                "S024",
+                                "S029",
+                                "S083"
+                            ],
+                            "duration": "3 years and 3 months",
+                            "name": "dysthymic_symptoms"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S024",
+                        "S029",
+                        "S083"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S024": {
+                            "name": "Depressed_Mood",
+                            "categoty": "depressive_episode",
+                            "description": "A state where a sad, empty, or hopeless mood persists.",
+                            "subtypes": {
+                                "Sadness": "A state where a sad or gloomy mood is maintained continuously."
+                            }
+                        },
+                        "S029": {
+                            "name": "Fatigue",
+                            "categoty": "depressive_episode",
+                            "description": "Persistent fatigue that is not relieved by rest and a marked lack of energy.",
+                            "subtypes": {
+                                "Physical Fatigue": "A state of physical exhaustion where the body feels heavy and easily tires even from minor activities."
+                            }
+                        },
+                        "S083": {
+                            "name": "Hopelessness",
+                            "categoty": "depressive_episode",
+                            "description": "A feeling of despair or having no hope for the future.",
+                            "subtypes": {
+                                "Helpless Resignation": "A state of helplessness and resignation, believing that nothing will change despite effort."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Schizoaffective Disorder (Bipolar Type)",
+                    "Schizoaffective Disorder (Depressive Type)",
+                    "Persistent Depressive Disorder",
+                    "Bipolar I Disorder"
+                ],
+                "answer_index": [
+                    2
+                ],
+                "index_types": [
+                    "Moderately likely option",
+                    "Moderately likely option",
+                    "answer",
+                    "Moderately likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D006",
+                        "disease_name": "Schizoaffective Disorder (Bipolar Type)",
+                        "shared_symptoms": [
+                            "S029",
+                            "S031",
+                            "S024",
+                            "S027",
+                            "S026"
+                        ]
+                    },
+                    {
+                        "disease_code": "D007",
+                        "disease_name": "Schizoaffective Disorder (Depressive Type)",
+                        "shared_symptoms": [
+                            "S029",
+                            "S031",
+                            "S024",
+                            "S027",
+                            "S026"
+                        ]
+                    },
+                    {
+                        "disease_code": "D014",
+                        "disease_name": "Persistent Depressive Disorder"
+                    },
+                    {
+                        "disease_code": "D008",
+                        "disease_name": "Bipolar I Disorder",
+                        "shared_symptoms": [
+                            "S029",
+                            "S031",
+                            "S024",
+                            "S027",
+                            "S026"
+                        ]
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 31\n- **Gender:** Male\n- **Occupation:** Cryptocurrency Trader\n- **Marital Status:** Single\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Persistent Depressive Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. dysthymic_symptoms Requirements:**\n- Sadness (A state where a sad or gloomy mood is maintained continuously.)\n- Physical Fatigue (A state of physical exhaustion where the body feels heavy and easily tires even from minor activities.)\n- Helpless Resignation (A state of helplessness and resignation, believing that nothing will change despite effort.)\nDuration of dysthymic_symptoms: 3 years and 3 months\nFunctional Impairment Due to dysthymic_symptoms: True\n\n**Critical Diagnostic Criteria:**"
+    }
+}
