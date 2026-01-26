@@ -1,0 +1,2202 @@
+{
+    "D004_l001": {
+        "question": "A 28-year-old single male police patrol officer presents with a 1-year history of persistent, fixed false beliefs concerning the sexual infidelity of a romantic partner, held with strong conviction despite lack of corroborating evidence. The content of the belief is circumscribed to romantic/sexual jealousy and is not accompanied by other bizarre or clearly implausible themes.\n\nHe reports frequent preoccupation with perceived evidence of unfaithfulness, including excessive monitoring behaviors and repeated questioning of the partner’s activities. These beliefs have led to recurrent interpersonal conflict and strain within the relationship but have not resulted in significant decline in occupational performance or broader social functioning. He continues to perform his duties as a patrol officer without documented disciplinary issues or noted cognitive or behavioral decline at work.\n\nThere is no reported history of disorganized thought processes, hallucinations, prominent mood episodes, or substance intoxication/withdrawal temporally associated with symptom onset. Insight into the irrational nature of the belief is markedly limited, though he is able to discuss the impact of the situation on his relationship. Overall, functioning remains relatively preserved aside from the consequences directly attributable to the delusional beliefs and related behaviors.",
+        "options": "\n    A. Delusional Disorder\n    B. Schizoaffective Disorder (Bipolar Type)\n    C. Schizophrenia\n    D. Schizoaffective Disorder (Depressive Type)\n    ",
+        "answer": "A. Delusional Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D004",
+                "disease_name": "Delusional Disorder",
+                "sampled_features": {
+                    "disease_code": "D004",
+                    "disease_name": "Delusional Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "additional_requirements": [
+                            "Functioning is not markedly impaired apart from the impact of the delusion(s) or its ramifications"
+                        ],
+                        "functional_impairment_required": false,
+                        "duration": "1 year"
+                    },
+                    "sampled_symptom_groups": {
+                        "delusions": {
+                            "symptoms": [
+                                "S019"
+                            ],
+                            "name": "delusions"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S019"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S019": {
+                            "name": "Delusions",
+                            "categoty": "psychotic_symptoms",
+                            "description": "Fixed beliefs that do not change easily, even in the face of contradictory evidence.",
+                            "subtypes": {
+                                "Jealous Delusions": "The conviction that one's spouse or romantic partner is being unfaithful without sufficient evidence."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Delusional Disorder",
+                    "Schizoaffective Disorder (Bipolar Type)",
+                    "Schizophrenia",
+                    "Schizoaffective Disorder (Depressive Type)"
+                ],
+                "answer_index": [
+                    0
+                ],
+                "index_types": [
+                    "answer",
+                    "Moderately likely option",
+                    "Moderately likely option",
+                    "Moderately likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D004",
+                        "disease_name": "Delusional Disorder"
+                    },
+                    {
+                        "disease_code": "D006",
+                        "disease_name": "Schizoaffective Disorder (Bipolar Type)",
+                        "shared_symptoms": [
+                            "S019"
+                        ]
+                    },
+                    {
+                        "disease_code": "D005",
+                        "disease_name": "Schizophrenia",
+                        "shared_symptoms": [
+                            "S019"
+                        ]
+                    },
+                    {
+                        "disease_code": "D007",
+                        "disease_name": "Schizoaffective Disorder (Depressive Type)",
+                        "shared_symptoms": [
+                            "S019"
+                        ]
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 28\n- **Gender:** Male\n- **Occupation:** Police Patrol Officer\n- **Marital Status:** Single\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Delusional Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. delusions Requirements:**\n- Jealous Delusions (The conviction that one's spouse or romantic partner is being unfaithful without sufficient evidence.)\n\n**Critical Diagnostic Criteria:**\n\n- Duration: 1 year\n\n- Functional Impairment: False\n\n- Additional Requirements:\n\n1) Functioning is not markedly impaired apart from the impact of the delusion(s) or its ramifications"
+    },
+    "D004_l002": {
+        "question": "A 50-year-old married male small business CEO presents with a 1-year history of fixed, non-bizarre persecutory beliefs specifically focused on his spouse’s presumed infidelity. He maintains a persistent conviction that his partner is romantically and sexually involved with others despite a lack of corroborating evidence and reassurance from family members.  \n\nThese beliefs are systematized and occupy significant mental preoccupation but do not appear to generalize beyond the marital relationship. There is no history of hallucinations, disorganized thought processes, or prominent mood episodes temporally linked to the suspicious beliefs. He denies thought insertion, withdrawal, or broadcasting, and there are no reports of bizarre or clearly implausible ideas.  \n\nOccupational functioning as a small business CEO remains largely intact, with preserved capacity for decision-making, planning, and interpersonal interactions in the workplace. Social functioning is generally maintained outside of marital conflict arising from the suspiciousness. Apart from relationship strain and repeated checking or questioning behaviors toward his spouse, there is no marked impairment in overall functioning. There is no reported substance misuse, and no prior psychiatric hospitalizations or psychotic episodes are documented.",
+        "options": "\n    A. Delusional Disorder\n    B. Schizoaffective Disorder (Bipolar Type)\n    C. Schizophrenia\n    D. Schizoaffective Disorder (Depressive Type)\n    ",
+        "answer": "A. Delusional Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D004",
+                "disease_name": "Delusional Disorder",
+                "sampled_features": {
+                    "disease_code": "D004",
+                    "disease_name": "Delusional Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "additional_requirements": [
+                            "Functioning is not markedly impaired apart from the impact of the delusion(s) or its ramifications"
+                        ],
+                        "functional_impairment_required": false,
+                        "duration": "1 year"
+                    },
+                    "sampled_symptom_groups": {
+                        "delusions": {
+                            "symptoms": [
+                                "S019"
+                            ],
+                            "name": "delusions"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S019"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S019": {
+                            "name": "Delusions",
+                            "categoty": "psychotic_symptoms",
+                            "description": "Fixed beliefs that do not change easily, even in the face of contradictory evidence.",
+                            "subtypes": {
+                                "Jealous Delusions": "The conviction that one's spouse or romantic partner is being unfaithful without sufficient evidence."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Delusional Disorder",
+                    "Schizoaffective Disorder (Bipolar Type)",
+                    "Schizophrenia",
+                    "Schizoaffective Disorder (Depressive Type)"
+                ],
+                "answer_index": [
+                    0
+                ],
+                "index_types": [
+                    "answer",
+                    "Moderately likely option",
+                    "Moderately likely option",
+                    "Moderately likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D004",
+                        "disease_name": "Delusional Disorder"
+                    },
+                    {
+                        "disease_code": "D006",
+                        "disease_name": "Schizoaffective Disorder (Bipolar Type)",
+                        "shared_symptoms": [
+                            "S019"
+                        ]
+                    },
+                    {
+                        "disease_code": "D005",
+                        "disease_name": "Schizophrenia",
+                        "shared_symptoms": [
+                            "S019"
+                        ]
+                    },
+                    {
+                        "disease_code": "D007",
+                        "disease_name": "Schizoaffective Disorder (Depressive Type)",
+                        "shared_symptoms": [
+                            "S019"
+                        ]
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 50\n- **Gender:** Male\n- **Occupation:** Small Business CEO\n- **Marital Status:** Married\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Delusional Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. delusions Requirements:**\n- Jealous Delusions (The conviction that one's spouse or romantic partner is being unfaithful without sufficient evidence.)\n\n**Critical Diagnostic Criteria:**\n\n- Duration: 1 year\n\n- Functional Impairment: False\n\n- Additional Requirements:\n\n1) Functioning is not markedly impaired apart from the impact of the delusion(s) or its ramifications"
+    },
+    "D004_l003": {
+        "question": "A 27-year-old single male software engineer at a startup presents with a 1-year history of fixed, non-bizarre delusional beliefs of an erotomanic nature. He is firmly convinced that a specific individual harbors romantic feelings toward him despite clear evidence to the contrary and the absence of any confirming interactions. He misinterprets neutral or incidental behaviors and communications from this person as coded messages or signs of affection.  \n\nThe delusional belief is systematized and persistent, with the patient spending significant time ruminating about this perceived relationship and planning future interactions. He reports heightened preoccupation when he encounters information or social media content related to the individual, which he views as confirmatory.  \n\nApart from these delusional beliefs and related preoccupations, he maintains stable occupational functioning in his software engineering role, preserves independent living skills, and sustains appropriate social interactions with colleagues and friends. There is no evidence of disorganized thought processes, hallucinations, or marked mood symptoms. Overall functioning is not significantly impaired outside of the consequences and behavioral ramifications of the erotomanic delusion itself.",
+        "options": "\n    A. Delusional Disorder\n    B. Schizoaffective Disorder (Bipolar Type)\n    C. Schizophrenia\n    D. Schizoaffective Disorder (Depressive Type)\n    ",
+        "answer": "A. Delusional Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D004",
+                "disease_name": "Delusional Disorder",
+                "sampled_features": {
+                    "disease_code": "D004",
+                    "disease_name": "Delusional Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "additional_requirements": [
+                            "Functioning is not markedly impaired apart from the impact of the delusion(s) or its ramifications"
+                        ],
+                        "functional_impairment_required": false,
+                        "duration": "1 year"
+                    },
+                    "sampled_symptom_groups": {
+                        "delusions": {
+                            "symptoms": [
+                                "S019"
+                            ],
+                            "name": "delusions"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S019"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S019": {
+                            "name": "Delusions",
+                            "categoty": "psychotic_symptoms",
+                            "description": "Fixed beliefs that do not change easily, even in the face of contradictory evidence.",
+                            "subtypes": {
+                                "Erotomanic Delusions": "The false belief that another person is in love with or has affection for them."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Delusional Disorder",
+                    "Schizoaffective Disorder (Bipolar Type)",
+                    "Schizophrenia",
+                    "Schizoaffective Disorder (Depressive Type)"
+                ],
+                "answer_index": [
+                    0
+                ],
+                "index_types": [
+                    "answer",
+                    "Moderately likely option",
+                    "Moderately likely option",
+                    "Moderately likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D004",
+                        "disease_name": "Delusional Disorder"
+                    },
+                    {
+                        "disease_code": "D006",
+                        "disease_name": "Schizoaffective Disorder (Bipolar Type)",
+                        "shared_symptoms": [
+                            "S019"
+                        ]
+                    },
+                    {
+                        "disease_code": "D005",
+                        "disease_name": "Schizophrenia",
+                        "shared_symptoms": [
+                            "S019"
+                        ]
+                    },
+                    {
+                        "disease_code": "D007",
+                        "disease_name": "Schizoaffective Disorder (Depressive Type)",
+                        "shared_symptoms": [
+                            "S019"
+                        ]
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 27\n- **Gender:** Male\n- **Occupation:** Software Engineer (Startup)\n- **Marital Status:** Single\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Delusional Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. delusions Requirements:**\n- Erotomanic Delusions (The false belief that another person is in love with or has affection for them.)\n\n**Critical Diagnostic Criteria:**\n\n- Duration: 1 year\n\n- Functional Impairment: False\n\n- Additional Requirements:\n\n1) Functioning is not markedly impaired apart from the impact of the delusion(s) or its ramifications"
+    },
+    "D004_l004": {
+        "question": "A 23-year-old single female cosmetics store manager presents with a 1-year history of fixed, non-bizarre delusional beliefs of an erotomanic nature. She is firmly convinced that a specific individual, with whom she has no actual intimate relationship, harbors strong romantic feelings toward her. She misinterprets neutral or incidental events as evidence of this supposed affection and maintains these beliefs despite clear contradictory information.\n\nApart from preoccupation with these beliefs and related behaviors (such as monitoring the other person’s activities or attempting contact based on her convictions), her overall occupational and social functioning remains largely preserved. She continues to manage her responsibilities at work effectively, with no significant decline in performance, and maintains appropriate self-care.\n\nThere is no report of disorganized thought processes, hallucinations, or marked mood episodes temporally linked to the delusional content. Insight into the pathological nature of her beliefs appears limited. No history is provided of substance use, neurological illness, or other general medical conditions that could account for the symptoms. Functioning is not markedly impaired beyond the direct consequences of the delusional system.",
+        "options": "\n    A. Delusional Disorder\n    B. Schizoaffective Disorder (Bipolar Type)\n    C. Schizophrenia\n    D. Schizoaffective Disorder (Depressive Type)\n    ",
+        "answer": "A. Delusional Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D004",
+                "disease_name": "Delusional Disorder",
+                "sampled_features": {
+                    "disease_code": "D004",
+                    "disease_name": "Delusional Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "additional_requirements": [
+                            "Functioning is not markedly impaired apart from the impact of the delusion(s) or its ramifications"
+                        ],
+                        "functional_impairment_required": false,
+                        "duration": "1 year"
+                    },
+                    "sampled_symptom_groups": {
+                        "delusions": {
+                            "symptoms": [
+                                "S019"
+                            ],
+                            "name": "delusions"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S019"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S019": {
+                            "name": "Delusions",
+                            "categoty": "psychotic_symptoms",
+                            "description": "Fixed beliefs that do not change easily, even in the face of contradictory evidence.",
+                            "subtypes": {
+                                "Erotomanic Delusions": "The false belief that another person is in love with or has affection for them."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Delusional Disorder",
+                    "Schizoaffective Disorder (Bipolar Type)",
+                    "Schizophrenia",
+                    "Schizoaffective Disorder (Depressive Type)"
+                ],
+                "answer_index": [
+                    0
+                ],
+                "index_types": [
+                    "answer",
+                    "Moderately likely option",
+                    "Moderately likely option",
+                    "Moderately likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D004",
+                        "disease_name": "Delusional Disorder"
+                    },
+                    {
+                        "disease_code": "D006",
+                        "disease_name": "Schizoaffective Disorder (Bipolar Type)",
+                        "shared_symptoms": [
+                            "S019"
+                        ]
+                    },
+                    {
+                        "disease_code": "D005",
+                        "disease_name": "Schizophrenia",
+                        "shared_symptoms": [
+                            "S019"
+                        ]
+                    },
+                    {
+                        "disease_code": "D007",
+                        "disease_name": "Schizoaffective Disorder (Depressive Type)",
+                        "shared_symptoms": [
+                            "S019"
+                        ]
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 23\n- **Gender:** Female\n- **Occupation:** Cosmetics Store Manager\n- **Marital Status:** Single\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Delusional Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. delusions Requirements:**\n- Erotomanic Delusions (The false belief that another person is in love with or has affection for them.)\n\n**Critical Diagnostic Criteria:**\n\n- Duration: 1 year\n\n- Functional Impairment: False\n\n- Additional Requirements:\n\n1) Functioning is not markedly impaired apart from the impact of the delusion(s) or its ramifications"
+    },
+    "D004_l005": {
+        "question": "A 25-year-old single male convenience store night clerk presents with a 1-year history of fixed false beliefs characterized by pervasive nihilistic content. He reports a persistent conviction that global annihilation or a catastrophic end of the world is inevitable and imminent, despite clear evidence to the contrary and reassurance from others. The belief is rigid, not amenable to logical counterargument, and is not culturally sanctioned.\n\nOutside of these beliefs, the patient maintains baseline occupational functioning, arriving to work on time, completing assigned tasks, and managing routine interpersonal interactions with coworkers and customers. Activities of daily living and self-care are preserved. There is no reported history of disorganized speech, grossly disorganized or catatonic behavior, or prominent hallucinations. Mood symptoms, when present, appear secondary to and circumscribed by the content of the delusional belief rather than forming a pervasive or independent syndrome.\n\nThe delusional system does not significantly impair his overall functioning beyond associated preoccupation and anxiety about the anticipated catastrophe. Insight into the pathological nature of his belief is markedly limited. There is no evidence of substance-induced etiology or a general medical condition contributing to his symptoms.",
+        "options": "\n    A. Delusional Disorder\n    B. Schizoaffective Disorder (Bipolar Type)\n    C. Schizophrenia\n    D. Schizoaffective Disorder (Depressive Type)\n    ",
+        "answer": "A. Delusional Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D004",
+                "disease_name": "Delusional Disorder",
+                "sampled_features": {
+                    "disease_code": "D004",
+                    "disease_name": "Delusional Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "additional_requirements": [
+                            "Functioning is not markedly impaired apart from the impact of the delusion(s) or its ramifications"
+                        ],
+                        "functional_impairment_required": false,
+                        "duration": "1 year"
+                    },
+                    "sampled_symptom_groups": {
+                        "delusions": {
+                            "symptoms": [
+                                "S019"
+                            ],
+                            "name": "delusions"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S019"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S019": {
+                            "name": "Delusions",
+                            "categoty": "psychotic_symptoms",
+                            "description": "Fixed beliefs that do not change easily, even in the face of contradictory evidence.",
+                            "subtypes": {
+                                "Nihilistic Delusions": "A destructive or negative conviction that the world is ending or that a major catastrophe will occur."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Delusional Disorder",
+                    "Schizoaffective Disorder (Bipolar Type)",
+                    "Schizophrenia",
+                    "Schizoaffective Disorder (Depressive Type)"
+                ],
+                "answer_index": [
+                    0
+                ],
+                "index_types": [
+                    "answer",
+                    "Moderately likely option",
+                    "Moderately likely option",
+                    "Moderately likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D004",
+                        "disease_name": "Delusional Disorder"
+                    },
+                    {
+                        "disease_code": "D006",
+                        "disease_name": "Schizoaffective Disorder (Bipolar Type)",
+                        "shared_symptoms": [
+                            "S019"
+                        ]
+                    },
+                    {
+                        "disease_code": "D005",
+                        "disease_name": "Schizophrenia",
+                        "shared_symptoms": [
+                            "S019"
+                        ]
+                    },
+                    {
+                        "disease_code": "D007",
+                        "disease_name": "Schizoaffective Disorder (Depressive Type)",
+                        "shared_symptoms": [
+                            "S019"
+                        ]
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 25\n- **Gender:** Male\n- **Occupation:** Convenience Store Night Clerk\n- **Marital Status:** Single\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Delusional Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. delusions Requirements:**\n- Nihilistic Delusions (A destructive or negative conviction that the world is ending or that a major catastrophe will occur.)\n\n**Critical Diagnostic Criteria:**\n\n- Duration: 1 year\n\n- Functional Impairment: False\n\n- Additional Requirements:\n\n1) Functioning is not markedly impaired apart from the impact of the delusion(s) or its ramifications"
+    },
+    "D004_l006": {
+        "question": "A 35-year-old single female PhD candidate presents with a 1 year and 2 month history of fixed, non-bizarre delusional beliefs of an erotomanic nature, characterized by persistent conviction that a particular individual harbors romantic interest in her despite clear contradictory evidence. The belief is systematized and consistently maintained across settings, without recognized doubt or fluctuation in intensity.\n\nApart from behaviors and preoccupations directly related to these beliefs (including time spent monitoring perceived signals of affection and interpreting neutral interactions as confirmatory), her social and occupational functioning remains largely preserved. She continues to engage in doctoral research activities, manage academic responsibilities, and maintain independent living skills without significant deterioration.\n\nThere is no reported disorganization of thought, no prominent hallucinations, and no evidence of mood episodes temporally aligned with the delusional content. Insight into the irrationality of the belief is absent, although the patient is otherwise able to discuss daily life and academic pressures coherently. No significant behavioral disturbance, agitation, or aggression has been observed, and there is no reported substance use or medical condition accounting for the presentation.",
+        "options": "\n    A. Delusional Disorder\n    B. Schizophrenia\n    C. Schizoaffective Disorder (Bipolar Type)\n    D. Schizoaffective Disorder (Depressive Type)\n    ",
+        "answer": "A. Delusional Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D004",
+                "disease_name": "Delusional Disorder",
+                "sampled_features": {
+                    "disease_code": "D004",
+                    "disease_name": "Delusional Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "additional_requirements": [
+                            "Functioning is not markedly impaired apart from the impact of the delusion(s) or its ramifications"
+                        ],
+                        "functional_impairment_required": false,
+                        "duration": "1 year and 2 months"
+                    },
+                    "sampled_symptom_groups": {
+                        "delusions": {
+                            "symptoms": [
+                                "S019"
+                            ],
+                            "name": "delusions"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S019"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S019": {
+                            "name": "Delusions",
+                            "categoty": "psychotic_symptoms",
+                            "description": "Fixed beliefs that do not change easily, even in the face of contradictory evidence.",
+                            "subtypes": {
+                                "Erotomanic Delusions": "The false belief that another person is in love with or has affection for them."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Delusional Disorder",
+                    "Schizophrenia",
+                    "Schizoaffective Disorder (Bipolar Type)",
+                    "Schizoaffective Disorder (Depressive Type)"
+                ],
+                "answer_index": [
+                    0
+                ],
+                "index_types": [
+                    "answer",
+                    "Moderately likely option",
+                    "Moderately likely option",
+                    "Moderately likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D004",
+                        "disease_name": "Delusional Disorder"
+                    },
+                    {
+                        "disease_code": "D005",
+                        "disease_name": "Schizophrenia",
+                        "shared_symptoms": [
+                            "S019"
+                        ]
+                    },
+                    {
+                        "disease_code": "D006",
+                        "disease_name": "Schizoaffective Disorder (Bipolar Type)",
+                        "shared_symptoms": [
+                            "S019"
+                        ]
+                    },
+                    {
+                        "disease_code": "D007",
+                        "disease_name": "Schizoaffective Disorder (Depressive Type)",
+                        "shared_symptoms": [
+                            "S019"
+                        ]
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 35\n- **Gender:** Female\n- **Occupation:** PhD Candidate (Thesis Pressure)\n- **Marital Status:** Single\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Delusional Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. delusions Requirements:**\n- Erotomanic Delusions (The false belief that another person is in love with or has affection for them.)\n\n**Critical Diagnostic Criteria:**\n\n- Duration: 1 year and 2 months\n\n- Functional Impairment: False\n\n- Additional Requirements:\n\n1) Functioning is not markedly impaired apart from the impact of the delusion(s) or its ramifications"
+    },
+    "D004_l007": {
+        "question": "A 46-year-old married male truck driver presents with a 1 year and 2 month history of fixed, non-bizarre psychotic symptoms characterized by persistent nihilistic beliefs. The patient is firmly convinced that a catastrophic global event is imminent and that normal societal functioning will soon cease. These convictions are held with strong conviction despite reassurance and lack of corroborating evidence.\n\nHe reports organizing his daily life and routines around these beliefs, including heightened preoccupation with news and environmental cues he interprets as confirming an impending catastrophe. Apart from behaviors and decisions directly stemming from these beliefs, his occupational functioning as a truck driver and his role within the family remain largely preserved, with no marked decline in performance reported by collateral sources.\n\nThere is no evidence of disorganized thought processes, hallucinations, prominent mood symptoms, or cognitive decline. His self-care, sleep, and appetite are maintained. Insight into the pathological nature of his beliefs is absent; however, he remains cooperative in evaluation. Overall functioning is not markedly impaired aside from the consequences and behavioral adjustments associated with his fixed nihilistic convictions.",
+        "options": "\n    A. Delusional Disorder\n    B. Schizophrenia\n    C. Schizoaffective Disorder (Bipolar Type)\n    D. Schizoaffective Disorder (Depressive Type)\n    ",
+        "answer": "A. Delusional Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D004",
+                "disease_name": "Delusional Disorder",
+                "sampled_features": {
+                    "disease_code": "D004",
+                    "disease_name": "Delusional Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "additional_requirements": [
+                            "Functioning is not markedly impaired apart from the impact of the delusion(s) or its ramifications"
+                        ],
+                        "functional_impairment_required": false,
+                        "duration": "1 year and 2 months"
+                    },
+                    "sampled_symptom_groups": {
+                        "delusions": {
+                            "symptoms": [
+                                "S019"
+                            ],
+                            "name": "delusions"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S019"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S019": {
+                            "name": "Delusions",
+                            "categoty": "psychotic_symptoms",
+                            "description": "Fixed beliefs that do not change easily, even in the face of contradictory evidence.",
+                            "subtypes": {
+                                "Nihilistic Delusions": "A destructive or negative conviction that the world is ending or that a major catastrophe will occur."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Delusional Disorder",
+                    "Schizophrenia",
+                    "Schizoaffective Disorder (Bipolar Type)",
+                    "Schizoaffective Disorder (Depressive Type)"
+                ],
+                "answer_index": [
+                    0
+                ],
+                "index_types": [
+                    "answer",
+                    "Moderately likely option",
+                    "Moderately likely option",
+                    "Moderately likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D004",
+                        "disease_name": "Delusional Disorder"
+                    },
+                    {
+                        "disease_code": "D005",
+                        "disease_name": "Schizophrenia",
+                        "shared_symptoms": [
+                            "S019"
+                        ]
+                    },
+                    {
+                        "disease_code": "D006",
+                        "disease_name": "Schizoaffective Disorder (Bipolar Type)",
+                        "shared_symptoms": [
+                            "S019"
+                        ]
+                    },
+                    {
+                        "disease_code": "D007",
+                        "disease_name": "Schizoaffective Disorder (Depressive Type)",
+                        "shared_symptoms": [
+                            "S019"
+                        ]
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 46\n- **Gender:** Male\n- **Occupation:** Truck Driver\n- **Marital Status:** Married\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Delusional Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. delusions Requirements:**\n- Nihilistic Delusions (A destructive or negative conviction that the world is ending or that a major catastrophe will occur.)\n\n**Critical Diagnostic Criteria:**\n\n- Duration: 1 year and 2 months\n\n- Functional Impairment: False\n\n- Additional Requirements:\n\n1) Functioning is not markedly impaired apart from the impact of the delusion(s) or its ramifications"
+    },
+    "D004_l008": {
+        "question": "A 27-year-old single female freelance voice actress presents with a 1 year and 2 month history of fixed, non-bizarre, grandiose beliefs. She persistently maintains that she possesses exceptional and unique abilities and influence beyond what is supported by her actual achievements or objective evidence. These beliefs are firmly held despite contrary information and are not shared by her cultural or professional community.\n\nApart from behaviors and decisions directly related to these grandiose ideas (e.g., career choices, expectations of recognition, and interactions framed around her perceived special status), her overall functioning in social, occupational, and self-care domains remains largely preserved. She continues to work as a voice actress, manage her daily activities, and maintain basic interpersonal relationships without significant deterioration.\n\nThere is no reported history of disorganized thought processes, hallucinations, prominent mood episodes, or cognitive decline. Insight into the irrational nature of these beliefs is limited, but she does not appear overtly distressed by them and seeks care primarily due to others’ concern. No substance use, neurological condition, or general medical illness has been identified to account for the presentation.",
+        "options": "\n    A. Delusional Disorder\n    B. Schizophrenia\n    C. Schizoaffective Disorder (Bipolar Type)\n    D. Schizoaffective Disorder (Depressive Type)\n    ",
+        "answer": "A. Delusional Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D004",
+                "disease_name": "Delusional Disorder",
+                "sampled_features": {
+                    "disease_code": "D004",
+                    "disease_name": "Delusional Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "additional_requirements": [
+                            "Functioning is not markedly impaired apart from the impact of the delusion(s) or its ramifications"
+                        ],
+                        "functional_impairment_required": false,
+                        "duration": "1 year and 2 months"
+                    },
+                    "sampled_symptom_groups": {
+                        "delusions": {
+                            "symptoms": [
+                                "S019"
+                            ],
+                            "name": "delusions"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S019"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S019": {
+                            "name": "Delusions",
+                            "categoty": "psychotic_symptoms",
+                            "description": "Fixed beliefs that do not change easily, even in the face of contradictory evidence.",
+                            "subtypes": {
+                                "Grandiose Delusions": "The false belief that one possesses special abilities, power, or fame."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Delusional Disorder",
+                    "Schizophrenia",
+                    "Schizoaffective Disorder (Bipolar Type)",
+                    "Schizoaffective Disorder (Depressive Type)"
+                ],
+                "answer_index": [
+                    0
+                ],
+                "index_types": [
+                    "answer",
+                    "Moderately likely option",
+                    "Moderately likely option",
+                    "Moderately likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D004",
+                        "disease_name": "Delusional Disorder"
+                    },
+                    {
+                        "disease_code": "D005",
+                        "disease_name": "Schizophrenia",
+                        "shared_symptoms": [
+                            "S019"
+                        ]
+                    },
+                    {
+                        "disease_code": "D006",
+                        "disease_name": "Schizoaffective Disorder (Bipolar Type)",
+                        "shared_symptoms": [
+                            "S019"
+                        ]
+                    },
+                    {
+                        "disease_code": "D007",
+                        "disease_name": "Schizoaffective Disorder (Depressive Type)",
+                        "shared_symptoms": [
+                            "S019"
+                        ]
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 27\n- **Gender:** Female\n- **Occupation:** Voice Actress (Freelance)\n- **Marital Status:** Single\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Delusional Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. delusions Requirements:**\n- Grandiose Delusions (The false belief that one possesses special abilities, power, or fame.)\n\n**Critical Diagnostic Criteria:**\n\n- Duration: 1 year and 2 months\n\n- Functional Impairment: False\n\n- Additional Requirements:\n\n1) Functioning is not markedly impaired apart from the impact of the delusion(s) or its ramifications"
+    },
+    "D004_l009": {
+        "question": "A 31-year-old single male air traffic controller presents with a 1 year 2 month history of fixed persecutory beliefs focused on romantic infidelity. He is preoccupied with the unfounded conviction that a current romantic partner is engaging in sexual or emotional relationships with others despite an absence of corroborating evidence. He reports repeatedly scrutinizing the partner’s behavior, communications, and social contacts, and persistently interpreting ambiguous or benign situations as proof of unfaithfulness.  \n\nThe beliefs are firmly held, not amenable to logical challenge, and occupy a significant portion of his mental activity; however, there is no associated disorganization of thought, no prominent hallucinations, and no clear mood episodes temporally linked to the onset or maintenance of these beliefs. Outside of the delusional context, his behavior, cognition, and social interactions remain organized and appropriate. Occupational functioning as an air traffic controller is preserved, with no noted performance decline or disciplinary concerns. There is no reported substance misuse or relevant medical or neurological history. Overall functioning is not markedly impaired apart from interpersonal conflict and distress directly stemming from the fixed belief of partner infidelity.",
+        "options": "\n    A. Delusional Disorder\n    B. Schizophrenia\n    C. Schizoaffective Disorder (Bipolar Type)\n    D. Schizoaffective Disorder (Depressive Type)\n    ",
+        "answer": "A. Delusional Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D004",
+                "disease_name": "Delusional Disorder",
+                "sampled_features": {
+                    "disease_code": "D004",
+                    "disease_name": "Delusional Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "additional_requirements": [
+                            "Functioning is not markedly impaired apart from the impact of the delusion(s) or its ramifications"
+                        ],
+                        "functional_impairment_required": false,
+                        "duration": "1 year and 2 months"
+                    },
+                    "sampled_symptom_groups": {
+                        "delusions": {
+                            "symptoms": [
+                                "S019"
+                            ],
+                            "name": "delusions"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S019"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S019": {
+                            "name": "Delusions",
+                            "categoty": "psychotic_symptoms",
+                            "description": "Fixed beliefs that do not change easily, even in the face of contradictory evidence.",
+                            "subtypes": {
+                                "Jealous Delusions": "The conviction that one's spouse or romantic partner is being unfaithful without sufficient evidence."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Delusional Disorder",
+                    "Schizophrenia",
+                    "Schizoaffective Disorder (Bipolar Type)",
+                    "Schizoaffective Disorder (Depressive Type)"
+                ],
+                "answer_index": [
+                    0
+                ],
+                "index_types": [
+                    "answer",
+                    "Moderately likely option",
+                    "Moderately likely option",
+                    "Moderately likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D004",
+                        "disease_name": "Delusional Disorder"
+                    },
+                    {
+                        "disease_code": "D005",
+                        "disease_name": "Schizophrenia",
+                        "shared_symptoms": [
+                            "S019"
+                        ]
+                    },
+                    {
+                        "disease_code": "D006",
+                        "disease_name": "Schizoaffective Disorder (Bipolar Type)",
+                        "shared_symptoms": [
+                            "S019"
+                        ]
+                    },
+                    {
+                        "disease_code": "D007",
+                        "disease_name": "Schizoaffective Disorder (Depressive Type)",
+                        "shared_symptoms": [
+                            "S019"
+                        ]
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 31\n- **Gender:** Male\n- **Occupation:** Air Traffic Controller\n- **Marital Status:** Single\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Delusional Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. delusions Requirements:**\n- Jealous Delusions (The conviction that one's spouse or romantic partner is being unfaithful without sufficient evidence.)\n\n**Critical Diagnostic Criteria:**\n\n- Duration: 1 year and 2 months\n\n- Functional Impairment: False\n\n- Additional Requirements:\n\n1) Functioning is not markedly impaired apart from the impact of the delusion(s) or its ramifications"
+    },
+    "D004_l010": {
+        "question": "A 28-year-old single male police patrol officer presents with a 1 year and 2 month history of fixed, non-bizarre somatic beliefs concerning a serious bodily abnormality, despite multiple prior medical evaluations reported as unremarkable. He remains firmly convinced of an internal physical defect and persistently seeks explanations for perceived bodily malfunction.\n\nApart from preoccupation with these somatic concerns, his occupational functioning as a patrol officer is largely preserved; he continues to meet job duties and maintains basic activities of daily living. Socially, he reports some reduction in recreational engagement, attributed to worry about his perceived physical condition, but retains contact with colleagues and family.\n\nThere is no evidence of disorganized thought process, hallucinations, or broader paranoid ideation outside the somatic theme. Mood symptoms, if present, appear secondary to and contingent on his fixed bodily beliefs rather than pervasive or independent. Insight into the psychological nature of his condition is markedly limited; he attributes all distress to an assumed medical illness. There is no history of substance misuse, significant neurological illness, or prior major psychiatric episodes. Overall functioning is not markedly impaired aside from the impact of the somatic belief and its consequences.",
+        "options": "\n    A. Delusional Disorder\n    B. Schizophrenia\n    C. Schizoaffective Disorder (Bipolar Type)\n    D. Schizoaffective Disorder (Depressive Type)\n    ",
+        "answer": "A. Delusional Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D004",
+                "disease_name": "Delusional Disorder",
+                "sampled_features": {
+                    "disease_code": "D004",
+                    "disease_name": "Delusional Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "additional_requirements": [
+                            "Functioning is not markedly impaired apart from the impact of the delusion(s) or its ramifications"
+                        ],
+                        "functional_impairment_required": false,
+                        "duration": "1 year and 2 months"
+                    },
+                    "sampled_symptom_groups": {
+                        "delusions": {
+                            "symptoms": [
+                                "S019"
+                            ],
+                            "name": "delusions"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S019"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S019": {
+                            "name": "Delusions",
+                            "categoty": "psychotic_symptoms",
+                            "description": "Fixed beliefs that do not change easily, even in the face of contradictory evidence.",
+                            "subtypes": {
+                                "Somatic Delusions": "The baseless conviction that there is a serious abnormality with one's body or organs."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Delusional Disorder",
+                    "Schizophrenia",
+                    "Schizoaffective Disorder (Bipolar Type)",
+                    "Schizoaffective Disorder (Depressive Type)"
+                ],
+                "answer_index": [
+                    0
+                ],
+                "index_types": [
+                    "answer",
+                    "Moderately likely option",
+                    "Moderately likely option",
+                    "Moderately likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D004",
+                        "disease_name": "Delusional Disorder"
+                    },
+                    {
+                        "disease_code": "D005",
+                        "disease_name": "Schizophrenia",
+                        "shared_symptoms": [
+                            "S019"
+                        ]
+                    },
+                    {
+                        "disease_code": "D006",
+                        "disease_name": "Schizoaffective Disorder (Bipolar Type)",
+                        "shared_symptoms": [
+                            "S019"
+                        ]
+                    },
+                    {
+                        "disease_code": "D007",
+                        "disease_name": "Schizoaffective Disorder (Depressive Type)",
+                        "shared_symptoms": [
+                            "S019"
+                        ]
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 28\n- **Gender:** Male\n- **Occupation:** Police Patrol Officer\n- **Marital Status:** Single\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Delusional Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. delusions Requirements:**\n- Somatic Delusions (The baseless conviction that there is a serious abnormality with one's body or organs.)\n\n**Critical Diagnostic Criteria:**\n\n- Duration: 1 year and 2 months\n\n- Functional Impairment: False\n\n- Additional Requirements:\n\n1) Functioning is not markedly impaired apart from the impact of the delusion(s) or its ramifications"
+    },
+    "D004_l011": {
+        "question": "A 35-year-old married female corporate lawyer presents with a 9-month history of fixed, non-bizarre delusional beliefs of a referential nature. She persistently interprets neutral events and ordinary remarks as being directed specifically toward her or carrying special personal meaning. These beliefs are held with firm conviction despite contrary evidence and reassurance.\n\nApart from these delusional interpretations and behaviors stemming from them, her occupational, social, and self-care functioning remains intact. She continues to perform effectively in her professional role, maintains stable relationships, and manages daily responsibilities without notable decline. There is no reported history of disorganized thought processes, hallucinations, significant mood symptoms, or cognitive decline.\n\nInsight into the irrational nature of her beliefs is markedly limited, and she does not view her experiences as pathological. The symptoms have been stable over the 9-month period without episodic exacerbations or remissions. No substance use, neurological illness, or general medical condition has been identified to account for the presentation. Overall functioning is not markedly impaired aside from the direct consequences of the fixed referential beliefs.",
+        "options": "\n    A. Schizoaffective Disorder (Depressive Type)\n    B. Schizoaffective Disorder (Bipolar Type)\n    C. Delusional Disorder\n    D. Schizophrenia\n    ",
+        "answer": "C. Delusional Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D004",
+                "disease_name": "Delusional Disorder",
+                "sampled_features": {
+                    "disease_code": "D004",
+                    "disease_name": "Delusional Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "additional_requirements": [
+                            "Functioning is not markedly impaired apart from the impact of the delusion(s) or its ramifications"
+                        ],
+                        "functional_impairment_required": false,
+                        "duration": "9 months"
+                    },
+                    "sampled_symptom_groups": {
+                        "delusions": {
+                            "symptoms": [
+                                "S019"
+                            ],
+                            "name": "delusions"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S019"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S019": {
+                            "name": "Delusions",
+                            "categoty": "psychotic_symptoms",
+                            "description": "Fixed beliefs that do not change easily, even in the face of contradictory evidence.",
+                            "subtypes": {
+                                "Referential Delusions": "The conviction that ordinary events, remarks, or behaviors have specific relevance to oneself."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Schizoaffective Disorder (Depressive Type)",
+                    "Schizoaffective Disorder (Bipolar Type)",
+                    "Delusional Disorder",
+                    "Schizophrenia"
+                ],
+                "answer_index": [
+                    2
+                ],
+                "index_types": [
+                    "Moderately likely option",
+                    "Moderately likely option",
+                    "answer",
+                    "Moderately likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D007",
+                        "disease_name": "Schizoaffective Disorder (Depressive Type)",
+                        "shared_symptoms": [
+                            "S019"
+                        ]
+                    },
+                    {
+                        "disease_code": "D006",
+                        "disease_name": "Schizoaffective Disorder (Bipolar Type)",
+                        "shared_symptoms": [
+                            "S019"
+                        ]
+                    },
+                    {
+                        "disease_code": "D004",
+                        "disease_name": "Delusional Disorder"
+                    },
+                    {
+                        "disease_code": "D005",
+                        "disease_name": "Schizophrenia",
+                        "shared_symptoms": [
+                            "S019"
+                        ]
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 35\n- **Gender:** Female\n- **Occupation:** Corporate Lawyer\n- **Marital Status:** Married\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Delusional Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. delusions Requirements:**\n- Referential Delusions (The conviction that ordinary events, remarks, or behaviors have specific relevance to oneself.)\n\n**Critical Diagnostic Criteria:**\n\n- Duration: 9 months\n\n- Functional Impairment: False\n\n- Additional Requirements:\n\n1) Functioning is not markedly impaired apart from the impact of the delusion(s) or its ramifications"
+    },
+    "D004_l012": {
+        "question": "A 35-year-old divorced female bank teller presents with a 9‑month history of fixed, non-bizarre delusional beliefs. She reports a persistent conviction that neutral events and communications in her environment carry covert, personalized meanings directed specifically toward her. This includes interpreting ordinary comments, gestures, and media content as coded messages referring to her, despite lack of corroborating evidence.\n\nApart from these beliefs and behavior arising directly from them (e.g., increased vigilance, spending time monitoring conversations or media for perceived messages), her occupational and social functioning remains largely intact. She continues to perform job duties reliably as a bank teller, maintains appropriate interpersonal interactions at work, and manages activities of daily living independently. There is no evidence of prominent disorganization, hallucinations, or significant mood symptoms that would account for the clinical picture. Insight into the irrational nature of these beliefs is limited. No marked cognitive decline or substance use is reported. The presentation is characterized by stable, circumscribed referential delusions with preserved global functioning outside the delusional context.",
+        "options": "\n    A. Schizoaffective Disorder (Depressive Type)\n    B. Schizoaffective Disorder (Bipolar Type)\n    C. Delusional Disorder\n    D. Schizophrenia\n    ",
+        "answer": "C. Delusional Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D004",
+                "disease_name": "Delusional Disorder",
+                "sampled_features": {
+                    "disease_code": "D004",
+                    "disease_name": "Delusional Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "additional_requirements": [
+                            "Functioning is not markedly impaired apart from the impact of the delusion(s) or its ramifications"
+                        ],
+                        "functional_impairment_required": false,
+                        "duration": "9 months"
+                    },
+                    "sampled_symptom_groups": {
+                        "delusions": {
+                            "symptoms": [
+                                "S019"
+                            ],
+                            "name": "delusions"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S019"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S019": {
+                            "name": "Delusions",
+                            "categoty": "psychotic_symptoms",
+                            "description": "Fixed beliefs that do not change easily, even in the face of contradictory evidence.",
+                            "subtypes": {
+                                "Referential Delusions": "The conviction that ordinary events, remarks, or behaviors have specific relevance to oneself."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Schizoaffective Disorder (Depressive Type)",
+                    "Schizoaffective Disorder (Bipolar Type)",
+                    "Delusional Disorder",
+                    "Schizophrenia"
+                ],
+                "answer_index": [
+                    2
+                ],
+                "index_types": [
+                    "Moderately likely option",
+                    "Moderately likely option",
+                    "answer",
+                    "Moderately likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D007",
+                        "disease_name": "Schizoaffective Disorder (Depressive Type)",
+                        "shared_symptoms": [
+                            "S019"
+                        ]
+                    },
+                    {
+                        "disease_code": "D006",
+                        "disease_name": "Schizoaffective Disorder (Bipolar Type)",
+                        "shared_symptoms": [
+                            "S019"
+                        ]
+                    },
+                    {
+                        "disease_code": "D004",
+                        "disease_name": "Delusional Disorder"
+                    },
+                    {
+                        "disease_code": "D005",
+                        "disease_name": "Schizophrenia",
+                        "shared_symptoms": [
+                            "S019"
+                        ]
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 35\n- **Gender:** Female\n- **Occupation:** Bank Teller\n- **Marital Status:** Divorced\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Delusional Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. delusions Requirements:**\n- Referential Delusions (The conviction that ordinary events, remarks, or behaviors have specific relevance to oneself.)\n\n**Critical Diagnostic Criteria:**\n\n- Duration: 9 months\n\n- Functional Impairment: False\n\n- Additional Requirements:\n\n1) Functioning is not markedly impaired apart from the impact of the delusion(s) or its ramifications"
+    },
+    "D004_l013": {
+        "question": "A 49-year-old single female librarian presents with a 9-month history of fixed false beliefs characterized by persistent nihilistic delusions. She maintains a firm conviction that the world is approaching complete destruction and that an unavoidable global catastrophe is imminent, despite clear evidence to the contrary and reassurance from others.\n\nThe delusional content is circumscribed and does not consistently generalize to other areas of thinking. There is no reported history of hallucinations, disorganized thought processes, or prominent mood episodes associated with these beliefs. Insight is notably limited, as she does not recognize these convictions as unreasonable or excessive.\n\nOccupationally, she continues to perform her work duties as a librarian, and her overall psychosocial functioning remains largely preserved. Any minor disruptions in routine activities appear directly related to preoccupations and behaviors stemming from her catastrophic beliefs rather than from broad cognitive or functional decline. There is no significant deterioration in self-care, interpersonal functioning, or independent living skills outside of the influence of the delusional ideation.",
+        "options": "\n    A. Schizoaffective Disorder (Depressive Type)\n    B. Schizoaffective Disorder (Bipolar Type)\n    C. Delusional Disorder\n    D. Schizophrenia\n    ",
+        "answer": "C. Delusional Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D004",
+                "disease_name": "Delusional Disorder",
+                "sampled_features": {
+                    "disease_code": "D004",
+                    "disease_name": "Delusional Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "additional_requirements": [
+                            "Functioning is not markedly impaired apart from the impact of the delusion(s) or its ramifications"
+                        ],
+                        "functional_impairment_required": false,
+                        "duration": "9 months"
+                    },
+                    "sampled_symptom_groups": {
+                        "delusions": {
+                            "symptoms": [
+                                "S019"
+                            ],
+                            "name": "delusions"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S019"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S019": {
+                            "name": "Delusions",
+                            "categoty": "psychotic_symptoms",
+                            "description": "Fixed beliefs that do not change easily, even in the face of contradictory evidence.",
+                            "subtypes": {
+                                "Nihilistic Delusions": "A destructive or negative conviction that the world is ending or that a major catastrophe will occur."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Schizoaffective Disorder (Depressive Type)",
+                    "Schizoaffective Disorder (Bipolar Type)",
+                    "Delusional Disorder",
+                    "Schizophrenia"
+                ],
+                "answer_index": [
+                    2
+                ],
+                "index_types": [
+                    "Moderately likely option",
+                    "Moderately likely option",
+                    "answer",
+                    "Moderately likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D007",
+                        "disease_name": "Schizoaffective Disorder (Depressive Type)",
+                        "shared_symptoms": [
+                            "S019"
+                        ]
+                    },
+                    {
+                        "disease_code": "D006",
+                        "disease_name": "Schizoaffective Disorder (Bipolar Type)",
+                        "shared_symptoms": [
+                            "S019"
+                        ]
+                    },
+                    {
+                        "disease_code": "D004",
+                        "disease_name": "Delusional Disorder"
+                    },
+                    {
+                        "disease_code": "D005",
+                        "disease_name": "Schizophrenia",
+                        "shared_symptoms": [
+                            "S019"
+                        ]
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 49\n- **Gender:** Female\n- **Occupation:** Librarian\n- **Marital Status:** Single\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Delusional Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. delusions Requirements:**\n- Nihilistic Delusions (A destructive or negative conviction that the world is ending or that a major catastrophe will occur.)\n\n**Critical Diagnostic Criteria:**\n\n- Duration: 9 months\n\n- Functional Impairment: False\n\n- Additional Requirements:\n\n1) Functioning is not markedly impaired apart from the impact of the delusion(s) or its ramifications"
+    },
+    "D004_l014": {
+        "question": "A 33-year-old divorced male private investigator presents with a 9-month history of fixed, non-bizarre nihilistic beliefs. He is firmly convinced that a catastrophic global event is imminent and interprets ordinary information as confirming that the world is nearing destruction. These beliefs are held with strong conviction despite lack of corroborating evidence and reassurance from others.\n\nApart from behaviors and decisions shaped by these beliefs (e.g., excessive focus on gathering “evidence” of impending catastrophe and preoccupation with related media), his occupational and social functioning remain largely preserved. He continues to work as a private investigator, maintains basic self-care, and manages daily responsibilities without significant decline in overall performance.\n\nHe does not report prominent hallucinations, disorganized thought processes, or marked mood episodes. There is no evidence of gross cognitive impairment, substance intoxication, or withdrawal explaining the presentation. Insight into the irrational nature of his beliefs is significantly limited. Outside of the impact of the fixed nihilistic ideas and their consequences, his functioning is not markedly impaired.",
+        "options": "\n    A. Schizoaffective Disorder (Depressive Type)\n    B. Schizoaffective Disorder (Bipolar Type)\n    C. Delusional Disorder\n    D. Schizophrenia\n    ",
+        "answer": "C. Delusional Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D004",
+                "disease_name": "Delusional Disorder",
+                "sampled_features": {
+                    "disease_code": "D004",
+                    "disease_name": "Delusional Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "additional_requirements": [
+                            "Functioning is not markedly impaired apart from the impact of the delusion(s) or its ramifications"
+                        ],
+                        "functional_impairment_required": false,
+                        "duration": "9 months"
+                    },
+                    "sampled_symptom_groups": {
+                        "delusions": {
+                            "symptoms": [
+                                "S019"
+                            ],
+                            "name": "delusions"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S019"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S019": {
+                            "name": "Delusions",
+                            "categoty": "psychotic_symptoms",
+                            "description": "Fixed beliefs that do not change easily, even in the face of contradictory evidence.",
+                            "subtypes": {
+                                "Nihilistic Delusions": "A destructive or negative conviction that the world is ending or that a major catastrophe will occur."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Schizoaffective Disorder (Depressive Type)",
+                    "Schizoaffective Disorder (Bipolar Type)",
+                    "Delusional Disorder",
+                    "Schizophrenia"
+                ],
+                "answer_index": [
+                    2
+                ],
+                "index_types": [
+                    "Moderately likely option",
+                    "Moderately likely option",
+                    "answer",
+                    "Moderately likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D007",
+                        "disease_name": "Schizoaffective Disorder (Depressive Type)",
+                        "shared_symptoms": [
+                            "S019"
+                        ]
+                    },
+                    {
+                        "disease_code": "D006",
+                        "disease_name": "Schizoaffective Disorder (Bipolar Type)",
+                        "shared_symptoms": [
+                            "S019"
+                        ]
+                    },
+                    {
+                        "disease_code": "D004",
+                        "disease_name": "Delusional Disorder"
+                    },
+                    {
+                        "disease_code": "D005",
+                        "disease_name": "Schizophrenia",
+                        "shared_symptoms": [
+                            "S019"
+                        ]
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 33\n- **Gender:** Male\n- **Occupation:** Private Investigator\n- **Marital Status:** Divorced\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Delusional Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. delusions Requirements:**\n- Nihilistic Delusions (A destructive or negative conviction that the world is ending or that a major catastrophe will occur.)\n\n**Critical Diagnostic Criteria:**\n\n- Duration: 9 months\n\n- Functional Impairment: False\n\n- Additional Requirements:\n\n1) Functioning is not markedly impaired apart from the impact of the delusion(s) or its ramifications"
+    },
+    "D004_l015": {
+        "question": "A 43-year-old divorced male IT consultant presents with a 9-month history of fixed, non-bizarre psychotic symptoms characterized by persistent nihilistic beliefs that a global catastrophe is imminent and that widespread destruction is inevitable. These beliefs are held with firm conviction despite lack of corroborating evidence and reassurance from others.\n\nApart from behaviors and concerns directly stemming from these beliefs (e.g., excessive time spent monitoring news and contingency planning), his occupational and social functioning remains largely preserved. He continues to work as an IT consultant, maintains basic self-care, and manages daily responsibilities without significant decline in performance.\n\nThere is no reported history of disorganized behavior, formal thought disorder, hallucinations, or prominent mood episodes temporally aligned with the onset or course of these symptoms. Insight into the pathological nature of these beliefs appears limited, as the patient attributes them to external realities rather than to a mental health condition. No significant cognitive deficits are evident on casual observation. There is no indication of substance use or medical conditions contributing to the presentation.",
+        "options": "\n    A. Schizoaffective Disorder (Depressive Type)\n    B. Schizoaffective Disorder (Bipolar Type)\n    C. Delusional Disorder\n    D. Schizophrenia\n    ",
+        "answer": "C. Delusional Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D004",
+                "disease_name": "Delusional Disorder",
+                "sampled_features": {
+                    "disease_code": "D004",
+                    "disease_name": "Delusional Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "additional_requirements": [
+                            "Functioning is not markedly impaired apart from the impact of the delusion(s) or its ramifications"
+                        ],
+                        "functional_impairment_required": false,
+                        "duration": "9 months"
+                    },
+                    "sampled_symptom_groups": {
+                        "delusions": {
+                            "symptoms": [
+                                "S019"
+                            ],
+                            "name": "delusions"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S019"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S019": {
+                            "name": "Delusions",
+                            "categoty": "psychotic_symptoms",
+                            "description": "Fixed beliefs that do not change easily, even in the face of contradictory evidence.",
+                            "subtypes": {
+                                "Nihilistic Delusions": "A destructive or negative conviction that the world is ending or that a major catastrophe will occur."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Schizoaffective Disorder (Depressive Type)",
+                    "Schizoaffective Disorder (Bipolar Type)",
+                    "Delusional Disorder",
+                    "Schizophrenia"
+                ],
+                "answer_index": [
+                    2
+                ],
+                "index_types": [
+                    "Moderately likely option",
+                    "Moderately likely option",
+                    "answer",
+                    "Moderately likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D007",
+                        "disease_name": "Schizoaffective Disorder (Depressive Type)",
+                        "shared_symptoms": [
+                            "S019"
+                        ]
+                    },
+                    {
+                        "disease_code": "D006",
+                        "disease_name": "Schizoaffective Disorder (Bipolar Type)",
+                        "shared_symptoms": [
+                            "S019"
+                        ]
+                    },
+                    {
+                        "disease_code": "D004",
+                        "disease_name": "Delusional Disorder"
+                    },
+                    {
+                        "disease_code": "D005",
+                        "disease_name": "Schizophrenia",
+                        "shared_symptoms": [
+                            "S019"
+                        ]
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 43\n- **Gender:** Male\n- **Occupation:** IT Consultant\n- **Marital Status:** Divorced\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Delusional Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. delusions Requirements:**\n- Nihilistic Delusions (A destructive or negative conviction that the world is ending or that a major catastrophe will occur.)\n\n**Critical Diagnostic Criteria:**\n\n- Duration: 9 months\n\n- Functional Impairment: False\n\n- Additional Requirements:\n\n1) Functioning is not markedly impaired apart from the impact of the delusion(s) or its ramifications"
+    },
+    "D004_l016": {
+        "question": "A 33-year-old single female broadcast writer presents with a 1 year 9 month history of fixed, non-bizarre persecutory beliefs. She reports a persistent conviction that she is being monitored and targeted by specific persons and/or organizations, with elaborate explanations regarding how this is occurring. These beliefs are firmly held despite lack of corroborating evidence and reassurance from others.\n\nApart from behaviors and preoccupations directly related to these persecutory ideas (e.g., increased vigilance, checking behaviors, and selective avoidance of certain places or individuals believed to be involved), her occupational, social, and self-care functioning is largely preserved. She continues to perform adequately in her role as a broadcast writer, maintains basic activities of daily living, and is able to engage in routine interactions when the delusional content is not activated.\n\nThere is no report of prominent hallucinations, disorganized speech, grossly disorganized behavior, or negative symptoms. Mood symptoms, when present, do not account for the intensity or persistence of the persecutory beliefs. Insight into the irrational nature of these beliefs is markedly limited. There is no noted history of substance use or general medical condition that better explains the presentation.",
+        "options": "\n    A. Delusional Disorder\n    B. Schizoaffective Disorder (Bipolar Type)\n    C. Schizoaffective Disorder (Depressive Type)\n    D. Schizophrenia\n    ",
+        "answer": "A. Delusional Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D004",
+                "disease_name": "Delusional Disorder",
+                "sampled_features": {
+                    "disease_code": "D004",
+                    "disease_name": "Delusional Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "additional_requirements": [
+                            "Functioning is not markedly impaired apart from the impact of the delusion(s) or its ramifications"
+                        ],
+                        "functional_impairment_required": false,
+                        "duration": "1 year and 9 months"
+                    },
+                    "sampled_symptom_groups": {
+                        "delusions": {
+                            "symptoms": [
+                                "S019"
+                            ],
+                            "name": "delusions"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S019"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S019": {
+                            "name": "Delusions",
+                            "categoty": "psychotic_symptoms",
+                            "description": "Fixed beliefs that do not change easily, even in the face of contradictory evidence.",
+                            "subtypes": {
+                                "Persecutory Delusions": "The false belief that one is being harmed or monitored by other people or organizations."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Delusional Disorder",
+                    "Schizoaffective Disorder (Bipolar Type)",
+                    "Schizoaffective Disorder (Depressive Type)",
+                    "Schizophrenia"
+                ],
+                "answer_index": [
+                    0
+                ],
+                "index_types": [
+                    "answer",
+                    "Moderately likely option",
+                    "Moderately likely option",
+                    "Moderately likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D004",
+                        "disease_name": "Delusional Disorder"
+                    },
+                    {
+                        "disease_code": "D006",
+                        "disease_name": "Schizoaffective Disorder (Bipolar Type)",
+                        "shared_symptoms": [
+                            "S019"
+                        ]
+                    },
+                    {
+                        "disease_code": "D007",
+                        "disease_name": "Schizoaffective Disorder (Depressive Type)",
+                        "shared_symptoms": [
+                            "S019"
+                        ]
+                    },
+                    {
+                        "disease_code": "D005",
+                        "disease_name": "Schizophrenia",
+                        "shared_symptoms": [
+                            "S019"
+                        ]
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 33\n- **Gender:** Female\n- **Occupation:** Broadcast Writer\n- **Marital Status:** Single\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Delusional Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. delusions Requirements:**\n- Persecutory Delusions (The false belief that one is being harmed or monitored by other people or organizations.)\n\n**Critical Diagnostic Criteria:**\n\n- Duration: 1 year and 9 months\n\n- Functional Impairment: False\n\n- Additional Requirements:\n\n1) Functioning is not markedly impaired apart from the impact of the delusion(s) or its ramifications"
+    },
+    "D004_l017": {
+        "question": "A 42-year-old single female gallery curator presents with a 1 year 9 month history of fixed, non-bizarre delusional beliefs centered on the conviction that a specific individual is secretly in love with her and communicates affection through indirect or concealed means. She interprets neutral or minimal interactions as confirmation of this perceived romantic interest, despite clear evidence to the contrary and consistent feedback from others that this belief is unfounded.\n\nThe delusional system is well organized and largely circumscribed to this theme. There are no reported hallucinations, formal thought disorder, or marked mood episodes. Insight is significantly limited with strong conviction in the belief and limited capacity to consider alternative explanations.\n\nOccupational functioning is largely preserved; she continues to perform adequately in her role as a gallery curator, with no significant decline in work performance. Social functioning is also generally intact aside from interpersonal strain in contexts where the delusional content is directly relevant. There is no history of substance abuse or significant neurological illness reported. Overall functioning is not markedly impaired beyond the consequences of the delusional belief and its interpersonal and emotional ramifications.",
+        "options": "\n    A. Delusional Disorder\n    B. Schizoaffective Disorder (Bipolar Type)\n    C. Schizoaffective Disorder (Depressive Type)\n    D. Schizophrenia\n    ",
+        "answer": "A. Delusional Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D004",
+                "disease_name": "Delusional Disorder",
+                "sampled_features": {
+                    "disease_code": "D004",
+                    "disease_name": "Delusional Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "additional_requirements": [
+                            "Functioning is not markedly impaired apart from the impact of the delusion(s) or its ramifications"
+                        ],
+                        "functional_impairment_required": false,
+                        "duration": "1 year and 9 months"
+                    },
+                    "sampled_symptom_groups": {
+                        "delusions": {
+                            "symptoms": [
+                                "S019"
+                            ],
+                            "name": "delusions"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S019"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S019": {
+                            "name": "Delusions",
+                            "categoty": "psychotic_symptoms",
+                            "description": "Fixed beliefs that do not change easily, even in the face of contradictory evidence.",
+                            "subtypes": {
+                                "Erotomanic Delusions": "The false belief that another person is in love with or has affection for them."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Delusional Disorder",
+                    "Schizoaffective Disorder (Bipolar Type)",
+                    "Schizoaffective Disorder (Depressive Type)",
+                    "Schizophrenia"
+                ],
+                "answer_index": [
+                    0
+                ],
+                "index_types": [
+                    "answer",
+                    "Moderately likely option",
+                    "Moderately likely option",
+                    "Moderately likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D004",
+                        "disease_name": "Delusional Disorder"
+                    },
+                    {
+                        "disease_code": "D006",
+                        "disease_name": "Schizoaffective Disorder (Bipolar Type)",
+                        "shared_symptoms": [
+                            "S019"
+                        ]
+                    },
+                    {
+                        "disease_code": "D007",
+                        "disease_name": "Schizoaffective Disorder (Depressive Type)",
+                        "shared_symptoms": [
+                            "S019"
+                        ]
+                    },
+                    {
+                        "disease_code": "D005",
+                        "disease_name": "Schizophrenia",
+                        "shared_symptoms": [
+                            "S019"
+                        ]
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 42\n- **Gender:** Female\n- **Occupation:** Gallery Curator\n- **Marital Status:** Single\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Delusional Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. delusions Requirements:**\n- Erotomanic Delusions (The false belief that another person is in love with or has affection for them.)\n\n**Critical Diagnostic Criteria:**\n\n- Duration: 1 year and 9 months\n\n- Functional Impairment: False\n\n- Additional Requirements:\n\n1) Functioning is not markedly impaired apart from the impact of the delusion(s) or its ramifications"
+    },
+    "D004_l018": {
+        "question": "A 33-year-old married female data entry clerk presents with a 1 year 9 month history of fixed, non-bizarre persecutory beliefs focused on marital infidelity. She maintains a persistent conviction that her spouse is engaging in extramarital relationships despite lack of corroborating evidence and reassurance. The beliefs are systematized and resistant to counterargument, and she spends significant time monitoring her spouse’s activities, including checking messages and questioning his whereabouts.\n\nApart from behaviors and interpersonal conflict directly related to these beliefs, her overall functioning remains largely preserved. She continues to perform adequately at work, manage daily responsibilities, and maintain social interactions outside the context of the marital relationship. There is no reported history of disorganized thought processes, hallucinations, or significant mood episodes temporally linked to the onset of these symptoms. Insight into the irrational nature of her beliefs is limited, and she attributes marital tension solely to her spouse’s alleged behavior rather than to her suspicions. No significant cognitive decline, substance use, or neurological symptoms are reported.",
+        "options": "\n    A. Delusional Disorder\n    B. Schizoaffective Disorder (Bipolar Type)\n    C. Schizoaffective Disorder (Depressive Type)\n    D. Schizophrenia\n    ",
+        "answer": "A. Delusional Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D004",
+                "disease_name": "Delusional Disorder",
+                "sampled_features": {
+                    "disease_code": "D004",
+                    "disease_name": "Delusional Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "additional_requirements": [
+                            "Functioning is not markedly impaired apart from the impact of the delusion(s) or its ramifications"
+                        ],
+                        "functional_impairment_required": false,
+                        "duration": "1 year and 9 months"
+                    },
+                    "sampled_symptom_groups": {
+                        "delusions": {
+                            "symptoms": [
+                                "S019"
+                            ],
+                            "name": "delusions"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S019"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S019": {
+                            "name": "Delusions",
+                            "categoty": "psychotic_symptoms",
+                            "description": "Fixed beliefs that do not change easily, even in the face of contradictory evidence.",
+                            "subtypes": {
+                                "Jealous Delusions": "The conviction that one's spouse or romantic partner is being unfaithful without sufficient evidence."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Delusional Disorder",
+                    "Schizoaffective Disorder (Bipolar Type)",
+                    "Schizoaffective Disorder (Depressive Type)",
+                    "Schizophrenia"
+                ],
+                "answer_index": [
+                    0
+                ],
+                "index_types": [
+                    "answer",
+                    "Moderately likely option",
+                    "Moderately likely option",
+                    "Moderately likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D004",
+                        "disease_name": "Delusional Disorder"
+                    },
+                    {
+                        "disease_code": "D006",
+                        "disease_name": "Schizoaffective Disorder (Bipolar Type)",
+                        "shared_symptoms": [
+                            "S019"
+                        ]
+                    },
+                    {
+                        "disease_code": "D007",
+                        "disease_name": "Schizoaffective Disorder (Depressive Type)",
+                        "shared_symptoms": [
+                            "S019"
+                        ]
+                    },
+                    {
+                        "disease_code": "D005",
+                        "disease_name": "Schizophrenia",
+                        "shared_symptoms": [
+                            "S019"
+                        ]
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 33\n- **Gender:** Female\n- **Occupation:** Data Entry Clerk\n- **Marital Status:** Married\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Delusional Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. delusions Requirements:**\n- Jealous Delusions (The conviction that one's spouse or romantic partner is being unfaithful without sufficient evidence.)\n\n**Critical Diagnostic Criteria:**\n\n- Duration: 1 year and 9 months\n\n- Functional Impairment: False\n\n- Additional Requirements:\n\n1) Functioning is not markedly impaired apart from the impact of the delusion(s) or its ramifications"
+    },
+    "D004_l019": {
+        "question": "A 50-year-old single female IT auditor presents with a 1 year and 9 month history of fixed, non-bizarre, grandiose beliefs. She is firmly convinced that she possesses exceptional abilities and influence beyond what would be expected given her background, and interprets neutral events as confirmation of her presumed special status. These beliefs are held with strong conviction and are not amenable to counterargument or contradictory evidence.\n\nApart from these fixed beliefs and behaviors connected to them, her occupational, social, and self-care functioning remain largely preserved. She continues to work as an IT auditor with stable performance evaluations and maintains basic activities of daily living independently. There is no evidence of disorganized thought processes, prominent mood episodes, hallucinations, or cognitive decline. Insight into the pathological nature of her beliefs is markedly limited, though she does not report significant subjective distress arising from them. No significant behavioral disturbances, aggression, or self-harm ideation are reported. Overall functioning is not markedly impaired outside of the circumscribed impact of the entrenched grandiose belief system and its interpersonal ramifications.",
+        "options": "\n    A. Delusional Disorder\n    B. Schizoaffective Disorder (Bipolar Type)\n    C. Schizoaffective Disorder (Depressive Type)\n    D. Schizophrenia\n    ",
+        "answer": "A. Delusional Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D004",
+                "disease_name": "Delusional Disorder",
+                "sampled_features": {
+                    "disease_code": "D004",
+                    "disease_name": "Delusional Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "additional_requirements": [
+                            "Functioning is not markedly impaired apart from the impact of the delusion(s) or its ramifications"
+                        ],
+                        "functional_impairment_required": false,
+                        "duration": "1 year and 9 months"
+                    },
+                    "sampled_symptom_groups": {
+                        "delusions": {
+                            "symptoms": [
+                                "S019"
+                            ],
+                            "name": "delusions"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S019"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S019": {
+                            "name": "Delusions",
+                            "categoty": "psychotic_symptoms",
+                            "description": "Fixed beliefs that do not change easily, even in the face of contradictory evidence.",
+                            "subtypes": {
+                                "Grandiose Delusions": "The false belief that one possesses special abilities, power, or fame."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Delusional Disorder",
+                    "Schizoaffective Disorder (Bipolar Type)",
+                    "Schizoaffective Disorder (Depressive Type)",
+                    "Schizophrenia"
+                ],
+                "answer_index": [
+                    0
+                ],
+                "index_types": [
+                    "answer",
+                    "Moderately likely option",
+                    "Moderately likely option",
+                    "Moderately likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D004",
+                        "disease_name": "Delusional Disorder"
+                    },
+                    {
+                        "disease_code": "D006",
+                        "disease_name": "Schizoaffective Disorder (Bipolar Type)",
+                        "shared_symptoms": [
+                            "S019"
+                        ]
+                    },
+                    {
+                        "disease_code": "D007",
+                        "disease_name": "Schizoaffective Disorder (Depressive Type)",
+                        "shared_symptoms": [
+                            "S019"
+                        ]
+                    },
+                    {
+                        "disease_code": "D005",
+                        "disease_name": "Schizophrenia",
+                        "shared_symptoms": [
+                            "S019"
+                        ]
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 50\n- **Gender:** Female\n- **Occupation:** IT Auditor\n- **Marital Status:** Single\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Delusional Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. delusions Requirements:**\n- Grandiose Delusions (The false belief that one possesses special abilities, power, or fame.)\n\n**Critical Diagnostic Criteria:**\n\n- Duration: 1 year and 9 months\n\n- Functional Impairment: False\n\n- Additional Requirements:\n\n1) Functioning is not markedly impaired apart from the impact of the delusion(s) or its ramifications"
+    },
+    "D004_l020": {
+        "question": "A 35-year-old single female PhD candidate presents with a 1 year 9 month history of fixed, non-bizarre persecutory beliefs. She is firmly convinced that she is being monitored and targeted by specific individuals and/or organizations, despite a lack of corroborating evidence. These beliefs are circumscribed and consistently maintained, with the patient demonstrating limited capacity to consider alternative explanations.\n\nApart from behaviors and preoccupations directly linked to these persecutory ideas (e.g., increased checking, heightened vigilance, and safety behaviors related to perceived monitoring), her overall functioning in academic, social, and self-care domains remains largely preserved. She continues to work on her thesis and handle daily responsibilities, though productivity may fluctuate in relation to perceived threats.\n\nThere is no report of prominent hallucinations, disorganized thought processes, or significant negative symptoms. Insight into the irrational nature of the beliefs is markedly limited. Mood symptoms, when present, appear reactive to the content of the persecutory ideation rather than independent or pervasive. No significant cognitive decline, substance use, or neurological symptoms have been described to account for the presentation.",
+        "options": "\n    A. Delusional Disorder\n    B. Schizoaffective Disorder (Bipolar Type)\n    C. Schizoaffective Disorder (Depressive Type)\n    D. Schizophrenia\n    ",
+        "answer": "A. Delusional Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D004",
+                "disease_name": "Delusional Disorder",
+                "sampled_features": {
+                    "disease_code": "D004",
+                    "disease_name": "Delusional Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "additional_requirements": [
+                            "Functioning is not markedly impaired apart from the impact of the delusion(s) or its ramifications"
+                        ],
+                        "functional_impairment_required": false,
+                        "duration": "1 year and 9 months"
+                    },
+                    "sampled_symptom_groups": {
+                        "delusions": {
+                            "symptoms": [
+                                "S019"
+                            ],
+                            "name": "delusions"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S019"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S019": {
+                            "name": "Delusions",
+                            "categoty": "psychotic_symptoms",
+                            "description": "Fixed beliefs that do not change easily, even in the face of contradictory evidence.",
+                            "subtypes": {
+                                "Persecutory Delusions": "The false belief that one is being harmed or monitored by other people or organizations."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Delusional Disorder",
+                    "Schizoaffective Disorder (Bipolar Type)",
+                    "Schizoaffective Disorder (Depressive Type)",
+                    "Schizophrenia"
+                ],
+                "answer_index": [
+                    0
+                ],
+                "index_types": [
+                    "answer",
+                    "Moderately likely option",
+                    "Moderately likely option",
+                    "Moderately likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D004",
+                        "disease_name": "Delusional Disorder"
+                    },
+                    {
+                        "disease_code": "D006",
+                        "disease_name": "Schizoaffective Disorder (Bipolar Type)",
+                        "shared_symptoms": [
+                            "S019"
+                        ]
+                    },
+                    {
+                        "disease_code": "D007",
+                        "disease_name": "Schizoaffective Disorder (Depressive Type)",
+                        "shared_symptoms": [
+                            "S019"
+                        ]
+                    },
+                    {
+                        "disease_code": "D005",
+                        "disease_name": "Schizophrenia",
+                        "shared_symptoms": [
+                            "S019"
+                        ]
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 35\n- **Gender:** Female\n- **Occupation:** PhD Candidate (Thesis Pressure)\n- **Marital Status:** Single\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Delusional Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. delusions Requirements:**\n- Persecutory Delusions (The false belief that one is being harmed or monitored by other people or organizations.)\n\n**Critical Diagnostic Criteria:**\n\n- Duration: 1 year and 9 months\n\n- Functional Impairment: False\n\n- Additional Requirements:\n\n1) Functioning is not markedly impaired apart from the impact of the delusion(s) or its ramifications"
+    },
+    "D004_l021": {
+        "question": "A 75-year-old married male author presents with an 11-month history of fixed, non-bizarre persecutory and erotomanic beliefs centered on the conviction that another individual harbors special romantic interest in him. The delusional belief is systematized and consistently maintained despite clear contradictory evidence and reassurance. There is no reported hallucinosis, thought disorder, or prominent mood disturbance associated with these beliefs.\n\nApart from behaviors and preoccupations directly related to the delusional content (e.g., excessive rumination, occasional attempts to interpret neutral events as confirming the perceived romantic interest), his occupational, social, and self-care functioning remain largely preserved. He continues to write and maintain his usual daily routines and interpersonal relationships outside the context of the delusional theme.\n\nThere is no history of significant cognitive decline, disorganized behavior, or substance use contributing to the presentation. Insight into the irrational nature of the belief is markedly limited. No significant agitation or overt risk behaviors have been observed in relation to the delusional content.",
+        "options": "\n    A. Schizoaffective Disorder (Depressive Type)\n    B. Schizoaffective Disorder (Bipolar Type)\n    C. Delusional Disorder\n    D. Schizophrenia\n    ",
+        "answer": "C. Delusional Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D004",
+                "disease_name": "Delusional Disorder",
+                "sampled_features": {
+                    "disease_code": "D004",
+                    "disease_name": "Delusional Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "additional_requirements": [
+                            "Functioning is not markedly impaired apart from the impact of the delusion(s) or its ramifications"
+                        ],
+                        "functional_impairment_required": false,
+                        "duration": "11 months"
+                    },
+                    "sampled_symptom_groups": {
+                        "delusions": {
+                            "symptoms": [
+                                "S019"
+                            ],
+                            "name": "delusions"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S019"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S019": {
+                            "name": "Delusions",
+                            "categoty": "psychotic_symptoms",
+                            "description": "Fixed beliefs that do not change easily, even in the face of contradictory evidence.",
+                            "subtypes": {
+                                "Erotomanic Delusions": "The false belief that another person is in love with or has affection for them."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Schizoaffective Disorder (Depressive Type)",
+                    "Schizoaffective Disorder (Bipolar Type)",
+                    "Delusional Disorder",
+                    "Schizophrenia"
+                ],
+                "answer_index": [
+                    2
+                ],
+                "index_types": [
+                    "Moderately likely option",
+                    "Moderately likely option",
+                    "answer",
+                    "Moderately likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D007",
+                        "disease_name": "Schizoaffective Disorder (Depressive Type)",
+                        "shared_symptoms": [
+                            "S019"
+                        ]
+                    },
+                    {
+                        "disease_code": "D006",
+                        "disease_name": "Schizoaffective Disorder (Bipolar Type)",
+                        "shared_symptoms": [
+                            "S019"
+                        ]
+                    },
+                    {
+                        "disease_code": "D004",
+                        "disease_name": "Delusional Disorder"
+                    },
+                    {
+                        "disease_code": "D005",
+                        "disease_name": "Schizophrenia",
+                        "shared_symptoms": [
+                            "S019"
+                        ]
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 75\n- **Gender:** Male\n- **Occupation:** Author\n- **Marital Status:** Married\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Delusional Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. delusions Requirements:**\n- Erotomanic Delusions (The false belief that another person is in love with or has affection for them.)\n\n**Critical Diagnostic Criteria:**\n\n- Duration: 11 months\n\n- Functional Impairment: False\n\n- Additional Requirements:\n\n1) Functioning is not markedly impaired apart from the impact of the delusion(s) or its ramifications"
+    },
+    "D004_l022": {
+        "question": "A 42-year-old single female gallery curator presents with an 11-month history of fixed, non-bizarre false beliefs characterized by themes of exceptional talent, influence, and importance in her professional field. She persistently maintains that she possesses extraordinary abilities and is destined for significant recognition, despite clear contradictory evidence and lack of corroboration by others. These beliefs are firmly held, resistant to logical reasoning, and not shared within her cultural or professional milieu.\n\nApart from behaviors and decisions influenced by these convictions (e.g., overestimating her professional status, making unrealistic career plans), her overall occupational functioning as a curator remains intact. She continues to manage routine work responsibilities, maintain appropriate self-care, and sustain typical social interactions. There is no report of prominent hallucinations, disorganized speech, or grossly disorganized behavior. Insight into the pathological nature of her beliefs is limited. Mood symptoms, where present, are mild and appear secondary to perceived lack of external recognition rather than constituting a primary mood episode. Overall functioning is not markedly impaired outside of the direct consequences of the fixed grandiose beliefs.",
+        "options": "\n    A. Schizoaffective Disorder (Depressive Type)\n    B. Schizoaffective Disorder (Bipolar Type)\n    C. Delusional Disorder\n    D. Schizophrenia\n    ",
+        "answer": "C. Delusional Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D004",
+                "disease_name": "Delusional Disorder",
+                "sampled_features": {
+                    "disease_code": "D004",
+                    "disease_name": "Delusional Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "additional_requirements": [
+                            "Functioning is not markedly impaired apart from the impact of the delusion(s) or its ramifications"
+                        ],
+                        "functional_impairment_required": false,
+                        "duration": "11 months"
+                    },
+                    "sampled_symptom_groups": {
+                        "delusions": {
+                            "symptoms": [
+                                "S019"
+                            ],
+                            "name": "delusions"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S019"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S019": {
+                            "name": "Delusions",
+                            "categoty": "psychotic_symptoms",
+                            "description": "Fixed beliefs that do not change easily, even in the face of contradictory evidence.",
+                            "subtypes": {
+                                "Grandiose Delusions": "The false belief that one possesses special abilities, power, or fame."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Schizoaffective Disorder (Depressive Type)",
+                    "Schizoaffective Disorder (Bipolar Type)",
+                    "Delusional Disorder",
+                    "Schizophrenia"
+                ],
+                "answer_index": [
+                    2
+                ],
+                "index_types": [
+                    "Moderately likely option",
+                    "Moderately likely option",
+                    "answer",
+                    "Moderately likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D007",
+                        "disease_name": "Schizoaffective Disorder (Depressive Type)",
+                        "shared_symptoms": [
+                            "S019"
+                        ]
+                    },
+                    {
+                        "disease_code": "D006",
+                        "disease_name": "Schizoaffective Disorder (Bipolar Type)",
+                        "shared_symptoms": [
+                            "S019"
+                        ]
+                    },
+                    {
+                        "disease_code": "D004",
+                        "disease_name": "Delusional Disorder"
+                    },
+                    {
+                        "disease_code": "D005",
+                        "disease_name": "Schizophrenia",
+                        "shared_symptoms": [
+                            "S019"
+                        ]
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 42\n- **Gender:** Female\n- **Occupation:** Gallery Curator\n- **Marital Status:** Single\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Delusional Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. delusions Requirements:**\n- Grandiose Delusions (The false belief that one possesses special abilities, power, or fame.)\n\n**Critical Diagnostic Criteria:**\n\n- Duration: 11 months\n\n- Functional Impairment: False\n\n- Additional Requirements:\n\n1) Functioning is not markedly impaired apart from the impact of the delusion(s) or its ramifications"
+    },
+    "D004_l023": {
+        "question": "A 48-year-old married male civil servant presents with an 11-month history of fixed, non-bizarre somatic beliefs concerning serious bodily abnormality in the absence of corroborating medical evidence. He reports persistent conviction of internal physical pathology despite multiple negative evaluations and reassurance from healthcare providers. The belief remains firmly held and is not amenable to contrary information.\n\nApart from preoccupation with this somatic concern, the patient maintains his occupational responsibilities at city hall, continues to fulfill family roles, and manages activities of daily living independently. There is no reported decline in work performance or social functioning outside of behavior driven by his somatic conviction (e.g., repeated medical consultations, health-related checking).\n\nNo hallucinations, disorganized thought processes, or bizarre behavior are reported or observed. Mood appears stable, without pervasive depressive or manic symptoms. Insight into the pathological nature of the belief is limited. There is no history of substance misuse, neurological disorder, or prior major psychiatric illness. Overall functioning is preserved aside from the consequences of his persistent somatic belief and associated health-seeking behaviors.",
+        "options": "\n    A. Schizoaffective Disorder (Depressive Type)\n    B. Schizoaffective Disorder (Bipolar Type)\n    C. Delusional Disorder\n    D. Schizophrenia\n    ",
+        "answer": "C. Delusional Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D004",
+                "disease_name": "Delusional Disorder",
+                "sampled_features": {
+                    "disease_code": "D004",
+                    "disease_name": "Delusional Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "additional_requirements": [
+                            "Functioning is not markedly impaired apart from the impact of the delusion(s) or its ramifications"
+                        ],
+                        "functional_impairment_required": false,
+                        "duration": "11 months"
+                    },
+                    "sampled_symptom_groups": {
+                        "delusions": {
+                            "symptoms": [
+                                "S019"
+                            ],
+                            "name": "delusions"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S019"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S019": {
+                            "name": "Delusions",
+                            "categoty": "psychotic_symptoms",
+                            "description": "Fixed beliefs that do not change easily, even in the face of contradictory evidence.",
+                            "subtypes": {
+                                "Somatic Delusions": "The baseless conviction that there is a serious abnormality with one's body or organs."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Schizoaffective Disorder (Depressive Type)",
+                    "Schizoaffective Disorder (Bipolar Type)",
+                    "Delusional Disorder",
+                    "Schizophrenia"
+                ],
+                "answer_index": [
+                    2
+                ],
+                "index_types": [
+                    "Moderately likely option",
+                    "Moderately likely option",
+                    "answer",
+                    "Moderately likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D007",
+                        "disease_name": "Schizoaffective Disorder (Depressive Type)",
+                        "shared_symptoms": [
+                            "S019"
+                        ]
+                    },
+                    {
+                        "disease_code": "D006",
+                        "disease_name": "Schizoaffective Disorder (Bipolar Type)",
+                        "shared_symptoms": [
+                            "S019"
+                        ]
+                    },
+                    {
+                        "disease_code": "D004",
+                        "disease_name": "Delusional Disorder"
+                    },
+                    {
+                        "disease_code": "D005",
+                        "disease_name": "Schizophrenia",
+                        "shared_symptoms": [
+                            "S019"
+                        ]
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 48\n- **Gender:** Male\n- **Occupation:** Civil Servant (City Hall)\n- **Marital Status:** Married\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Delusional Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. delusions Requirements:**\n- Somatic Delusions (The baseless conviction that there is a serious abnormality with one's body or organs.)\n\n**Critical Diagnostic Criteria:**\n\n- Duration: 11 months\n\n- Functional Impairment: False\n\n- Additional Requirements:\n\n1) Functioning is not markedly impaired apart from the impact of the delusion(s) or its ramifications"
+    },
+    "D004_l024": {
+        "question": "A 72-year-old widowed retired male presented with an 11‑month history of persistent, non-bizarre fixed false beliefs of a grandiose nature. He reports being convinced that he possesses exceptional abilities and special status, despite clear evidence to the contrary. These beliefs are systematized and internally consistent, and he remains unwilling to consider alternative explanations.\n\nApart from behaviors and decisions directly driven by these beliefs, his overall functioning is largely preserved. He maintains independent performance of activities of daily living, manages basic self-care, and engages in routine tasks consistent with his premorbid pattern. There is no evidence of significant decline in occupational-like functioning within his current retired status, nor marked social withdrawal outside situations influenced by the delusional content.\n\nThere is no reported history of prominent hallucinations, disorganized thought processes, or grossly disorganized behavior. Insight into his condition is poor, limited to complete conviction in the veracity of his beliefs. Affect is appropriate to content, and there are no clear mood episodes temporally aligned with the onset or course of these symptoms. The clinical picture is characterized by stable, circumscribed grandiose delusional ideation without broad functional deterioration over the 11‑month period.",
+        "options": "\n    A. Schizoaffective Disorder (Depressive Type)\n    B. Schizoaffective Disorder (Bipolar Type)\n    C. Delusional Disorder\n    D. Schizophrenia\n    ",
+        "answer": "C. Delusional Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D004",
+                "disease_name": "Delusional Disorder",
+                "sampled_features": {
+                    "disease_code": "D004",
+                    "disease_name": "Delusional Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "additional_requirements": [
+                            "Functioning is not markedly impaired apart from the impact of the delusion(s) or its ramifications"
+                        ],
+                        "functional_impairment_required": false,
+                        "duration": "11 months"
+                    },
+                    "sampled_symptom_groups": {
+                        "delusions": {
+                            "symptoms": [
+                                "S019"
+                            ],
+                            "name": "delusions"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S019"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S019": {
+                            "name": "Delusions",
+                            "categoty": "psychotic_symptoms",
+                            "description": "Fixed beliefs that do not change easily, even in the face of contradictory evidence.",
+                            "subtypes": {
+                                "Grandiose Delusions": "The false belief that one possesses special abilities, power, or fame."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Schizoaffective Disorder (Depressive Type)",
+                    "Schizoaffective Disorder (Bipolar Type)",
+                    "Delusional Disorder",
+                    "Schizophrenia"
+                ],
+                "answer_index": [
+                    2
+                ],
+                "index_types": [
+                    "Moderately likely option",
+                    "Moderately likely option",
+                    "answer",
+                    "Moderately likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D007",
+                        "disease_name": "Schizoaffective Disorder (Depressive Type)",
+                        "shared_symptoms": [
+                            "S019"
+                        ]
+                    },
+                    {
+                        "disease_code": "D006",
+                        "disease_name": "Schizoaffective Disorder (Bipolar Type)",
+                        "shared_symptoms": [
+                            "S019"
+                        ]
+                    },
+                    {
+                        "disease_code": "D004",
+                        "disease_name": "Delusional Disorder"
+                    },
+                    {
+                        "disease_code": "D005",
+                        "disease_name": "Schizophrenia",
+                        "shared_symptoms": [
+                            "S019"
+                        ]
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 72\n- **Gender:** Male\n- **Occupation:** Retired\n- **Marital Status:** Widowed\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Delusional Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. delusions Requirements:**\n- Grandiose Delusions (The false belief that one possesses special abilities, power, or fame.)\n\n**Critical Diagnostic Criteria:**\n\n- Duration: 11 months\n\n- Functional Impairment: False\n\n- Additional Requirements:\n\n1) Functioning is not markedly impaired apart from the impact of the delusion(s) or its ramifications"
+    },
+    "D004_l025": {
+        "question": "A 43-year-old divorced female insurance agent presents with an 11-month history of fixed, non-bizarre delusional beliefs. She reports persistent conviction that neutral events and remarks in her environment carry special, directed meaning toward her, despite lack of corroborating evidence. These beliefs center on perceived messages embedded in everyday interactions and media, interpreted as specifically referring to or communicating with her.\n\nOutside of these beliefs, the patient demonstrates organized thought processes, intact reality testing in non-delusional areas, and preserved judgment in routine matters. There is no evidence of disorganized behavior, hallucinations, or prominent mood symptoms concurrent with the psychotic features. Daily occupational functioning is largely preserved; she continues to perform her work duties and manage activities of daily living, with no marked decline in social or role performance apart from behaviors and preoccupations directly related to the delusional content.\n\nInsight into the irrational nature of these ideas is limited. She denies substance use, major medical illnesses, or prior psychiatric history. There is no reported history of cognitive deterioration, significant head trauma, or neurological disorders.",
+        "options": "\n    A. Schizoaffective Disorder (Depressive Type)\n    B. Schizoaffective Disorder (Bipolar Type)\n    C. Delusional Disorder\n    D. Schizophrenia\n    ",
+        "answer": "C. Delusional Disorder",
+        "features": {
+            "question": {
+                "disease_code": "D004",
+                "disease_name": "Delusional Disorder",
+                "sampled_features": {
+                    "disease_code": "D004",
+                    "disease_name": "Delusional Disorder",
+                    "sampled_diagnostic_criteria": {
+                        "additional_requirements": [
+                            "Functioning is not markedly impaired apart from the impact of the delusion(s) or its ramifications"
+                        ],
+                        "functional_impairment_required": false,
+                        "duration": "11 months"
+                    },
+                    "sampled_symptom_groups": {
+                        "delusions": {
+                            "symptoms": [
+                                "S019"
+                            ],
+                            "name": "delusions"
+                        }
+                    },
+                    "sampled_symptoms": [
+                        "S019"
+                    ],
+                    "sampled_symptoms_descriptions": {
+                        "S019": {
+                            "name": "Delusions",
+                            "categoty": "psychotic_symptoms",
+                            "description": "Fixed beliefs that do not change easily, even in the face of contradictory evidence.",
+                            "subtypes": {
+                                "Referential Delusions": "The conviction that ordinary events, remarks, or behaviors have specific relevance to oneself."
+                            }
+                        }
+                    }
+                }
+            },
+            "option": {
+                "options": [
+                    "Schizoaffective Disorder (Depressive Type)",
+                    "Schizoaffective Disorder (Bipolar Type)",
+                    "Delusional Disorder",
+                    "Schizophrenia"
+                ],
+                "answer_index": [
+                    2
+                ],
+                "index_types": [
+                    "Moderately likely option",
+                    "Moderately likely option",
+                    "answer",
+                    "Moderately likely option"
+                ],
+                "options_info": [
+                    {
+                        "disease_code": "D007",
+                        "disease_name": "Schizoaffective Disorder (Depressive Type)",
+                        "shared_symptoms": [
+                            "S019"
+                        ]
+                    },
+                    {
+                        "disease_code": "D006",
+                        "disease_name": "Schizoaffective Disorder (Bipolar Type)",
+                        "shared_symptoms": [
+                            "S019"
+                        ]
+                    },
+                    {
+                        "disease_code": "D004",
+                        "disease_name": "Delusional Disorder"
+                    },
+                    {
+                        "disease_code": "D005",
+                        "disease_name": "Schizophrenia",
+                        "shared_symptoms": [
+                            "S019"
+                        ]
+                    }
+                ]
+            }
+        },
+        "prompt": "\n    **Patient Demographics:**\n- **Age:** 43\n- **Gender:** Female\n- **Occupation:** Insurance Agent\n- **Marital Status:** Divorced\n**Diagnosis Context:**\n- **Target Disease (Correct Answer):** Delusional Disorder\n**Clinical Presentation (Symptoms to Integrate):**\n\n**1. delusions Requirements:**\n- Referential Delusions (The conviction that ordinary events, remarks, or behaviors have specific relevance to oneself.)\n\n**Critical Diagnostic Criteria:**\n\n- Duration: 11 months\n\n- Functional Impairment: False\n\n- Additional Requirements:\n\n1) Functioning is not markedly impaired apart from the impact of the delusion(s) or its ramifications"
+    }
+}
