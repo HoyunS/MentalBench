@@ -14,6 +14,18 @@ Hangyeol Yoo⁴,  Jihyun An⁵, Alice Oh¹, Jinyoung Han²†, KyungTae Lim¹†
 
 </div>
 
+## 🌟 Overview
+
+**MentalBench** is a comprehensive benchmark designed to evaluate the psychiatric diagnostic capabilities of Large Language Models (LLMs). As the application of LLMs in healthcare expands, ensuring their reliability in sensitive domains like psychiatry is crucial. 
+
+MentalBench provides a robust evaluation framework, grounded in real-world psychiatric knowledge. To facilitate deeper reasoning and grounded evaluation, this benchmark is integrated with **MentalKG**, a specialized knowledge graph structured for psychiatric domain knowledge.
+
+<p align="center">
+  <img src="Img/benchmark_overview.pdf" width="800">
+  <br>
+  <em>Overview of the MentalBench evaluation pipeline and its integration with MentalKG.</em>
+</p>
+
 ## 📁 Project Structure
 
 ```
