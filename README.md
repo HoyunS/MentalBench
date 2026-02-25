@@ -79,18 +79,6 @@ Our experiments reveal critical insights into the diagnostic capabilities of cur
 
 ---
 
-## 📦 Dataset
-
-The MENTALBENCH dataset containing 24,750 clinical cases and the MENTALKG structure are publicly available on HuggingFace.
-
-```bash
-mkdir -p data
-cd data
-```
-
-# Download MENTALBENCH dataset
-wget [https://huggingface.co/datasets/](https://huggingface.co/datasets/)[YOUR-ORG]/MentalBench/resolve/main/test.jsonl -O test.jsonl
-
 
 ## 🚀 Getting Started
 
@@ -162,20 +150,6 @@ Logs will be saved in `scripts/logs/` and `scripts/logs_clear/` directories.
 | `--prompt_style` | Prompt style: `default`, `single`, or `clear` |
 | `--output_dir` | Output directory for results |
 | `--api_key` | API key for OpenAI/OpenRouter |
-
-## 📊 Supported Models
-
-### API Models
-- OpenAI: `gpt-4o`, `gpt-5-mini`, `gpt-5.1`
-- Google: `google/gemini-2.5-flash`, `google/gemini-2.5-pro`
-- Anthropic: `anthropic/claude-haiku-4.5`, `anthropic/claude-sonnet-4.5`
-
-### Local Models (via vLLM)
-- Qwen: `Qwen/Qwen3-8B`, `Qwen/Qwen3-14B`, `Qwen/Qwen2.5-7B-Instruct`, etc.
-- LLaMA: `meta-llama/Llama-3.1-8B-Instruct`, `meta-llama/Llama-3.1-70B-Instruct`
-- Gemma: `google/gemma-3-4b-it`, `google/gemma-3-12b-it`, `google/gemma-3-27b-it`
-- MentaLLaMA: `klyang/MentaLLaMA-chat-7B`, `klyang/MentaLLaMA-chat-13B`
-
 
 
 ## 📈 Evaluation Metrics
