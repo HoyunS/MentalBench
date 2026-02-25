@@ -61,10 +61,10 @@ To ensure rigorous clinical reliability, the entire framework was developed and 
 
 | Type | Description | Difficulty | Number of Samples |
 |------|-------------|------------|-------------------|
-| **Type 1** | Clinical case summary → Single diagnosis | Low | 1,725 |
-| **Type 2** | Patient vignette → Single diagnosis | Medium | 3,450 |
-| **Type 3** | Ambiguous presentation → Multiple possible diagnoses | High | 6,525 |
-| **Type 4** | Differential diagnosis → Distinguish between similar disorders | High | 13,050 |
+| **Type 1** | Medical Chart → Single Answer | Low | 1,725 |
+| **Type 2** | Patient Self-Report → Single Answer | Medium | 3,450 |
+| **Type 3** | Ambiguous Type → Multiple Answer | High | 6,525 |
+| **Type 4** | Clear Type → Single Answer | High | 13,050 |
 
 
 ## 📊 Key Results
