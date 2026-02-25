@@ -6,6 +6,7 @@
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 [Hoyun Song](https://github.com/HoyunS)¹\*, [Migyeong Kang](https://github.com/gyeong707)²\*, Jisu Shin¹, Jihyun Kim², Chanbi Park³,
+
 Hangyeol Yoo⁴,  Jihyun An⁵, Alice Oh¹, Jinyoung Han²†, KyungTae Lim¹†
 
 ¹KAIST, ²Sungkyunkwan University, ³Dongguk University Medical Center, ⁴Seoul National University of Science and Technology, ⁵Samsung Medical Center
