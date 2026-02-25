@@ -40,7 +40,7 @@ The benchmark is built upon a psychiatric knowledge graph containing:
 Using MENTALKG as a golden-standard logical backbone, we generated **24,750 synthetic clinical cases**. These cases systematically vary in information completeness (from structured medical charts to incomplete patient self-reports) and diagnostic complexity (from single-disorder to challenging differential diagnosis scenarios).
 
 <p align="center">
-  <img src="Img/benchmark_overview.png" width="800">
+  <img width="1594" height="298" alt="Image" src="https://github.com/user-attachments/assets/c7edbaf7-8b86-41ec-8127-22c8e9dabffe" width=600>
   <br>
   <em>Figure 2: Overview of the clinical case generation framework for constructing MentalBench across Single-Disease Identification and Differential Diagnosis scenarios.</em>
 </p>
@@ -59,12 +59,12 @@ To ensure rigorous clinical reliability, the entire framework was developed and 
 
 ## 🎯 Question Types
 
-| Type | Description | Difficulty |
-|------|-------------|------------|
-| **Type 1** | Clinical case summary → Single diagnosis | Low |
-| **Type 2** | Patient vignette → Single diagnosis | Medium |
-| **Type 3** | Ambiguous presentation → Multiple possible diagnoses | High |
-| **Type 4** | Differential diagnosis → Distinguish between similar disorders | High |
+| Type | Description | Difficulty | Number of Samples |
+|------|-------------|------------|-------------------|
+| **Type 1** | Clinical case summary → Single diagnosis | Low | 1,725 |
+| **Type 2** | Patient vignette → Single diagnosis | Medium | 3,450 |
+| **Type 3** | Ambiguous presentation → Multiple possible diagnoses | High | 6,525 |
+| **Type 4** | Differential diagnosis → Distinguish between similar disorders | High | 13,050 |
 
 
 ## 📊 Key Results
@@ -86,15 +86,10 @@ The MENTALBENCH dataset containing 24,750 clinical cases and the MENTALKG struct
 ```bash
 mkdir -p data
 cd data
+```
 
 # Download MENTALBENCH dataset
 wget [https://huggingface.co/datasets/](https://huggingface.co/datasets/)[YOUR-ORG]/MentalBench/resolve/main/test.jsonl -O test.jsonl
-
-
-
-
-## 🔧 Installation
-
 
 
 ## 🚀 Getting Started
