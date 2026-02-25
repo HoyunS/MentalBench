@@ -24,7 +24,7 @@ MentalBench provides a robust evaluation framework, grounded in real-world psych
 At the core of our benchmark is MentalKG, a psychiatrist-built and validated knowledge graph that encodes DSM-5 diagnostic criteria and differential diagnostic rules for **23 psychiatric disorders**.
 
 <p align="center">
-  <img src="Img/graph_overview.png" width="800">
+  <img width="600"  alt="Image" src="https://github.com/user-attachments/assets/7b264594-4540-4a97-a65e-d9956187fb3c" />
   <br>
   <em>Figure 1: Overview of the MentalKG schema, modeling the hierarchical and relational dependencies between disorders, symptom groups, symptoms, and differential diagnoses.</em>
 </p>
@@ -40,7 +40,7 @@ The benchmark is built upon a psychiatric knowledge graph containing:
 Using MENTALKG as a golden-standard logical backbone, we generated **24,750 synthetic clinical cases**. These cases systematically vary in information completeness (from structured medical charts to incomplete patient self-reports) and diagnostic complexity (from single-disorder to challenging differential diagnosis scenarios).
 
 <p align="center">
-  <img width="1594" height="298" alt="Image" src="https://github.com/user-attachments/assets/c7edbaf7-8b86-41ec-8127-22c8e9dabffe" width=600>
+  <img width="800" alt="Image" src="https://github.com/user-attachments/assets/78d6b670-1464-4e75-94f2-b6956a3fb60f" />
   <br>
   <em>Figure 2: Overview of the clinical case generation framework for constructing MentalBench across Single-Disease Identification and Differential Diagnosis scenarios.</em>
 </p>
