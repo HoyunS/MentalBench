@@ -20,44 +20,42 @@ Hangyeol Yoo⁴,  Jihyun An⁵, Alice Oh¹, Jinyoung Han²†, KyungTae Lim¹†
 
 MentalBench provides a robust evaluation framework, grounded in real-world psychiatric knowledge. To facilitate deeper reasoning and grounded evaluation, this benchmark is integrated with **MentalKG**, a specialized knowledge graph structured for psychiatric domain knowledge.
 
+### 1. MENTALKG: The Logical Backbone
+At the core of our benchmark is MentalKG, a psychiatrist-built and validated knowledge graph that encodes DSM-5 diagnostic criteria and differential diagnostic rules for **23 psychiatric disorders**.
+
 <p align="center">
-  <img src="Img/benchmark_overview.pdf" width="800">
+  <img src="Img/graph_overview.png" width="800">
   <br>
-  <em>Overview of the MentalBench evaluation pipeline and its integration with MentalKG.</em>
+  <em>Figure 1: Overview of the MentalKG schema, modeling the hierarchical and relational dependencies between disorders, symptom groups, symptoms, and differential diagnoses.</em>
 </p>
 
-## 📁 Project Structure
+The benchmark is built upon a psychiatric knowledge graph containing:
+- **23 Mental Disorders** based on DSM-5 criteria
+- **Symptom Definitions** with detailed descriptions and subtypes
+- **Diagnostic Criteria** including duration, functional impairment, and stressor requirements
+- **Differential Diagnosis Rules** for distinguishing between similar disorders
 
-```
-MENTALBENCH/
-├── scripts/                                # Core evaluation and preprocessing scripts
-│   ├── eval_type12.py                      # Evaluation script for Type 1 & 2 questions
-│   ├── eval_type34.py                      # Evaluation script for Type 3 & 4 questions
-│   ├── knowledge_graph.py                  # Knowledge graph construction and utilities
-│   ├── models.py                           # LLM inference utilities (API & vLLM)
-│   ├── prompts.py                          # Prompt templates for different question types
-│   ├── demographics.py                     # Patient demographic generation
-│   ├── run_script_type12.sh                # Batch evaluation script for Type 1 & 2
-│   ├── run_script_type34.sh                # Batch evaluation script for Type 3 & 4
-│   └── preprocess_dataset/                 # Dataset preprocessing utilities
-│       ├── select_feature.py               # Feature selection for questions
-│       ├── select_feature_diff_diag.py     # Differential diagnosis feature selection
-│       ├── merge_feature.py                # Feature merging and validation
-│       └── variate_feature.py              # Feature variation generation
-│
-└── resources/                              # Data resources
-    ├── knowledge_graph/                    # Psychiatric knowledge graph
-    │   └── EN/                             # English version
-    │       ├── disorder.json               # Mental disorder definitions
-    │       ├── diagnostic_criteria.json    # DSM-based diagnostic criteria
-    │       ├── symptom/                    # Symptom definitions
-    │       └── differential_diagnosis/     # Differential diagnosis rules
-    ├── features/                           # Sampled and validated features
-    └── dataset/                            # Generated benchmark dataset
-        ├── low/                            # Low difficulty (clinical summaries)
-        ├── medium/                         # Medium difficulty (patient vignettes)
-        └── high/                           # High difficulty (differential diagnosis)
-```
+
+### 2. MENTALBENCH: Clinical Case Generation
+Using MENTALKG as a golden-standard logical backbone, we generated **24,750 synthetic clinical cases**. These cases systematically vary in information completeness (from structured medical charts to incomplete patient self-reports) and diagnostic complexity (from single-disorder to challenging differential diagnosis scenarios).
+
+<p align="center">
+  <img src="Img/benchmark_overview.png" width="800">
+  <br>
+  <em>Figure 2: Overview of the clinical case generation framework for constructing MentalBench across Single-Disease Identification and Differential Diagnosis scenarios.</em>
+</p>
+
+
+
+## 👨‍⚕️ Expert Validation
+To ensure rigorous clinical reliability, the entire framework was developed and evaluated in close collaboration with mental health professionals, including a board-certified psychiatrist and a licensed clinical psychologist.
+
+* 🧠 **MentalKG Validation:** Experts thoroughly verified the alignment of our formalized diagnostic criteria with DSM-5 standards and the clinical validity of the complex differential diagnosis logic.
+* 📝 **Clinical Case Evaluation:** A random sample of 220 generated clinical scenarios was blindly evaluated by the experts on a 5-point Likert scale. The benchmark achieved exceptionally high scores across all key dimensions:
+  * **Linguistic Naturalness:** 4.95 / 5.0
+  * **Clinical Realism:** 4.89 / 5.0
+  * **Diagnostic Validity:** 4.44 / 5.0
+
 
 ## 🎯 Question Types
 
@@ -68,6 +66,37 @@ MENTALBENCH/
 | **Type 3** | Ambiguous presentation → Multiple possible diagnoses | High |
 | **Type 4** | Differential diagnosis → Distinguish between similar disorders | High |
 
+
+## 📊 Key Results
+
+Our experiments reveal critical insights into the diagnostic capabilities of current state-of-the-art LLMs:
+
+**Performance Highlights:**
+* **Top Performers:** Claude Sonnet-4.5 and GPT-5.1 achieved the highest overall accuracy of 62.69% and 62.17%, respectively.
+* **The Calibration Gap:** While models perform well on structured queries probing DSM-5 knowledge, they struggle to calibrate confidence in diagnostic decision-making when distinguishing between clinically overlapping disorders.
+* **Over-diagnosis vs. Under-diagnosis:** Open-source models exhibit excessive commitment leading to over-diagnosis, whereas proprietary models show rigid strictness resulting in under-diagnosis.
+
+
+---
+
+## 📦 Dataset
+
+The MENTALBENCH dataset containing 24,750 clinical cases and the MENTALKG structure are publicly available on HuggingFace.
+
+```bash
+mkdir -p data
+cd data
+
+# Download MENTALBENCH dataset
+wget [https://huggingface.co/datasets/](https://huggingface.co/datasets/)[YOUR-ORG]/MentalBench/resolve/main/test.jsonl -O test.jsonl
+
+
+
+
+## 🔧 Installation
+
+
+
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -75,6 +104,7 @@ MENTALBENCH/
 ```bash
 pip install openai vllm transformers tqdm pandas networkx matplotlib
 ```
+
 
 ### Running Evaluations
 
@@ -151,13 +181,7 @@ Logs will be saved in `scripts/logs/` and `scripts/logs_clear/` directories.
 - Gemma: `google/gemma-3-4b-it`, `google/gemma-3-12b-it`, `google/gemma-3-27b-it`
 - MentaLLaMA: `klyang/MentaLLaMA-chat-7B`, `klyang/MentaLLaMA-chat-13B`
 
-## 🧠 Knowledge Graph
 
-The benchmark is built upon a psychiatric knowledge graph containing:
-- **23 Mental Disorders** based on DSM-5 criteria
-- **Symptom Definitions** with detailed descriptions and subtypes
-- **Diagnostic Criteria** including duration, functional impairment, and stressor requirements
-- **Differential Diagnosis Rules** for distinguishing between similar disorders
 
 ## 📈 Evaluation Metrics
 
@@ -173,3 +197,19 @@ Evaluation results are saved as JSON files containing:
 - Ground truth answer
 - Model prediction
 - Evaluation result (correct/incorrect)
+
+---
+
+## 📝 Citation
+
+If you find MentalBench and MentalKG useful for your research, please cite our paper:
+
+```bibtex
+@article{song2026mentalbench,
+    title={MentalBench: A Benchmark for Evaluating Psychiatric Diagnostic Capability of Large Language Models},
+    author={Song, Hoyun and Kang, Migyeong and Shin, Jisu and Kim, Jihyun and Park, Chanbi and Yoo, Hangyeol and An, Jihyun and Oh, Alice and Han, Jinyoung and Lim, KyungTae},
+    journal={arXiv preprint arXiv:2602.12871},
+    year={2026}
+  },
+}
+```
