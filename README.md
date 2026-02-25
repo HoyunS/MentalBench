@@ -1,5 +1,6 @@
-# MentalBench: A Benchmark for Evaluating LLMs on Mental Health Diagnosis
+# MentalBench: A Benchmark for Evaluating Psychiatric Diagnostic Capability of Large Language Models
 
+[![arXiv](https://img.shields.io/badge/arXiv-2510.18383-b31b1b.svg)](https://arxiv.org/abs/2602.12871)
 MENTALBENCH is a comprehensive benchmark designed to evaluate the diagnostic reasoning capabilities of Large Language Models (LLMs) in mental health contexts. The benchmark features clinically-grounded questions spanning multiple difficulty levels and question types, built upon a structured knowledge graph of psychiatric disorders and symptoms.
 
 ## 📁 Project Structure
