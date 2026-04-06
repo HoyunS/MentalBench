@@ -2,7 +2,7 @@
 
 # MentalBench: A Benchmark for Evaluating Psychiatric Diagnostic Capability of Large Language Models
 
-[![arXiv](https://img.shields.io/badge/arXiv-2510.18383-b31b1b.svg)](https://arxiv.org/abs/2602.12871)
+[![arXiv](https://img.shields.io/badge/arXiv-2602.12871-b31b1b.svg)](https://arxiv.org/abs/2602.12871)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![HuggingFace](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-MentalBench-ffc107?color=ffc107&logoColor=white)](https://huggingface.co/datasets/hysong/MentalBench)
 
