@@ -181,6 +181,5 @@ If you find MentalBench and MentalKG useful for your research, please cite our p
     author={Song, Hoyun and Kang, Migyeong and Shin, Jisu and Kim, Jihyun and Park, Chanbi and Yoo, Hangyeol and An, Jihyun and Oh, Alice and Han, Jinyoung and Lim, KyungTae},
     journal={arXiv preprint arXiv:2602.12871},
     year={2026}
-  },
-}
+  }
 ```
