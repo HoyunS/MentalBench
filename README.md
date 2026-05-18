@@ -42,9 +42,9 @@ The benchmark is built upon a psychiatric knowledge graph containing:
 Using MENTALKG as a golden-standard logical backbone, we generated **24,750 synthetic clinical cases**. These cases systematically vary in information completeness (from structured medical charts to incomplete patient self-reports) and diagnostic complexity (from single-disorder to challenging differential diagnosis scenarios).
 
 <p align="center">
-  <img width="800" alt="Image" src="https://github.com/user-attachments/assets/78d6b670-1464-4e75-94f2-b6956a3fb60f" />
+  <img width="800" alt="Image" src="https://github.com/user-attachments/assets/9bf1a224-6936-4fac-be32-72d09db6d302" />
   <br>
-  <em>Figure 2: Overview of the clinical case generation framework for constructing MentalBench across Single-Disease Identification and Differential Diagnosis scenarios.</em>
+  <em>Figure 2: Overview of the clinical case generation pipeline for constructing MentalBench.</em>
 </p>
 
 
