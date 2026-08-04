@@ -177,9 +177,9 @@ If you find MentalBench and MentalKG useful for your research, please cite our p
 
 ```bibtex
 @article{song2026mentalbench,
-    title={MentalBench: A Benchmark for Evaluating Psychiatric Diagnostic Capability of Large Language Models},
-    author={Song, Hoyun and Kang, Migyeong and Shin, Jisu and Kim, Jihyun and Park, Chanbi and Yoo, Hangyeol and An, Jihyun and Oh, Alice and Han, Jinyoung and Lim, KyungTae},
-    journal={arXiv preprint arXiv:2602.12871},
-    year={2026}
-  }
+  title={MentalBench: A DSM-Grounded Benchmark for Evaluating Psychiatric Diagnostic Capability of Large Language Models},
+  author={Song, Hoyun and Kang, Migyeong and Shin, Jisu and Kim, Jihyun and Park, Chanbi and Yoo, Hangyeol and An, Jihyun and Oh, Alice and Han, Jinyoung and Lim, KyungTae},
+  journal={arXiv preprint arXiv:2602.12871},
+  year={2026}
+}
 ```
